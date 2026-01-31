@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flashrecall</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'IBM Plex Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Monaco, 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+      font-size: 0.8rem;
+      line-height: 1.3;
+      padding: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+      color: #1a1a1a;
+      background-color: #fff;
+    }
+
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    #show {
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    #tell {
+      font-size: 1.5rem;
+      padding: 0.5rem;
+      width: 80%;
+      max-width: 400px;
+      text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-family: inherit;
+    }
+
+    .blink-error {
+      animation: blinker 1s linear infinite;
+      color: red;
+      font-weight: bold;
+    }
+
+    @keyframes blinker {
+      50% {
+        opacity: 0;
+      }
+    }
+
+    #answer {
+      height: 1.5rem;
+    }
+
+    #nav {
+      display: flex;
+      flex-direction: row;
+      gap: 0.5rem;
+    }
+
+    .btn {
+      color: #0066cc;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: #0066cc;
+      color: white;
+      text-decoration: none;
+    }
+
+    .btn.danger {
+      color: #d00;
+      border: 1px solid #d00;
+    }
+
+    .btn.danger:hover {
+      background: #d00;
+      color: white;
+    }
+
+    .btn a {
+      text-decoration: none;
+    }
+
+    .btn a:hover {
+      text-decoration: none;
+      color: white;
+    }
+
+    .page {
+      display: none;
+      width: 100%;
+    }
+
+    .page.active {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 3rem;
+      margin-bottom: 30vh;
+      width: 100%;
+    }
+
+    .settingItem {
+      display: flex;
+      flex-direction: row;
+      gap: 0.5rem;
+      width: 100%;
+    }
+
+    .speedBtn {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .modeBtn {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .levelsBtn {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .checkUmlautBtn {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .btn.selected {
+      background-color: #0066cc;
+      color: white;
+    }
+
+    .helpBtn {
+      cursor: help;
+      color: #666;
+      position: relative;
+      display: inline-block;
+    }
+
+    .helpBtn:hover::after {
+      content: attr(data-help);
+      position: absolute;
+      left: 0;
+      top: 100%;
+      margin-top: 0.5rem;
+      background: #333;
+      color: white;
+      padding: 0.5rem;
+      border-radius: 4px;
+      white-space: nowrap;
+      z-index: 1000;
+      font-size: 0.75rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h3><b>FlashRecall</b></h3>
+  </div>
+  <div>
+    by <a href="https://hieuristic.github.io">Hieu</a>
+  </div>
+  <br>
+
+  <div id="mainPage" class="page active">
+    <div id="show">Loading...</div>
+    <div id="example-de"
+      style="font-size: 1rem; color: #666; font-style: italic; margin-top: 1rem; min-height: 1.5rem; text-align: center; max-width: 600px;">
+    </div>
+    <div id="example-en"
+      style="font-size: 0.75rem; color: #999; margin-top: 0.5rem; min-height: 1rem; text-align: center; max-width: 600px;">
+    </div>
+    <br><br>
+    <div id="showUse"></div>
+    <input type="text" id="tell" placeholder="type here" autocomplete="off" autofocus>
+  </div>
+
+  <div id="configPage" class="page">
+    <h2>Configuration</h2>
+    <br><br>
+    <div class="settingItem">
+      <div>speed</div>
+      <div class="helpBtn" data-help="How long to show the correct answer before moving to next word">[?]</div>
+      <div class="speedBtn">
+        <div class="btn" onclick="setSpeed(3000)" data-speed="3000">slow</div>
+        <div class="btn" onclick="setSpeed(1500)" data-speed="1500">default</div>
+        <div class="btn" onclick="setSpeed(800)" data-speed="800">fast</div>
+        <div class="btn" onclick="setSpeed(500)" data-speed="500">flash</div>
+      </div>
+    </div>
+    <div class="settingItem">
+      <div>mode</div>
+      <div class="helpBtn" data-help="Choose the learning mode for vocabulary practice">[?]</div>
+      <div class="modeBtn">
+        <div class="btn" onclick="setMode(0)" data-mode="0">learning</div>
+        <div class="btn" onclick="setMode(1)" data-mode="1">reviewing</div>
+      </div>
+    </div>
+    <div class="settingItem">
+      <div>levels</div>
+      <div class="helpBtn" data-help="Select the difficulty levels to include in your practice">[?]</div>
+      <div class="levelsBtn">
+        <div class="btn" onclick="toggleLevel('A1')" data-level="A1">A1</div>
+        <div class="btn" onclick="toggleLevel('A2')" data-level="A2">A2</div>
+        <div class="btn" onclick="toggleLevel('B1')" data-level="B1">B1</div>
+      </div>
+    </div>
+    <div class="settingItem">
+      <div>strict umlauts</div>
+      <div class="helpBtn" data-help="When off, ä, ö, ü can be typed as a, o, u and ß as ss/s">[?]</div>
+      <div class="checkUmlautBtn">
+        <div class="btn" onclick="setUmlautCheck(true)" data-umlaut="true">on</div>
+        <div class="btn" onclick="setUmlautCheck(false)" data-umlaut="false">off</div>
+      </div>
+    </div>
+    <div class="btn" onclick="saveSettings()">save</div>
+    <div id="saveMessage" style="color: green; margin-top: 1rem;"></div>
+    <br><br>
+    <div style="border-top: 1px solid #eee; padding-top: 2rem; width: 100%; margin-top: 2rem;">
+      <div
+        style="color: #666; margin-bottom: 1rem; font-weight: bold; text-transform: uppercase; font-size: 0.7rem; letter-spacing: 0.1em;">
+        Danger Zone</div>
+      <div class="btn danger" onclick="wipeMemory()">wipe memory</div>
+      <p style="font-size: 0.7rem; color: #999; margin-top: 0.8rem; line-height: 1.4;">This will permanently clear all
+        your progress, settings, and learning history. Your vocabulary will be re-imported from the source CSV file.</p>
+    </div>
+  </div>
+
+  <div id="guidePage" class="page">
+    <h2>How to Use</h2>
+    <br>
+    <p>How to use FlashRecall:</p>
+    <br><br>
+    <ul style="text-align: left; max-width: 600px;">
+      <li>An English word will be shown at the top</li>
+      <li>Type the German translation (including article if it's a noun)</li>
+      <li>Press Enter to check your answer</li>
+      <li>If correct, you'll move to the next word</li>
+      <li>If incorrect, the correct answer will be shown in red</li>
+    </ul>
+  </div>
+
+  <div id="profilePage" class="page">
+    <h2>Profile</h2>
+    <p>Settings and preferences will go here.</p>
+  </div>
+
+  <div id="nav">
+    <div class="btn" onclick="showPage('mainPage')">home</div>
+    <div class="btn" onclick="showPage('configPage')">config</div>
+    <div class="btn" onclick="showPage('guidePage')">guide</div>
+    <div class="btn" onclick="showPage('profilePage')">my_profile</div>
+    <div class="btn"><a href="https://hieuristic.github.io/blog/001_vocab.html">whatisthis?</a></div>
+  </div>
+
+  <br>
+  If you find this page helpful, consider <a href="">buying me a coffee :)</a>
+  <br><br>
+  <a href="">report_bug</a>
+  <br><br>
+  <div>
+    Copyright © 2026 Nguyen Minh Hieu
+  </div>
+  <script>
+    let vocabList = [];
+    let currentWord = null;
+    let db = null;
+    let userSettings = {
+      speed: 1500,  // default 1.5 seconds
+      mode: 0, // 0 for learning, 1 for reviewing
+      levels: ['A1', 'A2', 'B1'], // default all levels
+      check_umlaut: false, // default off
+    };
+
+    // Initialize IndexedDB
+    function initDB() {
+      return new Promise((resolve, reject) => {
+        const request = indexedDB.open('FlashRecallDB', 2); // Increased version for new store
+
+        request.onerror = () => reject(request.error);
+        request.onsuccess = () => {
+          db = request.result;
+          resolve(db);
+        };
+
+        request.onupgradeneeded = (event) => {
+          db = event.target.result;
+          if (!db.objectStoreNames.contains('settings')) {
+            db.createObjectStore('settings', { keyPath: 'id' });
+          }
+          if (!db.objectStoreNames.contains('vocab')) {
+            db.createObjectStore('vocab', { keyPath: 'german' });
+          }
+        };
+      });
+    }
+
+    // Load settings from IndexedDB
+    async function loadSettings() {
+      try {
+        if (!db) await initDB();
+
+        const transaction = db.transaction(['settings'], 'readonly');
+        const store = transaction.objectStore('settings');
+        const request = store.get('userSettings');
+
+        return new Promise((resolve, reject) => {
+          request.onsuccess = () => {
+            if (request.result) {
+              userSettings = request.result.data;
+              console.log('Loaded settings:', userSettings);
+            }
+            resolve(userSettings);
+          };
+          request.onerror = () => reject(request.error);
+        });
+      } catch (e) {
+        console.error('Error loading settings:', e);
+        return userSettings;
+      }
+    }
+
+    // Save settings to IndexedDB
+    async function saveSettingsToDB(settings) {
+      try {
+        if (!db) await initDB();
+
+        const transaction = db.transaction(['settings'], 'readwrite');
+        const store = transaction.objectStore('settings');
+        const request = store.put({ id: 'userSettings', data: settings });
+
+        return new Promise((resolve, reject) => {
+          request.onsuccess = () => resolve();
+          request.onerror = () => reject(request.error);
+        });
+      } catch (e) {
+        console.error('Error saving settings:', e);
+      }
+    }
+
+    async function updateWordInDB(word) {
+      try {
+        if (!db) await initDB();
+        const transaction = db.transaction(['vocab'], 'readwrite');
+        const store = transaction.objectStore('vocab');
+        store.put(word);
+      } catch (e) {
+        console.error('Error updating word:', e);
+      }
+    }
+
+    // Set speed and highlight selected button
+    function setSpeed(speed) {
+      userSettings.speed = speed;
+
+      document.querySelectorAll('.speedBtn .btn').forEach(btn => {
+        btn.classList.remove('selected');
+      });
+      event.target.classList.add('selected');
+    }
+
+    // Set mode and highlight selected button
+    function setMode(mode) {
+      userSettings.mode = mode;
+
+      document.querySelectorAll('.modeBtn .btn').forEach(btn => {
+        btn.classList.remove('selected');
+      });
+      event.target.classList.add('selected');
+    }
+
+    function setUmlautCheck(value) {
+      userSettings.check_umlaut = value;
+      document.querySelectorAll('.checkUmlautBtn .btn').forEach(btn => {
+        btn.classList.remove('selected');
+      });
+      event.target.classList.add('selected');
+    }
+
+    // Toggle level selection
+    function toggleLevel(level) {
+      if (!userSettings.levels) userSettings.levels = [];
+      const index = userSettings.levels.indexOf(level);
+      if (index > -1) {
+        if (userSettings.levels.length > 1) { // Keep at least one level
+          userSettings.levels.splice(index, 1);
+        }
+      } else {
+        userSettings.levels.push(level);
+      }
+      loadSettingsIntoUI();
+    }
+
+    async function wipeMemory() {
+      if (!confirm('Are you sure? This will wipe all your progress and settings.')) return;
+
+      try {
+        if (!db) await initDB();
+
+        const tx = db.transaction(['vocab', 'settings'], 'readwrite');
+        tx.objectStore('vocab').clear();
+        tx.objectStore('settings').clear();
+
+        tx.oncomplete = () => {
+          console.log('Memory wiped successfully.');
+          location.reload();
+        };
+      } catch (e) {
+        console.error('Error wiping memory:', e);
+        alert('Failed to wipe memory.');
+      }
+    }
+
+    // Save settings from UI
+    async function saveSettings() {
+      await saveSettingsToDB(userSettings);
+
+      const msg = document.getElementById('saveMessage');
+      msg.textContent = 'Settings saved!';
+      setTimeout(() => {
+        msg.textContent = '';
+      }, 2000);
+    }
+
+    // Load settings into UI
+    function loadSettingsIntoUI() {
+      // Highlight the selected speed button
+      document.querySelectorAll('.speedBtn .btn').forEach(btn => {
+        const btnSpeed = parseInt(btn.getAttribute('data-speed'));
+        if (btnSpeed === userSettings.speed) {
+          btn.classList.add('selected');
+        } else {
+          btn.classList.remove('selected');
+        }
+      });
+
+      // Highlight the selected mode button
+      document.querySelectorAll('.modeBtn .btn').forEach(btn => {
+        const btnMode = parseInt(btn.getAttribute('data-mode'));
+        if (btnMode === userSettings.mode) {
+          btn.classList.add('selected');
+        } else {
+          btn.classList.remove('selected');
+        }
+      });
+
+      // Highlight level buttons
+      document.querySelectorAll('.levelsBtn .btn').forEach(btn => {
+        const btnLevel = btn.getAttribute('data-level');
+        if (userSettings.levels && userSettings.levels.includes(btnLevel)) {
+          btn.classList.add('selected');
+        } else {
+          btn.classList.remove('selected');
+        }
+      });
+
+      // Highlight umlaut check buttons
+      document.querySelectorAll('.checkUmlautBtn .btn').forEach(btn => {
+        const btnVal = btn.getAttribute('data-umlaut') === 'true';
+        if (userSettings.check_umlaut === btnVal) {
+          btn.classList.add('selected');
+        } else {
+          btn.classList.remove('selected');
+        }
+      });
+    }
+
+    function showPage(pageId) {
+      document.querySelectorAll('.page').forEach(page => {
+        page.classList.remove('active');
+      });
+      document.getElementById(pageId).classList.add('active');
+
+      if (pageId === 'mainPage') {
+        const tellInput = document.getElementById('tell');
+        if (tellInput) {
+          tellInput.focus();
+        }
+      } else if (pageId === 'configPage') {
+        loadSettingsIntoUI();
+      }
+    }
+
+    // Weighted random selection
+    function getRandomWord() {
+      if (vocabList.length === 0) return null;
+
+      // Filter by level
+      const selectedLevels = userSettings.levels || ['A1', 'A2', 'B1'];
+      const filteredList = vocabList.filter(w => selectedLevels.includes(w.level));
+
+      if (filteredList.length === 0) return null;
+
+      const learningWords = filteredList.filter(w => (w.state || 0) === 0);
+      const reviewWords = filteredList.filter(w => (w.state || 0) === 1);
+
+      let sourceList = [];
+      let useEmaWeight = false;
+
+      if (userSettings.mode === 0) { // Learning mode
+        const rand = Math.random();
+        // 75% learning, 25% review
+        if (learningWords.length > 0 && (rand < 0.75 || reviewWords.length === 0)) {
+          sourceList = learningWords;
+          useEmaWeight = false; // Weighted by frequency
+        } else if (reviewWords.length > 0) {
+          sourceList = reviewWords;
+          useEmaWeight = true; // Weighted by EMA of error
+        } else {
+          sourceList = learningWords; // Fallback
+        }
+      } else { // Review mode
+        if (reviewWords.length > 0) {
+          sourceList = reviewWords;
+          useEmaWeight = true;
+        } else {
+          sourceList = learningWords;
+          useEmaWeight = false;
+        }
+      }
+
+      if (sourceList.length === 0) return null;
+
+      // Calculate total weight
+      const totalWeight = sourceList.reduce((sum, item) => {
+        const weight = useEmaWeight ? (item.error_ema || 1.0) : (item.frequency || 1);
+        return sum + weight;
+      }, 0);
+
+      let random = Math.random() * totalWeight;
+
+      for (const item of sourceList) {
+        const weight = useEmaWeight ? (item.error_ema || 1.0) : (item.frequency || 1);
+        random -= weight;
+        if (random <= 0) {
+          return item;
+        }
+      }
+      return sourceList[sourceList.length - 1];
+    }
+
+    function formatMarkdown(text) {
+      if (!text || text === "nan") return "";
+      return text.replace(/\*\*(.*?)\*\*/g, '<b>$1</b>');
+    }
+
+    function nextWord() {
+      currentWord = getRandomWord();
+      if (!currentWord) return;
+
+      // Update state to review if it was in learning
+      if ((currentWord.state || 0) === 0) {
+        currentWord.state = 1;
+        currentWord.error_ema = currentWord.error_ema || 1.0; // Start with high weight
+        updateWordInDB(currentWord);
+      }
+
+      const showDiv = document.getElementById('show');
+      const exampleDeDiv = document.getElementById('example-de');
+      const exampleEnDiv = document.getElementById('example-en');
+      const tellInput = document.getElementById('tell');
+      const msgDiv = document.getElementById('answer');
+
+      showDiv.style.color = '';
+
+      // Determine if this is the literal article 'der', 'die', or 'das'
+      const isPureArticle = ['der', 'die', 'das'].includes(currentWord.german.toLowerCase());
+
+      if (isPureArticle) {
+        showDiv.textContent = "the";
+      } else {
+        showDiv.textContent = currentWord.english || "???";
+      }
+
+      let deText = "";
+      let enText = "";
+      let nounToMaskInArticleCase = "";
+
+      if (isPureArticle) {
+        const targetArticle = currentWord.german.toLowerCase();
+        // Find a random word that uses this article
+        const candidates = vocabList.filter(v =>
+          v.article && v.article.toLowerCase() === targetArticle && v.german_example && v.german_example !== "nan"
+        );
+
+        if (candidates.length > 0) {
+          const choice = candidates[Math.floor(Math.random() * candidates.length)];
+          deText = choice.german_example;
+          // Strip any bolding from the original word and bold "the" instead
+          enText = (choice.english_example || "").replace(/\*\*(.*?)\*\*/g, '$1');
+          enText = enText.replace(/\b(the)\b/i, '**$1**');
+          nounToMaskInArticleCase = choice.german;
+        } else {
+          deText = currentWord.german_example !== "nan" ? currentWord.german_example : "";
+          enText = currentWord.english_example !== "nan" ? currentWord.english_example : "";
+        }
+      } else {
+        deText = currentWord.german_example !== "nan" ? currentWord.german_example : "";
+        enText = currentWord.english_example !== "nan" ? currentWord.english_example : "";
+      }
+
+      // Masking logic
+      let maskedDeText = deText;
+      if (deText) {
+        if (isPureArticle) {
+          // Special Request: "should contain die der das and not the lemma"
+          // Here 'lemma' refers to the noun in the sentence we picked
+          if (nounToMaskInArticleCase) {
+            const nounRegex = new RegExp(`\\b${nounToMaskInArticleCase}\\b`, 'gi');
+            maskedDeText = maskedDeText.replace(nounRegex, '___');
+          }
+          // Note: Article (der/die/das) remains UNMASKED as requested
+        } else if (currentWord.german) {
+          // Standard case: Mask the word being tested
+          const lemmaRegex = new RegExp(`\\b${currentWord.german}\\b`, 'gi');
+          maskedDeText = maskedDeText.replace(lemmaRegex, '___');
+        }
+      }
+
+      exampleDeDiv.innerHTML = formatMarkdown(maskedDeText);
+      exampleDeDiv.style.display = 'none'; // Hidden initially as per previous request
+
+      exampleEnDiv.innerHTML = formatMarkdown(enText);
+      exampleEnDiv.style.display = 'block';
+      exampleEnDiv.style.color = '#333';
+
+      tellInput.value = "";
+      tellInput.focus();
+
+      if (msgDiv) {
+        msgDiv.textContent = "";
+        msgDiv.className = "";
+      }
+
+      // Bold the target word in the unmasked version for the error state
+      let unmaskedDe = deText;
+      if (!isPureArticle && currentWord.german) {
+        const lemmaRegex = new RegExp(`(\\b${currentWord.german}\\b)`, 'gi');
+        unmaskedDe = unmaskedDe.replace(lemmaRegex, '<b>$1</b>');
+      }
+      currentWord.unmasked_german_example = formatMarkdown(unmaskedDe);
+    }
+
+    // Simple CSV Parser
+    function parseCSV(str) {
+      var arr = [];
+      var quote = false;
+      for (var row = 0, col = 0, c = 0; c < str.length; c++) {
+        var cc = str[c], nc = str[c + 1];
+        arr[row] = arr[row] || [];
+        arr[row][col] = arr[row][col] || '';
+        if (cc == '"' && quote && nc == '"') { arr[row][col] += cc; ++c; }
+        else if (cc == '"') { quote = !quote; }
+        else if (cc == ';' && !quote) { ++col; }
+        else if (cc == '\r' && nc == '\n' && !quote) { ++row; col = 0; ++c; }
+        else if ((cc == '\n' || cc == '\r') && !quote) { ++row; col = 0; }
+        else { arr[row][col] += cc; }
+      }
+      return arr;
+    }
+
+    async function loadVocab() {
+      try {
+        if (!db) await initDB();
+
+        // 1. Try to load from IndexedDB
+        const transaction = db.transaction(['vocab'], 'readonly');
+        const store = transaction.objectStore('vocab');
+        const request = store.getAll();
+
+        const dbVocab = await new Promise((resolve, reject) => {
+          request.onsuccess = () => resolve(request.result);
+          request.onerror = () => reject(request.error);
+        });
+
+        if (dbVocab && dbVocab.length > 0) {
+          console.log('Loaded vocabulary from DB:', dbVocab.length);
+          vocabList = dbVocab;
+        } else {
+          // 2. If empty, load from CSV and import
+          console.log('DB empty, importing from CSV...');
+          const response = await fetch('goethe_final.csv');
+          const text = await response.text();
+          const rows = parseCSV(text);
+
+          const importBatch = [];
+          for (let i = 1; i < rows.length; i++) {
+            const row = rows[i];
+            if (row.length < 10) continue;
+
+            const word = row[0].trim();
+            if (!word || word === "Lemma" || word === "nan") continue;
+
+            const level = (row[5] && row[5].trim() !== "nan") ? row[5].trim() : "A1";
+            const article = (row[3] && row[3].trim() !== "nan") ? row[3].trim() : "";
+            let freq = parseInt(row[6]);
+            if (isNaN(freq)) freq = 1;
+
+            const english = (row[7] && row[7].trim() !== "nan") ? row[7].trim() : word;
+            const german_ex = (row[8] && row[8].trim() !== "nan") ? row[8].trim() : "";
+            const english_ex = (row[9] && row[9].trim() !== "nan") ? row[9].trim() : "";
+
+            if (word && word !== "Lemma") {
+              const entry = {
+                german: word,
+                level: level,
+                article: article,
+                english: english,
+                frequency: freq,
+                german_example: german_ex,
+                english_example: english_ex,
+                state: 0, // learning
+                error_ema: 1.0 // initial weight
+              };
+              importBatch.push(entry);
+              vocabList.push(entry);
+            }
+          }
+
+          // Save Batch to DB
+          const writeTx = db.transaction(['vocab'], 'readwrite');
+          const writeStore = writeTx.objectStore('vocab');
+          for (const entry of importBatch) {
+            writeStore.put(entry);
+          }
+          console.log('Imported words:', importBatch.length);
+        }
+
+        if (vocabList.length > 0) {
+          nextWord();
+        } else {
+          document.getElementById('show').textContent = "No vocabulary found.";
+        }
+
+      } catch (e) {
+        console.error(e);
+        document.getElementById('show').textContent = "Error loading vocabulary.";
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      // Initialize database and load settings
+      await initDB();
+      await loadSettings();
+
+      // Load vocabulary
+      loadVocab();
+
+      const tellInput = document.getElementById('tell');
+      const msgDiv = document.getElementById('answer');
+
+      function updateEMA(score) {
+        if (!currentWord) return;
+        const alpha = 2 / (10 + 1); // window = 10
+        const error = 1.0 - score;
+        currentWord.error_ema = (currentWord.error_ema || 1.0) * (1 - alpha) + error * alpha;
+        updateWordInDB(currentWord);
+      }
+
+      tellInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+          const value = tellInput.value.trim();
+
+          // Construct correct answer
+          let correctAnswer = currentWord.german;
+          if (currentWord.article && currentWord.article !== "nan" && currentWord.article.trim() !== "") {
+            correctAnswer = `${currentWord.article} ${currentWord.german}`;
+          }
+
+          if (!value) {
+            updateEMA(0); // Wrong
+            // Show correct answer in red if empty (treated as mistake/give up)
+            const showDiv = document.getElementById('show');
+            showDiv.textContent = correctAnswer;
+            showDiv.style.color = 'red';
+
+            // Show German sentence, hide English
+            const exampleDeDiv = document.getElementById('example-de');
+            const exampleEnDiv = document.getElementById('example-en');
+            exampleDeDiv.innerHTML = currentWord.unmasked_german_example || (currentWord.german_example !== "nan" ? formatMarkdown(currentWord.german_example) : "");
+            exampleDeDiv.style.display = 'block';
+            exampleDeDiv.style.color = '#d00';
+            exampleEnDiv.style.display = 'none';
+
+            setTimeout(() => {
+              showDiv.style.color = '';
+              exampleDeDiv.style.display = 'none';
+              nextWord();
+            }, userSettings.speed);
+            return;
+          }
+
+          // Check answer
+          if (currentWord) {
+            let inputVal = value.toLowerCase();
+            let targetVal = correctAnswer.toLowerCase();
+
+            if (!userSettings.check_umlaut) {
+              const normalize = (s) => s.replace(/ä/g, 'a').replace(/ö/g, 'o').replace(/ü/g, 'u').replace(/ß/g, 'ss');
+              inputVal = normalize(inputVal);
+              targetVal = normalize(targetVal);
+            }
+
+            if (inputVal === targetVal) {
+              updateEMA(1); // Correct
+              nextWord();
+            } else {
+              updateEMA(0); // Wrong
+              const showDiv = document.getElementById('show');
+              showDiv.textContent = correctAnswer;
+              showDiv.style.color = 'red';
+
+              // Show German sentence, hide English
+              const exampleDeDiv = document.getElementById('example-de');
+              const exampleEnDiv = document.getElementById('example-en');
+              exampleDeDiv.innerHTML = currentWord.unmasked_german_example || (currentWord.german_example !== "nan" ? formatMarkdown(currentWord.german_example) : "");
+              exampleDeDiv.style.display = 'block';
+              exampleDeDiv.style.color = '#d00';
+              exampleEnDiv.style.display = 'none';
+
+              // Move to next word after a short delay so user sees correction
+              setTimeout(() => {
+                showDiv.style.color = '';
+                exampleDeDiv.style.display = 'none';
+                nextWord();
+              }, userSettings.speed);
+            }
+          }
+        }
+      });
+
+      tellInput.addEventListener('input', () => {
+        msgDiv.textContent = "";
+        msgDiv.className = "";
+      });
+    });
+  </script>
+</body>
+
+</html>
