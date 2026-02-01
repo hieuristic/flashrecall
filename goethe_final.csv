@@ -655,7 +655,7 @@ Sekunde;Substantiv;fem.;die;0;A1;604;second;Warten Sie bitte eine Sekunde.;Pleas
 selbstständig;Adjektiv;nan;nan;0;A1;252;independent/self-employed;Er arbeitet selbstständig.;He works **independently** (is self-employed).
 selbständig;Adjektiv;nan;nan;0;A1;284;independent/self-employed;Sie ist eine selbständige Frau.;She is an **independent** woman.
 September;Substantiv;mask.;der;0;A1;712;September;Im September beginnt die Schule.;School starts in **September**.
-sich;Reflexivpronomen;nan;nan;0;A1;12859192;himself/herself/itself/themselves;Er wäscht sich die Hände.;He washes **himself** the hands (washes his hands).
+sich;Reflexivpronomen;nan;nan;0;A1;12859192;self;Er wäscht sich die Hände.;He washes **himself** the hands (washes his hands).
 Sie;Personalpronomen;nan;nan;0;A1;59741;you (formal);Wie heißen Sie?;What is **your** name (formal)?
 sie;Personalpronomen;nan;nan;0;A1;59741;she/they;Sie heißt Maria.;**She** is called Maria.
 sieben;Kardinalzahlwort;nan;nan;0;A1;5400;seven;Ich habe sieben Euro.;I have **seven** euros.

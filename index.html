@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-adsense-account" content="ca-pub-1534408723491756">
   <title>flashrecall</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +14,7 @@
     * {
       margin: 0;
       padding: 0;
+      /* box-sizing: border-box; <- DON'T EVER USE THIS!!!*/
     }
 
     body {
@@ -116,7 +118,7 @@
     .page {
       display: none;
       width: 100%;
-      height: calc(73vh - 3rem);
+      height: calc(70vh - 3rem);
       padding-top: 3rem;
     }
 
@@ -259,10 +261,9 @@
     #heatmap-container {
       --sq: 0.65rem;
       --gap: 0.2rem;
-      width: fit-content;
-      box-sizing: border-box;
       display: flex;
       flex-direction: column;
+      align-items: center;
       gap: 1rem;
     }
 
@@ -302,21 +303,57 @@
     }
 
     /* Mobile Vertical Heatmap */
-    .heatmap-month-row {
+    .heatmap-wrapper-vertical {
       display: flex;
       flex-direction: column;
-      gap: var(--gap);
+      gap: 0.5rem;
+      align-items: flex-start;
+      width: 10rem;
     }
 
-    .heatmap-month-name {
-      font-size: 0.7rem;
-      font-weight: bold;
-      color: #777;
-    }
-
-    .heatmap-grid-mobile {
+    .heatmap-days-labels-top {
       display: grid;
       grid-template-columns: repeat(14, var(--sq));
+      gap: var(--gap);
+      margin-left: 2.2rem;
+      /* space for month labels */
+      font-size: 0.6rem;
+      color: #aaa;
+      user-select: none;
+    }
+
+    .heatmap-days-labels-top div {
+      width: var(--sq);
+      text-align: center;
+    }
+
+    .heatmap-body-vertical {
+      display: flex;
+      gap: 0.2rem;
+    }
+
+    .heatmap-months-labels-left {
+      display: grid;
+      grid-template-rows: repeat(27, var(--sq));
+      gap: var(--gap);
+      font-size: 0.65rem;
+      color: #777;
+      width: 2rem;
+      text-align: right;
+      user-select: none;
+    }
+
+    .heatmap-months-labels-left div {
+      height: var(--sq);
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+
+    .heatmap-grid-vertical {
+      display: grid;
+      grid-template-columns: repeat(14, var(--sq));
+      grid-template-rows: repeat(27, var(--sq));
       gap: var(--gap);
     }
 
@@ -422,6 +459,11 @@
     .lv4 {
       background-color: #216e39;
     }
+
+    #profilePage {
+      margin-bottom: 3rem;
+      height: fit-content;
+    }
   </style>
 </head>
 
@@ -514,21 +556,23 @@
 
   <div id="profilePage" class="page">
     <h2>Profile</h2>
-    <p>So, how did I do?</p>
+    <br>
+    <div id="daily-stats">
+      <div>daily streak: <span id="daily-streak">0</span>!</div>
+      <div>today, I struggled with:</div>
+      <div id="bubble-container" style="position: relative; width: 100%; height: 300px; margin-top: 1rem;">
+        <canvas id="daily-mistake-bubble" style="width: 100%; height: 100%; display: block;"></canvas>
+        <div id="bubble-overlay"
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;"></div>
+      </div>
+    </div>
+    <br><br>
+    <div class="btn" onclick="shareProfile()">share</div>
     <br><br>
     <div id="heatmap-container">
       <!-- Heatmap injected here -->
     </div>
-    <div class="heatmap-legend">
-      <span>Less</span>
-      <div class="heatmap-legend-square lv0"></div>
-      <div class="heatmap-legend-square lv1"></div>
-      <div class="heatmap-legend-square lv2"></div>
-      <div class="heatmap-legend-square lv3"></div>
-      <div class="heatmap-legend-square lv4"></div>
-      <span>More</span>
-    </div>
-    <br>
+    <br><br>
     <div id="stats">
       <div>learned: <span id="stat-learned">0</span></div>
       <div>reviewed: <span id="stat-reviewed">0</span></div>
@@ -536,11 +580,11 @@
   </div>
 
   <div id="nav">
-    <div class="btn" onclick="showPage('mainPage')">home</div>
-    <div class="btn" onclick="showPage('configPage')">config</div>
-    <div class="btn" onclick="showPage('profilePage')">me</div>
-    <div class="btn" onclick="showPage('guidePage')">how?</div>
-    <div class="btn"><a href="https://hieuristic.github.io/blog/001_vocab.html">what?</a></div>
+    <a class="btn" href="?page=main">home</a>
+    <a class="btn" href="?page=config">config</a>
+    <a class="btn" href="?page=me">me</a>
+    <a class="btn" href="?page=how">how?</a>
+    <a class="btn" href="https://hieuristic.github.io/blog/001_vocab.html">what?</a>
   </div>
 
   <div class="app-footer">
@@ -552,8 +596,106 @@
       Copyright © 2026 Nguyen Minh Hieu
     </div>
   </div>
+  <script type="module">
+    import { initMistakeBubble } from './mistake_bubble.js';
+
+    // Expose to global scope so non-module code can call it
+    // Expose to global scope so non-module code can call it
+    window.initMistakeBubbles = async function () {
+      // 0. Check data availability
+      if (!db) await window.initDB(); // Ensure DB is ready
+
+      // 1. Clean up old data first (User Request: "clear this daily stat on a new day")
+      await cleanOldDailyStats();
+
+      // 2. Get Today's Daily Stats
+      const today = new Date().toISOString().split('T')[0];
+      const tx = db.transaction(['daily_stats'], 'readonly');
+      const store = tx.objectStore('daily_stats');
+      const index = store.index('date');
+      const request = index.getAll(today);
+
+      request.onsuccess = async () => {
+        const dailyRecords = request.result || [];
+
+        // Filter for words with mistakes > 0
+        let mistakes = dailyRecords.filter(r => r.mistakes > 0);
+
+        // If no mistakes yet, maybe verify bubbles work with mock data?
+        // Or check if user wants to see nothing.
+        // Let's create mock data if empty FOR NOW to fix "not showing up" complaint 
+        // effectively proving it works, then user can see it clears when they play.
+        // Actually, better to show a "No mistakes today!" message if empty.
+
+        /* 
+        // Debug/Mock Logic for testing visualizer
+        if (mistakes.length === 0) {
+           mistakes = [
+             { word: "Test1", mistakes: 5 },
+             { word: "Test2", mistakes: 3 },
+             { word: "Test3", mistakes: 1 }
+           ];
+        } 
+        */
+
+        if (mistakes.length === 0) {
+          const container = document.getElementById('bubble-overlay');
+          if (container) container.innerHTML = '<div style="display:flex;justify-content:center;align-items:center;height:100%;color:#888;">No mistakes today yet!</div>';
+          // Clear canvas too
+          const canvas = document.getElementById('daily-mistake-bubble');
+          const context = canvas.getContext('webgpu');
+          // context.configure ... unconfigure? Or just leave it. 
+          return;
+        }
+
+        // Sort by mistakes descending
+        mistakes.sort((a, b) => b.mistakes - a.mistakes);
+        const topMistakes = mistakes.slice(0, 100);
+
+        // 2. Prepare Data for Visualizer
+        // Normalize error for radius/color. 
+        // Max mistakes? 
+        const maxMistakes = Math.max(...topMistakes.map(m => m.mistakes));
+
+        const data = topMistakes.map(r => ({
+          text: r.word,
+          // Factor 0..1. If max is 1, factor is 1. If max is 10, factor is m/10.
+          factor: maxMistakes > 0 ? (r.mistakes / maxMistakes) : 0,
+          mistakes: r.mistakes // Pass raw count for radius calc
+        }));
+
+        const canvas = document.getElementById('daily-mistake-bubble');
+        const statsOverlay = document.getElementById('bubble-overlay');
+
+        // Clear previous overlay
+        statsOverlay.innerHTML = '';
+
+        // Check if canvas is visible / has size
+        if (canvas.clientWidth === 0 || canvas.clientHeight === 0) {
+          console.warn("Canvas has 0 size, waiting...");
+          // Force a retry or layout? 
+          // It should be fine if profile page is active.
+        }
+
+        await initMistakeBubble(canvas, statsOverlay, data);
+      };
+    };
+
+    // Auto-init if page is already active (module loaded late)
+    if (document.getElementById('profilePage').classList.contains('active')) {
+      // Short delay to ensure main script has populated vocabList?
+      // If main script runs first, vocabList should be there. 
+      // If module runs first? Module is deferred, so it runs after parsing. 
+      // DOMContentLoaded runs after parsing. 
+      // It's racey. Safest to check existence.
+      if (window.vocabList && window.vocabList.length > 0) {
+        window.initMistakeBubbles();
+      }
+    }
+  </script>
   <script>
-    let vocabList = [];
+    // Make vocabList global so module can see it
+    var vocabList = [];
     let currentWord = null;
     let db = null;
     let userSettings = {
@@ -567,7 +709,7 @@
     // Initialize IndexedDB
     function initDB() {
       return new Promise((resolve, reject) => {
-        const request = indexedDB.open('FlashRecallDB', 2); // Increased version for new store
+        const request = indexedDB.open('FlashRecallDB', 3); // Upgrade to v3 for daily_stats
 
         request.onerror = () => reject(request.error);
         request.onsuccess = () => {
@@ -582,6 +724,11 @@
           }
           if (!db.objectStoreNames.contains('vocab')) {
             db.createObjectStore('vocab', { keyPath: 'german' });
+          }
+          // New store for daily stats
+          if (!db.objectStoreNames.contains('daily_stats')) {
+            const dailyStore = db.createObjectStore('daily_stats', { keyPath: 'id' }); // id: YYYY-MM-DD_word
+            dailyStore.createIndex('date', 'date', { unique: false });
           }
         };
       });
@@ -682,7 +829,97 @@
         userSettings.history[today] = { learned: 0, reviewed: 0 };
       }
       userSettings.history[today][type]++;
+
+      // Update Streak
+      checkStreak();
+
       saveSettingsToDB(userSettings);
+    }
+
+    function checkStreak() {
+      const today = new Date().toISOString().split('T')[0];
+      const yesterdayDate = new Date();
+      yesterdayDate.setDate(yesterdayDate.getDate() - 1);
+      const yesterday = yesterdayDate.toISOString().split('T')[0];
+
+      if (!userSettings.streak) {
+        userSettings.streak = { count: 0, lastActive: null };
+      }
+
+      if (userSettings.streak.lastActive === today) {
+        // Already active today, nothing to change
+        // Just ensure UI is updated
+      } else if (userSettings.streak.lastActive === yesterday) {
+        // Consecutive day!
+        userSettings.streak.count++;
+        userSettings.streak.lastActive = today;
+      } else {
+        // Missed a day or first time
+        // If lastActive was missing, start at 1.
+        // If lastActive was older than yesterday, reset to 1.
+        userSettings.streak.count = 1;
+        userSettings.streak.lastActive = today;
+      }
+
+      // Update UI
+      const el = document.getElementById('daily-streak');
+      if (el) el.innerText = userSettings.streak.count;
+    }
+
+    async function updateDailyStats(word, isMistake) {
+      try {
+        if (!db) await initDB();
+        const today = new Date().toISOString().split('T')[0];
+        const id = `${today}_${word.german}`;
+
+        const tx = db.transaction(['daily_stats'], 'readwrite');
+        const store = tx.objectStore('daily_stats');
+
+        const request = store.get(id);
+
+        request.onsuccess = () => {
+          let data = request.result;
+          if (!data) {
+            data = { id, date: today, word: word.german, trials: 0, mistakes: 0 };
+          }
+          data.trials++;
+          if (isMistake) {
+            data.mistakes++;
+          }
+          store.put(data);
+          cleanOldDailyStats(); // Clean up old stats
+        };
+      } catch (e) {
+        console.error('Error updating daily stats:', e);
+      }
+    }
+
+    async function cleanOldDailyStats() {
+      try {
+        if (!db) await initDB();
+        const today = new Date().toISOString().split('T')[0];
+
+        const tx = db.transaction(['daily_stats'], 'readwrite');
+        const store = tx.objectStore('daily_stats');
+        const index = store.index('date');
+
+        // We want to delete everything where date != today
+        // IndexedDB cursors are easiest for this
+        const request = index.openCursor();
+
+        request.onsuccess = (e) => {
+          const cursor = e.target.result;
+          if (cursor) {
+            const record = cursor.value;
+            if (record.date !== today) {
+              cursor.delete();
+            }
+            cursor.continue();
+          }
+        };
+      } catch (e) {
+        console.error("Error cleaning old stats:", e);
+      }
     }
 
     async function wipeMemory() {
@@ -691,9 +928,10 @@
       try {
         if (!db) await initDB();
 
-        const tx = db.transaction(['vocab', 'settings'], 'readwrite');
+        const tx = db.transaction(['vocab', 'settings', 'daily_stats'], 'readwrite');
         tx.objectStore('vocab').clear();
         tx.objectStore('settings').clear();
+        tx.objectStore('daily_stats').clear();
 
         tx.oncomplete = () => {
           console.log('Memory wiped successfully.');
@@ -964,6 +1202,9 @@
         loadSettingsIntoUI();
       } else if (pageId === 'profilePage') {
         renderHeatMap();
+        if (window.initMistakeBubbles) {
+          window.initMistakeBubbles();
+        }
       }
     }
 
@@ -986,29 +1227,73 @@
       const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
       if (isMobile) {
-        // Vertical Mobile Heatmap: Months as rows, 14 columns
-        for (let m = 0; m < 12; m++) {
-          const monthRow = document.createElement('div');
-          monthRow.className = 'heatmap-month-row';
+        // Unified Vertical Mobile Heatmap
+        const wrapper = document.createElement('div');
+        wrapper.className = 'heatmap-wrapper-vertical';
 
-          const name = document.createElement('div');
-          name.className = 'heatmap-month-name';
-          name.innerText = monthNames[m];
-          monthRow.appendChild(name);
+        const topLabels = document.createElement('div');
+        topLabels.className = 'heatmap-days-labels-top';
+        topLabels.innerHTML = '<div></div><div>M</div><div></div><div>W</div><div></div><div>F</div><div></div>' +
+          '<div></div><div>M</div><div></div><div>W</div><div></div><div>F</div><div></div>';
 
-          const grid = document.createElement('div');
-          grid.className = 'heatmap-grid-mobile';
+        const body = document.createElement('div');
+        body.className = 'heatmap-body-vertical';
 
-          const daysInMonth = new Date(currentYear, m + 1, 0).getDate();
-          for (let d = 1; d <= daysInMonth; d++) {
-            const dateStr = `${currentYear}-${String(m + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
-            const activity = userSettings.history[dateStr] || { learned: 0, reviewed: 0 };
-            const dayEl = createHeatmapDay(dateStr, activity, true);
-            grid.appendChild(dayEl);
+        const leftLabels = document.createElement('div');
+        leftLabels.className = 'heatmap-months-labels-left';
+
+        const grid = document.createElement('div');
+        grid.className = 'heatmap-grid-vertical';
+
+        const start = new Date(currentYear, 0, 1);
+        start.setDate(start.getDate() - start.getDay());
+
+        let displayedMonths = new Set();
+        for (let i = 0; i < 378; i++) { // 14 cols * 27 rows = 378
+          const date = new Date(start);
+          date.setDate(date.getDate() + i);
+          const dateStr = date.toISOString().split('T')[0];
+          const activity = userSettings.history[dateStr] || { learned: 0, reviewed: 0 };
+
+          const dayEl = createHeatmapDay(dateStr, activity, date.getFullYear() === currentYear);
+          if (date.getFullYear() < currentYear && i < 7) { // Only hide prev year if at very start
+            dayEl.style.visibility = 'hidden';
           }
-          monthRow.appendChild(grid);
-          container.appendChild(monthRow);
+          // Also hide if we go into next year too much, but typically we want full grid
+          if (date.getFullYear() > currentYear) {
+            dayEl.style.visibility = 'hidden';
+          }
+
+          grid.appendChild(dayEl);
+
+          // Add month label at the start of each ROW (every 14 days)
+          if (i % 14 === 0) {
+            const monthDiv = document.createElement('div');
+
+            // Check if this row contains the 1st of any month in the current year
+            // Iterate through the next 14 days of this row
+            for (let offset = 0; offset < 14; offset++) {
+              const checkDate = new Date(date);
+              checkDate.setDate(checkDate.getDate() + offset);
+
+              if (checkDate.getFullYear() === currentYear && checkDate.getDate() === 1) {
+                const m = checkDate.getMonth();
+                if (!displayedMonths.has(m)) {
+                  monthDiv.innerText = monthNames[m];
+                  displayedMonths.add(m);
+                }
+                break; // Only one label per row
+              }
+            }
+            leftLabels.appendChild(monthDiv);
+          }
         }
+
+        body.appendChild(leftLabels);
+        body.appendChild(grid);
+        wrapper.appendChild(topLabels);
+        wrapper.appendChild(body);
+        container.appendChild(wrapper);
       } else {
         // Desktop Unified Horizontal Heatmap
         const wrapper = document.createElement('div');
@@ -1373,8 +1658,48 @@
       await initDB();
       await loadSettings();
 
-      // Load vocabulary
-      loadVocab();
+      setMode(userSettings.mode || 'german_to_english');
+
+      // Update Streak UI on load
+      const streakEl = document.getElementById('daily-streak');
+      if (streakEl) {
+        if (!userSettings.streak) {
+          streakEl.innerText = 0;
+        } else {
+          const today = new Date().toISOString().split('T')[0];
+          const lastActive = userSettings.streak.lastActive;
+          // Check if streak is broken
+          if (!lastActive) {
+            streakEl.innerText = 0;
+          } else {
+            const d1 = new Date(today);
+            const d2 = new Date(lastActive);
+            const diffTime = Math.abs(d1 - d2);
+            const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+            if (diffDays <= 1) { // Today (0) or Yesterday (1)
+              streakEl.innerText = userSettings.streak.count;
+            } else {
+              streakEl.innerText = 0; // Streak broken
+            }
+          }
+        }
+      }
+
+      // Check URL params for shared profile
+      const urlParams = new URLSearchParams(window.location.search);
+      const page = urlParams.get('page');
+      if (page) {
+        const pageMap = {
+          'main': 'mainPage',
+          'config': 'configPage',
+          'me': 'profilePage',
+          'how': 'guidePage'
+        };
+        if (pageMap[page]) {
+          showPage(pageMap[page]);
+        }
+      }
 
       const tellInput = document.getElementById('tell');
       const msgDiv = document.getElementById('answer');
@@ -1406,6 +1731,7 @@
               trackActivity('reviewed');
             }
             updateEMA(0); // Wrong
+            updateDailyStats(currentWord, true); // Log daily mistake
             // Show correct answer in red if empty (treated as mistake/give up)
             const showDiv = document.getElementById('show');
             showDiv.textContent = correctAnswer;
@@ -1446,6 +1772,7 @@
                 trackActivity('reviewed');
               }
               updateEMA(1); // Correct
+              updateDailyStats(currentWord, false); // Log daily trial (no mistake)
               nextWord();
             } else {
               if ((currentWord.state || 0) === 0) {
@@ -1455,6 +1782,7 @@
                 trackActivity('reviewed');
               }
               updateEMA(0); // Wrong
+              updateDailyStats(currentWord, true); // Log daily mistake
               const showDiv = document.getElementById('show');
               showDiv.textContent = correctAnswer;
               showDiv.style.color = 'red';
