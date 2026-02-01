@@ -16,11 +16,12 @@
     }
 
     body {
+      --heatmap-width: 40rem;
       font-family: 'IBM Plex Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Monaco, 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
       font-size: 0.8rem;
-      line-height: 1.3;
+      line-height: 1.1;
       padding: 2rem;
-      max-width: 800px;
+      max-width: 50rem;
       margin: 0 auto;
       color: #1a1a1a;
       background-color: #fff;
@@ -37,18 +38,18 @@
 
     #show {
       font-size: 2rem;
-      text-align: center;
     }
 
     #tell {
       font-size: 1.5rem;
       padding: 0.5rem;
       width: 80%;
-      max-width: 400px;
-      text-align: center;
-      border: 1px solid #ccc;
-      border-radius: 4px;
+      max-width: 25rem;
+      border: 0.06rem solid #ccc;
+      border-radius: 0.25rem;
       font-family: inherit;
+      text-align: center;
+      margin: 0 auto;
     }
 
     .blink-error {
@@ -71,50 +72,112 @@
       display: flex;
       flex-direction: row;
       gap: 0.5rem;
+      width: 100%;
     }
 
     .btn {
       color: #0066cc;
       cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      /* Remove default tap highlight */
     }
 
-    .btn:hover {
-      background: #0066cc;
-      color: white;
-      text-decoration: none;
+    @media (hover: hover) {
+      .btn:hover {
+        background: #0066cc;
+        color: white;
+        text-decoration: none;
+      }
+
+      .btn.danger:hover {
+        background: #d00;
+        color: white;
+      }
+
+      .btn a:hover {
+        text-decoration: none;
+        color: white;
+      }
+
+      #wipeBtn:hover {
+        background: black;
+      }
     }
 
     .btn.danger {
       color: #d00;
-      border: 1px solid #d00;
-    }
-
-    .btn.danger:hover {
-      background: #d00;
-      color: white;
+      border: 0.06rem solid #d00;
     }
 
     .btn a {
       text-decoration: none;
     }
 
-    .btn a:hover {
-      text-decoration: none;
-      color: white;
-    }
-
     .page {
       display: none;
       width: 100%;
+      height: calc(73vh - 3rem);
+      padding-top: 3rem;
     }
 
     .page.active {
       display: flex;
       flex-direction: column;
-      align-items: center;
-      margin-top: 3rem;
-      margin-bottom: 30vh;
+      align-items: flex-start;
       width: 100%;
+    }
+
+    #mainPage.page.active {
+      align-items: center;
+      text-align: center;
+    }
+
+    .app-header {
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+
+    .example-de {
+      font-size: 1rem;
+      color: #666;
+      font-style: italic;
+      margin-top: 1rem;
+      min-height: 1.5rem;
+      max-width: 37.5rem;
+      text-align: center;
+    }
+
+    .example-en {
+      font-size: 0.75rem;
+      color: #999;
+      margin-top: 0.5rem;
+      min-height: 1rem;
+      max-width: 37.5rem;
+      text-align: center;
+    }
+
+    .show-use {
+      text-align: center;
+    }
+
+    .save-message {
+      color: green;
+      margin-top: 1rem;
+      min-height: 1.5rem;
+    }
+
+    .progress-buttons {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .app-footer {
+      width: 100%;
+      margin-top: 1rem;
     }
 
     .settingItem {
@@ -128,21 +191,21 @@
       display: flex;
       gap: 0.5rem;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: flex-start;
     }
 
     .modeBtn {
       display: flex;
       gap: 0.5rem;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: flex-start;
     }
 
     .levelsBtn {
       display: flex;
       gap: 0.5rem;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: flex-start;
     }
 
     .checkUmlautBtn {
@@ -172,35 +235,208 @@
       margin-top: 0.5rem;
       background: #333;
       color: white;
-      padding: 0.5rem;
-      border-radius: 4px;
+      padding: 0.125rem 0.25rem;
+      border-radius: 0.125rem;
       white-space: nowrap;
       z-index: 1000;
       font-size: 0.75rem;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2);
+    }
+
+    #wipeBtn {
+      padding: 0 0.5rem;
+      color: white;
+      background: red;
+    }
+
+    .divisor {
+      margin: 0.75rem 0;
+      border-top: 0.06rem solid #eee;
+      width: 100%;
+    }
+
+    /* Heat Map Styles */
+    #heatmap-container {
+      --sq: 0.65rem;
+      --gap: 0.2rem;
+      width: fit-content;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .heatmap-wrapper {
+      display: inline-flex;
+      flex-direction: column;
+      gap: var(--gap);
+      min-width: min-content;
+    }
+
+    .heatmap-months {
+      display: grid;
+      grid-template-columns: repeat(53, var(--sq));
+      gap: var(--gap);
+      margin-left: calc(var(--sq) + var(--gap) + 0.125rem);
+      font-size: 0.65rem;
+      color: #777;
+      height: 1.2rem;
+      align-items: end;
+      user-select: none;
+    }
+
+    .heatmap-body {
+      display: flex;
+      gap: var(--gap);
+    }
+
+    .heatmap-days-labels {
+      display: grid;
+      grid-template-rows: repeat(7, var(--sq));
+      gap: var(--gap);
+      font-size: 0.6rem;
+      color: #aaa;
+      width: var(--sq);
+      text-align: left;
+      user-select: none;
+    }
+
+    /* Mobile Vertical Heatmap */
+    .heatmap-month-row {
+      display: flex;
+      flex-direction: column;
+      gap: var(--gap);
+    }
+
+    .heatmap-month-name {
+      font-size: 0.7rem;
+      font-weight: bold;
+      color: #777;
+    }
+
+    .heatmap-grid-mobile {
+      display: grid;
+      grid-template-columns: repeat(14, var(--sq));
+      gap: var(--gap);
+    }
+
+    .heatmap-days-labels div {
+      display: flex;
+      align-items: center;
+      height: var(--sq);
+    }
+
+    .heatmap-grid {
+      display: grid;
+      grid-auto-flow: column;
+      grid-template-rows: repeat(7, var(--sq));
+      grid-template-columns: repeat(53, var(--sq));
+      gap: var(--gap);
+    }
+
+    .heatmap-day {
+      width: var(--sq);
+      height: var(--sq);
+      background-color: #eee;
+      border-radius: 0;
+      cursor: pointer;
+      position: relative;
+    }
+
+    /* GitHub-like colors */
+    .heatmap-day[data-level="1"] {
+      background-color: #9be9a8;
+    }
+
+    .heatmap-day[data-level="2"] {
+      background-color: #40c463;
+    }
+
+    .heatmap-day[data-level="3"] {
+      background-color: #30a14e;
+    }
+
+    .heatmap-day[data-level="4"] {
+      background-color: #216e39;
+    }
+
+    .heatmap-day:hover {
+      outline: 0.06rem solid #000;
+      z-index: 10;
+    }
+
+    .tooltip {
+      visibility: hidden;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 0.125rem 0.25rem;
+      position: absolute;
+      z-index: 20;
+      bottom: 150%;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 0.65rem;
+      white-space: nowrap;
+      pointer-events: none;
+      opacity: 0;
+      border-radius: 0.125rem;
+    }
+
+    .heatmap-day:hover .tooltip {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .heatmap-legend {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+      font-size: 0.7rem;
+      color: #777;
+      margin-top: 0.5rem;
+    }
+
+    .heatmap-legend-square {
+      width: var(--sq);
+      height: var(--sq);
+      border-radius: 0;
+    }
+
+    .lv0 {
+      background-color: #eee;
+    }
+
+    .lv1 {
+      background-color: #9be9a8;
+    }
+
+    .lv2 {
+      background-color: #40c463;
+    }
+
+    .lv3 {
+      background-color: #30a14e;
+    }
+
+    .lv4 {
+      background-color: #216e39;
     }
   </style>
 </head>
 
 <body>
-  <div>
+  <div class="app-header">
     <h3><b>FlashRecall</b></h3>
-  </div>
-  <div>
     by <a href="https://hieuristic.github.io">Hieu</a>
   </div>
-  <br>
 
   <div id="mainPage" class="page active">
     <div id="show">Loading...</div>
-    <div id="example-de"
-      style="font-size: 1rem; color: #666; font-style: italic; margin-top: 1rem; min-height: 1.5rem; text-align: center; max-width: 600px;">
-    </div>
-    <div id="example-en"
-      style="font-size: 0.75rem; color: #999; margin-top: 0.5rem; min-height: 1rem; text-align: center; max-width: 600px;">
-    </div>
+    <div id="example-de" class="example-de"></div>
+    <div id="example-en" class="example-en"></div>
     <br><br>
-    <div id="showUse"></div>
+    <div id="showUse" class="show-use"></div>
     <input type="text" id="tell" placeholder="type here" autocomplete="off" autofocus>
   </div>
 
@@ -229,30 +465,37 @@
       <div>levels</div>
       <div class="helpBtn" data-help="Select the difficulty levels to include in your practice">[?]</div>
       <div class="levelsBtn">
-        <div class="btn" onclick="toggleLevel('A1')" data-level="A1">A1</div>
-        <div class="btn" onclick="toggleLevel('A2')" data-level="A2">A2</div>
-        <div class="btn" onclick="toggleLevel('B1')" data-level="B1">B1</div>
+        <div class="btn" onclick="toggleLevel(0)" data-level="A1">A1</div>
+        <div class="btn" onclick="toggleLevel(1)" data-level="A2">A2</div>
+        <div class="btn" onclick="toggleLevel(2)" data-level="B1">B1</div>
       </div>
     </div>
     <div class="settingItem">
-      <div>strict umlauts</div>
+      <div>strict spelling</div>
       <div class="helpBtn" data-help="When off, ä, ö, ü can be typed as a, o, u and ß as ss/s">[?]</div>
       <div class="checkUmlautBtn">
         <div class="btn" onclick="setUmlautCheck(true)" data-umlaut="true">on</div>
         <div class="btn" onclick="setUmlautCheck(false)" data-umlaut="false">off</div>
       </div>
     </div>
-    <div class="btn" onclick="saveSettings()">save</div>
-    <div id="saveMessage" style="color: green; margin-top: 1rem;"></div>
     <br><br>
-    <div style="border-top: 1px solid #eee; padding-top: 2rem; width: 100%; margin-top: 2rem;">
-      <div
-        style="color: #666; margin-bottom: 1rem; font-weight: bold; text-transform: uppercase; font-size: 0.7rem; letter-spacing: 0.1em;">
-        Danger Zone</div>
-      <div class="btn danger" onclick="wipeMemory()">wipe memory</div>
-      <p style="font-size: 0.7rem; color: #999; margin-top: 0.8rem; line-height: 1.4;">This will permanently clear all
-        your progress, settings, and learning history. Your vocabulary will be re-imported from the source CSV file.</p>
+    <div id="saveMessage" class="save-message"></div>
+    <br>
+    <div class="divisor"></div>
+    <br>
+    <div class="settingItem">
+      <div>progress</div>
+      <div class="helpBtn" data-help="Import or export your learning progress and settings">[?]</div>
+      <div class="progress-buttons">
+        <div class="btn" onclick="exportData()">export</div>
+        <div class="btn" onclick="document.getElementById('importFile').click()">import</div>
+        <input type="file" id="importFile" class="hidden" onchange="importData(event)" accept=".bin">
+      </div>
     </div>
+    <br>
+    <div class="divisor"></div>
+    <br>
+    <div class="btn" id="wipeBtn" onclick="wipeMemory()">wipe memory</div>
   </div>
 
   <div id="guidePage" class="page">
@@ -260,7 +503,7 @@
     <br>
     <p>How to use FlashRecall:</p>
     <br><br>
-    <ul style="text-align: left; max-width: 600px;">
+    <ul>
       <li>An English word will be shown at the top</li>
       <li>Type the German translation (including article if it's a noun)</li>
       <li>Press Enter to check your answer</li>
@@ -271,24 +514,43 @@
 
   <div id="profilePage" class="page">
     <h2>Profile</h2>
-    <p>Settings and preferences will go here.</p>
+    <p>So, how did I do?</p>
+    <br><br>
+    <div id="heatmap-container">
+      <!-- Heatmap injected here -->
+    </div>
+    <div class="heatmap-legend">
+      <span>Less</span>
+      <div class="heatmap-legend-square lv0"></div>
+      <div class="heatmap-legend-square lv1"></div>
+      <div class="heatmap-legend-square lv2"></div>
+      <div class="heatmap-legend-square lv3"></div>
+      <div class="heatmap-legend-square lv4"></div>
+      <span>More</span>
+    </div>
+    <br>
+    <div id="stats">
+      <div>learned: <span id="stat-learned">0</span></div>
+      <div>reviewed: <span id="stat-reviewed">0</span></div>
+    </div>
   </div>
 
   <div id="nav">
     <div class="btn" onclick="showPage('mainPage')">home</div>
     <div class="btn" onclick="showPage('configPage')">config</div>
-    <div class="btn" onclick="showPage('guidePage')">guide</div>
-    <div class="btn" onclick="showPage('profilePage')">my_profile</div>
-    <div class="btn"><a href="https://hieuristic.github.io/blog/001_vocab.html">whatisthis?</a></div>
+    <div class="btn" onclick="showPage('profilePage')">me</div>
+    <div class="btn" onclick="showPage('guidePage')">how?</div>
+    <div class="btn"><a href="https://hieuristic.github.io/blog/001_vocab.html">what?</a></div>
   </div>
 
-  <br>
-  If you find this page helpful, consider <a href="">buying me a coffee :)</a>
-  <br><br>
-  <a href="">report_bug</a>
-  <br><br>
-  <div>
-    Copyright © 2026 Nguyen Minh Hieu
+  <div class="app-footer">
+    Find this helpful? <a href="">buy me a coffee :)</a>
+    <br><br>
+    <a href="">report_bug</a>
+    <br><br>
+    <div>
+      Copyright © 2026 Nguyen Minh Hieu
+    </div>
   </div>
   <script>
     let vocabList = [];
@@ -297,8 +559,9 @@
     let userSettings = {
       speed: 1500,  // default 1.5 seconds
       mode: 0, // 0 for learning, 1 for reviewing
-      levels: ['A1', 'A2', 'B1'], // default all levels
+      levels: [true, false, false], // binary array for [A1, A2, B1]
       check_umlaut: false, // default off
+      history: {}, // { "YYYY-MM-DD": { learned: 0, reviewed: 0 } }
     };
 
     // Initialize IndexedDB
@@ -336,7 +599,7 @@
         return new Promise((resolve, reject) => {
           request.onsuccess = () => {
             if (request.result) {
-              userSettings = request.result.data;
+              userSettings = { ...userSettings, ...request.result.data };
               console.log('Loaded settings:', userSettings);
             }
             resolve(userSettings);
@@ -381,43 +644,45 @@
     // Set speed and highlight selected button
     function setSpeed(speed) {
       userSettings.speed = speed;
-
-      document.querySelectorAll('.speedBtn .btn').forEach(btn => {
-        btn.classList.remove('selected');
-      });
-      event.target.classList.add('selected');
+      loadSettingsIntoUI();
+      saveSettings();
     }
 
-    // Set mode and highlight selected button
     function setMode(mode) {
       userSettings.mode = mode;
-
-      document.querySelectorAll('.modeBtn .btn').forEach(btn => {
-        btn.classList.remove('selected');
-      });
-      event.target.classList.add('selected');
+      loadSettingsIntoUI();
+      saveSettings();
+      nextWord();
     }
 
     function setUmlautCheck(value) {
       userSettings.check_umlaut = value;
-      document.querySelectorAll('.checkUmlautBtn .btn').forEach(btn => {
-        btn.classList.remove('selected');
-      });
-      event.target.classList.add('selected');
+      loadSettingsIntoUI();
+      saveSettings();
     }
 
-    // Toggle level selection
-    function toggleLevel(level) {
-      if (!userSettings.levels) userSettings.levels = [];
-      const index = userSettings.levels.indexOf(level);
-      if (index > -1) {
-        if (userSettings.levels.length > 1) { // Keep at least one level
-          userSettings.levels.splice(index, 1);
-        }
-      } else {
-        userSettings.levels.push(level);
+    function toggleLevel(levelIdx) {
+      if (!Array.isArray(userSettings.levels)) {
+        userSettings.levels = [true, true, true];
       }
+
+      const currentLevels = [...userSettings.levels];
+      currentLevels[levelIdx] = !currentLevels[levelIdx];
+
+      userSettings.levels = currentLevels;
       loadSettingsIntoUI();
+      saveSettings();
+      nextWord();
+    }
+
+    function trackActivity(type) {
+      const today = new Date().toISOString().split('T')[0];
+      if (!userSettings.history) userSettings.history = {};
+      if (!userSettings.history[today]) {
+        userSettings.history[today] = { learned: 0, reviewed: 0 };
+      }
+      userSettings.history[today][type]++;
+      saveSettingsToDB(userSettings);
     }
 
     async function wipeMemory() {
@@ -440,15 +705,206 @@
       }
     }
 
+    async function exportData() {
+      try {
+        if (!db) await initDB();
+
+        // 1. Get settings and modified vocab
+        const settingsTx = db.transaction(['settings'], 'readonly');
+        const settings = await new Promise(r => {
+          settingsTx.objectStore('settings').get('userSettings').onsuccess = (e) => r(e.target.result?.data || userSettings);
+        });
+
+        const vocabTx = db.transaction(['vocab'], 'readonly');
+        const vocab = await new Promise(r => {
+          vocabTx.objectStore('vocab').getAll().onsuccess = (e) => r(e.target.result || []);
+        });
+
+        // Only export words that have progress (state != 0 or error_ema != 1.0)
+        const modifiedVocab = vocab.filter(v => (v.state || 0) !== 0 || (v.error_ema !== undefined && v.error_ema !== 1.0));
+
+        // 2. Calculate buffer size
+        const encoder = new TextEncoder();
+        const vocabBuffers = modifiedVocab.map(v => {
+          const lemmaBuf = encoder.encode(v.german);
+          return { lemmaBuf, state: v.state || 0, ema: v.error_ema || 1.0 };
+        });
+
+        let size = 4 + 1; // Magic (4) + Version (1)
+        size += 2 + 1 + 1 + 1; // Speed (2) + Mode (1) + Levels (1) + Spelling (1)
+
+        // History (Version 2)
+        const historyEntries = Object.entries(userSettings.history || {});
+        size += 4; // History count (4)
+        size += historyEntries.length * (10 + 4 + 4); // Date(10) + Learned(4) + Reviewed(4)
+
+        size += 4; // Vocab count (4)
+        for (const v of vocabBuffers) {
+          size += 1 + v.lemmaBuf.length + 1 + 4; // LemmaLen (1) + Lemma (N) + State (1) + EMA (4)
+        }
+
+        // 3. Write binary data
+        const buffer = new ArrayBuffer(size);
+        const view = new DataView(buffer);
+        let offset = 0;
+
+        // Header: FRBL (FlashRecall Binary)
+        view.setUint32(offset, 0x4652424C); offset += 4;
+        view.setUint8(offset, 2); offset += 1; // Version 2
+
+        // Settings
+        view.setUint16(offset, settings.speed || 1500); offset += 2;
+        view.setUint8(offset, settings.mode || 0); offset += 1;
+        let levelsMask = 0;
+        if (settings.levels[0]) levelsMask |= 1;
+        if (settings.levels[1]) levelsMask |= 2;
+        if (settings.levels[2]) levelsMask |= 4;
+        view.setUint8(offset, levelsMask); offset += 1;
+        view.setUint8(offset, settings.check_umlaut ? 1 : 0); offset += 1;
+
+        // History
+        view.setUint32(offset, historyEntries.length); offset += 4;
+        const textEncoder = new TextEncoder();
+        for (const [date, counts] of historyEntries) {
+          const dateBuf = textEncoder.encode(date); // Should be 10 chars
+          new Uint8Array(buffer, offset, 10).set(dateBuf); offset += 10;
+          view.setUint32(offset, counts.learned || 0); offset += 4;
+          view.setUint32(offset, counts.reviewed || 0); offset += 4;
+        }
+
+        // Vocab
+        view.setUint32(offset, vocabBuffers.length); offset += 4;
+        for (const v of vocabBuffers) {
+          view.setUint8(offset, v.lemmaBuf.length); offset += 1;
+          new Uint8Array(buffer, offset, v.lemmaBuf.length).set(v.lemmaBuf); offset += v.lemmaBuf.length;
+          view.setUint8(offset, v.state); offset += 1;
+          view.setFloat32(offset, v.ema); offset += 4;
+        }
+
+        // 4. Download
+        const blob = new Blob([buffer], { type: 'application/octet-stream' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `progress.bin`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        setTimeout(() => URL.revokeObjectURL(url), 100);
+      } catch (e) {
+        console.error('Export failed:', e);
+        alert('Export failed: ' + e.message);
+      }
+    }
+
+    async function importData(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = async (e) => {
+        try {
+          const buffer = e.target.result;
+          const view = new DataView(buffer);
+          let offset = 0;
+
+          // Validate Header
+          if (view.getUint32(0) !== 0x4652424C) throw new Error('Invalid file format (missing magic number)');
+          offset += 4;
+          const version = view.getUint8(offset); offset += 1;
+          if (version > 2) throw new Error('Unsupported version: ' + version);
+
+          if (!confirm('This will replace your current progress and settings. Are you sure?')) {
+            event.target.value = '';
+            return;
+          }
+
+          // Parse Settings
+          const importedSettings = {
+            speed: view.getUint16(offset),
+            mode: view.getUint8(offset + 2),
+            levels: [false, false, false],
+            check_umlaut: view.getUint8(offset + 4) === 1,
+            history: {}
+          };
+          const levelsMask = view.getUint8(offset + 3);
+          if (levelsMask & 1) importedSettings.levels[0] = true;
+          if (levelsMask & 2) importedSettings.levels[1] = true;
+          if (levelsMask & 4) importedSettings.levels[2] = true;
+          offset += 5;
+
+          const decoder = new TextDecoder();
+
+          // Parse History (if version 2)
+          if (version >= 2) {
+            const historyCount = view.getUint32(offset); offset += 4;
+            for (let i = 0; i < historyCount; i++) {
+              const date = decoder.decode(new Uint8Array(buffer, offset, 10)); offset += 10;
+              const learned = view.getUint32(offset); offset += 4;
+              const reviewed = view.getUint32(offset); offset += 4;
+              importedSettings.history[date] = { learned, reviewed };
+            }
+          }
+
+          // Parse Vocab Progress
+          const vocabCount = view.getUint32(offset); offset += 4;
+          const progressMap = new Map();
+
+          for (let i = 0; i < vocabCount; i++) {
+            const lemmaLen = view.getUint8(offset); offset += 1;
+            const lemma = decoder.decode(new Uint8Array(buffer, offset, lemmaLen)); offset += lemmaLen;
+            const state = view.getUint8(offset); offset += 1;
+            const ema = view.getFloat32(offset); offset += 4;
+            progressMap.set(lemma, { state, ema });
+          }
+
+          // Apply Changes
+          if (!db) await initDB();
+
+          // 1. Ensure vocab is already in memory or CSV loaded
+          if (vocabList.length === 0) {
+            await loadVocab();
+          }
+
+          // 2. Update local objects and IndexedDB
+          const tx = db.transaction(['settings', 'vocab'], 'readwrite');
+          tx.objectStore('settings').put({ id: 'userSettings', data: importedSettings });
+
+          const vocabStore = tx.objectStore('vocab');
+          for (const word of vocabList) {
+            if (progressMap.has(word.german)) {
+              const p = progressMap.get(word.german);
+              word.state = p.state;
+              word.error_ema = p.ema;
+            } else {
+              word.state = 0;
+              word.error_ema = 1.0;
+            }
+            vocabStore.put(word);
+          }
+
+          tx.oncomplete = () => {
+            alert('Import successful! The page will now reload.');
+            location.reload();
+          };
+
+        } catch (err) {
+          console.error('Import failed:', err);
+          alert('Import failed: ' + err.message);
+        }
+      };
+      reader.readAsArrayBuffer(file);
+    }
+
     // Save settings from UI
     async function saveSettings() {
       await saveSettingsToDB(userSettings);
 
       const msg = document.getElementById('saveMessage');
-      msg.textContent = 'Settings saved!';
+      msg.textContent = 'Saved!';
       setTimeout(() => {
         msg.textContent = '';
-      }, 2000);
+      }, 1000);
     }
 
     // Load settings into UI
@@ -474,9 +930,8 @@
       });
 
       // Highlight level buttons
-      document.querySelectorAll('.levelsBtn .btn').forEach(btn => {
-        const btnLevel = btn.getAttribute('data-level');
-        if (userSettings.levels && userSettings.levels.includes(btnLevel)) {
+      document.querySelectorAll('.levelsBtn .btn').forEach((btn, idx) => {
+        if (userSettings.levels && userSettings.levels[idx]) {
           btn.classList.add('selected');
         } else {
           btn.classList.remove('selected');
@@ -507,7 +962,150 @@
         }
       } else if (pageId === 'configPage') {
         loadSettingsIntoUI();
+      } else if (pageId === 'profilePage') {
+        renderHeatMap();
       }
+    }
+
+    // Refresh heatmap on resize for responsiveness
+    window.addEventListener('resize', () => {
+      const profilePage = document.getElementById('profilePage');
+      if (profilePage && profilePage.classList.contains('active')) {
+        renderHeatMap();
+      }
+    });
+
+    function renderHeatMap() {
+      const container = document.getElementById('heatmap-container');
+      if (!container) return;
+      container.innerHTML = '';
+
+      const isMobile = window.innerWidth <= 600;
+      const today = new Date();
+      const currentYear = today.getFullYear();
+      const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+      if (isMobile) {
+        // Vertical Mobile Heatmap: Months as rows, 14 columns
+        for (let m = 0; m < 12; m++) {
+          const monthRow = document.createElement('div');
+          monthRow.className = 'heatmap-month-row';
+
+          const name = document.createElement('div');
+          name.className = 'heatmap-month-name';
+          name.innerText = monthNames[m];
+          monthRow.appendChild(name);
+
+          const grid = document.createElement('div');
+          grid.className = 'heatmap-grid-mobile';
+
+          const daysInMonth = new Date(currentYear, m + 1, 0).getDate();
+          for (let d = 1; d <= daysInMonth; d++) {
+            const dateStr = `${currentYear}-${String(m + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
+            const activity = userSettings.history[dateStr] || { learned: 0, reviewed: 0 };
+            const dayEl = createHeatmapDay(dateStr, activity, true);
+            grid.appendChild(dayEl);
+          }
+          monthRow.appendChild(grid);
+          container.appendChild(monthRow);
+        }
+      } else {
+        // Desktop Unified Horizontal Heatmap
+        const wrapper = document.createElement('div');
+        wrapper.className = 'heatmap-wrapper';
+
+        const monthsRow = document.createElement('div');
+        monthsRow.className = 'heatmap-months';
+
+        const body = document.createElement('div');
+        body.className = 'heatmap-body';
+
+        const labels = document.createElement('div');
+        labels.className = 'heatmap-days-labels';
+        labels.innerHTML = '<div></div><div>M</div><div></div><div>W</div><div></div><div>F</div><div></div>';
+
+        const grid = document.createElement('div');
+        grid.className = 'heatmap-grid';
+
+        const start = new Date(currentYear, 0, 1);
+        start.setDate(start.getDate() - start.getDay());
+
+        let lastMonthLabel = -1;
+        for (let i = 0; i < 371; i++) {
+          const date = new Date(start);
+          date.setDate(date.getDate() + i);
+          const dateStr = date.toISOString().split('T')[0];
+          const activity = userSettings.history[dateStr] || { learned: 0, reviewed: 0 };
+
+          const dayEl = createHeatmapDay(dateStr, activity, date.getFullYear() === currentYear);
+          if (date.getFullYear() < currentYear) {
+            dayEl.style.visibility = 'hidden';
+          }
+          grid.appendChild(dayEl);
+
+          if (date.getDay() === 0) {
+            const m = date.getMonth();
+            const colDiv = document.createElement('div');
+            if (m !== lastMonthLabel && date.getFullYear() === currentYear) {
+              colDiv.innerText = monthNames[m];
+              lastMonthLabel = m;
+            }
+            monthsRow.appendChild(colDiv);
+          }
+        }
+
+        body.appendChild(labels);
+        body.appendChild(grid);
+        wrapper.appendChild(monthsRow);
+        wrapper.appendChild(body);
+        container.appendChild(wrapper);
+      }
+
+      // Add legend (unified for both)
+      const legend = document.createElement('div');
+      legend.className = 'heatmap-legend';
+      legend.innerHTML = '<span>Less</span>' +
+        '<div class="heatmap-legend-square lv0"></div>' +
+        '<div class="heatmap-legend-square lv1"></div>' +
+        '<div class="heatmap-legend-square lv2"></div>' +
+        '<div class="heatmap-legend-square lv3"></div>' +
+        '<div class="heatmap-legend-square lv4"></div>' +
+        '<span>More</span>';
+      container.appendChild(legend);
+
+      // Aggregated stats
+      let totalLearned = 0;
+      let totalReviewed = 0;
+      Object.values(userSettings.history).forEach(h => {
+        // Technically this picks up all history, but user just wants current status
+        totalLearned += h.learned;
+        totalReviewed += h.reviewed;
+      });
+      document.getElementById('stat-learned').innerText = totalLearned;
+      document.getElementById('stat-reviewed').innerText = totalReviewed;
+    }
+
+    function createHeatmapDay(dateStr, activity, isCurrentYear) {
+      const dayEl = document.createElement('div');
+      dayEl.className = 'heatmap-day';
+
+      const total = activity.learned + activity.reviewed;
+      let level = 0;
+      if (total > 0) level = 1;
+      if (total > 5) level = 2;
+      if (total > 10) level = 3;
+      if (total > 20) level = 4;
+
+      if (level > 0 && isCurrentYear) {
+        dayEl.setAttribute('data-level', level);
+      }
+
+      const tooltip = document.createElement('div');
+      tooltip.className = 'tooltip';
+      tooltip.innerText = `${dateStr}: ${activity.learned} learned, ${activity.reviewed} reviewed`;
+      dayEl.appendChild(tooltip);
+
+      return dayEl;
     }
 
     // Weighted random selection
@@ -515,8 +1113,14 @@
       if (vocabList.length === 0) return null;
 
       // Filter by level
-      const selectedLevels = userSettings.levels || ['A1', 'A2', 'B1'];
-      const filteredList = vocabList.filter(w => selectedLevels.includes(w.level));
+      const levelNames = ['A1', 'A2', 'B1'];
+      const activeLevels = levelNames.filter((_, i) => userSettings.levels[i]);
+
+      if (activeLevels.length === 0) {
+        return null;
+      }
+
+      const filteredList = vocabList.filter(w => activeLevels.includes(w.level));
 
       if (filteredList.length === 0) return null;
 
@@ -575,13 +1179,14 @@
 
     function nextWord() {
       currentWord = getRandomWord();
-      if (!currentWord) return;
-
-      // Update state to review if it was in learning
-      if ((currentWord.state || 0) === 0) {
-        currentWord.state = 1;
-        currentWord.error_ema = currentWord.error_ema || 1.0; // Start with high weight
-        updateWordInDB(currentWord);
+      if (!currentWord) {
+        const showDiv = document.getElementById('show');
+        if (userSettings.levels && userSettings.levels.length === 0) {
+          showDiv.textContent = "Please select a level in Config.";
+        } else {
+          showDiv.textContent = "No words found for selected levels.";
+        }
+        return;
       }
 
       const showDiv = document.getElementById('show');
@@ -624,30 +1229,34 @@
           enText = currentWord.english_example !== "nan" ? currentWord.english_example : "";
         }
       } else {
-        deText = currentWord.german_example !== "nan" ? currentWord.german_example : "";
-        enText = currentWord.english_example !== "nan" ? currentWord.english_example : "";
+        deText = (currentWord.german_example && currentWord.german_example !== "nan") ? currentWord.german_example : "";
+        enText = (currentWord.english_example && currentWord.english_example !== "nan") ? currentWord.english_example : "";
       }
+
+      // Pre-calculate unmasked example for error display
+      let unmaskedDe = deText;
+      if (!isPureArticle && currentWord.german) {
+        const lemmaRegex = new RegExp(`(\\b${currentWord.german}\\b)`, 'gi');
+        unmaskedDe = unmaskedDe.replace(lemmaRegex, '<b>$1</b>');
+      }
+      currentWord.unmasked_german_example = formatMarkdown(unmaskedDe);
 
       // Masking logic
       let maskedDeText = deText;
       if (deText) {
         if (isPureArticle) {
-          // Special Request: "should contain die der das and not the lemma"
-          // Here 'lemma' refers to the noun in the sentence we picked
           if (nounToMaskInArticleCase) {
             const nounRegex = new RegExp(`\\b${nounToMaskInArticleCase}\\b`, 'gi');
             maskedDeText = maskedDeText.replace(nounRegex, '___');
           }
-          // Note: Article (der/die/das) remains UNMASKED as requested
         } else if (currentWord.german) {
-          // Standard case: Mask the word being tested
           const lemmaRegex = new RegExp(`\\b${currentWord.german}\\b`, 'gi');
           maskedDeText = maskedDeText.replace(lemmaRegex, '___');
         }
       }
 
       exampleDeDiv.innerHTML = formatMarkdown(maskedDeText);
-      exampleDeDiv.style.display = 'none'; // Hidden initially as per previous request
+      exampleDeDiv.style.display = 'none';
 
       exampleEnDiv.innerHTML = formatMarkdown(enText);
       exampleEnDiv.style.display = 'block';
@@ -660,14 +1269,6 @@
         msgDiv.textContent = "";
         msgDiv.className = "";
       }
-
-      // Bold the target word in the unmasked version for the error state
-      let unmaskedDe = deText;
-      if (!isPureArticle && currentWord.german) {
-        const lemmaRegex = new RegExp(`(\\b${currentWord.german}\\b)`, 'gi');
-        unmaskedDe = unmaskedDe.replace(lemmaRegex, '<b>$1</b>');
-      }
-      currentWord.unmasked_german_example = formatMarkdown(unmaskedDe);
     }
 
     // Simple CSV Parser
@@ -797,6 +1398,13 @@
           }
 
           if (!value) {
+            // Track activity even for empty/give up
+            if ((currentWord.state || 0) === 0) {
+              currentWord.state = 1;
+              trackActivity('learned');
+            } else {
+              trackActivity('reviewed');
+            }
             updateEMA(0); // Wrong
             // Show correct answer in red if empty (treated as mistake/give up)
             const showDiv = document.getElementById('show');
@@ -831,9 +1439,21 @@
             }
 
             if (inputVal === targetVal) {
+              if ((currentWord.state || 0) === 0) {
+                currentWord.state = 1;
+                trackActivity('learned');
+              } else {
+                trackActivity('reviewed');
+              }
               updateEMA(1); // Correct
               nextWord();
             } else {
+              if ((currentWord.state || 0) === 0) {
+                currentWord.state = 1;
+                trackActivity('learned');
+              } else {
+                trackActivity('reviewed');
+              }
               updateEMA(0); // Wrong
               const showDiv = document.getElementById('show');
               showDiv.textContent = correctAnswer;
