@@ -166,19 +166,19 @@ Dank;Substantiv;mask.;der;0;A1;1;thanks/gratitude;Herzlichen Dank für Ihre Hilf
 danke;Partikel;nan;nan;0;A1;116;thank you;Danke für das Geschenk.;**Thank you** for the gift.
 danken;Verb;nan;nan;0;A1;292;to thank;Ich danke dir für alles.;I **thank** you for everything.
 dann;Adverb;nan;nan;0;A1;32152;then;Zuerst essen wir, dann gehen wir spazieren.;First we eat, **then** we go for a walk.
-das;bestimmter Artikel;neutr.;nan;0;A1;nan;that/the;Das ist mein Haus.;**That** is my house.
+das;bestimmter Artikel;neutr.;nan;0;A1;nan;that/(the (neut.));Das ist mein Haus.;**That** is my house.
 Datum;Substantiv;neutr.;das;0;A1;1111;date;Wie ist das heutige Datum?;What is today's **date**?
 dauern;Verb;nan;nan;0;A1;2222;to last/take time;Die Fahrt dauert zwei Stunden.;The trip **lasts** two hours.
 dein;Possessivpronomen;mask., neutr.;nan;0;A1;2333;your;Ist das dein Buch?;Is that **your** book?
 deine;Possessivpronomen;fem.;nan;0;A1;nan;your;Wo ist deine Tasche?;Where is **your** bag?
 denn;Konjunktion;nan;nan;0;A1;5847;because/then;Ich kann nicht kommen, denn ich bin krank.;I cannot come **because** I am sick.
-der;bestimmter Artikel;mask.;nan;0;A1;172489022;the;Der Mann ist mein Vater.;**The** man is my father.
+der;bestimmter Artikel;mask.;nan;0;A1;172489022;(the (masc.));Der Mann ist mein Vater.;**The** man is my father.
 deutsch;Adjektiv;nan;nan;0;A1;102129;German;Ich lerne die deutsche Sprache.;I am learning the **German** language.
 Deutsche;Substantiv;fem., mask.;die, der;0;A1;9959;German (person);Viele Deutsche reisen gerne.;Many **Germans** like to travel.
 Deutschland;Eigenname;neutr.;das;0;A1;12398;Germany;Berlin ist die Hauptstadt von Deutschland.;Berlin is the capital of **Germany**.
 Dezember;Substantiv;mask.;der;0;A1;688;December;Weihnachten ist im Dezember.;Christmas is in **December**.
 dich;Pronomen;nan;nan;0;A1;1624;you (accusative);Ich liebe dich.;I love **you**.
-die;bestimmter Artikel;fem.;nan;0;A1;nan;the;Die Frau ist meine Mutter.;**The** woman is my mother.
+die;bestimmter Artikel;fem.;nan;0;A1;nan;(the (fem.));Die Frau ist meine Mutter.;**The** woman is my mother.
 Dienstag;Substantiv;mask.;der;0;A1;383;Tuesday;Am Dienstag habe ich frei.;I have the day off on **Tuesday**.
 dir;Pronomen;nan;nan;0;A1;3433;you (dative);Ich helfe dir gerne.;I am happy to help **you**.
 Doktor;Substantiv;mask.;der;0;A1;665;doctor;Herr Doktor, ich habe Schmerzen.;**Doctor**, I am in pain.
