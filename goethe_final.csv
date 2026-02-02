@@ -151,15 +151,12 @@ Butter;Substantiv;fem., mask.;die;0;A1;825;butter;Möchtest du Butter auf dein B
 Bäckerei;Substantiv;fem.;die;0;A1;89;bakery;Wir kaufen das Brot in der Bäckerei.;We buy the bread at the **bakery**.
 bös;Adjektiv;nan;nan;0;A1;33;evil/bad;Das ist ein böser Junge.;That is a **bad** (evil) boy.
 böse;Adjektiv;nan;nan;0;A1;574;mean/angry;Warum bist du böse auf mich?;Why are you **angry** with me?
-c;Symbol;nan;nan;0;A1;305;C/c;Wasser gefriert bei 0 Grad C.;Water freezes at 0 degrees **C**.
 Café;Substantiv;neutr.;das;0;A1;2;café;Wir treffen uns im Café.;We are meeting at the **café**.
 CD;Substantiv;fem.;die;0;A1;239;CD;Ich höre gerne CDs.;I like listening to **CDs**.
 Cent;Substantiv;mask.;der;0;A1;328;cent;Ein Euro hat hundert Cent.;Ein Euro hat hundert **Cent**.
 Chef;Substantiv;mask.;der;0;A1;3890;boss;Mein Chef ist sehr nett.;My **boss** is very nice.
 circa;Adverb;nan;nan;0;A1;nan;approximately;Der Weg dauert circa zehn Minuten.;The walk takes **approximately** ten minutes.
-cm;Symbol;nan;nan;0;A1;459;cm/centimeters;Das Lineal ist 30 cm lang.;The ruler is 30 **cm** long.
 Computer;Substantiv;mask.;der;0;A1;710;computer;Ich arbeite jeden Tag am Computer.;I work on the **computer** every day.
-ct;Symbol;nan;nan;0;A1;nan;ct/cent;Das kostet 50 ct.;That costs 50 **ct** (cents).
 da;Konjunktion;nan;nan;0;B1;75185;there/because;Da vorne ist die Post.;The post office is right **there**.
 daneben;Pronominaladverb;nan;nan;0;A1;384;next to it;Das Buch liegt daneben.;The book is lying **next to it**.
 Dank;Substantiv;mask.;der;0;A1;1;thanks/gratitude;Herzlichen Dank für Ihre Hilfe.;Many **thanks** for your help.
@@ -296,7 +293,6 @@ fünf;Kardinalzahlwort;nan;nan;0;A1;2407;five;Ich habe fünf Euro.;I have **five
 fünfzehn;Kardinalzahlwort;nan;nan;0;A1;223;fifteen;Es ist Viertel nach fünfzehn (15:15).;It's a quarter past **fifteen** (3 PM).
 fünfzig;Kardinalzahlwort;nan;nan;0;A1;318;fifty;Er ist fünfzig Jahre alt.;He is **fifty** years old.
 für;Präposition;nan;nan;0;A1;1165485;for;Das Geschenk ist für dich.;The gift is **for** you.
-g;Symbol;nan;nan;0;A1;459;gram;Das wiegt 100 g.;That weighs 100 **grams**.
 Garten;Substantiv;mask.;der;0;A1;2120;garden;Die Kinder spielen im Garten.;The children are playing in the **garden**.
 Gast;Substantiv;mask.;der;0;A1;1062;guest;Wir haben am Sonntag einen Gast.;We have a **guest** on Sunday.
 geben;Verb;nan;nan;0;A1;560004;to give;Gibst du mir bitte das Buch?;Will you please **give** me the book?
@@ -350,7 +346,6 @@ grün;Adjektiv;nan;nan;0;A1;15372;green;Der Salat ist grün.;The salad is **gree
 gut;Adjektiv;nan;nan;0;A1;234927;good/well;Das ist eine gute Idee.;That is a **good** idea.
 gültig;Adjektiv;nan;nan;0;A1;237;valid;Wie lange ist die Fahrkarte gültig?;How long is the ticket **valid**?
 günstig;Adjektiv;nan;nan;0;A1;499;cheap/favorable;Das Angebot ist sehr günstig.;The offer is very **cheap** (favorable).
-h;Symbol;nan;nan;0;A1;1040;hour/B minor;Wie viele h sind das?;How many **hours** is that?
 Haar;Substantiv;neutr.;das;0;A1;1994;hair;Maria hat lange Haare.;Maria has long **hair**.
 haben;Verb;nan;nan;0;A1;2109558;to have;Ich habe Hunger.;I **have** hunger (I'm hungry).
 halb;Adjektiv;nan;nan;0;A1;10654;half;Es ist halb eins.;It is **half** past twelve (half one).
@@ -424,7 +419,6 @@ kein;Indefinitpronomen;nan;nan;0;A1;217161;no/not any;Ich habe kein Geld.;I have
 kennen;Verb;nan;nan;0;A1;25251;to know (a person/place);Kennen Sie Berlin?;Do you **know** Berlin?
 kennen lernen;Verb;nan;nan;0;A1;nan;to get to know;Ich möchte dich gerne kennen lernen.;I'd like to **get to know** you.
 kennenlernen;Verb;nan;nan;0;A1;144;to get to know;Wir haben uns im Urlaub kennengelernt.;We **got to know** each other on vacation.
-kg;Symbol;nan;nan;0;A1;167;kg;Das wiegt ein kg.;That weighs one **kg**.
 Kilo;Substantiv;neutr.;das;0;A1;173;kilo;Zwei Kilo Äpfel, bitte.;Two **kilos** of apples, please.
 Kilogramm;Substantiv;neutr.;das;0;A1;266;kilogram;Ein Kilogramm sind eintausend Gramm.;One **kilogram** is one thousand grams.
 Kilometer;Substantiv;mask., neutr.;der;0;A1;2555;kilometer;Es sind noch zehn Kilometer.;It's still ten **kilometers**.
@@ -436,7 +430,6 @@ klar;Adjektiv;nan;nan;0;A1;8010;clear/sure;Alles klar!;Everything **clear** (Alr
 Klasse;Substantiv;fem.;die;0;A1;1107;class/grade;In meiner Klasse sind zwanzig Schüler.;There are twenty students in my **class**.
 Kleidung;Substantiv;fem.;die;0;A1;733;clothes/clothing;Ich brauche neue Kleidung.;I need new **clothes**.
 klein;Adjektiv;nan;nan;0;A1;129141;small/little;Das Zimmer ist sehr klein.;The room is very **small**.
-km;Symbol;nan;nan;0;A1;1358;km;Das sind fünf km.;That is five **km**.
 kochen;Verb;nan;nan;0;A1;3415;to cook;Ich koche heute eine Suppe.;I am **cooking** a soup today.
 Koffer;Substantiv;mask.;der;0;A1;382;suitcase;Ich packe meinen Koffer.;I am packing my **suitcase**.
 Kollege;Substantiv;mask.;der;0;A1;661;colleague (male);Mein Kollege hilft mir.;My **colleague** helps me.
@@ -493,7 +486,6 @@ Lkw;Substantiv;mask.;der;0;A1;124;truck/lorry;Der Lkw ist sehr groß.;The **truc
 Lokal;Substantiv;neutr.;das;0;A1;52;local/pub/restaurant;Wir treffen uns im Lokal.;We are meeting at the **local** (pub).
 lustig;Adjektiv;nan;nan;0;A1;476;funny;Der Film war sehr lustig.;The movie was very **funny**.
 Lösung;Substantiv;fem.;die;0;A1;860;solution/answer;Das ist die richtige Lösung.;That is the right **solution**.
-m;Symbol;nan;nan;0;A1;6515;meter;Das sind 100 m.;That is 100 **meters**.
 machen;Verb;nan;nan;0;A1;753818;to do/make;Was machst du heute?;What are you **doing** today?
 Mai;Substantiv;mask.;der;0;A1;2605;May;Im Mai blühen die Bäume.;In **May** the trees bloom.
 man;Indefinitpronomen;nan;nan;0;A1;212281;one/you/they;Hier darf man nicht parken.;**One** is not allowed to park here.
@@ -520,14 +512,12 @@ mitnehmen;Verb;nan;nan;0;A1;214;to take along;Kann ich einen Freund mitnehmen?;C
 Mittag;Substantiv;mask.;der;0;A1;253;noon/midday;Am Mittag essen wir zu Hause.;At **noon** we eat at home.
 Mitte;Substantiv;fem.;die;0;A1;1622;middle/center;Das Haus steht in der Mitte.;The house is in the **middle**.
 Mittwoch;Substantiv;mask.;der;0;A1;430;Wednesday;Am Mittwoch habe ich frei.;I have the day off on **Wednesday**.
-Mo;Symbol;nan;nan;0;A1;44;Monday;Wir treffen uns Mo.;We meet on **Monday**.
 Moment;Substantiv;mask.;der;0;A1;826;moment;Einen Moment, bitte.;A **moment**, please.
 Montag;Substantiv;mask.;der;0;A1;487;Monday;Der erste Arbeitstag ist Montag.;The first day of work is **Monday**.
 Morgen;Substantiv;mask.;der;0;A1;2212;morning;Am Morgen trinke ich Kaffee.;In the **morning** I drink coffee.
 morgen;Adverb;nan;nan;0;A1;2212;tomorrow;Ich komme morgen vorbei.;I'll stop by **tomorrow**.
 Mund;Substantiv;mask.;der;0;A1;2125;mouth;Bitte mach den Mund auf.;Please open your **mouth**.
 Mutter;Substantiv;fem.;die;0;A1;6864;mother;Meine Mutter kocht sehr gut.;My **mother** cooks very well.
-m²;Symbol;nan;nan;0;A1;nan;square meter;Die Wohnung hat 80 m².;The apartment has 80 **square meters**.
 Mädchen;Substantiv;neutr.;das;0;A1;3023;girl;Das Mädchen spielt mit dem Ball.;The **girl** is playing with the ball.
 männlich;Adjektiv;nan;nan;0;A1;1998;male;Bitte geben Sie an: männlich oder weiblich.;Please indicate: **male** or female.
 März;Substantiv;mask.;der;0;A1;773;March;Der Frühling beginnt im März.;Spring begins in **March**.
@@ -588,7 +578,6 @@ Prospekt;Substantiv;mask., neutr.;der;0;A1;45;brochure/flyer;Ich lese den Prospe
 Prozent;Substantiv;neutr.;das;0;A1;2834;percent;Zehn Prozent Rabatt.;Ten **percent** discount.
 Prüfung;Substantiv;fem.;die;0;A1;628;exam/examination;Die Prüfung war nicht schwer.;The **exam** was not difficult.
 pünktlich;Adjektiv;nan;nan;0;A1;415;punctual/on time;Er ist immer pünktlich.;He is always **punctual**.
-qm;Symbol;nan;nan;0;A1;16;square meter;Das Zimmer hat 20 qm.;The room has 20 **square meters**.
 Quadratmeter;Substantiv;mask., neutr.;der;0;A1;204;square meter;Die Wohnung hat 100 Quadratmeter.;The apartment has 100 **square meters**.
 Rad fahren;Mehrwortausdruck;nan;nan;0;A1;nan;to ride a bike;Ich gehe gerne Rad fahren.;I like to **ride a bike**.
 rauchen;Verb;nan;nan;0;A1;1580;to smoke;Hier darf man nicht rauchen.;You are not allowed to **smoke** here.
@@ -680,7 +669,6 @@ Sprache;Substantiv;fem.;die;0;A1;8057;language;Welche Sprachen sprechen Sie?;Whi
 sprechen;Verb;nan;nan;0;A1;53954;to speak;Kannst du Deutsch sprechen?;Can you **speak** German?
 spät;Adjektiv;nan;nan;0;A1;5998;late;Es ist schon spät.;It's already **late**.
 später;Adjektiv;nan;nan;0;A1;nan;later;Wir sehen uns später.;We'll see each other **later**.
-st;Symbol;nan;nan;0;A1;76;st (piece);Zwei st Kuchen.;Two **pieces** of cake.
 Stadt;Substantiv;fem.;die;0;A1;33577;city/town;Berlin ist eine große Stadt.;Berlin is a large **city**.
 stehen;Verb;nan;nan;0;A1;493087;to stand;Er steht an der Ecke.;He is **standing** at the corner.
 Stelle;Substantiv;fem.;die;0;A1;3995;place/position/job;Ich habe eine neue Stelle.;I have a new **job/position**.
@@ -1550,7 +1538,6 @@ Art;Substantiv;fem.;die;0;B1;21480;type/kind/way;Was für eine Art von Musik mag
 Asyl;Substantiv;neutr.;das;0;B1;95;asylum;Er hat Asyl beantragt.;He has applied for **asylum**.
 Atem;Substantiv;mask.;der;0;B1;439;breath;Der Atem ist wichtig.;**Breath** is important.
 atmen;Verb;nan;nan;0;B1;1493;to breathe;Bitte tief atmen.;Please **breathe** deeply.
-Au;Symbol;nan;nan;0;B1;56;gold (chemical symbol);Au ist das Symbol für Gold.;**Au** is the symbol for gold.
 Aufenthalt;Substantiv;mask.;der;0;B1;261;stay/residence/stopover;Wie war Ihr Aufenthalt?;How was your **stay**?
 auffallen;Verb;nan;nan;0;B1;305;to notice/attract attention/stand out;Ist dir etwas aufgefallen?;Did you **notice** anything?
 auffordern;Verb;nan;nan;0;B1;299;to request/call on/invite;Er forderte mich auf zu gehen.;He **requested** (called on) me to leave.

@@ -396,19 +396,19 @@
 
     /* GitHub-like colors */
     .heatmap-day[data-level="1"] {
-      background-color: #9be9a8;
+      background-color: #fcdbdb;
     }
 
     .heatmap-day[data-level="2"] {
-      background-color: #40c463;
+      background-color: #f79e9e;
     }
 
     .heatmap-day[data-level="3"] {
-      background-color: #30a14e;
+      background-color: #f26161;
     }
 
     .heatmap-day[data-level="4"] {
-      background-color: #216e39;
+      background-color: #ee3e32;
     }
 
     .heatmap-day:hover {
@@ -459,19 +459,19 @@
     }
 
     .lv1 {
-      background-color: #9be9a8;
+      background-color: #fcdbdb;
     }
 
     .lv2 {
-      background-color: #40c463;
+      background-color: #f79e9e;
     }
 
     .lv3 {
-      background-color: #30a14e;
+      background-color: #f26161;
     }
 
     .lv4 {
-      background-color: #216e39;
+      background-color: #ee3e32;
     }
 
     #profilePage {
@@ -480,6 +480,16 @@
     }
   </style>
 </head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P4Z1VKV3L1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-P4Z1VKV3L1');
+</script>
 
 <body>
   <div class="app-header">
@@ -604,7 +614,7 @@
       </div>
     </div>
     <br><br>
-    <div class="btn" onclick="shareProfile()">share</div>
+    <!-- <div class="btn" onclick="shareProfile()">share</div> -->
     <br><br>
     <div id="heatmap-container">
       <!-- Heatmap injected here -->
@@ -621,7 +631,7 @@
     <a class="btn" href="?page=config">config</a>
     <a class="btn" href="?page=me">me</a>
     <a class="btn" href="?page=how">how?</a>
-    <a class="btn" href="https://hieuristic.github.io/blog/001_vocab.html">what?</a>
+    <!-- <a class="btn" href="https://hieuristic.github.io/blog/001_vocab.html">what?</a> -->
   </div>
 
   <div class="app-footer">
@@ -1666,6 +1676,9 @@
       // Filter reviews using FSRS due date if available, or fallback to old state
       const nowISO = new Date().toISOString();
       const reviewWords = filteredList.filter(w => {
+        // Strictly exclude new words, even if they have FSRS data (e.g. from bugs)
+        if ((w.state || 0) === 0) return false;
+
         if (w.fsrs && w.fsrs.due) {
           return w.fsrs.due <= nowISO;
         }
@@ -1916,7 +1929,15 @@
             const level = (row[5] && row[5].trim() !== "nan") ? row[5].trim() : "A1";
             const article = (row[3] && row[3].trim() !== "nan") ? row[3].trim() : "";
             let freq = parseInt(row[6]);
-            if (isNaN(freq)) freq = 1;
+            if (isNaN(freq) || freq < 1) freq = 1;
+
+            // Log scale for frequency to prevent simple words from dominating
+            // e.g. freq 100M -> log10(100M) = 8.
+            // freq 1000 -> log10(1000) = 3.
+            // Difference is 2.6x, not 100000x.
+            freq = Math.ceil(Math.pow(Math.log10(freq + 1), 2)); // Squared log for slight bias, but safe.
+            // Or just linear log? Let's stick to simple log.
+            freq = Math.ceil(Math.log10(freq + 1) * 10); // Scale up to integer range (e.g. 1-100)
 
             const english = (row[7] && row[7].trim() !== "nan") ? row[7].trim() : word;
             const german_ex = (row[8] && row[8].trim() !== "nan") ? row[8].trim() : "";
