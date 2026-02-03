@@ -1292,10 +1292,10 @@
           view.setUint32(offset, v.wordId); offset += 4;
           view.setUint8(offset, v.state); offset += 1;
 
-          // Write FSRS data if present
+          // Write FSRS data if present (use correct keys: s and d)
           if (v.fsrs && Object.keys(v.fsrs).length > 0) {
-            view.setFloat32(offset, v.fsrs.stability || 0); offset += 4;
-            view.setFloat32(offset, v.fsrs.difficulty || 0); offset += 4;
+            view.setFloat32(offset, v.fsrs.s || 0); offset += 4;
+            view.setFloat32(offset, v.fsrs.d || 0); offset += 4;
             view.setUint32(offset, v.fsrs.elapsed_days || 0); offset += 4;
             view.setUint32(offset, v.fsrs.scheduled_days || 0); offset += 4;
             view.setUint32(offset, v.fsrs.reps || 0); offset += 4;
@@ -1311,7 +1311,7 @@
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
-        setTimeout(() => URL.revokeObjectURL(url), 100);
+        setTimeout(() => URL.revokeObjectURL(url), 10000); // 10 seconds to ensure download starts
       } catch (e) {
         console.error('Export failed:', e);
         alert('Export failed: ' + e.message);
@@ -1381,8 +1381,8 @@
               // Check if there's FSRS data (we can detect by checking if there's enough data left)
               const expectedRemainingData = (vocabCount - i - 1) * 5; // Min bytes for remaining words
               if (offset + 20 <= buffer.byteLength - expectedRemainingData) {
-                fsrs.stability = view.getFloat32(offset); offset += 4;
-                fsrs.difficulty = view.getFloat32(offset); offset += 4;
+                fsrs.s = view.getFloat32(offset); offset += 4; // Use 's' not 'stability'
+                fsrs.d = view.getFloat32(offset); offset += 4; // Use 'd' not 'difficulty'
                 fsrs.elapsed_days = view.getUint32(offset); offset += 4;
                 fsrs.scheduled_days = view.getUint32(offset); offset += 4;
                 fsrs.reps = view.getUint32(offset); offset += 4;
