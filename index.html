@@ -8,7 +8,7 @@
   <title>flashrecall</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
     * {
       margin: 0;
@@ -18,7 +18,7 @@
 
     body {
       --heatmap-width: 40rem;
-      font-family: 'IBM Plex Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Monaco, 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+      font-family: 'Noto Sans Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Monaco, 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
       font-size: 0.8rem;
       line-height: 1.1;
       padding: 2rem;
@@ -178,7 +178,6 @@
 
     .app-footer {
       width: 100%;
-      margin-top: 1rem;
     }
 
     .settingItem {
@@ -478,6 +477,12 @@
       margin-bottom: 3rem;
       height: fit-content;
     }
+
+    #footerLine {
+      display: flex;
+      flex-direction: row;
+      gap: 0.5rem;
+    }
   </style>
 </head>
 
@@ -495,6 +500,8 @@
   <div class="app-header">
     <h3><b>FlashRecall</b></h3>
     by <a href="https://hieuristic.github.io">Hieu</a>
+    <br>
+    license <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.en">CC BY-NC 4.0</a>
   </div>
 
   <div id="mainPage" class="page active">
@@ -633,20 +640,25 @@
     <a class="btn" href="?page=how">how?</a>
     <!-- <a class="btn" href="https://hieuristic.github.io/blog/001_vocab.html">what?</a> -->
   </div>
-
+  <br>
   <div class="app-footer">
     Find this helpful? <a href="">buy me a coffee :)</a>
     <br><br>
-    <a href="">report_bug</a>
-    <br><br>
+    <div id="footerLine">
+      <a href="">report_bug</a>
+      <div id="siteVersion">sv0.1.2</div>
+      <div id="dataVersion">dv0.1.1</div>
+    </div>
+    <br>
     <div>
       Copyright © 2026 Nguyen Minh Hieu
     </div>
   </div>
+  <script src="protobuf.min.js?v=4"></script>
+  <script src="io.js?v=4"></script>
   <script type="module">
     import { initMistakeBubble } from './mistake_bubble.js';
 
-    // Expose to global scope so non-module code can call it
     // Expose to global scope so non-module code can call it
     window.initMistakeBubbles = async function () {
       // 0. Check data availability
@@ -667,23 +679,6 @@
 
         // Filter for words with mistakes > 0
         let mistakes = dailyRecords.filter(r => r.mistakes > 0);
-
-        // If no mistakes yet, maybe verify bubbles work with mock data?
-        // Or check if user wants to see nothing.
-        // Let's create mock data if empty FOR NOW to fix "not showing up" complaint 
-        // effectively proving it works, then user can see it clears when they play.
-        // Actually, better to show a "No mistakes today!" message if empty.
-
-        /* 
-        // Debug/Mock Logic for testing visualizer
-        if (mistakes.length === 0) {
-           mistakes = [
-             { word: "Test1", mistakes: 5 },
-             { word: "Test2", mistakes: 3 },
-             { word: "Test3", mistakes: 1 }
-           ];
-        } 
-        */
 
         if (mistakes.length === 0) {
           const container = document.getElementById('bubble-overlay');
@@ -730,11 +725,6 @@
 
     // Auto-init if page is already active (module loaded late)
     if (document.getElementById('profilePage').classList.contains('active')) {
-      // Short delay to ensure main script has populated vocabList?
-      // If main script runs first, vocabList should be there. 
-      // If module runs first? Module is deferred, so it runs after parsing. 
-      // DOMContentLoaded runs after parsing. 
-      // It's racey. Safest to check existence.
       if (window.vocabList && window.vocabList.length > 0) {
         window.initMistakeBubbles();
       }
@@ -743,8 +733,46 @@
   <script>
     // Make vocabList global so module can see it
     var vocabList = [];
+    var dataVersion = null; // Will be set when vocabulary loads
     let currentWord = null;
     let db = null;
+
+    // Debug helper function to query vocabulary by English word
+    window.queryDebug = function (englishWord) {
+      if (!vocabList || vocabList.length === 0) {
+        console.log('Vocabulary not loaded yet. Please wait for the app to initialize.');
+        return null;
+      }
+
+      const searchTerm = englishWord.toLowerCase().trim();
+      const results = vocabList.filter(word =>
+        word.english && word.english.toLowerCase().includes(searchTerm)
+      );
+
+      if (results.length === 0) {
+        console.log(`No results found for "${englishWord}"`);
+        return null;
+      }
+
+      console.log(`Found ${results.length} result(s) for "${englishWord}":`);
+      results.forEach((word, index) => {
+        console.log(`\n[${index + 1}] ${word.german}`);
+        console.log(`  ID: ${word.id}`);
+        console.log(`  English: ${word.english}`);
+        console.log(`  Level: ${word.level}`);
+        console.log(`  Type: ${word.type}`);
+        if (word.german_example && word.german_example !== 'nan') {
+          console.log(`  DE Example: ${word.german_example}`);
+        }
+        if (word.english_example && word.english_example !== 'nan') {
+          console.log(`  EN Example: ${word.english_example}`);
+        }
+        console.log(`  State: ${word.state || 0} (0=New, 1=Learning, 2=Review, 3=Relearning)`);
+      });
+
+      return results.length === 1 ? results[0] : results;
+    };
+
     let userSettings = {
       speed: 1500,  // default 1.5 seconds
       mode: 0, // 0 for learning, 1 for reviewing
@@ -909,7 +937,7 @@
     // Initialize IndexedDB
     function initDB() {
       return new Promise((resolve, reject) => {
-        const request = indexedDB.open('FlashRecallDB', 3); // Upgrade to v3 for daily_stats
+        const request = indexedDB.open('FlashRecallDB', 4); // Upgrade to v4 for Protobuf stores
 
         request.onerror = () => reject(request.error);
         request.onsuccess = () => {
@@ -929,6 +957,13 @@
           if (!db.objectStoreNames.contains('daily_stats')) {
             const dailyStore = db.createObjectStore('daily_stats', { keyPath: 'id' }); // id: YYYY-MM-DD_word
             dailyStore.createIndex('date', 'date', { unique: false });
+          }
+          // io.js stores (sync logic)
+          if (!db.objectStoreNames.contains('vocabulary')) {
+            db.createObjectStore('vocabulary', { keyPath: 'id' });
+          }
+          if (!db.objectStoreNames.contains('progress')) {
+            db.createObjectStore('progress', { keyPath: 'word_id' });
           }
         };
       });
@@ -979,10 +1014,10 @@
 
     async function updateWordInDB(word) {
       try {
-        if (!db) await initDB();
-        const transaction = db.transaction(['vocab'], 'readwrite');
-        const store = transaction.objectStore('vocab');
-        store.put(word);
+        await window.io.saveProgress(word.id, {
+          state: word.state,
+          fsrs: word.fsrs
+        });
       } catch (e) {
         console.error('Error updating word:', e);
       }
@@ -1186,19 +1221,23 @@
           settingsTx.objectStore('settings').get('userSettings').onsuccess = (e) => r(e.target.result?.data || userSettings);
         });
 
-        const vocabTx = db.transaction(['vocab'], 'readonly');
-        const vocab = await new Promise(r => {
-          vocabTx.objectStore('vocab').getAll().onsuccess = (e) => r(e.target.result || []);
+        // Get progress from new protobuf-based store
+        const progressTx = db.transaction(['progress'], 'readonly');
+        const progressData = await new Promise(r => {
+          progressTx.objectStore('progress').getAll().onsuccess = (e) => r(e.target.result || []);
         });
 
-        // Only export words that have progress (state != 0 or error_ema != 1.0)
-        const modifiedVocab = vocab.filter(v => (v.state || 0) !== 0 || (v.error_ema !== undefined && v.error_ema !== 1.0));
+        // Only export words that have progress (state != 0)
+        const modifiedVocab = progressData.filter(p => (p.state || 0) !== 0 || p.fsrs);
 
-        // 2. Calculate buffer size
-        const encoder = new TextEncoder();
-        const vocabBuffers = modifiedVocab.map(v => {
-          const lemmaBuf = encoder.encode(v.german);
-          return { lemmaBuf, state: v.state || 0, ema: v.error_ema || 1.0 };
+        // 2. Calculate buffer size - using word_id now instead of lemma
+        const vocabBuffers = modifiedVocab.map(p => {
+          // word_id is already a number, encode as uint32
+          return {
+            wordId: p.word_id || 0,
+            state: p.state || 0,
+            fsrs: p.fsrs || {}
+          };
         });
 
         let size = 4 + 1; // Magic (4) + Version (1)
@@ -1211,7 +1250,11 @@
 
         size += 4; // Vocab count (4)
         for (const v of vocabBuffers) {
-          size += 1 + v.lemmaBuf.length + 1 + 4; // LemmaLen (1) + Lemma (N) + State (1) + EMA (4)
+          size += 4 + 1; // WordId (4) + State (1)
+          // Add FSRS data size if present
+          if (v.fsrs && Object.keys(v.fsrs).length > 0) {
+            size += 20; // stability(4) + difficulty(4) + elapsed_days(4) + scheduled_days(4) + reps(4)
+          }
         }
 
         // 3. Write binary data
@@ -1221,7 +1264,7 @@
 
         // Header: FRBL (FlashRecall Binary)
         view.setUint32(offset, 0x4652424C); offset += 4;
-        view.setUint8(offset, 2); offset += 1; // Version 2
+        view.setUint8(offset, 3); offset += 1; // Version 3 (word_id based + FSRS)
 
         // Settings
         view.setUint16(offset, settings.speed || 1500); offset += 2;
@@ -1243,13 +1286,20 @@
           view.setUint32(offset, counts.reviewed || 0); offset += 4;
         }
 
-        // Vocab
+        // Progress data (word_id based)
         view.setUint32(offset, vocabBuffers.length); offset += 4;
         for (const v of vocabBuffers) {
-          view.setUint8(offset, v.lemmaBuf.length); offset += 1;
-          new Uint8Array(buffer, offset, v.lemmaBuf.length).set(v.lemmaBuf); offset += v.lemmaBuf.length;
+          view.setUint32(offset, v.wordId); offset += 4;
           view.setUint8(offset, v.state); offset += 1;
-          view.setFloat32(offset, v.ema); offset += 4;
+
+          // Write FSRS data if present
+          if (v.fsrs && Object.keys(v.fsrs).length > 0) {
+            view.setFloat32(offset, v.fsrs.stability || 0); offset += 4;
+            view.setFloat32(offset, v.fsrs.difficulty || 0); offset += 4;
+            view.setUint32(offset, v.fsrs.elapsed_days || 0); offset += 4;
+            view.setUint32(offset, v.fsrs.scheduled_days || 0); offset += 4;
+            view.setUint32(offset, v.fsrs.reps || 0); offset += 4;
+          }
         }
 
         // 4. Download
@@ -1283,7 +1333,7 @@
           if (view.getUint32(0) !== 0x4652424C) throw new Error('Invalid file format (missing magic number)');
           offset += 4;
           const version = view.getUint8(offset); offset += 1;
-          if (version > 2) throw new Error('Unsupported version: ' + version);
+          if (version > 3) throw new Error('Unsupported version: ' + version);
 
           if (!confirm('This will replace your current progress and settings. Are you sure?')) {
             event.target.value = '';
@@ -1317,47 +1367,86 @@
             }
           }
 
-          // Parse Vocab Progress
+          // Parse Vocab/Progress
           const vocabCount = view.getUint32(offset); offset += 4;
           const progressMap = new Map();
 
-          for (let i = 0; i < vocabCount; i++) {
-            const lemmaLen = view.getUint8(offset); offset += 1;
-            const lemma = decoder.decode(new Uint8Array(buffer, offset, lemmaLen)); offset += lemmaLen;
-            const state = view.getUint8(offset); offset += 1;
-            const ema = view.getFloat32(offset); offset += 4;
-            progressMap.set(lemma, { state, ema });
+          if (version >= 3) {
+            // Version 3: word_id based
+            for (let i = 0; i < vocabCount; i++) {
+              const wordId = view.getUint32(offset); offset += 4;
+              const state = view.getUint8(offset); offset += 1;
+
+              const fsrs = {};
+              // Check if there's FSRS data (we can detect by checking if there's enough data left)
+              const expectedRemainingData = (vocabCount - i - 1) * 5; // Min bytes for remaining words
+              if (offset + 20 <= buffer.byteLength - expectedRemainingData) {
+                fsrs.stability = view.getFloat32(offset); offset += 4;
+                fsrs.difficulty = view.getFloat32(offset); offset += 4;
+                fsrs.elapsed_days = view.getUint32(offset); offset += 4;
+                fsrs.scheduled_days = view.getUint32(offset); offset += 4;
+                fsrs.reps = view.getUint32(offset); offset += 4;
+              }
+
+              progressMap.set(wordId, { state, fsrs });
+            }
+          } else {
+            // Version 1-2: lemma based (legacy)
+            for (let i = 0; i < vocabCount; i++) {
+              const lemmaLen = view.getUint8(offset); offset += 1;
+              const lemma = decoder.decode(new Uint8Array(buffer, offset, lemmaLen)); offset += lemmaLen;
+              const state = view.getUint8(offset); offset += 1;
+              const ema = view.getFloat32(offset); offset += 4;
+              progressMap.set(lemma, { state, ema });
+            }
           }
 
           // Apply Changes
           if (!db) await initDB();
 
-          // 1. Ensure vocab is already in memory or CSV loaded
+          // 1. Ensure vocab is loaded
           if (vocabList.length === 0) {
             await loadVocab();
           }
 
-          // 2. Update local objects and IndexedDB
-          const tx = db.transaction(['settings', 'vocab'], 'readwrite');
-          tx.objectStore('settings').put({ id: 'userSettings', data: importedSettings });
+          // 2. Update settings in IndexedDB
+          const settingsTx = db.transaction(['settings'], 'readwrite');
+          settingsTx.objectStore('settings').put({ id: 'userSettings', data: importedSettings });
 
-          const vocabStore = tx.objectStore('vocab');
-          for (const word of vocabList) {
-            if (progressMap.has(word.german)) {
-              const p = progressMap.get(word.german);
-              word.state = p.state;
-              word.error_ema = p.ema;
-            } else {
-              word.state = 0;
-              word.error_ema = 1.0;
+          // 3. Update progress
+          if (version >= 3) {
+            // Version 3: word_id based - use io.js to save progress
+            for (const [wordId, progressData] of progressMap.entries()) {
+              await window.io.saveProgress(wordId, progressData);
+
+              // Also update in-memory vocabList
+              const word = vocabList.find(w => w.id === wordId);
+              if (word) {
+                word.state = progressData.state;
+                word.fsrs = progressData.fsrs || {};
+              }
             }
-            vocabStore.put(word);
+          } else {
+            // Version 1-2: lemma based (legacy) - need to map lemma to word_id
+            for (const word of vocabList) {
+              if (progressMap.has(word.german)) {
+                const p = progressMap.get(word.german);
+                word.state = p.state;
+                word.error_ema = p.ema;
+
+                // Save to new progress store
+                await window.io.saveProgress(word.id, {
+                  state: p.state,
+                  fsrs: {} // No FSRS data in old format
+                });
+              }
+            }
           }
 
-          tx.oncomplete = () => {
-            alert('Import successful! The page will now reload.');
-            location.reload();
-          };
+          // Apply changes to userSettings and reload
+          userSettings = importedSettings;
+          alert('Import successful! The page will now reload.');
+          location.reload();
 
         } catch (err) {
           console.error('Import failed:', err);
@@ -1376,6 +1465,11 @@
       setTimeout(() => {
         msg.textContent = '';
       }, 1000);
+    }
+
+    function updateUI() {
+      loadSettingsIntoUI();
+      updateWordsFoundCount();
     }
 
     // Load settings into UI
@@ -1805,11 +1899,8 @@
       // Determine if this is the literal article 'der', 'die', or 'das'
       const isPureArticle = ['der', 'die', 'das'].includes(currentWord.german.toLowerCase());
 
-      if (isPureArticle) {
-        showDiv.textContent = "the";
-      } else {
-        showDiv.textContent = currentWord.english || "???";
-      }
+      // Always show the actual English translation, not just "the"
+      showDiv.textContent = currentWord.english || "???";
 
       let deText = "";
       let enText = "";
@@ -1895,93 +1986,131 @@
     }
 
     async function loadVocab() {
+      // --- Initialization ---
       try {
-        if (!db) await initDB();
+        // 1. Load User Settings
+        const savedSettings = localStorage.getItem('flashrecall_settings');
+        if (savedSettings) {
+          // Deep merge to preserve defaults for new fields
+          const parsed = JSON.parse(savedSettings);
+          userSettings = { ...userSettings, ...parsed };
 
-        // 1. Try to load from IndexedDB
-        const transaction = db.transaction(['vocab'], 'readonly');
-        const store = transaction.objectStore('vocab');
-        const request = store.getAll();
+          // Ensure levels array is correct length (legacy fix)
+          if (userSettings.levels.length < 3) {
+            userSettings.levels = [true, false, false];
+          }
 
-        const dbVocab = await new Promise((resolve, reject) => {
-          request.onsuccess = () => resolve(request.result);
-          request.onerror = () => reject(request.error);
-        });
+          // Migrate old dailyLimit "Infinity" string if present
+          if (userSettings.dailyLimit === "Infinity" || userSettings.dailyLimit === null) {
+            userSettings.dailyLimit = 9999;
+          }
 
-        if (dbVocab && dbVocab.length > 0) {
-          console.log('Loaded vocabulary from DB:', dbVocab.length);
-          vocabList = dbVocab;
-        } else {
-          // 2. If empty, load from CSV and import
-          console.log('DB empty, importing from CSV...');
-          const response = await fetch('goethe_final.csv');
-          const text = await response.text();
-          const rows = parseCSV(text);
+          // Ensure history object exists
+          if (!userSettings.history) {
+            userSettings.history = {};
+          }
+        }
 
-          const importBatch = [];
-          for (let i = 1; i < rows.length; i++) {
-            const row = rows[i];
-            if (row.length < 10) continue;
+        // Update UI to match settings
+        updateUI();
 
-            const word = row[0].trim();
-            if (!word || word === "Lemma" || word === "nan") continue;
+        // 2. Initialize IO and Load Vocabulary
+        await window.io.init();
+        const words = window.io.payload.words; // Access loaded words directly
 
-            const level = (row[5] && row[5].trim() !== "nan") ? row[5].trim() : "A1";
-            const article = (row[3] && row[3].trim() !== "nan") ? row[3].trim() : "";
-            let freq = parseInt(row[6]);
-            if (isNaN(freq) || freq < 1) freq = 1;
+        // Map Proto words to app internal format
+        vocabList = words.map(w => ({
+          id: w.id,
+          lemma: w.lemma,
+          type: w.wortart,
+          genus: w.genus,
+          article: w.artikel,
+          level: w.level,
+          frequency: parseInt(w.frequency) || 0,
+          english: w.english,
+          german_example: w.germanExample,
+          english_example: w.englishExample,
+          // Helper specifically for quiz logic
+          german: (w.artikel && w.artikel !== 'nan' ? w.artikel + ' ' : '') + w.lemma,
+          state: 0,
+          fsrs: {}
+        }));
 
-            // Log scale for frequency to prevent simple words from dominating
-            // e.g. freq 100M -> log10(100M) = 8.
-            // freq 1000 -> log10(1000) = 3.
-            // Difference is 2.6x, not 100000x.
-            freq = Math.ceil(Math.pow(Math.log10(freq + 1), 2)); // Squared log for slight bias, but safe.
-            // Or just linear log? Let's stick to simple log.
-            freq = Math.ceil(Math.log10(freq + 1) * 10); // Scale up to integer range (e.g. 1-100)
+        // Load Progress from DB and merge
+        try {
+          const progressitems = await window.io.getAllProgress();
+          const progressMap = new Map(progressitems.map(p => [p.word_id, p]));
 
-            const english = (row[7] && row[7].trim() !== "nan") ? row[7].trim() : word;
-            const german_ex = (row[8] && row[8].trim() !== "nan") ? row[8].trim() : "";
-            const english_ex = (row[9] && row[9].trim() !== "nan") ? row[9].trim() : "";
-
-            if (word && word !== "Lemma") {
-              const entry = {
-                german: word,
-                level: level,
-                article: article,
-                english: english,
-                frequency: freq,
-                german_example: german_ex,
-                english_example: english_ex,
-                state: 0, // learning
-                error_ema: 1.0, // initial weight
-                // FSRS will be init lazily
-                fsrs: {}
-              };
-              importBatch.push(entry);
-              vocabList.push(entry);
+          let loadedCount = 0;
+          vocabList.forEach(w => {
+            if (progressMap.has(w.id)) {
+              const p = progressMap.get(w.id);
+              // Assuming p contains { state, fsrs, ... }
+              if (p.state !== undefined) w.state = p.state;
+              if (p.fsrs) w.fsrs = p.fsrs;
+              loadedCount++;
             }
-          }
-
-          // Save Batch to DB
-          const writeTx = db.transaction(['vocab'], 'readwrite');
-          const writeStore = writeTx.objectStore('vocab');
-          for (const entry of importBatch) {
-            writeStore.put(entry);
-          }
-          console.log('Imported words:', importBatch.length);
+          });
+          console.log(`Merged progress for ${loadedCount} words.`);
+        } catch (err) {
+          console.warn("Failed to load progress:", err);
         }
 
-        if (vocabList.length > 0) {
-          nextWord();
-        } else {
-          document.getElementById('show').textContent = "No vocabulary found.";
+        console.log(`Loaded ${vocabList.length} words from Protobuf.`);
+
+        // Update data version display from loaded vocabulary
+        const version = window.io.payload.version;
+        dataVersion = version;
+        // Format version: 111 -> 0.1.1 (MMmmpp format)
+        const major = Math.floor(version / 10000);
+        const minor = Math.floor((version % 10000) / 100);
+        const patch = version % 100;
+        const versionStr = `${major}.${minor}.${patch}`;
+        const dataVersionEl = document.getElementById('dataVersion');
+        if (dataVersionEl) {
+          dataVersionEl.textContent = `dv${versionStr}`;
+        }
+        console.log(`Data version: ${versionStr} (raw: ${version})`);
+
+
+        // 3. Initialize DB and Mistake Bubbles (deferred)
+        if (document.getElementById('profilePage').classList.contains('active')) {
+          window.initMistakeBubbles();
         }
 
-      } catch (e) {
-        console.error(e);
-        document.getElementById('show').textContent = "Error loading vocabulary.";
+        // 4. Start Quiz
+        document.getElementById('wordsFoundCount').innerText = `Loaded ${vocabList.length} words.`;
+        nextWord();
+
+      } catch (err) {
+        console.error("Initialization failed:", err);
+        document.getElementById('show').innerText = "Error loading data.";
       }
     }
+
+    // Debug function to test with a noun
+    window.sampleDebugNoun = function () {
+      const noun = vocabList.find(w => w.article && w.article !== 'nan' && w.lemma === 'Tag');
+      if (noun) {
+        currentWord = noun;
+        updateUI();
+        console.log('Debug Noun:', currentWord);
+        console.log('german field:', currentWord.german);
+        console.log('article field:', currentWord.article);
+      } else {
+        console.log('Could not find Tag, trying any noun...');
+        const anyNoun = vocabList.find(w => w.article && w.article !== 'nan');
+        if (anyNoun) {
+          currentWord = anyNoun;
+          updateUI();
+          console.log('Debug Noun:', currentWord);
+        } else {
+          console.log('No nouns found!');
+        }
+      }
+    };
+
+
 
     document.addEventListener('DOMContentLoaded', async () => {
       // Initialize database and load settings
@@ -2160,10 +2289,8 @@
           const value = tellInput.value.trim();
 
           // Construct correct answer
+          // Note: currentWord.german already includes the article for nouns (e.g., "der Tag")
           let correctAnswer = currentWord.german;
-          if (currentWord.article && currentWord.article !== "nan" && currentWord.article.trim() !== "") {
-            correctAnswer = `${currentWord.article} ${currentWord.german}`;
-          }
 
           if (!value) {
             // Track activity even for empty/give up

@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+package flashrecall;
+
+message Word {
+  int32 id = 1;
+  string lemma = 2;
+  string wortart = 3;
+  string genus = 4;
+  string artikel = 5;
+  string level = 6;
+  string frequency = 7;
+  string english = 8;
+  string german_example = 9;
+  string english_example = 10;
+  // Index 11 was 'nur_im_Plural' in CSV but not explicitly requested as essential, keeping it if needed or mapping it. All CSV columns should be preserved.
+  string nur_im_plural = 11; 
+}
+
+message VocabularyData {
+  int32 version = 1;
+  repeated Word words = 2;
+}
+
+message WordProgress {
+  int32 word_id = 1;
+  // Add progress fields as needed, e.g., FSRS data
+  double stability = 2;
+  double difficulty = 3;
+  int64 due_date = 4; // Timestamp
+  double elapsed_days = 5;
+  double scheduled_days = 6;
+  int32 reps = 7;
+  int32 state = 8; // 0=New, 1=Learning, 2=Review, 3=Relearning
+  int64 last_review = 9; // Timestamp
+}
+
+message ProgressData {
+  repeated WordProgress progress = 1;
+}
