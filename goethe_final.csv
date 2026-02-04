@@ -117,7 +117,7 @@ best;Superlativ;nan;nan;0;A1;nan;best;Er ist mein bester Freund.;He is my **best
 bestellen;Verb;nan;nan;0;A1;3312;to order;Ich möchte eine Pizza bestellen.;I would like **to order** a pizza.
 besuchen;Verb;nan;nan;0;A1;1126;to visit;Am Sonntag besuchen wir meine Oma.;On Sunday we are **visiting** my grandma.
 Bett;Substantiv;neutr.;das;0;A1;1230;bed;Es ist spät, ich gehe ins Bett.;It's late, I'm going to **bed**.
-bezahlen;Verb;nan;nan;0;A1;3376;to pay;Wo kann ich bezahlen?;Where can I **pay**?
+bezahlen;Verb;nan;nan;0;A1;3376;to pay (b-);Wo kann ich bezahlen?;Where can I **pay**?
 Bier;Substantiv;neutr.;das;0;A1;767;beer;Möchten Sie ein Glas Bier trinken?;Would you like to drink a glass of **beer**?
 Bild;Substantiv;neutr.;das;0;A1;2434;picture;Das Bild an der Wand ist sehr schön.;The **picture** on the wall is very beautiful.
 billig;Adjektiv;nan;nan;0;A1;797;cheap;Das Obst ist hier sehr billig.;The fruit is very **cheap** here.
@@ -126,7 +126,7 @@ bis;nan;nan;nan;0;A1;268932;until;Ich arbeite bis 18 Uhr.;I work **until** 6 PM.
 bisschen;Adverb;nan;nan;0;A1;510;a bit;Ich spreche nur ein bisschen Deutsch.;I only speak **a bit** of German.
 Bitte;Substantiv;fem.;die;0;A1;34;request/plea;Ich habe eine Bitte an dich.;I have a **request** for you.
 bitte;Partikel;nan;nan;0;A1;10961;please;Eine Tasse Kaffee, bitte.;A cup of coffee, **please**.
-bitten;Verb;nan;nan;0;A1;7207;to ask/request;Ich möchte dich um Hilfe bitten.;I would like **to ask** you for help.
+bitten;Verb;nan;nan;0;A1;7207;to ask (for favour);Ich möchte dich um Hilfe bitten.;I would like **to ask** you for help.
 bitter;Adjektiv;nan;nan;0;A1;186;bitter;Der Kaffee schmeckt sehr bitter.;The coffee tastes very **bitter**.
 blau;Adjektiv;nan;nan;0;A1;9959;blue;Der Himmel ist heute strahlend blau.;The sky is bright **blue** today.
 bleiben;Verb;nan;nan;0;A1;126701;to stay/remain;Wir bleiben heute zu Hause.;We are **staying** at home today.
@@ -272,7 +272,7 @@ Flugzeug;Substantiv;neutr.;das;0;A1;956;airplane;Das Flugzeug startet um 10 Uhr.
 Formular;Substantiv;neutr.;das;0;A1;107;form;Füllen Sie bitte dieses Formular aus.;Please fill out this **form**.
 Foto;Substantiv;neutr., fem.;das;0;A1;687;photo;Darf ich ein Foto machen?;May I take a **photo**?
 Frage;Substantiv;fem.;die;0;A1;6017;question;Darf ich eine Frage stellen?;May I ask a **question**?
-fragen;Verb;nan;nan;0;A1;14639;to ask;Darf ich Sie etwas fragen?;May I **ask** you something?
+fragen;Verb;nan;nan;0;A1;14639;to ask (for info);Darf ich Sie etwas fragen?;May I **ask** you something?
 Frau;Substantiv;fem.;die;0;A1;10619;woman/Mrs.;Guten Tag, Frau Meyer.;Good day, **Mrs.** Meyer.
 frei;Adjektiv;nan;nan;0;A1;123706;free/vacant;Ist dieser Platz noch frei?;Is this seat still **free**?
 Freitag;Substantiv;mask.;der;0;A1;490;Friday;Am Freitag gehen wir ins Kino.;We are going to the cinema on **Friday**.
@@ -797,7 +797,7 @@ Wohnung;Substantiv;fem.;die;0;A1;1419;apartment/flat;Die Wohnung ist sehr schön
 wollen;Verb;nan;nan;0;A1;151105;to want;Was wollen Sie trinken?;What do you **want** to drink?
 Wort;Substantiv;neutr.;das;0;A1;14707;word;Das ist ein schwieriges Wort.;That is a difficult **word**.
 wunderbar;Adjektiv;nan;nan;0;A1;317;wonderful/marvelous;Das Wetter ist wunderbar.;The weather is **wonderful**.
-zahlen;Verb;nan;nan;0;A1;8401;to pay;Ich möchte bitte zahlen.,I would like to **pay**; please.
+zahlen;Verb;nan;nan;0;A1;8401;to pay;Ich möchte bitte zahlen.;I would like to **pay**, please.
 zehn;Kardinalzahlwort;nan;nan;0;A1;2361;ten;Ich habe zehn Finger.;I have **ten** fingers.
 Zeit;Substantiv;fem.;die;0;A1;39975;time;Ich habe heute leider keine Zeit.;I unfortunately have no **time** today.
 Zeitung;Substantiv;fem.;die;0;A1;1068;newspaper;Ich lese jeden Morgen die Zeitung.;I read the **newspaper** every morning.

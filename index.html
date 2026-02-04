@@ -1307,11 +1307,18 @@
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
-        a.download = `progress.bin`;
+        a.style.display = 'none';
+        a.download = 'progress.bin'; // No template literals
+        a.setAttribute('download', 'progress.bin'); // Explicit
         document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        setTimeout(() => URL.revokeObjectURL(url), 10000); // 10 seconds to ensure download starts
+        // Small delay helps some browsers register the download attribute
+        setTimeout(() => {
+          a.click();
+          setTimeout(() => {
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+          }, 10000);
+        }, 50);
       } catch (e) {
         console.error('Export failed:', e);
         alert('Export failed: ' + e.message);
@@ -1880,8 +1887,19 @@
         if (userSettings.levels && userSettings.levels.length === 0) {
           showDiv.textContent = "Please select a level in Config.";
         } else if (history.learned >= limit) {
-          showDiv.textContent = "Daily limit reached! Come back tomorrow.";
-          showDiv.style.color = 'green';
+          // Check if there are ANY learned words at all
+          const levelNames = ['A1', 'A2', 'B1'];
+          const activeLevels = levelNames.filter((_, i) => userSettings.levels[i]);
+          const filteredList = vocabList.filter(w => activeLevels.includes(w.level));
+          const hasLearnedWords = filteredList.some(w => (w.state || 0) !== 0);
+
+          if (hasLearnedWords) {
+            showDiv.textContent = "No more reviews due today. Great job! 🎉";
+            showDiv.style.color = 'green';
+          } else {
+            showDiv.textContent = "Daily limit reached! Come back tomorrow.";
+            showDiv.style.color = 'green';
+          }
         } else {
           showDiv.textContent = "No words found for selected levels (or all done!).";
         }
