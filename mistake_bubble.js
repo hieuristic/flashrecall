@@ -356,14 +356,15 @@ export async function initMistakeBubble(canvas, statsContainer, wordsData) {
         computePass.end();
 
         // Render Pass
+        // Check for dark mode
+        const isDark = document.documentElement.classList.contains('dark');
+        // Dark: #1a1a1a -> ~0.102, Light: #ffffff -> 1.0
+        const clearColor = isDark ? { r: 0.102, g: 0.102, b: 0.102, a: 1 } : { r: 1, g: 1, b: 1, a: 1 };
+
         const renderPass = commandEncoder.beginRenderPass({
             colorAttachments: [{
                 view: context.getCurrentTexture().createView(),
-                clearValue: { r: 1, g: 1, b: 1, a: 1 }, // White background matches app? Or transparent?
-                // App has white background usually. But if we clear to white, we overwrite header? 
-                // No, canvas is in a div. 
-                // Let's clear to transparent so we see page bg? 
-                // Actually page bg is white.
+                clearValue: clearColor,
                 loadOp: 'clear',
                 storeOp: 'store',
             }]

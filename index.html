@@ -16,6 +16,48 @@
       /* box-sizing: border-box; <- DON'T EVER USE THIS!!!*/
     }
 
+    :root {
+      --bg-color: #fff;
+      --text-color: #1a1a1a;
+      --link-color: #0066cc;
+      --btn-bg: #e5e5e5;
+      --btn-hover: #d0d0d0;
+      --btn-selected: #333;
+      --btn-selected-text: #fff;
+      --input-bg: #fff;
+      --input-border: #ccc;
+      --error-color: #d00;
+      --success-color: green;
+      --muted-text: #666;
+      --muted-text-light: #999;
+      --heatmap-lv0: #eee;
+      --heatmap-lv1: #fcdbdb;
+      --heatmap-lv2: #f79e9e;
+      --heatmap-lv3: #f26161;
+      --heatmap-lv4: #ee3e32;
+    }
+
+    :root.dark {
+      --bg-color: #1a1a1a;
+      --text-color: #e5e5e5;
+      --link-color: #6db3f2;
+      --btn-bg: #333;
+      --btn-hover: #444;
+      --btn-selected: #e5e5e5;
+      --btn-selected-text: #1a1a1a;
+      --input-bg: #2a2a2a;
+      --input-border: #555;
+      --error-color: #ff6b6b;
+      --success-color: #4ade80;
+      --muted-text: #eee;
+      --muted-text-light: #ccc;
+      --heatmap-lv0: #2a2a2a;
+      --heatmap-lv1: #4a1a1a;
+      --heatmap-lv2: #6e2121;
+      --heatmap-lv3: #922727;
+      --heatmap-lv4: #b62e2e;
+    }
+
     body {
       --heatmap-width: 40rem;
       font-family: 'Noto Sans Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Monaco, 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
@@ -24,17 +66,46 @@
       padding: 2rem;
       max-width: 50rem;
       margin: 0 auto;
-      color: #1a1a1a;
-      background-color: #fff;
+      color: var(--text-color);
+      background-color: var(--bg-color);
+      transition: background-color 0.3s, color 0.3s;
     }
 
     a {
-      color: #0066cc;
+      color: var(--link-color);
       text-decoration: none;
     }
 
     a:hover {
       text-decoration: underline;
+    }
+
+    .header-title {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .theme-toggle {
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-color);
+      opacity: 0.7;
+      transition: opacity 0.2s;
+    }
+
+    .theme-toggle:hover {
+      opacity: 1;
+    }
+
+    .theme-toggle svg {
+      width: 1.25rem;
+      height: 1.25rem;
     }
 
     #show {
@@ -46,11 +117,13 @@
       padding: 0.5rem;
       width: 80%;
       max-width: 25rem;
-      border: 0.06rem solid #ccc;
+      border: 0.06rem solid var(--input-border);
       border-radius: 0.25rem;
       font-family: inherit;
       text-align: center;
       margin: 0 auto;
+      background-color: var(--input-bg);
+      color: var(--text-color);
     }
 
     .blink-error {
@@ -77,7 +150,7 @@
     }
 
     .btn {
-      color: #0066cc;
+      color: var(--link-color);
       cursor: pointer;
       -webkit-tap-highlight-color: transparent;
       /* Remove default tap highlight */
@@ -85,7 +158,7 @@
 
     @media (hover: hover) {
       .btn:hover {
-        background: #0066cc;
+        background: var(--link-color);
         color: white;
         text-decoration: none;
       }
@@ -140,7 +213,7 @@
 
     .example-de {
       font-size: 1rem;
-      color: #666;
+      color: var(--muted-text);
       font-style: italic;
       margin-top: 1rem;
       min-height: 1.5rem;
@@ -150,7 +223,7 @@
 
     .example-en {
       font-size: 0.75rem;
-      color: #999;
+      color: var(--muted-text-light);
       margin-top: 0.5rem;
       min-height: 1rem;
       max-width: 37.5rem;
@@ -174,6 +247,14 @@
 
     .hidden {
       display: none;
+    }
+
+    .text-error {
+      color: var(--error-color);
+    }
+
+    .text-success {
+      color: var(--success-color);
     }
 
     .app-footer {
@@ -387,7 +468,7 @@
     .heatmap-day {
       width: var(--sq);
       height: var(--sq);
-      background-color: #eee;
+      background-color: var(--heatmap-lv0);
       border-radius: 0;
       cursor: pointer;
       position: relative;
@@ -395,19 +476,19 @@
 
     /* GitHub-like colors */
     .heatmap-day[data-level="1"] {
-      background-color: #fcdbdb;
+      background-color: var(--heatmap-lv1);
     }
 
     .heatmap-day[data-level="2"] {
-      background-color: #f79e9e;
+      background-color: var(--heatmap-lv2);
     }
 
     .heatmap-day[data-level="3"] {
-      background-color: #f26161;
+      background-color: var(--heatmap-lv3);
     }
 
     .heatmap-day[data-level="4"] {
-      background-color: #ee3e32;
+      background-color: var(--heatmap-lv4);
     }
 
     .heatmap-day:hover {
@@ -454,23 +535,23 @@
     }
 
     .lv0 {
-      background-color: #eee;
+      background-color: var(--heatmap-lv0);
     }
 
     .lv1 {
-      background-color: #fcdbdb;
+      background-color: var(--heatmap-lv1);
     }
 
     .lv2 {
-      background-color: #f79e9e;
+      background-color: var(--heatmap-lv2);
     }
 
     .lv3 {
-      background-color: #f26161;
+      background-color: var(--heatmap-lv3);
     }
 
     .lv4 {
-      background-color: #ee3e32;
+      background-color: var(--heatmap-lv4);
     }
 
     #profilePage {
@@ -496,9 +577,34 @@
   gtag('config', 'G-P4Z1VKV3L1');
 </script>
 
+<script>
+  // Initialize theme before page renders to prevent flash
+  (function () {
+    const savedTheme = localStorage.getItem('flashrecall_theme');
+    if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark');
+    }
+  })();
+</script>
+
 <body>
   <div class="app-header">
-    <h3><b>FlashRecall</b></h3>
+    <div class="header-title">
+      <h3><b>FlashRecall</b></h3>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+        <!-- Sun icon (Phosphor) - shown in dark mode -->
+        <svg id="theme-icon-light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"
+          style="display:none;">
+          <path
+            d="M120,40V16a8,8,0,0,1,16,0V40a8,8,0,0,1-16,0Zm72,88a64,64,0,1,1-64-64A64.07,64.07,0,0,1,192,128Zm-16,0a48,48,0,1,0-48,48A48.05,48.05,0,0,0,176,128ZM58.34,69.66A8,8,0,0,0,69.66,58.34l-16-16A8,8,0,0,0,42.34,53.66Zm0,116.68-16,16a8,8,0,0,0,11.32,11.32l16-16a8,8,0,0,0-11.32-11.32ZM192,72a8,8,0,0,0,5.66-2.34l16-16a8,8,0,0,0-11.32-11.32l-16,16A8,8,0,0,0,192,72Zm5.66,114.34a8,8,0,0,0-11.32,11.32l16,16a8,8,0,0,0,11.32-11.32ZM48,128a8,8,0,0,0-8-8H16a8,8,0,0,0,0,16H40A8,8,0,0,0,48,128Zm80,80a8,8,0,0,0-8,8v24a8,8,0,0,0,16,0V216A8,8,0,0,0,128,208Zm112-88H216a8,8,0,0,0,0,16h24a8,8,0,0,0,0-16Z" />
+        </svg>
+        <!-- Moon icon (Phosphor) - shown in light mode -->
+        <svg id="theme-icon-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor">
+          <path
+            d="M233.54,142.23a8,8,0,0,0-8-2,88.08,88.08,0,0,1-109.8-109.8,8,8,0,0,0-10-10,104.84,104.84,0,0,0-52.91,37A104,104,0,0,0,136,224a103.09,103.09,0,0,0,62.52-20.88,104.84,104.84,0,0,0,37-52.91A8,8,0,0,0,233.54,142.23ZM188.9,190.34A88,88,0,0,1,65.66,67.11a89,89,0,0,1,31.4-26A106,106,0,0,0,96,56,104.11,104.11,0,0,0,200,160a106,106,0,0,0,14.92-1.06A89,89,0,0,1,188.9,190.34Z" />
+        </svg>
+      </button>
+    </div>
     by <a href="https://hieuristic.github.io">Hieu</a>
     <br>
     license <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.en">CC BY-NC 4.0</a>
@@ -526,14 +632,7 @@
         <div class="btn" onclick="setSpeed(500)" data-speed="500">flash</div>
       </div>
     </div>
-    <div class="settingItem">
-      <div>mode</div>
-      <div class="helpBtn" data-help="Choose the learning mode for vocabulary practice">[?]</div>
-      <div class="modeBtn">
-        <div class="btn" onclick="setMode(0)" data-mode="0">learning</div>
-        <div class="btn" onclick="setMode(1)" data-mode="1">reviewing</div>
-      </div>
-    </div>
+
     <div class="settingItem">
       <div>levels</div>
       <div class="helpBtn" data-help="Select the difficulty levels to include in your practice">[?]</div>
@@ -564,6 +663,7 @@
       <div>daily limit</div>
       <div class="helpBtn" data-help="Maximum new words to learn per day">[?]</div>
       <div class="dailyLimitBtn">
+        <div class="btn" onclick="setDailyLimit(0)" data-limit="0">0 (review only)</div>
         <div class="btn" onclick="setDailyLimit(5)" data-limit="5">5</div>
         <div class="btn" onclick="setDailyLimit(10)" data-limit="10">10</div>
         <div class="btn" onclick="setDailyLimit(20)" data-limit="20">20</div>
@@ -629,7 +729,7 @@
     <br><br>
     <div id="stats">
       <div>learned: <span id="stat-learned">0</span></div>
-      <div>reviewed: <span id="stat-reviewed">0</span></div>
+      <div>practiced: <span id="stat-reviewed">0</span></div>
     </div>
   </div>
 
@@ -646,8 +746,8 @@
     <br><br>
     <div id="footerLine">
       <a href="">report_bug</a>
-      <div id="siteVersion">sv0.1.2</div>
-      <div id="dataVersion">dv0.1.1</div>
+      <div id="siteVersion">sv0.2.0</div>
+      <div id="dataVersion">dv0.0.0</div>
     </div>
     <br>
     <div>
@@ -735,6 +835,7 @@
     var vocabList = [];
     var dataVersion = null; // Will be set when vocabulary loads
     let currentWord = null;
+    let trialWord = null; // Track the new word currently being trialed (until 100% correct)
     let db = null;
 
     // Debug helper function to query vocabulary by English word
@@ -833,86 +934,71 @@
 
         // Formulas from FSRS v5/v6 (Standard Scheduler)
         // Note: JS dates are ms, FSRS uses days.
+        // MODIFIED: Use float-based scoring via NLD instead of discrete grades
+
+        // Calculate success_factor from NLD: 0=perfect, 1=completely wrong
+        // success_factor is 1 for perfect, 0 for completely wrong
+        const success_factor = nld !== null ? (1 - nld) : (grade === 3 ? 1.0 : 0.0);
+
+        // Thresholds for pass/fail decisions
+        const PASS_THRESHOLD = 0.7; // 70% similarity = pass
 
         if (card.state === 0) { // New
-          // Initial Stability S0
-          // w[0] + w[1]*G + w[2]*G^2 + w[3]*G^3 ... but grade is mapped.
-          // Mapping: 1=Again, 3=Good. (1..4 scale usually). 
-          // We only have 1 (Fail) and 3 (Pass).
-          // S0(1) = w[0] (Again)
-          // S0(3) = w[2] (Good) ... wait formula is S0 = w[G-1]
+          // For new cards, interpolate between fail stability and pass stability
+          const s_fail = this.p.w[0];  // Low stability for fails
+          const s_pass = this.p.w[2];  // High stability for passes
 
-          if (grade === 1) {
-            s = this.p.w[0];
-            d = this.p.w[4]; // D0(1) = w[4] - (1-3)*w[5] = w[4] + 2*w[5] ... formula is D0 = w[4] - (G-3)*w[5]
-            d = this.p.w[4] - (1 - 3) * this.p.w[5];
-            interval = 0.05; // 5 minish? (In days)
+          if (success_factor < PASS_THRESHOLD) {
+            // Fail path: low stability, stay in learning
+            s = s_fail + (s_pass - s_fail) * (success_factor / PASS_THRESHOLD) * 0.3; // Minor boost for partial
+            interval = 0.05; // Very short interval
             card.state = 1; // Learning
           } else {
-            s = this.p.w[2]; // Good is index 2 (grade 3)
-            d = this.p.w[4] - (3 - 3) * this.p.w[5];
+            // Pass path: interpolate stability based on how good
+            const pass_quality = (success_factor - PASS_THRESHOLD) / (1 - PASS_THRESHOLD); // 0 to 1
+            s = s_fail + (s_pass - s_fail) * (0.5 + pass_quality * 0.5); // 50% to 100% of max stability
             interval = s;
             card.state = 2; // Review
           }
         } else if (card.state === 1 || card.state === 3) { // Learning / Relearning
-          // Simplify: Same as New -> Review transition
-          if (grade === 1) {
-            s = this.p.w[0];
+          // Same as New -> Review transition
+          const s_fail = this.p.w[0];
+          const s_pass = this.p.w[2];
+
+          if (success_factor < PASS_THRESHOLD) {
+            s = s_fail;
             interval = 0.05;
             card.state = 1;
           } else {
-            s = this.p.w[2];
+            const pass_quality = (success_factor - PASS_THRESHOLD) / (1 - PASS_THRESHOLD);
+            s = s_fail + (s_pass - s_fail) * (0.5 + pass_quality * 0.5);
             interval = s;
             card.state = 2; // Graduate
           }
         } else { // Review
-          // D' = D - w[6]*(grade - 3) ...
-          // Next D
-          let next_d = d - this.p.w[6] * (grade - 3);
-          // Mean Reversion
-          next_d = this.p.w[5] * this.p.w[4] + (1 - this.p.w[5]) * next_d; // Actually formula differs slightly per version.
-          // Using v5 formula: D' = w[4] + (D - w[4] + w[6]*(G-3)) * (1-w[5]??) NO.
-          // Let's use the explicit logic:
-          // next_d = d - w[6] * (grade - 3)
-          // next_d = next_d * (1 - w[7]) + w[4] * w[7] (Mean reversion)
-          // Clamp 1..10
+          // Update difficulty using NLD (already done above)
+          // For reviews, we still apply some FSRS logic but interpolate based on success_factor
 
-          next_d = d - this.p.w[6] * (grade - 3);
-          next_d = (1 - this.p.w[7]) * next_d + this.p.w[7] * this.p.w[4]; // w[7] is mean reversion weight? 
-          // w[7] is small (0.0046). FSRS v5 logic.
-          if (next_d < 1) next_d = 1;
-          if (next_d > 10) next_d = 10;
-          d = next_d;
-
-          // Next S
-          // S' = S * (1 + exp(w[8]) * (11-D) * S^(-w[9]) * (exp(w[10]*(1-R))-1))
-          // We need current R.
-          // days_elapsed = (now - last_review) / days
           const days_elapsed = card.last_review ? (now - new Date(card.last_review)) / (86400 * 1000) : 0;
-          const r = Math.pow(1 + 19 * days_elapsed / s, -1); // Approx retrievability? 
-          // Formula: R = (1 + factor * t / S) ^ -1. Factor is 19/9 usually? 9/something?
-          // v5: R = (1 + 19/9 * t/s)^-1 ? No.
-          // Let's use the standard decay: R = (1 + C * t / S)^-1
-          // where C = 9^(1/decay) - 1 ??
-          // Usually request_retention=0.9 implies factor roughly 19/9 * ... 
-          // Let's use the approximation: R = Math.pow(1 + (days_elapsed / (s * 9)) * (10), -1) ? No unknown.
-          // FSRS v5 formula for R is simple power law. 
-          // r = (1 + t / (9 * s))^-1 // if we assume request retention 0.9 at S.
-
           const r_curr = Math.pow(1 + days_elapsed / (9 * s), -1);
 
-          if (grade === 1) {
-            // Forgot
+          if (success_factor < PASS_THRESHOLD) {
+            // Forgot: reduce stability based on how bad the error was
             // S' = w[11] * D^(-w[12]) * ((S+1)^w[13]) * exp(w[14]*(1-R))
             let next_s = this.p.w[11] * Math.pow(d, -this.p.w[12]) * Math.pow(s + 1, this.p.w[13]) * Math.exp(this.p.w[14] * (1 - r_curr));
-            s = next_s;
+            // Scale stability based on how close they were
+            next_s = next_s * (0.5 + success_factor * 0.5); // 50% to 100% of calculated
+            s = Math.max(s * 0.1, next_s); // Don't go below 10% of current
             card.state = 3; // Relearning
-            interval = 0.05; // 1 day or less? Relearning steps? Let's say 0.05
+            interval = 0.05;
           } else {
-            // Success
+            // Success: increase stability based on quality
             // S' = S * (1 + exp(w[8]) * (11-D) * S^(-w[9]) * (exp(w[10]*(1-R))-1))
-            let next_s = s * (1 + Math.exp(this.p.w[8]) * (11 - d) * Math.pow(s, -this.p.w[9]) * (Math.exp(this.p.w[10] * (1 - r_curr)) - 1));
-            s = next_s;
+            const pass_quality = (success_factor - PASS_THRESHOLD) / (1 - PASS_THRESHOLD);
+            let growth_factor = 1 + Math.exp(this.p.w[8]) * (11 - d) * Math.pow(s, -this.p.w[9]) * (Math.exp(this.p.w[10] * (1 - r_curr)) - 1);
+            // Scale growth by pass quality: perfect = full growth, barely pass = reduced growth
+            growth_factor = 1 + (growth_factor - 1) * (0.5 + pass_quality * 0.5);
+            s = s * growth_factor;
             interval = s;
             card.state = 2;
           }
@@ -1030,14 +1116,7 @@
       saveSettings();
     }
 
-    function setMode(mode) {
-      userSettings.mode = mode;
-      loadSettingsIntoUI();
-      saveSettings();
-      loadSettingsIntoUI();
-      saveSettings();
-      updateWordsFoundCount(); // Update count when speed/settings change (if relevant? mainly levels)
-    }
+
 
     // Set Daily Limit
     function setFuzzyError(val) {
@@ -1491,15 +1570,7 @@
         }
       });
 
-      // Highlight the selected mode button
-      document.querySelectorAll('.modeBtn .btn').forEach(btn => {
-        const btnMode = parseInt(btn.getAttribute('data-mode'));
-        if (btnMode === userSettings.mode) {
-          btn.classList.add('selected');
-        } else {
-          btn.classList.remove('selected');
-        }
-      });
+
 
       // Highlight level buttons
       document.querySelectorAll('.levelsBtn .btn').forEach((btn, idx) => {
@@ -1744,7 +1815,7 @@
 
       const tooltip = document.createElement('div');
       tooltip.className = 'tooltip';
-      tooltip.innerText = `${dateStr}: ${activity.learned} learned, ${activity.reviewed} reviewed`;
+      tooltip.innerText = `${dateStr}: ${activity.learned} learned, ${activity.reviewed} practiced`;
       dayEl.appendChild(tooltip);
 
       return dayEl;
@@ -1753,6 +1824,11 @@
     // Weighted random selection
     function getRandomWord() {
       if (vocabList.length === 0) return null;
+
+      // PRIORITY: If there's a new word in trial, return it until 100% correct
+      if (trialWord && (trialWord.state || 0) === 0) {
+        return trialWord;
+      }
 
       // Filter by level
       const levelNames = ['A1', 'A2', 'B1'];
@@ -1766,110 +1842,123 @@
 
       if (filteredList.length === 0) return null;
 
-      // --- Daily Limit Logic ---
+      // --- Separate pools ---
+      // NEW pool: words never seen (state === 0)
+      // REVIEW pool: words that have been answered correctly at least once (state !== 0)
+      const newWords = filteredList.filter(w => (w.state || 0) === 0);
+      const reviewWords = filteredList.filter(w => (w.state || 0) !== 0);
+
+      // --- Daily Limit Logic (only applies to NEW words) ---
       const today = new Date().toISOString().split('T')[0];
       const history = userSettings.history[today] || { learned: 0, reviewed: 0 };
-      const dailyLimitReached = (history.learned >= (userSettings.dailyLimit || 100));
+      const dailyLimit = userSettings.dailyLimit ?? 100;
+      const dailyLimitReached = (history.learned >= dailyLimit);
 
-      const learningWords = filteredList.filter(w => (w.state || 0) === 0);
+      // --- PRIORITY: Skipped words (very high error_ema) shown immediately ---
+      const HIGH_PRIORITY_THRESHOLD = 50.0;
+      const highPriorityWords = reviewWords.filter(w =>
+        (w.error_ema || 0) >= HIGH_PRIORITY_THRESHOLD && w !== currentWord
+      );
 
-      // Filter reviews using FSRS due date if available, or fallback to old state
-      // Filter reviews using FSRS due date if available, or fallback to old state
-      const nowISO = new Date().toISOString();
-      const reviewWords = filteredList.filter(w => {
-        // Strictly exclude new words, even if they have FSRS data (e.g. from bugs)
-        if ((w.state || 0) === 0) return false;
+      if (highPriorityWords.length > 0) {
+        highPriorityWords.sort((a, b) => (b.error_ema || 0) - (a.error_ema || 0));
+        return highPriorityWords[0];
+      }
 
-        if (w.fsrs && w.fsrs.due) {
-          return w.fsrs.due <= nowISO;
-        }
-        // Fallback legacy review state
-        return (w.state || 0) === 1;
-      });
+      // --- Decide: New vs Review (Dynamic Split) ---
+      let useNewPool = false;
 
-      let sourceList = [];
-      let useEmaWeight = false;
-
-      // Decision: New vs Review? 
-      // FSRS: Priority to Review usually. 
-      // If Daily Limit Reached, STRICTLY NO NEW WORDS.
-
-      if (reviewWords.length > 0) {
-        // Reviews always available
-        // Do we prioritize them over new words? Usually yes.
-        // Let's allow mixing if limit not reached?
-        // User requested: "The limit it reach before only reviewing will be done."
-        // Implication: If limit reached, DO NOT show new words. If not, you CAN show new words.
-
-        if (dailyLimitReached) {
-          sourceList = reviewWords;
-          useEmaWeight = true;
-        } else {
-          // Limit not reached. Mix? 
-          // Logic in original code: 75% learning, 25% review if mode=0.
-          if (userSettings.mode === 0) {
-            const rand = Math.random();
-            if (learningWords.length > 0 && rand < 0.75) {
-              sourceList = learningWords;
-              useEmaWeight = false;
-            } else {
-              sourceList = reviewWords;
-              useEmaWeight = true;
-            }
-          } else {
-            sourceList = reviewWords;
-            useEmaWeight = true;
-          }
-        }
+      if (dailyLimitReached || newWords.length === 0) {
+        // 100% from review pool
+        useNewPool = false;
+      } else if (reviewWords.length === 0) {
+        // 100% from new pool (no reviews yet)
+        useNewPool = true;
       } else {
-        // No reviews due.
-        if (dailyLimitReached) {
-          // User request: "Review can go on forever". 
-          // Use ALL learned words as pool if no specific reviews are due.
-          const allLearned = filteredList.filter(w => (w.state || 0) !== 0);
-          if (allLearned.length > 0) {
-            sourceList = allLearned;
-            useEmaWeight = true;
-          } else {
-            return null; // Nothing learned yet
-          }
+        // Dynamic probability based on Urgency vs Remaining Limit
+        const nowISO = new Date().toISOString();
+        const urgentReviewsCount = reviewWords.filter(w => {
+          if (!w.fsrs || !w.fsrs.due) return true; // Treat no FSRS as due
+          return w.fsrs.due <= nowISO;
+        }).length;
+
+        const remainingLimit = Math.max(0, dailyLimit - history.learned);
+        const denominator = urgentReviewsCount + remainingLimit;
+
+        if (denominator === 0) {
+          useNewPool = false; // Default to review if unsure
         } else {
-          if (learningWords.length > 0) {
-            sourceList = learningWords;
-            useEmaWeight = false;
-          } else {
-            // Limit not reached, no new words, no reviews due.
-            // Also fallback to infinite review?
-            const allLearned = filteredList.filter(w => (w.state || 0) !== 0);
-            if (allLearned.length > 0) {
-              sourceList = allLearned;
-              useEmaWeight = true;
-            } else {
-              return null;
-            }
+          // Probability of Review = Urgent / (Urgent + RemainingLimit)
+          const pReview = urgentReviewsCount / denominator;
+          useNewPool = Math.random() > pReview;
+        }
+      }
+
+      let sourceList;
+
+      if (useNewPool) {
+        // --- NEW POOL: Frequency-weighted selection ---
+        sourceList = newWords.filter(w => w !== currentWord);
+        if (sourceList.length === 0) {
+          // Fallback to reviews if no new words available (excluding current)
+          sourceList = reviewWords.filter(w => w !== currentWord);
+        }
+
+        if (sourceList.length === 0) return null;
+
+        // Weighted by frequency
+        const totalWeight = sourceList.reduce((sum, item) => {
+          return sum + parseFloat(item.frequency || 1);
+        }, 0);
+
+        let random = Math.random() * totalWeight;
+        for (const item of sourceList) {
+          const weight = parseFloat(item.frequency || 1);
+          random -= weight;
+          if (random <= 0) {
+            return item;
           }
         }
-      }
+        return sourceList[sourceList.length - 1];
 
-      if (sourceList.length === 0) return null;
+      } else {
+        // --- REVIEW POOL: Spaced repetition based on FSRS due + error_ema ---
+        // Prioritize words that are due (FSRS) and have higher error rates
+        const nowISO = new Date().toISOString();
 
-      // Calculate total weight
-      const totalWeight = sourceList.reduce((sum, item) => {
-        const weight = useEmaWeight ? (item.error_ema || 1.0) : (item.frequency || 1);
-        return sum + weight;
-      }, 0);
+        // First, get words that are due for review
+        let dueWords = reviewWords.filter(w => {
+          if (w === currentWord) return false;
+          if (w.fsrs && w.fsrs.due) {
+            return w.fsrs.due <= nowISO;
+          }
+          return true; // No FSRS data = always available for review
+        });
 
-      let random = Math.random() * totalWeight;
-
-      for (const item of sourceList) {
-        const weight = useEmaWeight ? (item.error_ema || 1.0) : (item.frequency || 1);
-        random -= weight;
-        if (random <= 0) {
-          return item;
+        // If no due words, use all review words (overdue or not)
+        if (dueWords.length === 0) {
+          dueWords = reviewWords.filter(w => w !== currentWord);
         }
+
+        if (dueWords.length === 0) return null;
+
+        // Weighted by error_ema (higher error = more likely to appear)
+        const totalWeight = dueWords.reduce((sum, item) => {
+          return sum + (item.error_ema || 1.0);
+        }, 0);
+
+        let random = Math.random() * totalWeight;
+        for (const item of dueWords) {
+          const weight = item.error_ema || 1.0;
+          random -= weight;
+          if (random <= 0) {
+            return item;
+          }
+        }
+        return dueWords[dueWords.length - 1];
       }
-      return sourceList[sourceList.length - 1];
     }
+
 
     function formatMarkdown(text) {
       if (!text || text === "nan") return "";
@@ -1878,6 +1967,15 @@
 
     function nextWord() {
       currentWord = getRandomWord();
+
+      // If we picked a new word (state=0) and it's not already in trial, start trial
+      if (currentWord && (currentWord.state || 0) === 0 && trialWord !== currentWord) {
+        trialWord = currentWord;
+        // Initialize trial tracking if not present
+        if (!currentWord.trial) {
+          currentWord.trial = { attempts: 0, totalNLD: 0, errors: 0 };
+        }
+      }
       if (!currentWord) {
         const showDiv = document.getElementById('show');
         const today = new Date().toISOString().split('T')[0];
@@ -1895,10 +1993,10 @@
 
           if (hasLearnedWords) {
             showDiv.textContent = "No more reviews due today. Great job! 🎉";
-            showDiv.style.color = 'green';
+            showDiv.classList.add('text-success');
           } else {
             showDiv.textContent = "Daily limit reached! Come back tomorrow.";
-            showDiv.style.color = 'green';
+            showDiv.classList.add('text-success');
           }
         } else {
           showDiv.textContent = "No words found for selected levels (or all done!).";
@@ -1912,7 +2010,7 @@
       const tellInput = document.getElementById('tell');
       const msgDiv = document.getElementById('answer');
 
-      showDiv.style.color = '';
+      showDiv.classList.remove('text-success', 'text-error');
 
       // Determine if this is the literal article 'der', 'die', or 'das'
       const isPureArticle = ['der', 'die', 'das'].includes(currentWord.german.toLowerCase());
@@ -1974,7 +2072,8 @@
 
       exampleEnDiv.innerHTML = formatMarkdown(enText);
       exampleEnDiv.style.display = 'block';
-      exampleEnDiv.style.color = '#333';
+      // Removed inline color style
+
 
       tellInput.value = "";
       tellInput.focus();
@@ -2077,7 +2176,7 @@
         console.log(`Loaded ${vocabList.length} words from Protobuf.`);
 
         // Update data version display from loaded vocabulary
-        const version = window.io.payload.version;
+        const version = window.io.version;
         dataVersion = version;
         // Format version: 111 -> 0.1.1 (MMmmpp format)
         const major = Math.floor(version / 10000);
@@ -2136,7 +2235,26 @@
       await loadSettings();
       await loadVocab();
 
-      setMode(userSettings.mode || 0); // Corrected default to 0 (int)
+      // Theme toggle functionality
+      const themeToggle = document.getElementById('theme-toggle');
+      const sunIcon = document.getElementById('theme-icon-light');
+      const moonIcon = document.getElementById('theme-icon-dark');
+
+      function updateThemeIcons() {
+        const isDark = document.documentElement.classList.contains('dark');
+        sunIcon.style.display = isDark ? 'block' : 'none';
+        moonIcon.style.display = isDark ? 'none' : 'block';
+      }
+
+      // Initialize icons based on current theme
+      updateThemeIcons();
+
+      themeToggle.addEventListener('click', () => {
+        document.documentElement.classList.toggle('dark');
+        const isDark = document.documentElement.classList.contains('dark');
+        localStorage.setItem('flashrecall_theme', isDark ? 'dark' : 'light');
+        updateThemeIcons();
+      });
 
       updateWordsFoundCount(); // Init count
 
@@ -2225,7 +2343,7 @@
       function generateFuzzyHtml(a, b) {
         // a = input, b = target
         if (b.length === 0) return "";
-        if (a.length === 0) return `<span style="color:red">${b}</span>`;
+        if (a.length === 0) return `<span class="text-error">${b}</span>`;
 
         // 1. Compute Matrix (Same as Levenshtein)
         const matrix = [];
@@ -2255,7 +2373,7 @@
         while (i > 0 || j > 0) {
           if (i > 0 && j > 0 && b.charAt(i - 1).toLowerCase() === a.charAt(j - 1).toLowerCase()) {
             // Match
-            res = `<span style="color:green">${b.charAt(i - 1)}</span>` + res;
+            res = `<span class="text-success">${b.charAt(i - 1)}</span>` + res;
             i--; j--;
           } else {
             // Mismatch
@@ -2264,11 +2382,11 @@
             // Check sub
             if (i > 0 && j > 0 && matrix[i][j] === matrix[i - 1][j - 1] + 1) {
               // Sub - show target char in red
-              res = `<span style="color:red; font-weight:bold;">${b.charAt(i - 1)}</span>` + res;
+              res = `<span class="text-error" style="font-weight:bold;">${b.charAt(i - 1)}</span>` + res;
               i--; j--;
             } else if (i > 0 && matrix[i][j] === matrix[i - 1][j] + 1) {
               // Del (Target has char, input missing) - show target char red
-              res = `<span style="color:red; font-weight:bold; text-decoration:underline;">${b.charAt(i - 1)}</span>` + res;
+              res = `<span class="text-error" style="font-weight:bold; text-decoration:underline;">${b.charAt(i - 1)}</span>` + res;
               i--;
             } else {
               // Ins (Input has extra) - Just skip input char (don't show it in target-based diff)
@@ -2291,14 +2409,6 @@
 
         FSRS.next(currentWord.fsrs, grade, nld);
 
-        if (currentWord.fsrs.state === 1 || currentWord.fsrs.state === 3) {
-          currentWord.state = 1;
-        } else if (currentWord.fsrs.state === 2) {
-          currentWord.state = 1;
-        } else {
-          currentWord.state = 0;
-        }
-
         updateWordInDB(currentWord);
       }
 
@@ -2311,36 +2421,44 @@
           let correctAnswer = currentWord.german;
 
           if (!value) {
-            // Track activity even for empty/give up
-            if ((currentWord.state || 0) === 0) {
-              currentWord.state = 1;
-              trackActivity('learned');
-            } else {
+            // Empty/give up - treat as wrong
+            // NEW words stay at state=0 (don't move to review until correct)
+            // Track trial data for new words
+            if ((currentWord.state || 0) === 0 && currentWord.trial) {
+              currentWord.trial.attempts++;
+              currentWord.trial.errors++;
+              currentWord.trial.totalNLD += 1.0; // NLD = 1 for empty
+            } else if ((currentWord.state || 0) !== 0) {
               trackActivity('reviewed');
             }
-            updateEMA(0); // Wrong
+            // Note: don't trackActivity('learned') for new words on empty - they stay new
+            // CRITICAL: Set very high error_ema so word is shown again immediately
+            currentWord.error_ema = 100.0;
             updateFSRS(1, "", correctAnswer); // FSRS Fail (Empty) - NLD 1.0
             updateDailyStats(currentWord, true); // Log daily mistake
             // Show correct answer in red if empty (treated as mistake/give up)
             const showDiv = document.getElementById('show');
             if (userSettings.fuzzy_error) {
               showDiv.innerHTML = generateFuzzyHtml("", correctAnswer);
-              showDiv.style.color = '';
+              showDiv.classList.remove('text-success', 'text-error');
             } else {
               showDiv.textContent = correctAnswer;
-              showDiv.style.color = 'red';
+              showDiv.classList.add('text-error');
             }
 
             // Show German sentence, hide English
             const exampleDeDiv = document.getElementById('example-de');
             const exampleEnDiv = document.getElementById('example-en');
-            exampleDeDiv.innerHTML = currentWord.unmasked_german_example || (currentWord.german_example !== "nan" ? formatMarkdown(currentWord.german_example) : "");
-            exampleDeDiv.style.display = 'block';
-            exampleDeDiv.style.color = '#d00';
-            exampleEnDiv.style.display = 'none';
-
+            exampleDeDiv.style.display = 'none';
+            if (currentWord.german_example && currentWord.german_example !== "nan") {
+              exampleEnDiv.innerHTML = formatMarkdown(currentWord.english_example);
+              exampleEnDiv.style.display = 'block';
+              // Removed inline color style to respect CSS variables
+            } else {
+              exampleEnDiv.style.display = 'none';
+            }
             setTimeout(() => {
-              showDiv.style.color = '';
+              showDiv.classList.remove('text-success', 'text-error');
               exampleDeDiv.style.display = 'none';
               nextWord();
             }, userSettings.speed);
@@ -2359,9 +2477,23 @@
             }
 
             if (inputVal === targetVal) {
+              // CORRECT answer
               if ((currentWord.state || 0) === 0) {
+                // New word completed trial - move to review pool
                 currentWord.state = 1;
                 trackActivity('learned');
+
+                // Calculate initial difficulty from trial data
+                if (currentWord.trial && currentWord.trial.attempts > 0) {
+                  const avgNLD = currentWord.trial.totalNLD / currentWord.trial.attempts;
+                  // Map avgNLD to difficulty: 0 = easy (1), 1 = hard (10)
+                  currentWord.fsrs = currentWord.fsrs || {};
+                  currentWord.fsrs.d = 1 + avgNLD * 9; // Difficulty 1-10
+                }
+
+                // Clear trial data and trialWord
+                delete currentWord.trial;
+                trialWord = null;
               } else {
                 trackActivity('reviewed');
               }
@@ -2370,22 +2502,32 @@
               updateDailyStats(currentWord, false); // Log daily trial (no mistake)
               nextWord();
             } else {
-              if ((currentWord.state || 0) === 0) {
-                currentWord.state = 1;
-                trackActivity('learned');
-              } else {
+              // WRONG answer
+              // Calculate NLD for this attempt
+              const dist = getLevenshtein(inputVal, targetVal);
+              const maxLen = Math.max(inputVal.length, targetVal.length);
+              const nld = (maxLen === 0) ? 0 : dist / maxLen;
+
+              // NEW words stay at state=0 (don't move to review until 100% correct)
+              // Track trial data for new words
+              if ((currentWord.state || 0) === 0 && currentWord.trial) {
+                currentWord.trial.attempts++;
+                currentWord.trial.errors++;
+                currentWord.trial.totalNLD += nld;
+              } else if ((currentWord.state || 0) !== 0) {
                 trackActivity('reviewed');
               }
+              // Note: don't trackActivity('learned') for new words on wrong - they stay new
               updateEMA(0); // Wrong
               updateFSRS(1, inputVal, targetVal); // FSRS Fail with NLD
               updateDailyStats(currentWord, true); // Log daily mistake
               const showDiv = document.getElementById('show');
               if (userSettings.fuzzy_error) {
                 showDiv.innerHTML = generateFuzzyHtml(value, correctAnswer);
-                showDiv.style.color = '';
+                showDiv.classList.remove('text-success', 'text-error');
               } else {
                 showDiv.textContent = correctAnswer;
-                showDiv.style.color = 'red';
+                showDiv.classList.add('text-error');
               }
 
               // Show German sentence, hide English
@@ -2393,13 +2535,14 @@
               const exampleEnDiv = document.getElementById('example-en');
               exampleDeDiv.innerHTML = currentWord.unmasked_german_example || (currentWord.german_example !== "nan" ? formatMarkdown(currentWord.german_example) : "");
               exampleDeDiv.style.display = 'block';
-              exampleDeDiv.style.color = '#d00';
+              exampleDeDiv.classList.add('text-error');
               exampleEnDiv.style.display = 'none';
 
               // Move to next word after a short delay so user sees correction
               setTimeout(() => {
-                showDiv.style.color = '';
+                showDiv.classList.remove('text-success', 'text-error');
                 exampleDeDiv.style.display = 'none';
+                exampleDeDiv.classList.remove('text-error');
                 nextWord();
               }, userSettings.speed);
             }
@@ -2408,8 +2551,10 @@
       });
 
       tellInput.addEventListener('input', () => {
-        msgDiv.textContent = "";
-        msgDiv.className = "";
+        if (msgDiv) {
+          msgDiv.textContent = "";
+          msgDiv.className = "";
+        }
       });
     });
   </script>

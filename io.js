@@ -16,6 +16,12 @@ class IO {
         this.root = null; // Protobuf root
     }
 
+    // Getter for data version - returns the version from loaded payload
+    get version() {
+        return this.payload ? this.payload.version : null;
+    }
+
+
     async init() {
         await this.openDB();
         await this.loadSchema();
