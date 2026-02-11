@@ -1997,7 +1997,7 @@
 
     function formatMarkdown(text) {
       if (!text || text === "nan") return "";
-      return text.replace(/\*\*(.*?)\*\*/g, '<b>$1</b>');
+      return text.replace(/\*\*(.*?)\*\*/g, '<u>$1</u>');
     }
 
     function nextWord() {
@@ -2090,7 +2090,7 @@
       let unmaskedDe = deText;
       if (!isPureArticle && currentWord.german) {
         const lemmaRegex = new RegExp(`(\\b${currentWord.german}\\b)`, 'gi');
-        unmaskedDe = unmaskedDe.replace(lemmaRegex, '<b>$1</b>');
+        unmaskedDe = unmaskedDe.replace(lemmaRegex, '<u>$1</u>');
       }
       currentWord.unmasked_german_example = formatMarkdown(unmaskedDe);
 
