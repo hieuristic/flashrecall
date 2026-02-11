@@ -14,7 +14,8 @@ message Word {
   string german_example = 9;
   string english_example = 10;
   // Index 11 was 'nur_im_Plural' in CSV but not explicitly requested as essential, keeping it if needed or mapping it. All CSV columns should be preserved.
-  string nur_im_plural = 11; 
+  string nur_im_plural = 11;
+  string clarifier = 12;
 }
 
 message VocabularyData {

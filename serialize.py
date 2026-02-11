@@ -45,6 +45,7 @@ def convert_csv_to_bin(csv_filename, bin_filename, version=0):
 
                 # Handle optional/mapping fields if necessary
                 word.nur_im_plural = row.get("nur_im_Plural", "0")
+                word.clarifier = row.get("Clarifier", "")
 
     except FileNotFoundError:
         print(f"Error: File {csv_filename} not found.")

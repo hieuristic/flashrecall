@@ -190,7 +190,7 @@
     .page {
       display: none;
       width: 100%;
-      height: calc(70vh - 3rem);
+      height: calc(60vh - 3rem);
       padding-top: 3rem;
     }
 
@@ -564,6 +564,12 @@
       flex-direction: row;
       gap: 0.5rem;
     }
+
+    #clarifier {
+      font-size: 1.0rem;
+      color: #5e5e5e;
+      min-height: 1.5rem;
+    }
   </style>
 </head>
 
@@ -611,6 +617,7 @@
   </div>
 
   <div id="mainPage" class="page active">
+    <div id="clarifier"></div>
     <div id="show">Loading...</div>
     <div id="example-de" class="example-de"></div>
     <div id="example-en" class="example-en"></div>
@@ -1191,6 +1198,36 @@
         userSettings.streak.lastActive = today;
       }
 
+      // Robust Verification: Calculate streak from history keys directly
+      // This handles cases where date math might have slight mismatches or gaps
+      if (userSettings.streak.count <= 1) {
+        const activeDates = Object.keys(userSettings.history).filter(date => {
+          const h = userSettings.history[date];
+          return h.learned > 0 || h.reviewed > 0;
+        }).sort();
+
+        if (activeDates.length > 0) {
+          const lastDateStr = activeDates[activeDates.length - 1];
+          // Since checkStreak is called after activity, today should be the last entry
+          if (lastDateStr === today) {
+            let infoStreak = 1;
+            for (let i = activeDates.length - 2; i >= 0; i--) {
+              const curr = new Date(activeDates[i]);
+              const next = new Date(activeDates[i + 1]);
+              const diffTime = Math.abs(next - curr);
+              const diffDays = Math.round(diffTime / (1000 * 60 * 60 * 24));
+
+              if (diffDays === 1) {
+                infoStreak++;
+              } else {
+                break;
+              }
+            }
+            userSettings.streak.count = infoStreak;
+          }
+        }
+      }
+
       // Update UI
       const el = document.getElementById('daily-streak');
       if (el) el.innerText = userSettings.streak.count;
@@ -1336,6 +1373,9 @@
           }
         }
 
+        // Streak (Version 4)
+        size += 4 + 10; // Count (4) + LastActive (10)
+
         // 3. Write binary data
         const buffer = new ArrayBuffer(size);
         const view = new DataView(buffer);
@@ -1343,7 +1383,7 @@
 
         // Header: FRBL (FlashRecall Binary)
         view.setUint32(offset, 0x4652424C); offset += 4;
-        view.setUint8(offset, 3); offset += 1; // Version 3 (word_id based + FSRS)
+        view.setUint8(offset, 4); offset += 1; // Version 4 (Streak included)
 
         // Settings
         view.setUint16(offset, settings.speed || 1500); offset += 2;
@@ -1380,6 +1420,12 @@
             view.setUint32(offset, v.fsrs.reps || 0); offset += 4;
           }
         }
+
+        // Streak
+        const streak = userSettings.streak || { count: 0, lastActive: "" };
+        view.setUint32(offset, streak.count || 0); offset += 4;
+        const lastActiveBuf = textEncoder.encode((streak.lastActive || "").padEnd(10, " ").substring(0, 10));
+        new Uint8Array(buffer, offset, 10).set(lastActiveBuf); offset += 10;
 
         // 4. Download
         const blob = new Blob([buffer], { type: 'application/octet-stream' });
@@ -1419,7 +1465,7 @@
           if (view.getUint32(0) !== 0x4652424C) throw new Error('Invalid file format (missing magic number)');
           offset += 4;
           const version = view.getUint8(offset); offset += 1;
-          if (version > 3) throw new Error('Unsupported version: ' + version);
+          if (version > 4) throw new Error('Unsupported version: ' + version);
 
           if (!confirm('This will replace your current progress and settings. Are you sure?')) {
             event.target.value = '';
@@ -1432,7 +1478,8 @@
             mode: view.getUint8(offset + 2),
             levels: [false, false, false],
             check_umlaut: view.getUint8(offset + 4) === 1,
-            history: {}
+            history: {},
+            streak: { count: 0, lastActive: null }
           };
           const levelsMask = view.getUint8(offset + 3);
           if (levelsMask & 1) importedSettings.levels[0] = true;
@@ -1485,6 +1532,13 @@
               const ema = view.getFloat32(offset); offset += 4;
               progressMap.set(lemma, { state, ema });
             }
+          }
+
+          // Parse Streak (if version 4)
+          if (version >= 4) {
+            const streakCount = view.getUint32(offset); offset += 4;
+            const lastActive = decoder.decode(new Uint8Array(buffer, offset, 10)).trim(); offset += 10;
+            importedSettings.streak = { count: streakCount, lastActive: lastActive || null };
           }
 
           // Apply Changes
@@ -1649,6 +1703,15 @@
       if (!container) return;
       container.innerHTML = '';
 
+      // Calculate maxActivity for relative scale
+      let maxActivity = 0;
+      Object.values(userSettings.history || {}).forEach(h => {
+        const total = (h.learned || 0) + (h.reviewed || 0);
+        if (total > maxActivity) maxActivity = total;
+      });
+      // Ensure maxActivity is at least 1 to avoid NaN/Infinity
+      if (maxActivity === 0) maxActivity = 1;
+
       const isMobile = window.innerWidth <= 600;
       const today = new Date();
       const currentYear = today.getFullYear();
@@ -1683,7 +1746,7 @@
           const dateStr = date.toISOString().split('T')[0];
           const activity = userSettings.history[dateStr] || { learned: 0, reviewed: 0 };
 
-          const dayEl = createHeatmapDay(dateStr, activity, date.getFullYear() === currentYear);
+          const dayEl = createHeatmapDay(dateStr, activity, date.getFullYear() === currentYear, maxActivity);
           if (date.getFullYear() < currentYear && i < 7) { // Only hide prev year if at very start
             dayEl.style.visibility = 'hidden';
           }
@@ -1750,7 +1813,7 @@
           const dateStr = date.toISOString().split('T')[0];
           const activity = userSettings.history[dateStr] || { learned: 0, reviewed: 0 };
 
-          const dayEl = createHeatmapDay(dateStr, activity, date.getFullYear() === currentYear);
+          const dayEl = createHeatmapDay(dateStr, activity, date.getFullYear() === currentYear, maxActivity);
           if (date.getFullYear() < currentYear) {
             dayEl.style.visibility = 'hidden';
           }
@@ -1798,18 +1861,18 @@
       document.getElementById('stat-reviewed').innerText = totalReviewed;
     }
 
-    function createHeatmapDay(dateStr, activity, isCurrentYear) {
+    function createHeatmapDay(dateStr, activity, isCurrentYear, maxActivity) {
       const dayEl = document.createElement('div');
       dayEl.className = 'heatmap-day';
 
       const total = activity.learned + activity.reviewed;
       let level = 0;
-      if (total > 0) level = 1;
-      if (total > 5) level = 2;
-      if (total > 10) level = 3;
-      if (total > 20) level = 4;
+      if (total > 0 && isCurrentYear) {
+        // Relative scale: level = ceil(total / max * 4)
+        level = Math.ceil((total / maxActivity) * 4);
+        if (level > 4) level = 4;
+        if (level < 1) level = 1;
 
-      if (level > 0 && isCurrentYear) {
         dayEl.setAttribute('data-level', level);
       }
 
@@ -2018,6 +2081,12 @@
       // Always show the actual English translation, not just "the"
       showDiv.textContent = currentWord.english || "???";
 
+      // Display clarifier (parenthesized hint from English translation)
+      const clarifierDiv = document.getElementById('clarifier');
+      if (clarifierDiv) {
+        clarifierDiv.textContent = currentWord.clarifier ? currentWord.clarifier : '\u00A0';
+      }
+
       let deText = "";
       let enText = "";
       let nounToMaskInArticleCase = "";
@@ -2148,6 +2217,7 @@
           german_example: w.germanExample,
           english_example: w.englishExample,
           // Helper specifically for quiz logic
+          clarifier: w.clarifier || '',
           german: (w.artikel && w.artikel !== 'nan' ? w.artikel + ' ' : '') + w.lemma,
           state: 0,
           fsrs: {}
@@ -2476,7 +2546,44 @@
               targetVal = normalize(targetVal);
             }
 
-            if (inputVal === targetVal) {
+            // Build all valid answer variants for multi-gender words (e.g., "der, die Beamte")
+            let validTargets = [targetVal];
+            if (currentWord.article && currentWord.article.includes(',')) {
+              const articles = currentWord.article.split(',').map(a => a.trim().toLowerCase());
+              const lemma = currentWord.lemma.toLowerCase();
+              const normLemma = !userSettings.check_umlaut
+                ? lemma.replace(/ä/g, 'a').replace(/ö/g, 'o').replace(/ü/g, 'u').replace(/ß/g, 'ss')
+                : lemma;
+              validTargets = articles.map(a => {
+                const normA = !userSettings.check_umlaut
+                  ? a.replace(/ä/g, 'a').replace(/ö/g, 'o').replace(/ü/g, 'u').replace(/ß/g, 'ss')
+                  : a;
+                return normA + ' ' + normLemma;
+              });
+            }
+
+            // Find the best matching variant (lowest NLD)
+            let bestTarget = targetVal;
+            let isCorrect = false;
+            if (validTargets.length > 1) {
+              let bestDist = Infinity;
+              for (const vt of validTargets) {
+                if (inputVal === vt) {
+                  isCorrect = true;
+                  bestTarget = vt;
+                  break;
+                }
+                const d = getLevenshtein(inputVal, vt);
+                if (d < bestDist) {
+                  bestDist = d;
+                  bestTarget = vt;
+                }
+              }
+            } else {
+              isCorrect = (inputVal === targetVal);
+            }
+
+            if (isCorrect) {
               // CORRECT answer
               if ((currentWord.state || 0) === 0) {
                 // New word completed trial - move to review pool
@@ -2498,14 +2605,14 @@
                 trackActivity('reviewed');
               }
               updateEMA(1); // Correct
-              updateFSRS(3, inputVal, targetVal); // FSRS Pass
+              updateFSRS(3, inputVal, bestTarget); // FSRS Pass
               updateDailyStats(currentWord, false); // Log daily trial (no mistake)
               nextWord();
             } else {
               // WRONG answer
               // Calculate NLD for this attempt
-              const dist = getLevenshtein(inputVal, targetVal);
-              const maxLen = Math.max(inputVal.length, targetVal.length);
+              const dist = getLevenshtein(inputVal, bestTarget);
+              const maxLen = Math.max(inputVal.length, bestTarget.length);
               const nld = (maxLen === 0) ? 0 : dist / maxLen;
 
               // NEW words stay at state=0 (don't move to review until 100% correct)
@@ -2519,7 +2626,7 @@
               }
               // Note: don't trackActivity('learned') for new words on wrong - they stay new
               updateEMA(0); // Wrong
-              updateFSRS(1, inputVal, targetVal); // FSRS Fail with NLD
+              updateFSRS(1, inputVal, bestTarget); // FSRS Fail with NLD
               updateDailyStats(currentWord, true); // Log daily mistake
               const showDiv = document.getElementById('show');
               if (userSettings.fuzzy_error) {
