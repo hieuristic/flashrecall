@@ -681,7 +681,6 @@
     </div>
     <br>
     <div id="wordsFoundCount" style="color:#666; font-size:0.8rem; text-align:center;">Checking words...</div>
-    <br><br>
     <div id="saveMessage" class="save-message"></div>
     <br>
     <div class="divisor"></div>
@@ -1197,41 +1196,14 @@
         userSettings.streak.count = 1;
         userSettings.streak.lastActive = today;
       }
-
-      // Robust Verification: Calculate streak from history keys directly
-      // This handles cases where date math might have slight mismatches or gaps
-      if (userSettings.streak.count <= 1) {
-        const activeDates = Object.keys(userSettings.history).filter(date => {
-          const h = userSettings.history[date];
-          return h.learned > 0 || h.reviewed > 0;
-        }).sort();
-
-        if (activeDates.length > 0) {
-          const lastDateStr = activeDates[activeDates.length - 1];
-          // Since checkStreak is called after activity, today should be the last entry
-          if (lastDateStr === today) {
-            let infoStreak = 1;
-            for (let i = activeDates.length - 2; i >= 0; i--) {
-              const curr = new Date(activeDates[i]);
-              const next = new Date(activeDates[i + 1]);
-              const diffTime = Math.abs(next - curr);
-              const diffDays = Math.round(diffTime / (1000 * 60 * 60 * 24));
-
-              if (diffDays === 1) {
-                infoStreak++;
-              } else {
-                break;
-              }
-            }
-            userSettings.streak.count = infoStreak;
-          }
-        }
-      }
-
       // Update UI
       const el = document.getElementById('daily-streak');
       if (el) el.innerText = userSettings.streak.count;
+
+      saveSettingsToDB(userSettings);
     }
+
+
 
 
     async function updateDailyStats(word, isMistake) {
