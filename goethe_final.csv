@@ -4,7 +4,7 @@ Abend;Substantiv;mask.;der;0;A1;1607;evening;Ich wünsche dir einen schönen Abe
 aber;Konjunktion;nan;nan;0;A1;120754;but;Ich wollte kommen, aber ich hatte keine Zeit.;I wanted to come, **but** I had no time.;
 abfahren;Verb;nan;nan;0;A1;254;to depart;Der Zug wird pünktlich abfahren.;The train will **depart** on time.;
 Abfahrt;Substantiv;fem.;die;0;A1;133;departure;Vor der Abfahrt müssen wir alles kontrollieren.;We must check everything before **departure**.;
-abfliegen;Verb;nan;nan;0;A1;94;to take off;Das Flugzeug wird in zehn Minuten abfliegen.;The plane will **take off** in ten minutes.;
+abfliegen;Verb;nan;nan;0;A1;94;to take off;Das Flugzeug wird in zehn Minuten abfliegen.;The plane will **take off** in ten minutes.;for plane
 Abflug;Substantiv;mask.;der;0;A1;61;departure;Unser Abflug verzögert sich um eine Stunde.;Our **departure** is delayed by one hour.;flight
 abgeben;Verb;nan;nan;0;A1;705;to hand in;Ich muss meine Hausaufgaben abgeben.;I have **to hand in** my homework.;
 abholen;Verb;nan;nan;0;A1;242;to pick up;Kannst du mich vom Bahnhof abholen?;Can you **pick** me **up** from the station?;
@@ -17,7 +17,7 @@ Adresse;Substantiv;fem.;die;0;A1;260;address;Bitte schreiben Sie Ihre Adresse hi
 all;nan;nan;nan;0;A1;2522;all;Ich wünsche dir all das Beste.;I wish you **all** the best.;
 alle;Pronomen;nan;nan;0;A1;54385;everyone;Alle sind zur Party gekommen.;**Everyone** came to the party.;
 allein;nan;nan;nan;0;A1;3455;alone;Er geht heute allein spazieren.;He is going for a walk **alone** today.;
-alleine;nan;nan;nan;0;A1;308;alone;Ich möchte heute Abend lieber alleine bleiben.;I would rather stay **alone** tonight.;
+alleine;nan;nan;nan;0;A1;308;alone;Ich möchte heute Abend lieber alleine bleiben.;I would rather stay **alone** tonight.;-e
 alles;Pronomen;nan;nan;0;A1;nan;everything;Alles ist gut gegangen.;**Everything** went well.;
 also;Konjunktion;nan;nan;0;A1;5138;so/therefore;Er ist krank, also kommt er nicht.;He is sick, **therefore** he isn't coming.;
 alt;Adjektiv;nan;nan;0;A1;70709;old;Wie alt bist du?;How **old** are you?;
@@ -35,11 +35,11 @@ ankreuzen;Verb;nan;nan;0;A1;90;to check/mark;Bitte die richtige Antwort ankreuze
 Ankunft;Substantiv;fem.;die;0;A1;232;arrival;Die Ankunft des Schiffes war verspätet.;The **arrival** of the ship was delayed.;
 anmachen;Verb;nan;nan;0;A1;162;to turn on;Kannst du bitte das Licht anmachen?;Can you please **turn on** the light?;
 anmelden;Verb;nan;nan;0;A1;247;to register;Ich möchte mich für den Kurs anmelden.;I would like **to register** for the course.;
-Anmeldung;Substantiv;fem.;die;0;A1;66;registration;Die Anmeldung ist bis Freitag möglich.;**Registration** is possible until Friday.;
+Anmeldung;Substantiv;fem.;die;0;A1;66;registration;Die Anmeldung ist bis Freitag möglich.;**Registration** is possible until Friday.;noun
 Anrede;Substantiv;fem.;die;0;A1;199;salutation/address;Wie lautet die richtige Anrede im Brief?;What is the correct **salutation** in the letter?;
 Anruf;Substantiv;mask.;der;0;A1;139;call;Ich warte auf einen wichtigen Anruf.;I am waiting for an important **call**.;
 Anrufbeantworter;Substantiv;mask.;der;0;A1;25;answering machine;Bitte hinterlassen Sie eine Nachricht auf dem Anrufbeantworter.;Please leave a message on the **answering machine**.;
-anrufen;Verb;nan;nan;0;A1;295;to call;Ich werde dich morgen anrufen.;I will **call** you tomorrow.;
+anrufen;Verb;nan;nan;0;A1;295;to call;Ich werde dich morgen anrufen.;I will **call** you tomorrow.;a-
 Ansage;Substantiv;fem.;die;0;A1;27;announcement;Achten Sie bitte auf die Ansage am Bahnsteig.;Please pay attention to the **announcement** on the platform.;
 Anschluss;Substantiv;mask.;der;0;A1;211;connection;Haben wir in München Anschluss nach Wien?;Do we have a **connection** to Vienna in Munich?;
 Antwort;Substantiv;fem.;die;0;A1;1064;answer;Ich habe noch keine Antwort bekommen.;I haven't received an **answer** yet.;
@@ -48,10 +48,10 @@ Anzeige;Substantiv;fem.;die;0;A1;220;advertisement;Ich habe die Anzeige in der Z
 anziehen;Verb;nan;nan;0;A1;442;to put on;Du solltest dir eine Jacke anziehen.;You should **put on** a jacket.;
 Apartment;Substantiv;neutr.;das;0;A1;46;apartment;Sie hat ein schönes Apartment in der Stadt.;She has a beautiful **apartment** in the city.;
 Apfel;Substantiv;mask.;der;0;A1;177;apple;Jeden Tag esse ich einen Apfel.;I eat an **apple** every day.;
-Appartement;Substantiv;neutr.;das;0;A1;36;apartment;Das Appartement ist komplett möbliert.;The **apartment** is fully furnished.;
+Appartement;Substantiv;neutr.;das;0;A1;36;apartment;Das Appartement ist komplett möbliert.;The **apartment** is fully furnished.;A-
 Appetit;Substantiv;mask.;der;0;A1;96;appetite;Guten Appetit!;Enjoy your meal (Good **appetite**)!;
 April;Substantiv;mask.;der;0;A1;2214;April;Im April regnet es oft.;It often rains in **April**.;
-Arbeit;Substantiv;fem.;die;0;A1;15953;work/job;Er sucht eine neue Arbeit.;He is looking for a new **work** (job).;
+Arbeit;Substantiv;fem.;die;0;A1;15953;work/job;Ich habe heute viel Arbeit.;I have so much **work** today.;a-
 arbeiten;Verb;nan;nan;0;A1;71703;to work;Wo arbeiten Sie?;Where do you **work**?;
 arbeitslos;Adjektiv;nan;nan;0;A1;82;unemployed;Er ist seit zwei Monaten arbeitslos.;He has been **unemployed** for two months.;
 Arbeitsplatz;Substantiv;mask.;der;0;A1;366;workplace/job;Mein Arbeitsplatz ist im Stadtzentrum.;My **workplace** is in the city center.;
@@ -60,8 +60,8 @@ Arzt;Substantiv;mask.;der;0;A1;1255;doctor;Ich muss heute zum Arzt gehen.;I have
 auch;Konjunktion;nan;nan;0;A1;139767;also/too;Ich komme auch zur Party.;I am coming to the party **too**.;
 auf;Präposition;nan;nan;0;A1;9399457;on/at;Das Buch liegt auf dem Tisch.;The book is lying **on** the table.;
 auf sein;Verb;nan;nan;0;A1;nan;to be open;Die Tür ist auf.;The door is **open**.;
-Aufgabe;Substantiv;fem.;die;0;A1;1802;task/homework;Das ist eine schwierige Aufgabe.;That is a difficult **task**.;noun
-aufhören;Verb;nan;nan;0;A1;345;to stop;Du musst mit dem Rauchen aufhören.;You must **stop** smoking.;
+Aufgabe;Substantiv;fem.;die;0;A1;1802;task;Das ist eine schwierige Aufgabe.;That is a difficult **task**.;noun, a-
+aufhören;Verb;nan;nan;0;A1;345;to stop;Du musst mit dem Rauchen aufhören.;You must **stop** smoking.;a-, cease an activity
 aufstehen;Verb;nan;nan;0;A1;259;to get up;Ich muss morgen früh aufstehen.;I have **to get up** early tomorrow.;
 Aufzug;Substantiv;mask.;der;0;A1;115;elevator/lift;Der Aufzug ist leider kaputt.;The **elevator** is unfortunately broken.;
 Auge;Substantiv;neutr.;das;0;A1;6926;eye;Sie hat blaue Augen.;She has blue **eyes**.;
@@ -71,7 +71,7 @@ aus sein;Verb;nan;nan;0;A1;nan;to be over/off;Der Film ist aus.;The movie is **o
 Ausflug;Substantiv;mask.;der;0;A1;206;excursion/trip;Am Wochenende machen wir einen Ausflug.;We are going on an **excursion** this weekend.;
 ausfüllen;Verb;nan;nan;0;A1;166;to fill out;Bitte füllen Sie das Formular aus.;Please **fill out** the form.;
 Ausgang;Substantiv;mask.;der;0;A1;291;exit;Wo ist der Ausgang?;Where is the **exit**?;
-Auskunft;Substantiv;fem.;die;0;A1;236;information;Können Sie mir eine Auskunft geben?;Can you give me some **information**?;
+Auskunft;Substantiv;fem.;die;0;A1;236;information;Können Sie mir eine Auskunft geben?;Can you give me some **information**?;a-
 Ausland;Substantiv;neutr.;das;0;A1;419;abroad;Ich möchte gerne im Ausland studieren.;I would like to study **abroad**.;
 Ausländer;Substantiv;mask.;der;0;A1;181;foreigner;In dieser Stadt leben viele Ausländer.;Many **foreigners** live in this city.;
 ausländisch;Adjektiv;nan;nan;0;A1;380;foreign;Er spricht drei ausländische Sprachen.;He speaks three **foreign** languages.;
@@ -123,7 +123,7 @@ Bild;Substantiv;neutr.;das;0;A1;2434;picture;Das Bild an der Wand ist sehr schö
 billig;Adjektiv;nan;nan;0;A1;797;cheap;Das Obst ist hier sehr billig.;The fruit is very **cheap** here.;b-
 Birne;Substantiv;fem.;die;0;A1;76;pear/lightbulb;Ich esse gerne saftige Birnen.;I like to eat juicy **pears**.;
 bis;nan;nan;nan;0;A1;268932;until;Ich arbeite bis 18 Uhr.;I work **until** 6 PM.;
-bisschen;Adverb;nan;nan;0;A1;510;a bit;Ich spreche nur ein bisschen Deutsch.;I only speak **a bit** of German.;
+bisschen;Adverb;nan;nan;0;A1;510;a bit;Ich spreche nur ein bisschen Deutsch.;I only speak **a bit** of German.;b-
 Bitte;Substantiv;fem.;die;0;A1;34;request/plea;Ich habe eine Bitte an dich.;I have a **request** for you.;
 bitte;Partikel;nan;nan;0;A1;10961;please;Eine Tasse Kaffee, bitte.;A cup of coffee, **please**.;
 bitten;Verb;nan;nan;0;A1;7207;to ask;Ich möchte dich um Hilfe bitten.;I would like **to ask** you for help.;for favour
@@ -196,7 +196,7 @@ Durchsage;Substantiv;fem.;die;0;A1;14;announcement;Hast du die Durchsage gehört
 Durst;Substantiv;mask.;der;0;A1;1;thirst;Ich habe großen Durst.;I have a great **thirst**.;
 Dusche;Substantiv;fem.;die;0;A1;79;shower;Die Dusche ist im Bad.;The **shower** is in the bathroom.;
 duschen;Verb;nan;nan;0;A1;105;to shower;Ich dusche jeden Morgen.;I **shower** every morning.;
-dürfen;Verb;nan;nan;0;A1;38903;to be allowed;Darf ich hier parken?;Am I **allowed** to park here?;
+dürfen;Verb;nan;nan;0;A1;38903;to be allowed;Darf ich hier parken?;Am I **allowed** to park here?;passive
 E-Mail;Substantiv;fem., neutr.;die;0;A1;2;email;Ich schreibe eine E-Mail an meinen Chef.;I am writing an **email** to my boss.;
 Ecke;Substantiv;fem.;die;0;A1;786;corner;Die Apotheke ist an der nächsten Ecke.;The pharmacy is on the next **corner**.;
 Ehefrau;Substantiv;fem.;die;0;A1;296;wife;Seine Ehefrau ist Ärztin.;His **wife** is a doctor.;
@@ -206,28 +206,28 @@ eilig;Adjektiv;nan;nan;0;A1;239;hurried/in a rush;Ich habe es heute sehr eilig.;
 ein;unbestimmter Artikel;mask., neutr.;nan;0;A1;11657240;a/one;Ich habe ein Buch gekauft.;I bought **a** book.;
 eine;unbestimmter Artikel;fem.;nan;0;A1;nan;a/one;Dort steht eine Frau.;There is **a** woman standing there.;
 einfach;Adjektiv;nan;nan;0;A1;7215;easy/simple;Die Aufgabe ist ganz einfach.;The task is quite **simple**.;
-Eingang;Substantiv;mask.;der;0;A1;459;entrance;Der Eingang ist um die Ecke.;The **entrance** is around the corner.;
+Eingang;Substantiv;mask.;der;0;A1;459;entrance;Der Eingang ist um die Ecke.;The **entrance** is around the corner.;physical location
 einhundert;Kardinalzahlwort;nan;nan;0;A1;nan;one hundred;Das Ticket kostet einhundert Euro.;The ticket costs **one hundred** euros.;
-einkaufen;Verb;nan;nan;0;A1;313;to shop/buy;Ich gehe heute Nachmittag einkaufen.;I am going to **shop** this afternoon.;
+einkaufen;Verb;nan;nan;0;A1;313;to shop/buy;Ich gehe heute Nachmittag einkaufen.;I am going to **shop** this afternoon.;e-
 einladen;Verb;nan;nan;0;A1;462;to invite;Darf ich dich zum Essen einladen?;May I **invite** you to dinner?;
 Einladung;Substantiv;fem.;die;0;A1;134;invitation;Vielen Dank für die Einladung.;Thank you very much for the **invitation**.;
 eins;Kardinalzahlwort;nan;nan;0;A1;397;one;Eins und zwei ist drei.;**One** and two is three.;
 einsteigen;Verb;nan;nan;0;A1;173;to get on/board;Bitte steigen Sie vorne ein.;Please **get on** at the front.;
 eintausend;Kardinalzahlwort;nan;nan;0;A1;19;one thousand;Das Fahrrad kostet eintausend Euro.;The bike costs **one thousand** euros.;
-Eintritt;Substantiv;mask.;der;0;A1;186;entry/admission;Der Eintritt in das Museum ist frei.;**Admission** to the museum is free.;
+Eintritt;Substantiv;mask.;der;0;A1;186;admission;Der Eintritt in das Museum ist frei.;**Admission** to the museum is free.;
 Einzelzimmer;Substantiv;neutr.;das;0;A1;15;single room;Ich möchte ein Einzelzimmer reservieren.;I would like to reserve a **single room**.;
 elf;Kardinalzahlwort;nan;nan;0;A1;417;eleven;Fußball spielt man mit elf Spielern.;Soccer is played with **eleven** players.;
 Eltern;Substantiv;nan;nan;1;A1;1436;parents;Meine Eltern wohnen in Berlin.;My **parents** live in Berlin.;plural
 empfehlen;Verb;nan;nan;0;A1;1102;to recommend;Können Sie mir ein gutes Hotel empfehlen?;Can you **recommend** a good hotel to me?;
 Empfänger;Substantiv;mask.;der;0;A1;270;recipient/receiver;Wer ist der Empfänger des Briefes?;Who is the **recipient** of the letter?;
-Ende;Substantiv;neutr.;das;0;A1;12235;end;Das Jahr ist bald zu Ende.;The year is coming to an **end** soon.;noun
+Ende;Substantiv;neutr.;das;0;A1;12235;end;Das Jahr ist bald zu Ende.;The year is coming to an **end** soon.;noun, e-
 enden;Verb;nan;nan;0;A1;803;to end;Der Unterricht endet um 13 Uhr.;The class **ends** at 1 PM.;verb
 entschuldigen;Verb;nan;nan;0;A1;191;to apologize;Bitte entschuldigen Sie die Verspätung.;Please **apologize** for the delay.;
-Entschuldigung;Substantiv;fem.;die;0;A1;94;excuse/apology;Entschuldigung, wie spät ist es?;**Excuse** me, what time is it?;
+Entschuldigung;Substantiv;fem.;die;0;A1;94;excuse/apology;Entschuldigung, wie spät ist es?;**Excuse** me, what time is it?;noun
 er;Personalpronomen;mask.;nan;0;A1;52388;he;Er heißt Thomas.;**He** is named Thomas.;
 Ergebnis;Substantiv;neutr.;das;0;A1;1491;result;Das Ergebnis der Untersuchung ist positiv.;The **result** of the examination is positive.;
 erklären;Verb;nan;nan;0;A1;4463;to explain;Können Sie mir das bitte erklären?;Can you please **explain** that to me?;
-erlauben;Verb;nan;nan;0;A1;1530;to allow/permit;Rauchen ist hier nicht erlaubt.;Smoking is not **allowed** here.;
+erlauben;Verb;nan;nan;0;A1;1530;to allow/permit;Rauchen ist hier nicht erlaubt.;Smoking is not **allowed** here.;e-
 erste;Ordinalzahlwort;nan;nan;0;A1;nan;first;Heute ist mein erster Arbeitstag.;Today is my **first** day of work.;
 Erwachsene;Substantiv;fem., mask.;die, der;0;A1;453;adult;Das Ticket für Erwachsene kostet 10 Euro.;The ticket for **adults** costs 10 euros.;
 erzählen;Verb;nan;nan;0;A1;10889;to tell/narrate;Erzähl mir eine Geschichte.;**Tell** me a story.;
@@ -242,7 +242,7 @@ Europäer;Substantiv;mask.;der;0;A1;201;European;Er ist ein echter Europäer.;He
 europäisch;Adjektiv;nan;nan;0;A1;25406;European;Wir leben in einer europäischen Stadt.;We live in a **European** city.;
 fahren;Verb;nan;nan;0;A1;189357;to drive/travel;Ich fahre mit dem Auto nach Berlin.;I am **driving** to Berlin by car.;
 Fahrer;Substantiv;mask.;der;0;A1;491;driver;Der Fahrer des Busses ist sehr nett.;The **driver** of the bus is very nice.;
-Fahrkarte;Substantiv;fem.;die;0;A1;59;ticket;Haben Sie eine Fahrkarte?;Do you have a **ticket**?;
+Fahrkarte;Substantiv;fem.;die;0;A1;59;ticket;Haben Sie eine Fahrkarte?;Do you have a **ticket**?;f-
 Fahrrad;Substantiv;neutr.;das;0;A1;370;bicycle;Ich fahre mit dem Fahrrad zur Arbeit.;I go to work by **bicycle**.;
 falsch;Adjektiv;nan;nan;0;A1;7047;wrong/false;Die Antwort ist leider falsch.;The answer is unfortunately **wrong**.;
 Familie;Substantiv;fem.;die;0;A1;3863;family;Meine Familie wohnt in Spanien.;My **family** lives in Spain.;
@@ -282,8 +282,8 @@ freuen;Verb;nan;nan;0;A1;661;to be pleased with/happy about;Ich freue mich auf d
 Freund;Substantiv;mask.;der;0;A1;2266;friend;Das ist mein Freund Thomas.;This is my **friend** Thomas.;male
 Freundin;Substantiv;fem.;die;0;A1;547;friend;Das ist meine Freundin Maria.;This is my (female) **friend** Maria.;female
 früher;Adjektiv;nan;nan;0;A1;nan;earlier/former;Früher war alles anders.;Everything was different **earlier** (in the past).;
-Frühjahr;Substantiv;neutr.;das;0;A1;346;spring;Im Frühjahr blühen die Blumen.;In **spring** the flowers bloom.;
-Frühling;Substantiv;mask.;der;0;A1;297;spring;Der Frühling beginnt im März.;**Spring** begins in March.;
+Frühjahr;Substantiv;neutr.;das;0;A1;346;spring;Im Frühjahr blühen die Blumen.;In **spring** the flowers bloom.;time period
+Frühling;Substantiv;mask.;der;0;A1;297;spring;Der Frühling beginnt im März.;**Spring** begins in March.;season
 Frühstück;Substantiv;neutr.;das;0;A1;378;breakfast;Zum Frühstück esse ich ein Ei.;I eat an egg for **breakfast**.;
 frühstücken;Verb;nan;nan;0;A1;117;to eat breakfast;Wann frühstücken Sie?;When do you **eat breakfast**?;
 Fuß;Substantiv;mask.;der;0;A1;2984;foot;Ich gehe zu Fuß.;I go by **foot** (walking).;
@@ -308,14 +308,14 @@ gelb;Adjektiv;nan;nan;0;A1;3826;yellow;Die Zitrone ist gelb.;The lemon is **yell
 Geld;Substantiv;neutr.;das;0;A1;14724;money;Ich habe leider kein Geld.;I unfortunately have no **money**.;
 Gemüse;Substantiv;neutr.;das;0;A1;444;vegetable;Kinder essen nicht gerne Gemüse.;Children don't like to eat **vegetables**.;
 Gepäck;Substantiv;neutr.;das;0;A1;195;luggage/baggage;Geben Sie Ihr Gepäck bitte hier ab.;Please hand in your **luggage** here.;
-gerade;Adverb;nan;nan;0;A1;3548;just now;Ich bin gerade erst angekommen.;I have arrived **just now**.;
+gerade;Adverb;nan;nan;0;A1;3548;just now;Ich bin gerade erst angekommen.;I have arrived **just now**.;ge-
 geradeaus;Adverb;nan;nan;0;A1;nan;straight ahead;Gehen Sie bitte geradeaus.;Please go **straight ahead**.;
 gern;Adverb;nan;nan;0;A1;5006;gladly/like to;Ich lerne gern Deutsch.;I **like to** learn German.;
 gerne;Adverb;nan;nan;0;A1;2612;gladly/like to;Ich helfe Ihnen gerne.;I will **gladly** help you.;-e
 Geschenk;Substantiv;neutr.;das;0;A1;353;gift/present;Vielen Dank für das schöne Geschenk.;Thank you very much for the beautiful **gift**.;
 geschlossen;partizipiales Adjektiv;nan;nan;0;A1;2825;closed;Die Bank ist am Samstag geschlossen.;The bank is **closed** on Saturday.;participial adjective
 Geschwister;Substantiv;neutr.;das;0;A1;165;siblings;Haben Sie Geschwister?;Do you have **siblings**?;brothers and sisters
-Geschäft;Substantiv;neutr.;das;0;A1;1078;shop/business;Das Geschäft öffnet um 9 Uhr.;The **shop** opens at 9 AM.;
+Geschäft;Substantiv;neutr.;das;0;A1;1078;shop/business;Das Geschäft öffnet um 9 Uhr.;The **shop** opens at 9 AM.;g-
 Gespräch;Substantiv;neutr.;das;0;A1;930;conversation/talk;Ich hatte ein interessantes Gespräch.;I had an interesting **conversation**.;
 gestern;Adverb;nan;nan;0;A1;975;yesterday;Gestern war ich im Kino.;I was at the cinema **yesterday**.;
 Getränk;Substantiv;neutr.;das;0;A1;697;drink/beverage;Welches Getränk möchten Sie?;Which **drink** would you like?;
@@ -329,7 +329,7 @@ Glück;Substantiv;neutr.;das;0;A1;2099;luck/happiness;Viel Glück!;Good **luck**
 glücklich;Adjektiv;nan;nan;0;A1;488;happy/fortunate;Heute bin ich sehr glücklich.;Today I am very **happy**.;
 Glückwunsch;Substantiv;mask.;der;0;A1;39;congratulation;Herzlichen Glückwunsch zum Geburtstag!;Hearty **congratulate** (Happy birthday)!;
 Grad;Substantiv;mask., neutr.;der;0;A1;2078;degree;Heute sind es zwanzig Grad.;Today it is twenty **degrees**.;
-grade;Adverb;nan;nan;0;A1;83;just/straight;Er ist grade gekommen.;He **just** came.;
+grade;Adverb;nan;nan;0;A1;83;just/straight;Er ist grade gekommen.;He **just** came.;gr-
 gradeaus;Adverb;nan;nan;0;A1;nan;straight ahead;Immer gradeaus!;Always **straight ahead**!;
 Gramm;Substantiv;neutr.;das;0;A1;480;gram;Einhundert Gramm Käse, bitte.;One hundred **grams** of cheese, please.;
 gratulieren;Verb;nan;nan;0;A1;52;to congratulate;Ich gratuliere dir zum Geburtstag.;I **congratulate** you on your birthday.;
@@ -352,12 +352,12 @@ halb;Adjektiv;nan;nan;0;A1;10654;half;Es ist halb eins.;It is **half** past twel
 Halbpension;Substantiv;fem.;die;0;A1;4;half board;Wir haben das Hotel mit Halbpension gebucht.;We booked the hotel with **half board**.;
 Halle;Substantiv;fem.;die;0;A1;2083;hall;Wir treffen uns in der Halle.;We are meeting in the **hall**.;
 hallo;Interjektion;nan;nan;0;A1;nan;hello;Hallo, wie geht es dir?;**Hello**, how are you?;
-halten;Verb;nan;nan;0;A1;256850;to stop/hold/care;Der Bus hält an der nächsten Ecke.;The bus **stops** at the next corner.;
+halten;Verb;nan;nan;0;A1;256850;to stop/hold/care;Der Bus hält an der nächsten Ecke.;The bus **stops** at the next corner.;h-
 Haltestelle;Substantiv;fem.;die;0;A1;91;bus stop/stop;An der nächsten Haltestelle müssen wir aussteigen.;We have to get off at the next **bus stop**.;
 Hand;Substantiv;fem.;die;0;A1;21580;hand;Gib mir deine Hand.;Give me your **hand**.;
 Handy;Substantiv;neutr.;das;0;A1;324;cell phone/mobile;Kannst du mich auf dem Handy anrufen?;Can you call me on my **cell phone**?;
 Haus;Substantiv;neutr.;das;0;A1;10532;house;Das Haus ist sehr alt.;The **house** is very old.;
-Hausaufgabe;Substantiv;fem.;die;0;A1;103;homework;Hast du deine Hausaufgaben schon gemacht?;Have you already done your **homework**?;
+Hausaufgabe;Substantiv;fem.;die;0;A1;103;homework;Hast du deine Hausaufgaben schon gemacht?;Have you already done your **homework**?;h-
 Hausfrau;Substantiv;fem.;die;0;A1;126;housewife;Meine Mutter ist Hausfrau.;My mother is a **housewife**.;
 Hausmann;Substantiv;mask.;der;0;A1;39;househusband;Mein Vater ist ein guter Hausmann.;My father is a good **househusband**.;
 Heimat;Substantiv;fem.;die;0;A1;507;home/homeland;Spanien ist meine Heimat.;Spain is my **home**.;
@@ -391,7 +391,7 @@ ihr;Possessivpronomen;mask., neutr.;nan;0;A1;42831;your (plural)/her;Ist das ihr
 ihre;Possessivpronomen;fem.;nan;0;A1;nan;her/their;Das sind ihre Kinder.;Those are **her** children.;
 immer;Adverb;nan;nan;0;A1;88982;always;Ich bin immer pünktlich.;I am **always** on time.;
 in;Präposition;nan;nan;0;A1;34228482;in;Ich wohne in Berlin.;I live **in** Berlin.;
-Information;Substantiv;fem.;die;0;A1;1463;information;Wo bekomme ich Informationen?;Where can I get **information**?;
+Information;Substantiv;fem.;die;0;A1;1463;information;Wo bekomme ich Informationen?;Where can I get **information**?;i-
 ins;Präposition + Artikel;nan;nan;0;A1;44;into the;Wir gehen ins Kino.;We are going **into the** cinema.;
 international;Adjektiv;nan;nan;0;A1;6448;international;Berlin ist ein internationaler Ort.;Berlin is an **international** place.;
 Internet;Substantiv;neutr.;das;0;A1;921;internet;Ich finde die Information im Internet.;I find the information on the **internet**.;
@@ -403,7 +403,7 @@ jede;Indefinitpronomen;fem.;nan;0;A1;nan;every;Jede Woche gehen wir einkaufen.;*
 jeder;Indefinitpronomen;mask.;nan;0;A1;35211;everyone/each;Jeder Mensch ist anders.;**Each** person is different.;
 jedes;Indefinitpronomen;neutr.;nan;0;A1;nan;every/each;Jedes Kind bekommt ein Geschenk.;**Each** child gets a gift.;
 jetzt;Adverb;nan;nan;0;A1;9725;now;Jetzt habe ich Zeit.;**Now** I have time.;
-Job;Substantiv;mask.;der;0;A1;478;job;Ich suche einen neuen Job.;I am looking for a new **job**.;
+Job;Substantiv;mask.;der;0;A1;478;job;Ich suche einen neuen Job.;I am looking for a new **job**.;j-
 Jugendliche;Substantiv;fem., mask.;die, der;0;A1;833;teenager/youth;Viele Jugendliche spielen Fußball.;Many **teenagers** play soccer.;
 Juli;Substantiv;mask.;der;0;A1;646;July;Im Juli ist es oft heiß.;It is often hot in **July**.;
 jung;Adjektiv;nan;nan;0;A1;3681;young;Er ist noch sehr jung.;He is still very **young**.;
@@ -414,7 +414,7 @@ kaputt;Adjektiv;nan;nan;0;A1;9890;broken;Mein Auto ist leider kaputt.;My car is 
 Karte;Substantiv;fem.;die;0;A1;838;card/map;Ich schicke dir eine Karte.;I'll send you a **card**.;
 Kartoffel;Substantiv;fem.;die;0;A1;420;potato;Ich esse gerne Kartoffeln.;I like eating **potatoes**.;
 Kasse;Substantiv;fem.;die;0;A1;204;checkout/cash register;Bitte zahlen Sie an der Kasse.;Please pay at the **checkout**.;
-kaufen;Verb;nan;nan;0;A1;13123;to buy;Ich möchte ein neues Auto kaufen.;I want to **buy** a new car.;
+kaufen;Verb;nan;nan;0;A1;13123;to buy;Ich möchte ein neues Auto kaufen.;I want to **buy** a new car.;k-
 kein;Indefinitpronomen;nan;nan;0;A1;217161;no/not any;Ich habe kein Geld.;I have **no** money.;
 kennen;Verb;nan;nan;0;A1;25251;to know;Kennen Sie Berlin?;Do you **know** Berlin?;a person/place
 kennen lernen;Verb;nan;nan;0;A1;nan;to get to know;Ich möchte dich gerne kennen lernen.;I'd like to **get to know** you.;
@@ -427,7 +427,7 @@ Kindergarten;Substantiv;mask.;der;0;A1;13;kindergarten;Mein Sohn geht in den Kin
 Kino;Substantiv;neutr.;das;0;A1;298;cinema/movie theater;Gehen wir heute ins Kino?;Are we going to the **cinema** today?;
 Kiosk;Substantiv;mask.;der;0;A1;63;kiosk;Ich kaufe mir am Kiosk eine Zeitung.;I'll buy a newspaper at the **kiosk**.;
 klar;Adjektiv;nan;nan;0;A1;8010;clear/sure;Alles klar!;Everything **clear** (Alright)!;
-Klasse;Substantiv;fem.;die;0;A1;1107;class/grade;In meiner Klasse sind zwanzig Schüler.;There are twenty students in my **class**.;noun
+Klasse;Substantiv;fem.;die;0;A1;1107;class/grade;In meiner Klasse sind zwanzig Schüler.;There are twenty students in my **class**.;noun, k-
 Kleidung;Substantiv;fem.;die;0;A1;733;clothes/clothing;Ich brauche neue Kleidung.;I need new **clothes**.;
 klein;Adjektiv;nan;nan;0;A1;129141;small/little;Das Zimmer ist sehr klein.;The room is very **small**.;
 kochen;Verb;nan;nan;0;A1;3415;to cook;Ich koche heute eine Suppe.;I am **cooking** a soup today.;
@@ -452,7 +452,7 @@ Küche;Substantiv;fem.;die;0;A1;951;kitchen;Die Küche ist sehr modern.;The **ki
 Kühlschrank;Substantiv;mask.;der;0;A1;215;fridge/refrigerator;Die Milch steht im Kühlschrank.;The milk is in the **fridge**.;
 kümmern;Verb;nan;nan;0;A1;543;to take care of/look after;Ich kümmere mich um die Kinder.;I am **taking care of** the children.;
 lachen;Verb;nan;nan;0;A1;7556;to laugh;Wir lachen über den Witz.;We **laugh** at the joke.;
-Laden;Substantiv;mask.;der;0;A1;164;shop/store;Der Laden ist heute geschlossen.;The **shop** is closed today.;
+Laden;Substantiv;mask.;der;0;A1;164;shop/store;Der Laden ist heute geschlossen.;The **shop** is closed today.;l-
 Land;Substantiv;neutr.;das;0;A1;38761;country/land;Deutschland ist ein schönes Land.;Germany is a beautiful **country**.;
 lang;Adjektiv;nan;nan;0;A1;26870;long;Der Weg ist sehr lang.;The way is very **long**.;
 lange;Adverb;nan;nan;0;A1;16928;long;Wie lange bleibst du?;How **long** are you staying?;time
@@ -467,7 +467,7 @@ legen;Verb;nan;nan;0;A1;117409;to lay/put;Legen Sie das Buch auf den Tisch.;**La
 Lehrer;Substantiv;mask.;der;0;A1;877;teacher;Der Lehrer erklärt die Aufgabe.;The **teacher** is explaining the task.;male
 leicht;Adjektiv;nan;nan;0;A1;27432;easy/light;Die Tasche ist sehr leicht.;The bag is very **light**.;
 leider;Adverb;nan;nan;0;A1;1333;unfortunately;Ich habe leider keine Zeit.,**Unfortunately**; I have no time.;
-leise;Adjektiv;nan;nan;0;A1;567;quiet/soft;Bitte seien Sie leise.;Please be **quiet**.;
+leise;Adjektiv;nan;nan;0;A1;567;quiet/soft;Bitte seien Sie leise.;Please be **quiet**.;l-
 lernen;Verb;nan;nan;0;A1;6054;to learn/study;Ich lerne Deutsch.;I am **learning** German.;
 lesen;Verb;nan;nan;0;A1;19197;to read;Ich lese gerne Bücher.;I like to **read** books.;
 letzt;Adjektiv;nan;nan;0;A1;nan;last;Das ist die letzte Haltestelle.;That is the **last** stop.;
@@ -555,7 +555,7 @@ Oktober;Substantiv;mask.;der;0;A1;700;October;Im Oktober feiern wir ein Fest.;We
 Oma;Substantiv;fem.;die;0;A1;366;grandma;Meine Oma kocht Suppe.;My **grandma** is cooking soup.;
 Opa;Substantiv;mask.;der;0;A1;865;grandpa;Mein Opa liest die Zeitung.;My **grandpa** is reading the newspaper.;
 Ordnung;Substantiv;fem.;die;0;A1;3705;order/okay;Alles in Ordnung!;Everything in **order** (Alright)!;
-Ort;Substantiv;mask.;der;0;A1;4605;place/location;Das ist ein schöner Ort.;That is a beautiful **place**.;
+Ort;Substantiv;mask.;der;0;A1;4605;place/location;Das ist ein schöner Ort.;That is a beautiful **place**.;o-, general location
 Osten;Substantiv;mask.;der;0;A1;1424;East;Berlin liegt im Osten.;Berlin is in the **East**.;
 Papier;Substantiv;neutr.;das;0;A1;1038;paper;Ich brauche ein Blatt Papier.;I need a sheet of **paper**.;
 Partner;Substantiv;mask.;der;0;A1;517;partner;Das ist mein Partner.;This is my **partner**.;male
@@ -565,7 +565,7 @@ Pass;Substantiv;mask.;der;0;A1;1079;passport;Hier ist mein Pass.;Here is my **pa
 Pause;Substantiv;fem.;die;0;A1;432;break/pause;Wir machen eine Pause.;We are taking a **break**.;
 Pfund;Substantiv;neutr.;das;0;A1;220;pound;Ein Pfund Äpfel, bitte.;A **pound** of apples, please.;
 Plan;Substantiv;mask.;der;0;A1;2205;plan;Ich habe einen guten Plan.;I have a good **plan**.;
-Platz;Substantiv;mask.;der;0;A1;10187;place/space/seat;Ist dieser Platz noch frei?;Is this **seat** still free?;
+Platz;Substantiv;mask.;der;0;A1;10187;place/seat;Ist dieser Platz noch frei?;Is this **seat** still free?;p-, specific location
 Polizei;Substantiv;fem.;die;0;A1;1488;police;Rufen Sie bitte die Polizei.;Please call the **police**.;
 Pommes frites;Mehrwortausdruck;nan;nan;1;A1;nan;french fries;Ich esse gerne Pommes frites.;I like to eat **french fries**.;
 Post;Substantiv;fem.;die;0;A1;2118;post office/mail;Die Post ist gleich um die Ecke.;The **post office** is just around the corner.;
@@ -598,7 +598,7 @@ Rezeption;Substantiv;fem.;die;0;A1;67;reception;Fragen Sie bitte an der Rezeptio
 richtig;Adjektiv;nan;nan;0;A1;2362;correct/right;Die Antwort ist richtig.;The answer is **correct**.;
 riechen;Verb;nan;nan;0;A1;638;to smell;Die Blumen riechen gut.;The flowers **smell** good.;
 rot;Adjektiv;nan;nan;0;A1;40521;red;Das ist eine rote Blume.;That is a **red** flower.;
-ruhig;Adjektiv;nan;nan;0;A1;989;quiet/calm;Es ist hier sehr ruhig.;It is very **quiet** here.;
+ruhig;Adjektiv;nan;nan;0;A1;989;quiet/calm;Es ist hier sehr ruhig.;It is very **quiet** here.;r-
 S-Bahn;Substantiv;fem.;die;0;A1;2;S-Bahn;Ich fahre mit der S-Bahn.;I'm taking the **S-Bahn**.;suburban train
 Saft;Substantiv;mask.;der;0;A1;219;juice;Möchtest du einen Orangensaft?;Would you like an orange **juice**?;
 sagen;Verb;nan;nan;0;A1;185712;to say/tell;Was hat er gesagt?;What did he **say**?;
@@ -614,7 +614,7 @@ Schinken;Substantiv;mask.;der;0;A1;3;ham;Möchtest du ein Brot mit Schinken?;Wou
 schlafen;Verb;nan;nan;0;A1;4743;to sleep;Das Baby schläft schon.;The baby is already **sleeping**.;
 schlecht;Adjektiv;nan;nan;0;A1;3965;bad;Das Wetter ist heute schlecht.;The weather is **bad** today.;
 schließen;Verb;nan;nan;0;A1;14558;to close/shut;Bitte schließen Sie die Tür.;Please **close** the door.;verb
-Schluss;Substantiv;mask.;der;0;A1;1086;end/finish;Jetzt ist Schluss für heute.;That's the **end** for today (We're done).;
+Schluss;Substantiv;mask.;der;0;A1;1086;end/finish;Jetzt ist Schluss für heute.;That's the **end** for today (We're done).;s-
 Schlüssel;Substantiv;mask.;der;0;A1;329;key;Wo ist mein Schlüssel?;Where is my **key**?;
 schmecken;Verb;nan;nan;0;A1;1868;to taste;Das Essen schmeckt gut.;The food **tastes** good.;
 schnell;Adjektiv;nan;nan;0;A1;14633;fast/quick;Er läuft sehr schnell.;He runs very **fast**.;
@@ -629,7 +629,7 @@ Schwester;Substantiv;fem.;die;0;A1;777;sister;Meine Schwester wohnt in Köln.;My
 Schwimmbad;Substantiv;neutr.;das;0;A1;73;swimming pool;Wir gehen ins Schwimmbad.;We are going to the **swimming pool**.;
 schwimmen;Verb;nan;nan;0;A1;12481;to swim;Ich schwimme gerne im See.;I like to **swim** in the lake.;
 schön;Adjektiv;nan;nan;0;A1;2166;beautiful/nice;Das ist ein schöner Tag.;This is a **beautiful** day.;
-Schüler;Substantiv;mask.;der;0;A1;1332;student/pupil;Der Schüler lernt Deutsch.;The **student** is learning German.;
+Schüler;Substantiv;mask.;der;0;A1;1332;student/pupil;Der Schüler lernt Deutsch.;The **student** is learning German.;sc-, male
 sechs;Kardinalzahlwort;nan;nan;0;A1;1607;six;Ich habe sechs Äpfel.;I have **six** apples.;
 sechzehn;Kardinalzahlwort;nan;nan;0;A1;100;sixteen;Er ist sechzehn Jahre alt.;He is **sixteen** years old.;
 sechzig;Kardinalzahlwort;nan;nan;0;A1;144;sixty;Das kostet sechzig Euro.;That costs **sixty** euros.;
@@ -641,7 +641,7 @@ sein;Verb;nan;nan;0;A1;2016470;to be;Ich bin glücklich.;I **am** happy.;
 seine;Possessivpronomen;fem.;nan;0;A1;nan;his;Das ist seine Tasche.;That is **his** bag.;female
 seit;nan;nan;nan;0;A1;6577;since/for;Ich lebe seit zwei Jahren hier.;I have lived here **for** two years.;time
 Sekunde;Substantiv;fem.;die;0;A1;604;second;Warten Sie bitte eine Sekunde.;Please wait for a **second**.;
-selbstständig;Adjektiv;nan;nan;0;A1;252;independent/self-employed;Er arbeitet selbstständig.;He works **independently** (is self-employed).;
+selbstständig;Adjektiv;nan;nan;0;A1;252;independent/self-employed;Er arbeitet selbstständig.;He works **independently** (is self-employed).;-st-
 selbständig;Adjektiv;nan;nan;0;A1;284;independent/self-employed;Sie ist eine selbständige Frau.;She is an **independent** woman.;
 September;Substantiv;mask.;der;0;A1;712;September;Im September beginnt die Schule.;School starts in **September**.;
 sich;Reflexivpronomen;nan;nan;0;A1;12859192;self;Er wäscht sich die Hände.;He washes **himself** the hands (washes his hands).;
@@ -676,9 +676,9 @@ stellen;Verb;nan;nan;0;A1;211909;to place/set;Bitte stellen Sie das Glas auf den
 Stock;Substantiv;mask.;der;0;A1;383;floor/story;Ich wohne im ersten Stock.;I live on the first **floor**.;
 Straße;Substantiv;fem.;die;0;A1;19970;street/road;Die Straße ist sehr laut.;The **street** is very loud.;
 Straßenbahn;Substantiv;fem.;die;0;A1;151;tram/streetcar;Ich fahre mit der Straßenbahn.;I'm taking the **tram**.;
-Student;Substantiv;mask.;der;0;A1;685;student;Er ist Student an der Universität.;He is a **student** at the university.;male
+Student;Substantiv;mask.;der;0;A1;685;student;Er ist Student an der Universität.;He is a **student** at the university.;male, st-
 studieren;Verb;nan;nan;0;A1;1905;to study;Ich studiere Medizin.;I am **studying** medicine.;at university
-Studium;Substantiv;neutr.;das;0;A1;987;studies;Mein Studium macht mir Spaß.;I enjoy my **studies**.;university
+Studium;Substantiv;neutr.;das;0;A1;987;studies;Mein Studium macht mir Spaß.;I enjoy my **studies**.;
 Stunde;Substantiv;fem.;die;0;A1;2544;hour;Der Film dauert zwei Stunden.;The movie lasts two **hours**.;
 suchen;Verb;nan;nan;0;A1;19236;to look for/search;Ich suche meinen Schlüssel.;I am **looking for** my key.;
 Süden;Substantiv;mask.;der;0;A1;1080;South;München liegt im Süden.;Munich is in the **South**.;
@@ -690,13 +690,13 @@ Taxi;Substantiv;neutr., mask.;das;0;A1;133;taxi/cab;Ich fahre mit dem Taxi nach 
 Tee;Substantiv;mask.;der;0;A1;532;tea;Möchten Sie eine Tasse Tee?;Would you like a cup of **tea**?;
 Teil;Substantiv;mask., neutr.;der, das;0;A1;7761;part;Das ist nur ein Teil der Geschichte.;That's only **part** of the story.;
 Telefon;Substantiv;neutr.;das;0;A1;372;telephone/phone;Das Telefon ist kaputt.;The **telephone** is broken.;
-telefonieren;Verb;nan;nan;0;A1;951;to talk on the phone;Er telefoniert gerade.;He's **talking on the phone** right now.;
+telefonieren;Verb;nan;nan;0;A1;951;to talk on the phone;Er telefoniert gerade.;He's **talking on the phone** right now.;t-
 Termin;Substantiv;mask.;der;0;A1;333;appointment;Ich habe heute einen Termin beim Arzt.;I have an **appointment** with the doctor today.;
 Test;Substantiv;mask.;der;0;A1;513;test;Der Test war nicht schwer.;The **test** was not difficult.;
 teuer;Adjektiv;nan;nan;0;A1;702;expensive;Das Auto ist sehr teuer.;The car is very **expensive**.;
 Text;Substantiv;mask.;der;0;A1;2085;text;Lesen Sie bitte diesen Text.;Please read this **text**.;
 Thema;Substantiv;neutr.;das;0;A1;1786;topic/theme;Das Thema der Stunde ist Umweltschutz.;The **topic** of the lesson is environmental protection.;
-Ticket;Substantiv;neutr.;das;0;A1;116;ticket;Hast du dein Ticket gekauft?;Did you buy your **ticket**?;
+Ticket;Substantiv;neutr.;das;0;A1;116;ticket;Hast du dein Ticket gekauft?;Did you buy your **ticket**?;t-
 Tisch;Substantiv;mask.;der;0;A1;1660;table;Das Essen steht auf dem Tisch.;The food is on the **table**.;
 Tochter;Substantiv;fem.;die;0;A1;1880;daughter;Meine Tochter geht in den Kindergarten.;My **daughter** goes to kindergarten.;
 Toilette;Substantiv;fem.;die;0;A1;226;toilet/restroom;Wo ist die Toilette?;Where is the **toilet**?;
@@ -717,7 +717,7 @@ unsere;Possessivpronomen;fem.;nan;0;A1;nan;our;Das ist unsere Katze.;That is **o
 unsre;Possessivpronomen;fem.;nan;0;A1;17;our;Wo ist unsre Tasche?;Where is **our** bag?;female/slang
 unten;Adverb;nan;nan;0;A1;4585;below/downstairs;Die Post ist unten.;The post office is **downstairs**.;
 unter;Präposition;nan;nan;0;A1;403116;under/among;Die Katze ist unter dem Tisch.;The cat is **under** the table.;
-Unterricht;Substantiv;mask.;der;0;A1;445;lesson/class/teaching;Der Unterricht beginnt um 8 Uhr.;The **lesson** starts at 8 AM.;
+Unterricht;Substantiv;mask.;der;0;A1;445;lesson/class;Der Unterricht beginnt um 8 Uhr.;The **lesson** starts at 8 AM.;noun, u-
 unterschreiben;Verb;nan;nan;0;A1;199;to sign;Bitte unterschreiben Sie hier.;Please **sign** here.;
 Unterschrift;Substantiv;fem.;die;0;A1;140;signature;Ihre Unterschrift fehlt noch.;Your **signature** is still missing.;
 Urlaub;Substantiv;mask.;der;0;A1;1826;vacation/holiday;Wir machen im August Urlaub.;We are taking a **vacation** in August.;u-
@@ -768,7 +768,7 @@ welche;Interrogativpronomen;fem.;nan;0;A1;nan;which;Welche Tasche möchtest du?;
 welcher;Interrogativpronomen;mask.;nan;0;A1;6746;which;Welcher Mantel gefällt dir?;**Which** coat do you like?;male
 welches;Interrogativpronomen;neutr.;nan;0;A1;nan;which;Welches Buch liest du?;**Which** book are you reading?;neutral
 Welt;Substantiv;fem.;die;0;A1;3969;world;Er reist um die Welt.;He travels around the **world**.;
-wenig;Adjektiv;nan;nan;0;A1;3036;little/few;Ich habe nur wenig Zeit.;I have only **little** time.;
+wenig;Adjektiv;nan;nan;0;A1;3036;little/few;Ich habe nur wenig Zeit.;I have only **little** time.;w-
 wer;Pronomen;nan;nan;0;A1;34231;who;Wer ist das?;**Who** is that?;
 werden;Verb;nan;nan;0;A1;721085;to become/will;Er wird Arzt.;He is **becoming** a doctor.;future
 Westen;Substantiv;mask.;der;0;A1;1302;West;Die Sonne geht im Westen unter.;The sun sets in the **West**.;
@@ -793,7 +793,7 @@ Wochentag;Substantiv;mask.;der;0;A1;58;weekday/day of the week;Welcher Wochentag
 woher;Pronominaladverb;nan;nan;0;A1;265;from where;Woher kommen Sie?;**Where** do you come **from**?;
 wohin;Pronominaladverb;nan;nan;0;A1;203;where;Wohin gehst du?;**Where** are you going (**to**)?;to
 wohnen;Verb;nan;nan;0;A1;4868;to live/dwell;Ich wohne in Berlin.;I **live** in Berlin.;
-Wohnung;Substantiv;fem.;die;0;A1;1419;apartment/flat;Die Wohnung ist sehr schön.;The **apartment** is very beautiful.;
+Wohnung;Substantiv;fem.;die;0;A1;1419;apartment/flat;Die Wohnung ist sehr schön.;The **apartment** is very beautiful.;w-
 wollen;Verb;nan;nan;0;A1;151105;to want;Was wollen Sie trinken?;What do you **want** to drink?;
 Wort;Substantiv;neutr.;das;0;A1;14707;word;Das ist ein schwieriges Wort.;That is a difficult **word**.;
 wunderbar;Adjektiv;nan;nan;0;A1;317;wonderful/marvelous;Das Wetter ist wunderbar.;The weather is **wonderful**.;
@@ -1253,7 +1253,7 @@ schwanger;Adjektiv;nan;nan;0;A2;168;pregnant;Sie ist im fünften Monat schwanger
 Schwein;Substantiv;neutr.;das;0;A2;551;pig/pork;Das Schwein lebt auf dem Bauernhof.;The **pig** lives on the farm.;
 schwierig;Adjektiv;nan;nan;0;A2;833;difficult/hard/tough;Die Aufgabe ist sehr schwierig.;The task is very **difficult**.;
 schädlich;Adjektiv;nan;nan;0;A2;266;harmful/damaging;Rauchen ist schädlich.;Smoking is **harmful**.;
-Schülerin;Substantiv;fem.;die;0;A2;110;student/pupil;Sie ist eine gute Schülerin.;She is a good (female) **student**.;female
+Schülerin;Substantiv;fem.;die;0;A2;110;student/pupil;Sie ist eine gute Schülerin.;She is a good (female) **student**.;sc-, female
 Seife;Substantiv;fem.;die;0;A2;nan;soap;Ich brauche ein Stück Seife.;I need a bar of **soap**.;
 Seite;Substantiv;fem.;die;0;A2;3545;page/side;Macht bitte Seite zehn auf.;Please open to **page** ten.;
 selbst;Pronomen;nan;nan;0;A2;77696;self/even;Ich habe das selbst gemacht.;I did that **myself**.;
@@ -1289,7 +1289,7 @@ streiten;Verb;nan;nan;0;A2;625;to argue/fight/quarrel;Bitte streitet euch nicht.
 streng;Adjektiv;nan;nan;0;A2;3285;strict/severe/rigorous;Mein Lehrer ist sehr streng.;My teacher is very **strict**.;
 Stress;Substantiv;mask.;der;0;A2;161;stress/hassle;Ich habe viel Stress bei der Arbeit.;I have a lot of **stress** at work.;
 stressig;Adjektiv;nan;nan;0;A2;111;stressful;Der Umzug war sehr stressig.;The move was very **stressful**.;
-Studentin;Substantiv;fem.;die;0;A2;72;student;Sie ist Studentin an der Universität.;She is a (female) **student** at the university.;female
+Studentin;Substantiv;fem.;die;0;A2;72;student;Sie ist Studentin an der Universität.;She is a (female) **student** at the university.;st-, female
 Stuhl;Substantiv;mask.;der;0;A2;677;chair;Setzen Sie sich bitte auf den Stuhl.;Please sit on the **chair**.;
 stören;Verb;nan;nan;0;A2;552;to disturb/bother/annoy;Entschuldigung, störe ich?;Excuse me, am I **disturbing**?;
 Stück;Substantiv;neutr.;das;0;A2;2206;piece/bit/play;Möchten Sie ein Stück Kuchen?;Would you like a **piece** of cake?;theater
