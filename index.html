@@ -303,6 +303,13 @@
       justify-content: center;
     }
 
+    .muteBtn {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
     .dailyLimitBtn {
       display: flex;
       gap: 0.5rem;
@@ -667,6 +674,14 @@
       </div>
     </div>
     <div class="settingItem">
+      <div>pronounciation</div>
+      <div class="helpBtn" data-help="Speak the German answer aloud after each attempt using text-to-speech">[?]</div>
+      <div class="muteBtn">
+        <div class="btn" onclick="setMute(true)" data-mute="true">on</div>
+        <div class="btn" onclick="setMute(false)" data-mute="false">off</div>
+      </div>
+    </div>
+    <div class="settingItem">
       <div>daily limit</div>
       <div class="helpBtn" data-help="Maximum new words to learn per day">[?]</div>
       <div class="dailyLimitBtn">
@@ -752,7 +767,7 @@
     <br><br>
     <div id="footerLine">
       <a href="">report_bug</a>
-      <div id="siteVersion">sv0.2.0</div>
+      <div id="siteVersion">sv0.2.1</div>
       <div id="dataVersion">dv0.0.0</div>
     </div>
     <br>
@@ -887,6 +902,7 @@
       check_umlaut: false, // default off
       dailyLimit: 100, // new words per day
       fuzzy_error: true, // show fuzzy correction
+      mute: false, // speak German answer aloud via TTS
       history: {}, // { "YYYY-MM-DD": { learned: 0, reviewed: 0 } }
     };
 
@@ -1129,6 +1145,24 @@
       userSettings.fuzzy_error = val;
       saveSettings();
       loadSettingsIntoUI();
+    }
+
+    function setMute(val) {
+      userSettings.mute = val;
+      saveSettings();
+      loadSettingsIntoUI();
+    }
+
+    function speakGerman(text) {
+      if (!userSettings.mute) return;
+      if (!window.speechSynthesis) return;
+      window.speechSynthesis.cancel();
+      const utter = new SpeechSynthesisUtterance(text);
+      utter.lang = 'de-DE';
+      const voices = window.speechSynthesis.getVoices();
+      const german_voice = voices.find(v => v.name === 'Eddy (German (Germany))');
+      if (german_voice) utter.voice = german_voice;
+      window.speechSynthesis.speak(utter);
     }
 
     function setDailyLimit(limit) {
@@ -1623,6 +1657,17 @@
         // Handle undefined case for legacy settings
         const currentSetting = (userSettings.fuzzy_error !== undefined) ? userSettings.fuzzy_error : true;
 
+        if (currentSetting === btnVal) {
+          btn.classList.add('selected');
+        } else {
+          btn.classList.remove('selected');
+        }
+      });
+
+      // Highlight mute (speak answer) buttons
+      document.querySelectorAll('.muteBtn .btn').forEach(btn => {
+        const btnVal = btn.getAttribute('data-mute') === 'true';
+        const currentSetting = (userSettings.mute !== undefined) ? userSettings.mute : false;
         if (currentSetting === btnVal) {
           btn.classList.add('selected');
         } else {
@@ -2479,6 +2524,7 @@
             updateFSRS(1, "", correctAnswer); // FSRS Fail (Empty) - NLD 1.0
             updateDailyStats(currentWord, true); // Log daily mistake
             // Show correct answer in red if empty (treated as mistake/give up)
+            speakGerman(correctAnswer);
             const showDiv = document.getElementById('show');
             if (userSettings.fuzzy_error) {
               showDiv.innerHTML = generateFuzzyHtml("", correctAnswer);
@@ -2579,6 +2625,7 @@
               updateEMA(1); // Correct
               updateFSRS(3, inputVal, bestTarget); // FSRS Pass
               updateDailyStats(currentWord, false); // Log daily trial (no mistake)
+              speakGerman(correctAnswer);
               nextWord();
             } else {
               // WRONG answer
@@ -2600,6 +2647,7 @@
               updateEMA(0); // Wrong
               updateFSRS(1, inputVal, bestTarget); // FSRS Fail with NLD
               updateDailyStats(currentWord, true); // Log daily mistake
+              speakGerman(correctAnswer);
               const showDiv = document.getElementById('show');
               if (userSettings.fuzzy_error) {
                 showDiv.innerHTML = generateFuzzyHtml(value, correctAnswer);
