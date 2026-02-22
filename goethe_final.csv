@@ -40,7 +40,7 @@ Anrede;Substantiv;fem.;die;0;A1;199;salutation/address;Wie lautet die richtige A
 Anruf;Substantiv;mask.;der;0;A1;139;call;Ich warte auf einen wichtigen Anruf.;I am waiting for an important **call**.;
 Anrufbeantworter;Substantiv;mask.;der;0;A1;25;answering machine;Bitte hinterlassen Sie eine Nachricht auf dem Anrufbeantworter.;Please leave a message on the **answering machine**.;
 anrufen;Verb;nan;nan;0;A1;295;to call;Ich werde dich morgen anrufen.;I will **call** you tomorrow.;a-
-Ansage;Substantiv;fem.;die;0;A1;27;announcement;Achten Sie bitte auf die Ansage am Bahnsteig.;Please pay attention to the **announcement** on the platform.;
+Ansage;Substantiv;fem.;die;0;A1;27;announcement;Achten Sie bitte auf die Ansage am Bahnsteig.;Please pay attention to the **announcement** on the platform.;a-
 Anschluss;Substantiv;mask.;der;0;A1;211;connection;Haben wir in München Anschluss nach Wien?;Do we have a **connection** to Vienna in Munich?;
 Antwort;Substantiv;fem.;die;0;A1;1064;answer;Ich habe noch keine Antwort bekommen.;I haven't received an **answer** yet.;
 antworten;Verb;nan;nan;0;A1;771;to answer;Er konnte meine Frage nicht antworten.;He couldn't **answer** my question.;
@@ -192,7 +192,7 @@ drucken;Verb;nan;nan;0;A1;701;print;Kannst du das Dokument drucken?;Can you **pr
 Drucker;Substantiv;mask.;der;0;A1;89;printer;Der Drucker braucht neues Papier.;The **printer** needs new paper.;
 drücken;Verb;nan;nan;0;A1;16667;to press/push;Bitte auf diesen Knopf drücken.;Please **press** this button.;
 durch;Präposition;nan;nan;0;A1;204654;through;Er geht durch den Park.;He is walking **through** the park.;
-Durchsage;Substantiv;fem.;die;0;A1;14;announcement;Hast du die Durchsage gehört?;Did you hear the **announcement**?;
+Durchsage;Substantiv;fem.;die;0;A1;14;announcement;Hast du die Durchsage gehört?;Did you hear the **announcement**?;d-
 Durst;Substantiv;mask.;der;0;A1;1;thirst;Ich habe großen Durst.;I have a great **thirst**.;
 Dusche;Substantiv;fem.;die;0;A1;79;shower;Die Dusche ist im Bad.;The **shower** is in the bathroom.;
 duschen;Verb;nan;nan;0;A1;105;to shower;Ich dusche jeden Morgen.;I **shower** every morning.;
