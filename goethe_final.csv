@@ -757,8 +757,8 @@ was für eine;Mehrwortausdruck;nan;nan;0;A1;nan;what kind of;Was für eine Über
 waschen;Verb;nan;nan;0;A1;1833;to wash;Ich wasche die Wäsche.;I am **washing** the laundry.;
 Wasser;Substantiv;neutr.;das;0;A1;36452;water;Ein Glas Wasser, bitte.;A glass of **water**, please.;
 weg sein;Verb;nan;nan;0;A1;nan;to be gone;Mein Schlüssel ist weg.;My key is **gone**.;
-weh tun;Verb;nan;nan;0;A1;nan;to hurt;Mein Arm tut weh.;My arm **hurts**.;
-wehtun;Verb;nan;nan;0;A1;59;to hurt;Das wird nicht wehtun.;That won't **hurt**.;
+weh tun;Verb;nan;nan;0;A1;nan;to hurt;Mein Arm tut weh.;My arm **hurts**.;with space
+wehtun;Verb;nan;nan;0;A1;59;to hurt;Das wird nicht wehtun.;That won't **hurt**.;no space
 weiblich;Adjektiv;nan;nan;0;A1;5432;female;Die Bewerberin ist weiblich.;The applicant is **female**.;
 Wein;Substantiv;mask.;der;0;A1;1526;wine;Möchten Sie ein Glas Wein?;Would you like a glass of **wine**?;
 weit;Adjektiv;nan;nan;0;A1;16523;far/wide;Der Weg ist sehr weit.;The way is very **far**.;
