@@ -789,7 +789,7 @@ wissen;Verb;nan;nan;0;A1;53800;to know;Ich weiß es nicht.;I don't **know** it.;
 wo;Adverb;nan;nan;0;A1;86998;where;Wo wohnst du?;**Where** do you live?;
 Woche;Substantiv;fem.;die;0;A1;2710;week;Eine Woche hat sieben Tage.;A **week** has seven days.;
 Wochenende;Substantiv;neutr.;das;0;A1;548;weekend;Am Wochenende habe ich frei.;I have the day off on the **weekend**.;
-Wochentag;Substantiv;mask.;der;0;A1;58;weekday/day of the week;Welcher Wochentag ist heute?;Which **weekday** is it today?;
+Wochentag;Substantiv;mask.;der;0;A1;58;weekday;Welcher Wochentag ist heute?;Which **weekday** is it today?;
 woher;Pronominaladverb;nan;nan;0;A1;265;from where;Woher kommen Sie?;**Where** do you come **from**?;
 wohin;Pronominaladverb;nan;nan;0;A1;203;where;Wohin gehst du?;**Where** are you going (**to**)?;to
 wohnen;Verb;nan;nan;0;A1;4868;to live/dwell;Ich wohne in Berlin.;I **live** in Berlin.;
@@ -819,7 +819,7 @@ zweihundert;Kardinalzahlwort;nan;nan;0;A1;nan;two hundred;Es kostet zweihundert 
 zweite;Ordinalzahlwort;nan;nan;0;A1;nan;second;Das ist der zweite Tag.;That is the **second** day.;
 zwischen;Präposition;nan;nan;0;A1;64426;between;Der Tisch steht zwischen den Stühlen.;The table is **between** the chairs.;
 zwölf;Kardinalzahlwort;nan;nan;0;A1;689;twelve;Es ist zwölf Uhr.;It is **twelve** o'clock.;
-öffnen;Verb;nan;nan;0;A1;1478;to open;Können Sie das Fenster öffnen?;Can you **open** the window?;
+öffnen;Verb;nan;nan;0;A1;1478;to open;Können Sie das Fenster öffnen?;Can you **open** the window?;ö-
 Öl;Substantiv;neutr.;das;0;A1;1845;oil;Wir brauchen etwas Öl zum Kochen.;We need some **oil** for cooking.;
 über;Präposition;nan;nan;0;A1;492910;over/across/about;Wir sprechen über den Urlaub.;We are talking **about** the vacation.;
 übernachten;Verb;nan;nan;0;A1;96;to stay overnight;Wo werden Sie übernachten?;Where will you **stay overnight**?;
@@ -840,7 +840,7 @@ arm;Adjektiv;nan;nan;0;A2;2045;poor;Er ist sehr arm.;He is very **poor**.;
 Artikel;Substantiv;mask.;der;0;A2;936;article;Ich lese einen interessanten Artikel.;I am reading an interesting **article**.;
 auf jeden Fall;Mehrwortausdruck;nan;nan;0;A2;nan;definitely/in any case;Ich komme auf jeden Fall.;I'm **definitely** coming.;
 auf keinen Fall;Mehrwortausdruck;nan;nan;0;A2;nan;no way/certainly not;Das mache ich auf keinen Fall.;I am **certainly not** doing that.;
-aufmachen;Verb;nan;nan;0;A2;195;to open;Kannst du bitte das Fenster aufmachen?;Can you please **open** the window?;
+aufmachen;Verb;nan;nan;0;A2;195;to open;Kannst du bitte das Fenster aufmachen?;Can you please **open** the window?;a-
 aufpassen;Verb;nan;nan;0;A2;946;to pay attention/watch out;Bitte pass auf beim Überqueren der Straße.;Please **pay attention** when crossing the street.;
 aufregen;Verb;nan;nan;0;A2;115;to upset/get excited;Reg dich nicht auf!;Don't get **upset**!;
 aufräumen;Verb;nan;nan;0;A2;131;to clean up/tidy up;Ich muss mein Zimmer aufräumen.;I must **clean up** my room.;
@@ -1083,7 +1083,7 @@ Körper;Substantiv;mask.;der;0;A2;2535;body;Ein gesunder Geist in einem gesunden
 kühl;Adjektiv;nan;nan;0;A2;1243;cool/chilly;Heute ist es kühl.;It is **cool** today.;
 kündigen;Verb;nan;nan;0;A2;1094;to quit/cancel/resign;Er hat seinen Job gekündigt.;He **quit** his job.;
 Lampe;Substantiv;fem.;die;0;A2;274;lamp;Mach bitte die Lampe an.;Please turn on the **lamp**.;
-Landschaft;Substantiv;fem.;die;0;A2;861;landscape/scenery;Die Landschaft hier ist herrlich.;The **landscape** here is magnificent.;
+Landschaft;Substantiv;fem.;die;0;A2;861;landscape;Die Landschaft hier ist herrlich.;The **landscape** here is magnificent.;
 langweilig;Adjektiv;nan;nan;0;A2;253;boring;Der Film war langweilig.;The movie was **boring**.;
 Laptop;Substantiv;mask., neutr.;der;0;A2;83;laptop;Ich brauche einen neuen Laptop.;I need a new **laptop**.;
 lassen;Verb;nan;nan;0;A2;433107;to let;Lass mich in Ruhe!;**Let** me be!;
