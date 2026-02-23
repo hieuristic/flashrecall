@@ -1,4 +1,4 @@
-—rabPr√§position"nan*nan2A1:86456Boff/fromJWir fahren ab Hamburg.R"We are departing **from** Hamburg.Z0Abend
+“rabPr√§position"nan*nan2A1:86456Boff/fromJWir fahren ab Hamburg.R"We are departing **from** Hamburg.Z0Abend
 Substantiv"mask.*der2A1:1607BeveningJ&Ich w√ºnsche dir einen sch√∂nen Abend.RI wish you a nice **evening**.Z0åaberKonjunktion"nan*nan2A1:120754BbutJ-Ich wollte kommen, aber ich hatte keine Zeit.R(I wanted to come, **but** I had no time.Z0zabfahrenVerb"nan*nan2A1:254B	to departJ!Der Zug wird p√ºnktlich abfahren.R"The train will **depart** on time.Z0õAbfahrt
 Substantiv"fem.*die2A1:133B	departureJ0Vor der Abfahrt m√ºssen wir alles kontrollieren.R.We must check everything before **departure**.Z0õ	abfliegenVerb"nan*nan2A1:94Bto take offJ,Das Flugzeug wird in zehn Minuten abfliegen.R+The plane will **take off** in ten minutes.Z0b	for planeôAbflug
 Substantiv"mask.*der2A1:61B	departureJ,Unser Abflug verz√∂gert sich um eine Stunde.R)Our **departure** is delayed by one hour.Z0bflight}abgebenVerb"nan*nan2A1:705B
@@ -471,7 +471,8 @@ Substantiv"mask.*der2A1:1526BwineJM√∂chten Sie ein Glas Wein?R#Would you l
 Substantiv"fem.*die2A1:3969BworldJEr reist um die Welt.R He travels around the **world**.Z0sÇwenigAdjektiv"nan*nan2A1:3036B
 little/fewJIch habe nur wenig Zeit.RI have only **little** time.Z0bw-OÉwerPronomen"nan*nan2A1:34231BwhoJWer ist das?R**Who** is that?Z0oÑwerdenVerb"nan*nan2A1:721085Bto become/willJEr wird Arzt.RHe is **becoming** a doctor.Z0bfuturevÖWesten
 Substantiv"mask.*der2A1:1302BWestJDie Sonne geht im Westen unter.RThe sun sets in the **West**.Z0|ÜWetter
-Substantiv"neutr.*das2A1:660BweatherJDas Wetter ist heute sch√∂n.R#The **weather** is beautiful today.Z0}áwichtigAdjektiv"nan*nan2A1:3637B	importantJ Das ist eine wichtige Nachricht.R!That is an **important** message.Z0UàwieAdverb"nan*nan2A1:2011067BhowJWie geht es Ihnen?R**How** are you?Z0râwie vielAdverb"nan*nan2A1:nanBhow much/how manyJWie viel kostet das?R**How much** does that cost?Z0\äwiederAdverb"nan*nan2A1:196854BagainJIch komme wieder.RI'll come **again**.Z0|ãwieder holenVerb"nan*nan2A1:nanB	to repeatJ!Kannst du das bitte wieder holen?RCan you please **repeat** that?Z0cåwiederholenVerb"nan*nan2A1:823B	to repeatJWiederholen Sie bitte.RPlease **repeat**.Z0ñçWiederh√∂ren
+Substantiv"neutr.*das2A1:660BweatherJDas Wetter ist heute sch√∂n.R#The **weather** is beautiful today.Z0}áwichtigAdjektiv"nan*nan2A1:3637B	importantJ Das ist eine wichtige Nachricht.R!That is an **important** message.Z0UàwieAdverb"nan*nan2A1:2011067BhowJWie geht es Ihnen?R**How** are you?Z0râwie vielAdverb"nan*nan2A1:nanBhow much/how manyJWie viel kostet das?R**How much** does that cost?Z0\äwiederAdverb"nan*nan2A1:196854BagainJIch komme wieder.RI'll come **again**.Z0àãwieder holenVerb"nan*nan2A1:nanB	to repeatJ!Kannst du das bitte wieder holen?RCan you please **repeat** that?Z0b
+with spaceråwiederholenVerb"nan*nan2A1:823B	to repeatJWiederholen Sie bitte.RPlease **repeat**.Z0bwithout spaceñçWiederh√∂ren
 Substantiv"neutr.*das2A1:nanBtalking to you againJAuf Wiederh√∂ren!R.Goodbye (until next **talking on the phone**)!Z0bphoneÄéWiedersehen
 Substantiv"neutr.*das2A1:103Bseeing you againJAuf Wiedersehen!R%Goodbye (until **seeing you again**)!Z0eè
 willkommenAdjektiv"nan*nan2A1:10915BwelcomeJHerzlich willkommen!RA warm **welcome**!Z0wêWind
@@ -724,7 +725,8 @@ Substantiv"fem.*die2A2:611BqualityJ Die Qualit√§t ist ausgezeichnet.RThe *
 Substantiv"neutr.*das2A2:26BquizJWir machen ein Quiz.RWe are doing a **quiz**.Z0m´	Rad
 Substantiv"neutr.*das2A2:21512Bwheel/bicycleJDas Rad ist kaputt.RThe **wheel** is broken.Z0~¨	Radio
 Substantiv"neutr., mask.*das2A2:635BradioJH√∂rst du gerne Radio?R'Do you like listening to the **radio**?Z0h≠	ratenVerb"nan*nan2A2:1579Bto advise/guessJWas r√§tst du mir?RWhat do you **advise** me?Z0àÆ	Rathaus
-Substantiv"neutr.*das2A2:175Bcity hall/town hallJDas Rathaus ist im Zentrum.R#The **city hall** is in the center.Z0YØ	rausAdverb"nan*nan2A2:276Bout/outsideJGeh bitte raus.RPlease go **out**.Z0å∞	rechnenVerb"nan*nan2A2:9203Bto calculate/reckon/count onJIch muss das noch mal rechnen.R#I have to **calculate** that again.Z0x±	rechtAdjektiv"nan*nan2B1:40775Bright/correct/quiteJDas ist mir recht.R!That is **fine** (right) with me.Z0a≤	redenVerb"nan*nan2A2:18848Bto talk/speakJWir m√ºssen reden.RWe need to **talk**.Z0j≥	reichAdjektiv"nan*nan2A2:6236Brich/wealthyJEr ist ein reicher Mann.RHe is a **rich** man.Z0u¥	Reifen
+Substantiv"neutr.*das2A2:175Bcity hall/town hallJDas Rathaus ist im Zentrum.R#The **city hall** is in the center.Z0eØ	rausAdverb"nan*nan2A2:276Bout/outsideJGeh bitte raus.RPlease go **out**.Z0b
+colloquialå∞	rechnenVerb"nan*nan2A2:9203Bto calculate/reckon/count onJIch muss das noch mal rechnen.R#I have to **calculate** that again.Z0x±	rechtAdjektiv"nan*nan2B1:40775Bright/correct/quiteJDas ist mir recht.R!That is **fine** (right) with me.Z0a≤	redenVerb"nan*nan2A2:18848Bto talk/speakJWir m√ºssen reden.RWe need to **talk**.Z0j≥	reichAdjektiv"nan*nan2A2:6236Brich/wealthyJEr ist ein reicher Mann.RHe is a **rich** man.Z0u¥	Reifen
 Substantiv"mask.*der2A2:258Btire/hoop/ringJDer Reifen hat keine Luft.RThe **tire** has no air.Z0Üµ	Reihe
 Substantiv"fem.*die2A2:1681Brow/series/turnJWir sitzen in der ersten Reihe.R$We are sitting in the first **row**.Z0Q∂	reinAdverb"nan*nan2A2:1701Bin/pure/cleanJ
 Komm rein!RCome **in**!Z0õ∑		Reinigung
@@ -735,8 +737,9 @@ Substantiv"fem.*die2A2:20Bpensioner/retireeJMeine Oma ist Rentnerin.R%My g
 Substantiv"mask.*der2A2:709Brest/remains/left-overJ M√∂chten Sie den Rest einpacken?R'Would you like to pack up the **rest**?Z0~æ	Rezept
 Substantiv"neutr.*das2A2:189Brecipe/prescriptionJDas ist ein tolles Rezept.RThat is a great **recipe**.Z0qø	Rind
 Substantiv"neutr.*das2A2:324Bbeef/cattleJIch esse gerne Rindfleisch.RI like eating **beef**.Z0{¿	Ring
-Substantiv"mask.*der2A2:1030BringJSie tr√§gt einen sch√∂nen Ring.R$She is wearing a beautiful **ring**.Z0y¡	Rock
-Substantiv"mask.*der2A2:978Bskirt/coat/rockJDer Rock ist zu kurz.RThe **skirt** is too short.Z0bmusicz¬	
+Substantiv"mask.*der2A2:1030BringJSie tr√§gt einen sch√∂nen Ring.R$She is wearing a beautiful **ring**.Z0m¡	Rock
+Substantiv"mask.*der2A2:978B
+skirt/coatJDer Rock ist zu kurz.RThe **skirt** is too short.Z0z¬	
 romantischAdjektiv"nan*nan2A2:301BromanticJDer Film war sehr romantisch.R The movie was very **romantic**.Z0c√	Rose
 Substantiv"fem.*die2A2:272BroseJDie Rose duftet gut.RThe **rose** smells nice.Z0Ñƒ	Rucksack
 Substantiv"mask.*der2A2:141Bbackpack/rucksackJMein Rucksack ist sehr schwer.RMy **backpack** is very heavy.Z0`≈	rufenVerb"nan*nan2A2:17856Bto call/shoutJRuf mich bitte an.RPlease **call** me.Z0w∆	Ruhe
@@ -888,8 +891,8 @@ Substantiv"mask.*der2A2:974Bdifference/distinction/contrastJWas ist der Un
 verabredenVerb"nan*nan2A2:99Bto arrange/make an appointmentJ%Wir haben uns f√ºr morgen verabredet.R&We have **arranged** to meet tomorrow.Z0ñ√
 Veranstaltung
 Substantiv"fem.*die2A2:635Bevent/performance/meetingJ"Die Veranstaltung war gut besucht.R The **event** was well attended.Z0~ƒ
-	verbietenVerb"nan*nan2A2:690Bto forbid/prohibit/banJRauchen ist hier verboten.RSmoking is **forbidden** here.Z0û≈
-vereinbarenVerb"nan*nan2A2:316Bto agree/arrange/reconcileJ"Wir haben einen Termin vereinbart.R0We have **arranged** (agreed on) an appointment.Z0r∆
+	verbietenVerb"nan*nan2A2:690Bto forbid/prohibit/banJRauchen ist hier verboten.RSmoking is **forbidden** here.Z0î≈
+vereinbarenVerb"nan*nan2A2:316Bto agree/arrangeJ"Wir haben einen Termin vereinbart.R0We have **arranged** (agreed on) an appointment.Z0r∆
 	vergessenVerb"nan*nan2A2:814B	to forgetJ%Ich habe meinen Schl√ºssel vergessen.RI **forgot** my key.Z0t«
 vergleichenVerb"nan*nan2A2:406Bto compare/matchJVergleichen Sie die Preise.R**Compare** the prices.Z0ñ»
 Verkehr

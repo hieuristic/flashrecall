@@ -777,8 +777,8 @@ wichtig;Adjektiv;nan;nan;0;A1;3637;important;Das ist eine wichtige Nachricht.;Th
 wie;Adverb;nan;nan;0;A1;2011067;how;Wie geht es Ihnen?;**How** are you?;
 wie viel;Adverb;nan;nan;0;A1;nan;how much/how many;Wie viel kostet das?;**How much** does that cost?;
 wieder;Adverb;nan;nan;0;A1;196854;again;Ich komme wieder.;I'll come **again**.;
-wieder holen;Verb;nan;nan;0;A1;nan;to repeat;Kannst du das bitte wieder holen?;Can you please **repeat** that?;
-wiederholen;Verb;nan;nan;0;A1;823;to repeat;Wiederholen Sie bitte.;Please **repeat**.;
+wieder holen;Verb;nan;nan;0;A1;nan;to repeat;Kannst du das bitte wieder holen?;Can you please **repeat** that?;with space
+wiederholen;Verb;nan;nan;0;A1;823;to repeat;Wiederholen Sie bitte.;Please **repeat**.;without space
 Wiederhören;Substantiv;neutr.;das;0;A1;nan;talking to you again;Auf Wiederhören!;Goodbye (until next **talking on the phone**)!;phone
 Wiedersehen;Substantiv;neutr.;das;0;A1;103;seeing you again;Auf Wiedersehen!;Goodbye (until **seeing you again**)!;
 willkommen;Adjektiv;nan;nan;0;A1;10915;welcome;Herzlich willkommen!;A warm **welcome**!;
@@ -1197,7 +1197,7 @@ Rad;Substantiv;neutr.;das;0;A2;21512;wheel/bicycle;Das Rad ist kaputt.;The **whe
 Radio;Substantiv;neutr., mask.;das;0;A2;635;radio;Hörst du gerne Radio?;Do you like listening to the **radio**?;
 raten;Verb;nan;nan;0;A2;1579;to advise/guess;Was rätst du mir?;What do you **advise** me?;
 Rathaus;Substantiv;neutr.;das;0;A2;175;city hall/town hall;Das Rathaus ist im Zentrum.;The **city hall** is in the center.;
-raus;Adverb;nan;nan;0;A2;276;out/outside;Geh bitte raus.;Please go **out**.;
+raus;Adverb;nan;nan;0;A2;276;out/outside;Geh bitte raus.;Please go **out**.;colloquial
 rechnen;Verb;nan;nan;0;A2;9203;to calculate/reckon/count on;Ich muss das noch mal rechnen.;I have to **calculate** that again.;
 recht;Adjektiv;nan;nan;0;B1;40775;right/correct/quite;Das ist mir recht.;That is **fine** (right) with me.;
 reden;Verb;nan;nan;0;A2;18848;to talk/speak;Wir müssen reden.;We need to **talk**.;
@@ -1215,7 +1215,7 @@ Rest;Substantiv;mask.;der;0;A2;709;rest/remains/left-over;Möchten Sie den Rest 
 Rezept;Substantiv;neutr.;das;0;A2;189;recipe/prescription;Das ist ein tolles Rezept.;That is a great **recipe**.;
 Rind;Substantiv;neutr.;das;0;A2;324;beef/cattle;Ich esse gerne Rindfleisch.;I like eating **beef**.;
 Ring;Substantiv;mask.;der;0;A2;1030;ring;Sie trägt einen schönen Ring.;She is wearing a beautiful **ring**.;
-Rock;Substantiv;mask.;der;0;A2;978;skirt/coat/rock;Der Rock ist zu kurz.;The **skirt** is too short.;music
+Rock;Substantiv;mask.;der;0;A2;978;skirt/coat;Der Rock ist zu kurz.;The **skirt** is too short.;
 romantisch;Adjektiv;nan;nan;0;A2;301;romantic;Der Film war sehr romantisch.;The movie was very **romantic**.;
 Rose;Substantiv;fem.;die;0;A2;272;rose;Die Rose duftet gut.;The **rose** smells nice.;
 Rucksack;Substantiv;mask.;der;0;A2;141;backpack/rucksack;Mein Rucksack ist sehr schwer.;My **backpack** is very heavy.;
@@ -1347,7 +1347,7 @@ unterwegs;Adverb;nan;nan;0;A2;580;on the way/on the road;Ich bin viel unterwegs.
 verabreden;Verb;nan;nan;0;A2;99;to arrange/make an appointment;Wir haben uns für morgen verabredet.;We have **arranged** to meet tomorrow.;
 Veranstaltung;Substantiv;fem.;die;0;A2;635;event/performance/meeting;Die Veranstaltung war gut besucht.;The **event** was well attended.;
 verbieten;Verb;nan;nan;0;A2;690;to forbid/prohibit/ban;Rauchen ist hier verboten.;Smoking is **forbidden** here.;
-vereinbaren;Verb;nan;nan;0;A2;316;to agree/arrange/reconcile;Wir haben einen Termin vereinbart.;We have **arranged** (agreed on) an appointment.;
+vereinbaren;Verb;nan;nan;0;A2;316;to agree/arrange;Wir haben einen Termin vereinbart.;We have **arranged** (agreed on) an appointment.;
 vergessen;Verb;nan;nan;0;A2;814;to forget;Ich habe meinen Schlüssel vergessen.;I **forgot** my key.;
 vergleichen;Verb;nan;nan;0;A2;406;to compare/match;Vergleichen Sie die Preise.;**Compare** the prices.;
 Verkehr;Substantiv;mask.;der;0;A2;520;traffic/communication/intercourse;Es gibt heute viel Verkehr.;There is a lot of **traffic** today.;
