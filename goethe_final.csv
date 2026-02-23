@@ -1306,10 +1306,10 @@ Tablette;Substantiv;fem.;die;0;A2;54;pill/tablet;Du musst die Tablette nehmen.;Y
 Tafel;Substantiv;fem.;die;0;A2;345;blackboard/board/table;Der Lehrer schreibt an die Tafel.;The teacher is writing on the **blackboard**.;
 Taschengeld;Substantiv;neutr.;das;0;A2;54;pocket money;Bekommst du viel Taschengeld?;Do you get much **pocket money**?;
 Tasse;Substantiv;fem.;die;0;A2;nan;cup;Eine Tasse Tee, bitte.;A **cup** of tea, please.;
-tauschen;Verb;nan;nan;0;A2;861;to exchange/swap/trade;Wollen wir die Plätze tauschen?;Shall we **exchange** seats?;
+tauschen;Verb;nan;nan;0;A2;861;to exchange/swap/trade;Wollen wir die Plätze tauschen?;Shall we **exchange** seats?;often involves two parties
 Team;Substantiv;neutr.;das;0;A2;576;team;Wir arbeiten gut im Team.;We work well in a **team**.;
 teilen;Verb;nan;nan;0;A2;5882;to share/divide/part;Wollen wir uns das Zimmer teilen?;Shall we **share** the room?;
-teilnehmen;Verb;nan;nan;0;A2;711;to participate/take part/attend;Ich nehme an der Konferenz teil.;I am **participating** in the conference.;
+teilnehmen;Verb;nan;nan;0;A2;711;to take part;Ich nehme an der Konferenz teil.;I am **participating** in the conference.;
 Teller;Substantiv;mask.;der;0;A2;382;plate;Der Teller ist noch heiß.;The **plate** is still hot.;
 Tennis;Substantiv;neutr.;das;0;A2;258;tennis;Spielst du gerne Tennis?;Do you like playing **tennis**?;
 Theater;Substantiv;neutr.;das;0;A2;1135;theater;Gehen wir heute ins Theater?;Are we going to the **theater** today?;
@@ -1376,12 +1376,12 @@ Vorschlag;Substantiv;mask.;der;0;A2;393;suggestion/proposal;Das war ein guter Vo
 vorwärts;Adverb;nan;nan;0;A2;167;forward/onwards;Der Wagen rollt vorwärts.;The car is rolling **forward**.;
 wach;Adjektiv;nan;nan;0;A2;221;awake;Bist du schon wach?;Are you **awake** already?;
 wahr;Adjektiv;nan;nan;0;A2;739;true/real/genuine;Das ist nicht wahr!;That is not **true**!;
-wahrscheinlich;Adjektiv;nan;nan;0;A2;989;probable/likely/probably;Ich komme wahrscheinlich morgen.;I'll **probably** come tomorrow.;
+wahrscheinlich;Adjektiv;nan;nan;0;A2;989;probably;Ich komme wahrscheinlich morgen.;I'll **probably** come tomorrow.;
 Wald;Substantiv;mask.;der;0;A2;1342;forest/woods;Wir gehen im Wald spazieren.;We are taking a walk in the **forest**.;
 warm;Adjektiv;nan;nan;0;A2;501;warm;Heute ist es angenehm warm.;Today it is pleasantly **warm**.;
 Web-Seite;Substantiv;fem.;die;0;A2;nan;web page/website;Besuchen Sie unsere Web-Seite.;Visit our **web page**.;
 Webseite;Substantiv;fem.;die;0;A2;74;website/web page;Die Webseite ist sehr informativ.;The **website** is very informative.;
-wechseln;Verb;nan;nan;0;A2;6039;to change/exchange/switch;Ich muss Geld wechseln.;I have to **exchange** money.;
+wechseln;Verb;nan;nan;0;A2;6039;to exchange/replace;Ich muss Geld wechseln.;I have to **exchange** money.;often by oneself
 wecken;Verb;nan;nan;0;A2;733;to wake (up)/awaken;Weck mich bitte um 7 Uhr.;Please **wake** me **up** at 7 AM.;
 Weg;Substantiv;mask.;der;0;A2;5134;way/path/route;Wie ist der Weg zum Bahnhof?;What is the **way** to the station?;
 weg;Adverb;nan;nan;0;A2;1;away/gone/off;Geh weg!;Go **away**!;
