@@ -1341,7 +1341,7 @@ Universität;Substantiv;fem.;die;0;A2;1151;university;Er studiert an der Univers
 unterhalten;Verb;nan;nan;0;A2;497;to entertain/maintain/chat;Wir haben uns gut unterhalten.;We had a good **chat** (talk).;
 Unterkunft;Substantiv;fem.;die;0;A2;218;accommodation/lodging;Wir suchen eine Unterkunft.;We are looking for **accommodation**.;
 unternehmen;Verb;nan;nan;0;A2;310;to undertake/do/venture;Wollen wir heute was unternehmen?;Shall we **do** (undertake) something today?;
-Unterschied;Substantiv;mask.;der;0;A2;974;difference/distinction/contrast;Was ist der Unterschied?;What is the **difference**?;
+Unterschied;Substantiv;mask.;der;0;A2;974;difference/distinction;Was ist der Unterschied?;What is the **difference**?;noun
 untersuchen;Verb;nan;nan;0;A2;1054;to examine/investigate/analyze;Der Arzt untersucht das Kind.;The doctor **examines** the child.;
 unterwegs;Adverb;nan;nan;0;A2;580;on the way/on the road;Ich bin viel unterwegs.;I am **on the way** a lot.;
 verabreden;Verb;nan;nan;0;A2;99;to arrange/make an appointment;Wir haben uns für morgen verabredet.;We have **arranged** to meet tomorrow.;
@@ -1359,7 +1359,7 @@ Vermieterin;Substantiv;fem.;die;0;A2;21;landlady;Die Vermieterin ist sehr nett.;
 verpassen;Verb;nan;nan;0;A2;108;to miss;Ich habe den Bus verpasst.;I **missed** the bus.;train/chance
 verreisen;Verb;nan;nan;0;A2;95;to go away/travel;In den Ferien verreisen wir.;We **go away** (travel) during the holidays.;
 verschieben;Verb;nan;nan;0;A2;329;to postpone/shift/move;Wir müssen den Termin verschieben.;We must **postpone** the appointment.;
-verschieden;Adjektiv;nan;nan;0;A2;4326;different/diverse/various;Es gibt verschiedene Möglichkeiten.;There are **different** possibilities.;
+verschieden;Adjektiv;nan;nan;0;A2;4326;diverse/various;Es gibt verschiedene Möglichkeiten.;There are **different** possibilities.;adj
 Verspätung;Substantiv;fem.;die;0;A2;108;delay/lateness;Der Zug hat 10 Minuten Verspätung.;The train has a 10-minute **delay**.;
 versuchen;Verb;nan;nan;0;A2;2638;to attempt/try;Ich versuche es noch einmal.;I will **try** it once more.;
 Vertrag;Substantiv;mask.;der;0;A2;609;contract;Unterschreiben Sie den Vertrag.;Sign the **contract**.;
