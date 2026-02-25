@@ -1,4 +1,4 @@
-ÕrabPrÃ¤position"nan*nan2A1:86456Boff/fromJWir fahren ab Hamburg.R"We are departing **from** Hamburg.Z0Abend
+ÖrabPrÃ¤position"nan*nan2A1:86456Boff/fromJWir fahren ab Hamburg.R"We are departing **from** Hamburg.Z0Abend
 Substantiv"mask.*der2A1:1607BeveningJ&Ich wÃ¼nsche dir einen schÃ¶nen Abend.RI wish you a nice **evening**.Z0ŒaberKonjunktion"nan*nan2A1:120754BbutJ-Ich wollte kommen, aber ich hatte keine Zeit.R(I wanted to come, **but** I had no time.Z0zabfahrenVerb"nan*nan2A1:254B	to departJ!Der Zug wird pÃ¼nktlich abfahren.R"The train will **depart** on time.Z0›Abfahrt
 Substantiv"fem.*die2A1:133B	departureJ0Vor der Abfahrt mÃ¼ssen wir alles kontrollieren.R.We must check everything before **departure**.Z0›	abfliegenVerb"nan*nan2A1:94Bto take offJ,Das Flugzeug wird in zehn Minuten abfliegen.R+The plane will **take off** in ten minutes.Z0b	for plane™Abflug
 Substantiv"mask.*der2A1:61B	departureJ,Unser Abflug verzÃ¶gert sich um eine Stunde.R)Our **departure** is delayed by one hour.Z0bflight}abgebenVerb"nan*nan2A1:705B
@@ -312,7 +312,7 @@ Substantiv"fem.*die2A1:640BmilkJEin Glas Milch, bitte.RA glass of **milk*
 Substantiv"fem.*die2A1:759BbillionJ,Die Firma hat eine Milliarde Gewinn gemacht.R-The company made a profit of one **billion**.Z0•øMillion
 Substantiv"fem.*die2A1:4633BmillionJ*Berlin hat Ã¼ber drei Millionen Einwohner.R.Berlin has over three **million** inhabitants.Z0sùMinute
 Substantiv"fem.*die2A1:1562BminuteJIch komme in einer Minute.RI'll be there in a **minute**.Z0múmitPrÃ¤position"nan*nan2A1:11423742BwithJIch fahre mit dem Auto.RI go **with** (by) the car.Z0û
-mitbringenVerb"nan*nan2A1:361Bto bring alongJSoll ich etwas mitbringen?R&Should I **bring** anything **along**?Z0oü	mitkommenVerb"nan*nan2A1:119Bto come alongJWillst du mitkommen?RDo you want to **come along**?Z0‡ı	mitmachenVerb"nan*nan2A1:80Bto participate/join inJWir machen bei dem Spiel mit.R%We are **participating** in the game.Z0ş	mitnehmenVerb"nan*nan2A1:214Bto take alongJ Kann ich einen Freund mitnehmen?R"Can I **take** a friend **along**?Z0qÿMittag
+mitbringenVerb"nan*nan2A1:361Bto bring alongJSoll ich etwas mitbringen?R&Should I **bring** anything **along**?Z0oü	mitkommenVerb"nan*nan2A1:119Bto come alongJWillst du mitkommen?RDo you want to **come along**?Z0‹ı	mitmachenVerb"nan*nan2A1:80Bto participate/join inJWir machen bei dem Spiel mit.R%We are **participating** in the game.Z0bm-ş	mitnehmenVerb"nan*nan2A1:214Bto take alongJ Kann ich einen Freund mitnehmen?R"Can I **take** a friend **along**?Z0qÿMittag
 Substantiv"mask.*der2A1:253BnoonJAm Mittag essen wir zu Hause.RAt **noon** we eat at home.Z0|€Mitte
 Substantiv"fem.*die2A1:1622Bmiddle/centerJDas Haus steht in der Mitte.RThe house is in the **middle**.Z0~Mittwoch
 Substantiv"mask.*der2A1:430B	WednesdayJAm Mittwoch habe ich frei.R$I have the day off on **Wednesday**.Z0d‚Moment
@@ -828,9 +828,9 @@ Substantiv"fem.*die2A2:nanBcupJEine Tasse Tee, bitte.RA **cup** of tea, p
 tauschenVerb"nan*nan2A2:861Bto exchange/swap/tradeJ Wollen wir die PlÃ¤tze tauschen?RShall we **exchange** seats?Z0boften involves two partiesl
 Team
 Substantiv"neutr.*das2A2:576BteamJWir arbeiten gut im Team.RWe work well in a **team**.Z0
-teilenVerb"nan*nan2A2:5882Bto share/divide/partJ!Wollen wir uns das Zimmer teilen?RShall we **share** the room?Z0†Ÿ
+teilenVerb"nan*nan2A2:5882Bto share/divide/partJ!Wollen wir uns das Zimmer teilen?RShall we **share** the room?Z0ŠŸ
 
-teilnehmenVerb"nan*nan2A2:711Bto take partJ Ich nehme an der Konferenz teil.R)I am **participating** in the conference.Z0o 
+teilnehmenVerb"nan*nan2A2:711Bto take partJ Ich nehme an der Konferenz teil.R)I am **participating** in the conference.Z0bt-o 
 Teller
 Substantiv"mask.*der2A2:382BplateJDer Teller ist noch heiÃŸ.RThe **plate** is still hot.Z0s¡
 Tennis

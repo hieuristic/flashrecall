@@ -507,7 +507,7 @@ Minute;Substantiv;fem.;die;0;A1;1562;minute;Ich komme in einer Minute.;I'll be t
 mit;Präposition;nan;nan;0;A1;11423742;with;Ich fahre mit dem Auto.;I go **with** (by) the car.;
 mitbringen;Verb;nan;nan;0;A1;361;to bring along;Soll ich etwas mitbringen?;Should I **bring** anything **along**?;
 mitkommen;Verb;nan;nan;0;A1;119;to come along;Willst du mitkommen?;Do you want to **come along**?;
-mitmachen;Verb;nan;nan;0;A1;80;to participate/join in;Wir machen bei dem Spiel mit.;We are **participating** in the game.;
+mitmachen;Verb;nan;nan;0;A1;80;to participate/join in;Wir machen bei dem Spiel mit.;We are **participating** in the game.;m-
 mitnehmen;Verb;nan;nan;0;A1;214;to take along;Kann ich einen Freund mitnehmen?;Can I **take** a friend **along**?;
 Mittag;Substantiv;mask.;der;0;A1;253;noon;Am Mittag essen wir zu Hause.;At **noon** we eat at home.;
 Mitte;Substantiv;fem.;die;0;A1;1622;middle/center;Das Haus steht in der Mitte.;The house is in the **middle**.;
@@ -1309,7 +1309,7 @@ Tasse;Substantiv;fem.;die;0;A2;nan;cup;Eine Tasse Tee, bitte.;A **cup** of tea, 
 tauschen;Verb;nan;nan;0;A2;861;to exchange/swap/trade;Wollen wir die Plätze tauschen?;Shall we **exchange** seats?;often involves two parties
 Team;Substantiv;neutr.;das;0;A2;576;team;Wir arbeiten gut im Team.;We work well in a **team**.;
 teilen;Verb;nan;nan;0;A2;5882;to share/divide/part;Wollen wir uns das Zimmer teilen?;Shall we **share** the room?;
-teilnehmen;Verb;nan;nan;0;A2;711;to take part;Ich nehme an der Konferenz teil.;I am **participating** in the conference.;
+teilnehmen;Verb;nan;nan;0;A2;711;to take part;Ich nehme an der Konferenz teil.;I am **participating** in the conference.;t-
 Teller;Substantiv;mask.;der;0;A2;382;plate;Der Teller ist noch heiß.;The **plate** is still hot.;
 Tennis;Substantiv;neutr.;das;0;A2;258;tennis;Spielst du gerne Tennis?;Do you like playing **tennis**?;
 Theater;Substantiv;neutr.;das;0;A2;1135;theater;Gehen wir heute ins Theater?;Are we going to the **theater** today?;
