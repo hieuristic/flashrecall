@@ -37,7 +37,7 @@ anmachen;Verb;nan;nan;0;A1;162;to turn on;Kannst du bitte das Licht anmachen?;Ca
 anmelden;Verb;nan;nan;0;A1;247;to register;Ich möchte mich für den Kurs anmelden.;I would like **to register** for the course.;
 Anmeldung;Substantiv;fem.;die;0;A1;66;registration;Die Anmeldung ist bis Freitag möglich.;**Registration** is possible until Friday.;noun
 Anrede;Substantiv;fem.;die;0;A1;199;salutation/address;Wie lautet die richtige Anrede im Brief?;What is the correct **salutation** in the letter?;
-Anruf;Substantiv;mask.;der;0;A1;139;call;Ich warte auf einen wichtigen Anruf.;I am waiting for an important **call**.;
+Anruf;Substantiv;mask.;der;0;A1;139;call;Ich warte auf einen wichtigen Anruf.;I am waiting for an important **call**.;noun
 Anrufbeantworter;Substantiv;mask.;der;0;A1;25;answering machine;Bitte hinterlassen Sie eine Nachricht auf dem Anrufbeantworter.;Please leave a message on the **answering machine**.;
 anrufen;Verb;nan;nan;0;A1;295;to call;Ich werde dich morgen anrufen.;I will **call** you tomorrow.;a-
 Ansage;Substantiv;fem.;die;0;A1;27;announcement;Achten Sie bitte auf die Ansage am Bahnsteig.;Please pay attention to the **announcement** on the platform.;a-
@@ -851,7 +851,7 @@ auspacken;Verb;nan;nan;0;A2;103;to unpack;Ich packe meinen Koffer aus.;I am **un
 ausruhen;Verb;nan;nan;0;A2;138;to rest;Ich muss mich kurz ausruhen.;I need to **rest** for a moment.;
 aussprechen;Verb;nan;nan;0;A2;603;to pronounce;Wie spricht man dieses Wort aus?;How do you **pronounce** this word?;
 Ausstellung;Substantiv;fem.;die;0;A2;328;exhibition;Die Ausstellung war sehr interessant.;The **exhibition** was very interesting.;
-austauschen;Verb;nan;nan;0;A2;304;to exchange/swap;Wir tauschen Informationen aus.;We are **exchanging** information.;
+austauschen;Verb;nan;nan;0;A2;304;to exchange/swap;Wir tauschen Informationen aus.;We are **exchanging** information.;idea, people, component
 austragen;Verb;nan;nan;0;A2;158;to deliver/settle;Er trägt die Zeitung aus.;He **delivers** the newspaper.;
 außer;Präposition;nan;nan;0;A2;8110;except for/outside of;Alle kommen außer Thomas.;Everyone is coming **except for** Thomas.;
 außerdem;Adverb;nan;nan;0;A2;1196;besides/furthermore;Außerdem möchte ich noch etwas sagen.,**Besides**; I want to say something else.;
@@ -1000,12 +1000,12 @@ Gehalt;Substantiv;neutr., mask.;das;0;A2;380;salary/content;Sein Gehalt ist sehr
 Geldbörse;Substantiv;fem.;die;0;A2;36;wallet/purse;Ich habe meine Geldbörse verloren.;I lost my **wallet**.;
 genau;Adjektiv;nan;nan;0;A2;2771;exact/exactly/precise;Das ist genau richtig.;That is **exactly** right.;
 genug;Indefinitpronomen;nan;nan;0;A2;2245;enough;Ich habe genug gegessen.;I have eaten **enough**.;
-Gericht;Substantiv;neutr.;das;0;A2;1249;dish/court;Das ist mein Lieblingsgericht.;That is my favorite **dish**.;
+Gericht;Substantiv;neutr.;das;0;A2;1249;dish;Das ist mein Lieblingsgericht.;That is my favorite **dish**.;meal
 Gerät;Substantiv;neutr.;das;0;A2;1742;device/appliance;Das Gerät ist sehr nützlich.;The **device** is very useful.;
 Geschichte;Substantiv;fem.;die;0;A2;2229;story/history;Großvater erzählt eine Geschichte.;Grandfather is telling a **story**.;
-Geschirr;Substantiv;neutr.;das;0;A2;194;dishes/crockery;Wer wäscht das Geschirr ab?;Who washes the **dishes**?;
+Geschirr;Substantiv;neutr.;das;0;A2;194;dishes;Wer wäscht das Geschirr ab?;Who washes the **dishes**?;
 gesund;Adjektiv;nan;nan;0;A2;1032;healthy;Obst ist gesund.;Fruit is **healthy**.;
-Gesundheit;Substantiv;fem.;die;0;A2;395;health/Bless you!;Gesundheit ist wichtig.;**Health** is important.;
+Gesundheit;Substantiv;fem.;die;0;A2;395;health;Gesundheit ist wichtig.;**Health** is important.;
 Gewitter;Substantiv;neutr.;das;0;A2;147;thunderstorm;Gestern gab es ein schweres Gewitter.;There was a heavy **thunderstorm** yesterday.;
 Gitarre;Substantiv;fem.;die;0;A2;176;guitar;Er spielt gerne Gitarre.;He likes playing the **guitar**.;
 Grippe;Substantiv;fem.;die;0;A2;106;flu/influenza;Ich habe eine starke Grippe.;I have a bad case of the **flu**.;
@@ -1184,7 +1184,7 @@ praktisch;Adjektiv;nan;nan;0;A2;877;practical/handy;Das ist ein praktisches Ger�
 preiswert;Adjektiv;nan;nan;0;A2;125;inexpensive/good value;Das ist ein preiswertes Angebot.;That is an **inexpensive** offer.;
 privat;Adjektiv;nan;nan;0;A2;953;private;Das ist mein privates Auto.;That is my **private** car.;
 pro;Präposition;nan;nan;0;A2;9224;per;Das kostet 5 Euro pro Stück.;That costs 5 euros **per** piece.;
-probieren;Verb;nan;nan;0;A2;520;to try/taste/test;Möchtest du mal probieren?;Would you like to **try** (taste) it?;
+probieren;Verb;nan;nan;0;A2;520;to taste/test/try;Möchtest du mal probieren?;Would you like to **try** (taste) it?;
 Produkt;Substantiv;neutr.;das;0;A2;1225;product;Das ist ein neues Produkt.;That is a new **product**.;
 Programm;Substantiv;neutr.;das;0;A2;875;program/schedule/channel;Was läuft heute im Programm?;What's on the **program** (schedule) today?;
 Projekt;Substantiv;neutr.;das;0;A2;976;project;Das Projekt ist sehr wichtig.;The **project** is very important.;
@@ -1200,7 +1200,7 @@ Rathaus;Substantiv;neutr.;das;0;A2;175;city hall/town hall;Das Rathaus ist im Ze
 raus;Adverb;nan;nan;0;A2;276;out/outside;Geh bitte raus.;Please go **out**.;colloquial
 rechnen;Verb;nan;nan;0;A2;9203;to calculate/reckon/count on;Ich muss das noch mal rechnen.;I have to **calculate** that again.;
 recht;Adjektiv;nan;nan;0;B1;40775;right/correct/quite;Das ist mir recht.;That is **fine** (right) with me.;
-reden;Verb;nan;nan;0;A2;18848;to talk/speak;Wir müssen reden.;We need to **talk**.;
+reden;Verb;nan;nan;0;A2;18848;to talk;Wir müssen reden.;We need to **talk**.;
 reich;Adjektiv;nan;nan;0;A2;6236;rich/wealthy;Er ist ein reicher Mann.;He is a **rich** man.;
 Reifen;Substantiv;mask.;der;0;A2;258;tire/hoop/ring;Der Reifen hat keine Luft.;The **tire** has no air.;
 Reihe;Substantiv;fem.;die;0;A2;1681;row/series/turn;Wir sitzen in der ersten Reihe.;We are sitting in the first **row**.;
@@ -1218,17 +1218,17 @@ Ring;Substantiv;mask.;der;0;A2;1030;ring;Sie trägt einen schönen Ring.;She is 
 Rock;Substantiv;mask.;der;0;A2;978;skirt/coat;Der Rock ist zu kurz.;The **skirt** is too short.;
 romantisch;Adjektiv;nan;nan;0;A2;301;romantic;Der Film war sehr romantisch.;The movie was very **romantic**.;
 Rose;Substantiv;fem.;die;0;A2;272;rose;Die Rose duftet gut.;The **rose** smells nice.;
-Rucksack;Substantiv;mask.;der;0;A2;141;backpack/rucksack;Mein Rucksack ist sehr schwer.;My **backpack** is very heavy.;
+Rucksack;Substantiv;mask.;der;0;A2;141;backpack;Mein Rucksack ist sehr schwer.;My **backpack** is very heavy.;
 rufen;Verb;nan;nan;0;A2;17856;to call/shout;Ruf mich bitte an.;Please **call** me.;
 Ruhe;Substantiv;fem.;die;0;A2;1379;rest/peace/quiet;Ich brauche etwas Ruhe.;I need some **rest** (quiet).;
 rund;Adjektiv;nan;nan;0;A2;9344;round/approximately/around;Der Tisch ist rund.;The table is **round**.;
 Rundgang;Substantiv;mask.;der;0;A2;56;tour/circuit;Wir machen einen Rundgang durch die Stadt.;We are taking a **tour** of the city.;
-Rätsel;Substantiv;neutr.;das;0;A2;157;riddle/puzzle/mystery;Das ist ein schwieriges Rätsel.;That is a difficult **riddle**.;
+Rätsel;Substantiv;neutr.;das;0;A2;157;riddle/mystery;Das ist ein schwieriges Rätsel.;That is a difficult **riddle**.;
 Rücken;Substantiv;mask.;der;0;A2;1574;back;Mein Rücken tut weh.;My **back** hurts.;
 Sache;Substantiv;fem.;die;0;A2;3815;thing/matter/item;Das ist eine gute Sache.;That is a good **thing**.;
 sammeln;Verb;nan;nan;0;A2;3631;to collect/gather;Er sammelt Briefmarken.;He **collects** stamps.;
 sauber;Adjektiv;nan;nan;0;A2;8094;clean/neat/tidy;Die Wohnung ist sehr sauber.;The apartment is very **clean**.;
-sauer;Adjektiv;nan;nan;0;A2;238;sour/angry/acidic;Die Zitronen sind sauer.;The lemons are **sour**.;
+sauer;Adjektiv;nan;nan;0;A2;238;sour/angry;Die Zitronen sind sauer.;The lemons are **sour**.;
 schade;Adjektiv;nan;nan;0;A2;52;too bad/a pity;Schade; dass du nicht kommen kannst.,**Too bad** you can't come.;
 schaffen;Verb;nan;nan;0;A2;20467;to manage/create/accomplish;Ich schaffe das alleine.;I can **manage** that on my own.;
 scharf;Adjektiv;nan;nan;0;A2;1496;sharp/spicy/hot;Das Messer ist sehr scharf.;The knife is very **sharp**.;
@@ -1361,8 +1361,8 @@ verreisen;Verb;nan;nan;0;A2;95;to go away/travel;In den Ferien verreisen wir.;We
 verschieben;Verb;nan;nan;0;A2;329;to postpone/shift/move;Wir müssen den Termin verschieben.;We must **postpone** the appointment.;
 verschieden;Adjektiv;nan;nan;0;A2;4326;different/diverse/various;Es gibt verschiedene Möglichkeiten.;There are **different** possibilities.;
 Verspätung;Substantiv;fem.;die;0;A2;108;delay/lateness;Der Zug hat 10 Minuten Verspätung.;The train has a 10-minute **delay**.;
-versuchen;Verb;nan;nan;0;A2;2638;to try/attempt/test;Ich versuche es noch einmal.;I will **try** it once more.;
-Vertrag;Substantiv;mask.;der;0;A2;609;contract/treaty/agreement;Unterschreiben Sie den Vertrag.;Sign the **contract**.;
+versuchen;Verb;nan;nan;0;A2;2638;to attempt/try;Ich versuche es noch einmal.;I will **try** it once more.;
+Vertrag;Substantiv;mask.;der;0;A2;609;contract;Unterschreiben Sie den Vertrag.;Sign the **contract**.;
 Vogel;Substantiv;mask.;der;0;A2;963;bird;Der Vogel singt im Baum.;The **bird** is singing in the tree.;
 voll;Adjektiv;nan;nan;0;A2;4119;full/entire/crowded;Das Glas ist voll.;The glass is **full**.;
 Volleyball;Substantiv;mask., neutr.;der, das;0;A2;43;volleyball;Spielst du Volleyball?;Do you play **volleyball**?;
@@ -1370,8 +1370,8 @@ vorbei;Adverb;nan;nan;0;A2;1057;past/over/gone;Der Sommer ist vorbei.;The summer
 vorbereiten;Verb;nan;nan;0;A2;706;to prepare;Ich bereite das Essen vor.;I am **preparing** the food.;
 vorgestern;Adverb;nan;nan;0;A2;35;the day before yesterday;Ich habe ihn vorgestern gesehen.;I saw him **the day before yesterday**.;
 vorher;Adverb;nan;nan;0;A2;671;before/previously/beforehand;Ruf mich bitte vorher an.;Please call me **beforehand**.;
-vorn;Adverb;nan;nan;0;A2;302;at the front/ahead/forward;Setzen Sie sich bitte nach vorn.;Please sit **at the front**.;
-vorne;Adverb;nan;nan;0;A2;932;at the front/ahead/forward;Die Kinder sitzen vorne.;The children are sitting **at the front**.;
+vorn;Adverb;nan;nan;0;A2;302;at the front/ahead;Setzen Sie sich bitte nach vorn.;Please sit **at the front**.;
+vorne;Adverb;nan;nan;0;A2;932;at the front/ahead;Die Kinder sitzen vorne.;The children are sitting **at the front**.;-e
 Vorschlag;Substantiv;mask.;der;0;A2;393;suggestion/proposal;Das war ein guter Vorschlag.;That was a good **suggestion**.;
 vorwärts;Adverb;nan;nan;0;A2;167;forward/onwards;Der Wagen rollt vorwärts.;The car is rolling **forward**.;
 wach;Adjektiv;nan;nan;0;A2;221;awake;Bist du schon wach?;Are you **awake** already?;
