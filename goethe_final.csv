@@ -1375,7 +1375,7 @@ vorne;Adverb;nan;nan;0;A2;932;at the front/ahead;Die Kinder sitzen vorne.;The ch
 Vorschlag;Substantiv;mask.;der;0;A2;393;suggestion/proposal;Das war ein guter Vorschlag.;That was a good **suggestion**.;
 vorwärts;Adverb;nan;nan;0;A2;167;forward/onwards;Der Wagen rollt vorwärts.;The car is rolling **forward**.;
 wach;Adjektiv;nan;nan;0;A2;221;awake;Bist du schon wach?;Are you **awake** already?;
-wahr;Adjektiv;nan;nan;0;A2;739;true/real/genuine;Das ist nicht wahr!;That is not **true**!;
+wahr;Adjektiv;nan;nan;0;A2;739;true;Das ist nicht wahr!;That is not **true**!;opposite of false
 wahrscheinlich;Adjektiv;nan;nan;0;A2;989;probably;Ich komme wahrscheinlich morgen.;I'll **probably** come tomorrow.;
 Wald;Substantiv;mask.;der;0;A2;1342;forest/woods;Wir gehen im Wald spazieren.;We are taking a walk in the **forest**.;
 warm;Adjektiv;nan;nan;0;A2;501;warm;Heute ist es angenehm warm.;Today it is pleasantly **warm**.;
