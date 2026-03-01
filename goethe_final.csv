@@ -762,7 +762,7 @@ wehtun;Verb;nan;nan;0;A1;59;to hurt;Das wird nicht wehtun.;That won't **hurt**.;
 weiblich;Adjektiv;nan;nan;0;A1;5432;female;Die Bewerberin ist weiblich.;The applicant is **female**.;
 Wein;Substantiv;mask.;der;0;A1;1526;wine;Möchten Sie ein Glas Wein?;Would you like a glass of **wine**?;
 weit;Adjektiv;nan;nan;0;A1;16523;far/wide;Der Weg ist sehr weit.;The way is very **far**.;
-weiter-;Affix;nan;nan;0;A1;1;further/continue;Bitte sprechen Sie weiter.;Please **continue** speaking.;
+weiter-;Affix;nan;nan;0;A1;1;further/continue;Bitte sprechen Sie weiter.;Please **continue** speaking.;affix
 weiß;Adjektiv;nan;nan;0;A1;39280;white;Das Haus ist weiß.;The house is **white**.;
 welche;Interrogativpronomen;fem.;nan;0;A1;nan;which;Welche Tasche möchtest du?;**Which** bag do you want?;female
 welcher;Interrogativpronomen;mask.;nan;0;A1;6746;which;Welcher Mantel gefällt dir?;**Which** coat do you like?;male
@@ -987,7 +987,7 @@ frisch;Adjektiv;nan;nan;0;A2;3471;fresh;Das Brot ist ganz frisch.;The bread is v
 froh;Adjektiv;nan;nan;0;A2;493;glad;Ich bin froh; dich zu sehen.,I am **glad** to see you.;
 früh;Adjektiv;nan;nan;0;A2;7652;early;Morgen müssen wir früh aufstehen.;Tomorrow we have to get up **early**.;
 Fundsache;Substantiv;fem.;die;0;A2;nan;lost property/found item;Geben Sie die Fundsache bitte beim Fundbüro ab.;Please hand in the **found item** at the lost property office.;
-furchtbar;Adjektiv;nan;nan;0;A2;212;terrible/awful;Der Film war furchtbar.;The movie was **terrible**.;
+furchtbar;Adjektiv;nan;nan;0;A2;212;terrible/awful;Der Film war furchtbar.;The movie was **terrible**.;f-
 fühlen;Verb;nan;nan;0;A2;9969;to feel;Ich fühle mich heute nicht gut.;I don't **feel** well today.;
 Führerschein;Substantiv;mask.;der;0;A2;106;driver's license;Ich habe meinen Führerschein gemacht.;I got my **driver's license**.;
 Gabel;Substantiv;fem.;die;0;A2;157;fork;Messer;Knife, **fork**, spoon.;
@@ -1020,14 +1020,14 @@ Heizung;Substantiv;fem.;die;0;A2;158;heating/heater;Die Heizung ist im Winter se
 heiß;Adjektiv;nan;nan;0;A2;12412;hot;Der Tee ist noch sehr heiß.;The tea is still very **hot**.;
 Hemd;Substantiv;neutr.;das;0;A2;327;shirt;Er trägt ein weißes Hemd.;He is wearing a white **shirt**.;
 her;Adverb;nan;nan;0;A2;1707;ago/here/since;Das ist schon lange her.;That was a long time **ago**.;
-her-;Affix;nan;nan;0;A2;nan;hither/forth;Komm bitte her.;Please come **here** (to me).;
+her-;Affix;nan;nan;0;A2;nan;hither/forth;Komm bitte her.;Please come **here** (to me).;affix
 heraus;Adverb;nan;nan;0;A2;2348;out/out of;Gehen Sie bitte heraus.;Please go **out**.;
 herein;Adverb;nan;nan;0;A2;214;in/inside;Komm bitte herein.;Please come **in**.;
 herstellen;Verb;nan;nan;0;A2;2038;to produce/manufacture;Die Firma stellt Autos her.;The company **produces** cars.;
 herunterladen;Verb;nan;nan;0;A2;104;to download;Ich lade die App herunter.;I am **downloading** the app.;
 Himmel;Substantiv;mask.;der;0;A2;3916;sky/heaven;Der Himmel ist heute blau.;The **sky** is blue today.;
 hin;Adverb;nan;nan;0;A2;8606;-to;Wo gehen wir hin?;Where are we going **to**?;
-hin-;Affix;nan;nan;0;A2;nan;there/away;Schau bitte dort hin.;Please look over **there**.;
+hin-;Affix;nan;nan;0;A2;nan;there/away;Schau bitte dort hin.;Please look over **there**.;affix
 hinter;Präposition;nan;nan;0;A2;24176;behind;Der Garten ist hinter dem Haus.;The garden is **behind** the house.;
 hoffen;Verb;nan;nan;0;A2;520;to hope;Ich hoffe; dass du kommst.,I **hope** that you are coming.;
 hoffentlich;Adverb;nan;nan;0;A2;76;hopefully;Hoffentlich regnet es nicht.;**Hopefully** it won't rain.;
@@ -1246,7 +1246,7 @@ Schnee;Substantiv;mask.;der;0;A2;1404;snow;Im Winter liegt viel Schnee.;There is
 schneiden;Verb;nan;nan;0;A2;6941;to cut/slice;Schneide bitte das Brot.;Please **cut** the bread.;
 schneien;Verb;nan;nan;0;A2;2;to snow;Es schneit heute.;It is **snowing** today.;
 Schokolade;Substantiv;fem.;die;0;A2;267;chocolate;Ich liebe Schokolade.;I love **chocolate**.;
-schrecklich;Adjektiv;nan;nan;0;A2;263;terrible/horrible/awful;Das war ein schrecklicher Unfall.;That was a **terrible** accident.;
+schrecklich;Adjektiv;nan;nan;0;A2;263;terrible/horrible/awful;Das war ein schrecklicher Unfall.;That was a **terrible** accident.;s-
 schriftlich;Adjektiv;nan;nan;0;A2;579;written/in writing;Bitte geben Sie mir das schriftlich.;Please give me that **in writing**.;
 schwach;Adjektiv;nan;nan;0;A2;2444411;weak/faint;Er fühlt sich sehr schwach.;He feels very **weak**.;
 schwanger;Adjektiv;nan;nan;0;A2;168;pregnant;Sie ist im fünften Monat schwanger.;She is **pregnant** in her fifth month.;
@@ -1427,7 +1427,7 @@ zuhören;Verb;nan;nan;0;A2;164;to listen;Bitte hör mir zu.;Please **listen** to
 zuletzt;Adverb;nan;nan;0;A2;701;last/in the end/finally;Wer hat zuletzt gelacht?;Who laughed **last**?;
 zum Beispiel;Mehrwortausdruck;nan;nan;0;A2;nan;for example;Obst, zum Beispiel Äpfel.;Fruit, **for example** apples.;
 zumachen;Verb;nan;nan;0;A2;108;to close/shut;Mach bitte das Fenster zu.;Please **close** the window.;z-
-zurück-;Affix;nan;nan;0;A2;nan;back/return;Er kam gestern zurück.;He came **back** yesterday.;
+zurück-;Affix;nan;nan;0;A2;nan;back/return;Er kam gestern zurück.;He came **back** yesterday.;affix
 zurückfahren;Verb;nan;nan;0;A2;136;to drive back/return;Wann fahren wir zurück?;When are we **driving back**?;
 zurückgeben;Verb;nan;nan;0;A2;168;to give back/return;Ich gebe dir das Buch zurück.;I am **giving** you the book **back**.;
 zurückgehen;Verb;nan;nan;0;A2;315;to go back/return/decline;Wir müssen jetzt zurückgehen.;We have to **go back** now.;
@@ -1439,9 +1439,9 @@ zurücklaufen;Verb;nan;nan;0;A2;93;to run back/walk back;Er ist schnell zurückg
 überall;Adverb;nan;nan;0;A2;964;everywhere/all over;Überall liegt Müll.;There is trash **everywhere**.;
 übermorgen;Adverb;nan;nan;0;A2;19;the day after tomorrow;Ich sehe dich übermorgen.;I'll see you **the day after tomorrow**.;
 übersetzen;Verb;nan;nan;0;A2;998;to translate/cross over;Können Sie das bitte übersetzen?;Can you please **translate** that?;
-Übersetzung;Substantiv;fem.;die;0;A2;295;translation/version;Die Übersetzung ist sehr gut.;The **translation** is very good.;
--weis;Affix;nan;nan;0;B1;nan;way/manner;nan;nan;
--weise;Affix;nan;nan;0;B1;1;way/manner;Glücklicherweise ist nichts passiert.,Lucky-**wise**; nothing happened.;
+Übersetzung;Substantiv;fem.;die;0;A2;295;translation;Die Übersetzung ist sehr gut.;The **translation** is very good.;
+-weis;Affix;nan;nan;0;B1;nan;way/manner;nan;nan;affix
+-weise;Affix;nan;nan;0;B1;1;way/manner;Glücklicherweise ist nichts passiert.,Lucky-**wise**; nothing happened.;affix, -e
 abbiegen;Verb;nan;nan;0;B1;nan;to turn (corner)/bend;Biegen Sie an der Ecke links ab.;**Turn** left at the corner.;
 Abbildung;Substantiv;fem.;die;0;B1;250;illustration/figure/image;Siehe Abbildung 1.;See **Figure** (Illustration) 1.;
 Abenteuer;Substantiv;neutr.;das;0;B1;238;adventure;Das war ein großes Abenteuer.;That was a great **adventure**.;
@@ -1479,7 +1479,7 @@ Aktivität;Substantiv;fem.;die;0;B1;639;activity;Wir planen eine neue Aktivität
 akzeptieren;Verb;nan;nan;0;B1;422;to accept/agree to;Ich kann das nicht akzeptieren.;I cannot **accept** that.;
 Alarm;Substantiv;mask.;der;0;B1;93;alarm/alert;Der Alarm ging los.;The **alarm** went off.;
 Alkohol;Substantiv;mask.;der;0;B1;633;alcohol;Er trinkt keinen Alkohol.;He doesn't drink **alcohol**.;
-aller-;Affix;nan;nan;0;B1;1;of all;Das ist das Allerbeste.;That is the best **of all**.;
+aller-;Affix;nan;nan;0;B1;1;of all;Das ist das Allerbeste.;That is the best **of all**.;affix
 allerbest;Adjektiv;nan;nan;0;B1;1;best of all;Das ist mein allerbestes Freund.;That is my **best of all** friend.;
 allerdings;Adverb;nan;nan;0;B1;2034;however/certainly/though;Das ist allerdings wahr.;That is **certainly** true.;
 allerschönst;Adjektiv;nan;nan;0;B1;nan;most beautiful of all;Das war der allerschönste Tag.;That was the **most beautiful of all** day.;
@@ -1680,7 +1680,7 @@ Bildschirm;Substantiv;mask.;der;0;B1;222;screen/monitor/display;Schau nicht so l
 Billet;Substantiv;neutr.;das;0;B1;20;ticket/note;Haben Sie Ihr Billet dabei?;Do you have your **ticket**?;
 Billett;Substantiv;neutr.;das;0;B1;35;ticket/note;Wo kann man Billetts kaufen?;Where can you buy **tickets**?;
 bio;Adjektiv;nan;nan;0;B1;11;organic/bio;Ich kaufe nur bio Obst.;I only buy **organic** fruit.;
-bio-;Affix;nan;nan;0;B1;nan;bio-;Das ist ein biologisches Produkt.;That is a **biological** product.;
+bio-;Affix;nan;nan;0;B1;nan;bio-;Das ist ein biologisches Produkt.;That is a **biological** product.;affix
 Biologie;Substantiv;fem.;die;0;B1;181;biology;Biologie ist mein Lieblingsfach.;**Biology** is my favorite subject.;
 biologisch;Adjektiv;nan;nan;0;B1;462;biological/organic;Das ist ein biologischer Prozess.;That is a **biological** process.;
 bisher;Adverb;nan;nan;0;B1;1241;so far/until now/hitherto;Bisher ist alles gut gegangen.;Everything has gone well **so far**.;
@@ -1770,7 +1770,7 @@ Doktorin;Substantiv;fem.;die;0;B1;14;doctor/PhD;Die Doktorin untersucht den Pati
 Dokument;Substantiv;neutr.;das;0;B1;571;document/paper;Bitte unterschreiben Sie das Dokument.;Please sign the **document**.;
 Donner;Substantiv;mask.;der;0;B1;32;thunder;Man kann den Donner hören.;You can hear the **thunder**.;
 donnern;Verb;nan;nan;0;B1;654;to thunder;Es donnert draußen.;It's **thundering** outside.;
-doppel-;Affix;nan;nan;0;B1;nan;double-;Das ist ein Doppelzimmer.;That is a **double** room.;
+doppel-;Affix;nan;nan;0;B1;nan;double-;Das ist ein Doppelzimmer.;That is a **double** room.;affix
 doppelt;Adjektiv;nan;nan;0;B1;5855;double/twice;Ich nehme die doppelte Portion.;I'll take the **double** portion.;
 Dose;Substantiv;fem.;die;0;B1;242;can/tin/box;Eine Dose Cola, bitte.;A **can** of cola, please.;
 Dreck;Substantiv;mask.;der;0;B1;287;dirt/mud/trash;Der Schuh ist voller Dreck.;The shoe is full of **dirt**.;
@@ -1832,14 +1832,14 @@ Einwohner;Substantiv;mask.;der;0;B1;908;inhabitant/resident;Die Stadt hat many E
 Einwohnerin;Substantiv;fem.;die;0;B1;131;inhabitant/resident;Sie ist eine Einwohnerin von Berlin.;She is an **inhabitant** of Berlin.;female
 einzahlen;Verb;nan;nan;0;B1;106;to deposit/pay in;Ich möchte Geld auf mein Konto einzahlen.;I want to **deposit** money into my account.;
 Einzahlung;Substantiv;fem.;die;0;B1;11;deposit/payment;Die Einzahlung wurde bestätigt.;The **deposit** (payment) was confirmed.;
-einzel-;Affix;nan;nan;0;B1;nan;single/individual;Das ist ein Einzelzimmer.;That is a **single** room.;
+einzel-;Affix;nan;nan;0;B1;nan;single/individual;Das ist ein Einzelzimmer.;That is a **single** room.;affix
 Einzelheit;Substantiv;fem.;die;0;B1;173;detail/particular;Erzählen Sie mir alle Einzelheiten.;Tell me all the **details**.;
 einzig;Adjektiv;nan;nan;0;B1;1655;only/single/unique;Das war meine einzige Chance.;That was my **only** chance.;
 Eisenbahn;Substantiv;fem.;die;0;B1;218;railway/railroad;Wir fahren mit der Eisenbahn.;We are going by **railway**.;
 elegant;Adjektiv;nan;nan;0;B1;243;elegant/stylish/graceful;Sie trägt ein elegantes Kleid.;She is wearing an **elegant** dress.;
-elektr-;Affix;nan;nan;0;B1;nan;electr-;Ist das elektrisch?;Is that **electric**?;
+elektr-;Affix;nan;nan;0;B1;nan;electr-;Ist das elektrisch?;Is that **electric**?;affix
 elektrisch;Adjektiv;nan;nan;0;B1;4220;electric/electrical;Das Auto hat elektrische Fensterheber.;The car has **electric** windows.;
-elektro-;Affix;nan;nan;0;B1;nan;electro-;Er ist ein Elektroingenieur.;He is an **electrical** engineer.;
+elektro-;Affix;nan;nan;0;B1;nan;electro-;Er ist ein Elektroingenieur.;He is an **electrical** engineer.;affix
 elektronisch;Adjektiv;nan;nan;0;B1;1130;electronic;Ich habe eine elektronische Nachricht erhalten.;I received an **electronic** message.;
 Empfang;Substantiv;mask.;der;0;B1;278;reception/receipt/greeting;Die Gäste wurden am Empfang begrüßt.;The guests were greeted at the **reception**.;
 empfangen;Verb;nan;nan;0;B1;469;to receive/welcome/welcome;Wir haben das Paket empfangen.;We have **received** the package.;
@@ -2125,7 +2125,7 @@ Handel;Substantiv;mask.;der;0;B1;706;trade/commerce/business;Der Handel mit Chin
 handeln;Verb;nan;nan;0;B1;16069;to act/trade/deal;Wir müssen jetzt handeln.;We must **act** now.;
 Handwerker;Substantiv;mask.;der;0;B1;288;craftsman/artisan/handyman;Der Handwerker repariert das Dach.;The **craftsman** is repairing the roof.;male
 hassen;Verb;nan;nan;0;B1;64;to hate/detest;Ich hasse lügen.;I **hate** lying.;
-haupt-;Affix;nan;nan;0;B1;nan;main/chief/principal;Das ist mein Hauptproblem.;This is my **main** problem.;
+haupt-;Affix;nan;nan;0;B1;nan;main/chief/principal;Das ist mein Hauptproblem.;This is my **main** problem.;affix
 Hauptbahnhof;Substantiv;mask.;der;0;B1;116;central station/main station;Wir treffen uns am Hauptbahnhof.;We're meeting at the **central station**.;
 Hausmeister;Substantiv;mask.;der;0;B1;64;caretaker/janitor/building manager;Der Hausmeister schließt die Tür auf.;The **caretaker** (janitor) unlocks the door.;male
 Hausmeisterin;Substantiv;fem.;die;0;B1;9;caretaker/janitor;Die Hausmeisterin kümmert sich ums Haus.;The (female) **caretaker** looks after the house.;female
@@ -2677,7 +2677,7 @@ Rufnummer;Substantiv;fem.;die;0;B1;30;phone number/telephone number;Wie ist Ihre
 Runde;Substantiv;fem.;die;0;B1;1362;round/lap;Ich laufe noch eine Runde.;I'm running one more **round** (lap).;
 Rundfahrt;Substantiv;fem.;die;0;B1;20;tour/round trip/sightseeing tour;Wir machen eine Rundfahrt durch die Stadt.;We are taking a **tour** of the city.;
 runterwerfen;Verb;nan;nan;0;B1;nan;to throw down/drop;Wirf den Ball bitte nicht runter!;Please don't **throw** the ball **down**!;
-rück-;Affix;nan;nan;0;B1;1;back-/re-;Er forderte eine Rückzahlung.;He demanded a **re**payment (money back).;
+rück-;Affix;nan;nan;0;B1;1;back-/re-;Er forderte eine Rückzahlung.;He demanded a **re**payment (money back).;affix
 Rückfahrt;Substantiv;fem.;die;0;B1;38;return journey/trip back;Wann ist die Rückfahrt geplant?;When is the **return journey** planned?;
 Rückkehr;Substantiv;fem.;die;0;B1;267;return/homecoming;Wir freuen uns auf deine Rückkehr.;We are looking forward to your **return**.;
 rückwärts;Adverb;nan;nan;0;B1;132;backwards/in reverse;Fahren Sie bitte rückwärts.;Please drive **backwards** (in reverse).;
@@ -2740,7 +2740,7 @@ Schutz;Substantiv;mask.;der;0;B1;1075;protection/shelter/cover;Wir brauchen Schu
 Schwammerl;Substantiv;mask., neutr.;der, das;0;B1;34;mushroom;Wir gehen Schwammerl suchen.;We're going **mushroom** hunting.;Austrian/Bavarian
 Schwangerschaft;Substantiv;fem.;die;0;B1;204;pregnancy;Die Schwangerschaft verlief ohne Probleme.;The **pregnancy** went without problems.;
 schweigen;Verb;nan;nan;0;B1;1120;to be silent/keep quiet;Er kann einfach nicht schweigen.;He just cannot **be silent** (keep quiet).;
-schwieger-;Affix;nan;nan;0;B1;nan;in-law;Das ist meine Schwiegermutter.;That is my mother-**in-law**.;
+schwieger-;Affix;nan;nan;0;B1;nan;in-law;Das ist meine Schwiegermutter.;That is my mother-**in-law**.;affix
 Schwierigkeit;Substantiv;fem.;die;0;B1;458;difficulty/trouble;Hatten Sie Schwierigkeiten bei der Suche?;Did you have **difficulties** in finding it?;
 schwitzen;Verb;nan;nan;0;B1;522;to sweat/perspire;Bei dieser Hitze schwitze ich sehr.;I **sweat** a lot in this heat.;
 schätzen;Verb;nan;nan;0;B1;3078;to estimate/value/appreciate;Ich schätze dich sehr als Freund.;I **value** (appreciate) you very much as a friend.;
@@ -2790,7 +2790,7 @@ sodass;Konjunktion;nan;nan;0;B1;638;so that;Er arbeitete hart, sodass er Erfolg 
 sogenannt;Adjektiv;nan;nan;0;B1;nan;so-called;Das ist ein sogenannter Experte.;That is a **so-called** expert.;
 solange;Konjunktion;nan;nan;0;B1;334;as long as;Ich bleibe hier; solange du willst.,I'll stay here **as long as** you want.;
 solch;Demonstrativpronomen;nan;nan;0;B1;261;such;Solch ein Glück muss man haben!;One must have **such** luck!;
-sonder-;Affix;nan;nan;0;B1;nan;special-;Das ist ein Sonderangebot.;That is a **special** offer.;
+sonder-;Affix;nan;nan;0;B1;nan;special-;Das ist ein Sonderangebot.;That is a **special** offer.;affix
 Sonderangebot;Substantiv;neutr.;das;0;B1;31;special offer/bargain;Gestern gab es viele Sonderangebote.;There were many **special offers** (bargains) yesterday.;
 sondern;Konjunktion;nan;nan;0;B1;18569;but;Nicht heute, sondern morgen.;Not today, **but** tomorrow.;rather
 Sorge;Substantiv;fem.;die;0;B1;537;worry/concern/care;Mach dir keine Sorgen.;Don't **worry** (make yourself worries).;
@@ -2807,7 +2807,7 @@ sparsam;Adjektiv;nan;nan;0;B1;167;economical/frugal/thrifty;Wir müssen sparsame
 spazieren gehen;Verb;nan;nan;0;B1;nan;to go for a walk;Lass uns im Park spazieren gehen.;Let's **go for a walk** in the park.;
 Speise;Substantiv;fem.;die;0;B1;507;dish/meal/food;Das ist eine typische Speise aus der Region.;This is a typical **dish** from the region.;
 Speisewagen;Substantiv;mask.;der;0;B1;nan;dining car/restaurant car;Wir essen im Speisewagen.;We're eating in the **dining car**.;
-spezial-;Affix;nan;nan;0;B1;nan;special-;Das ist ein Spezialfall.;That is a **special** case.;
+spezial-;Affix;nan;nan;0;B1;nan;special-;Das ist ein Spezialfall.;That is a **special** case.;affix
 Spezialist;Substantiv;mask.;der;0;B1;168;specialist/expert;Er ist ein Spezialist für Computer.;He is a **specialist** for computers.;male
 Spezialistin;Substantiv;fem.;die;0;B1;27;specialist/expert;Sie ist eine Spezialistin für Medizin.;She is a (female) **specialist** for medicine.;female
 speziell;Adjektiv;nan;nan;0;B1;2494;special/specific/particular;Hast du spezielle Wünsche?;Do you have any **special** wishes?;
@@ -2982,7 +2982,7 @@ umtauschen;Verb;nan;nan;0;B1;104;to exchange/swap;Ich möchte die Hose umtausche
 Umwelt;Substantiv;fem.;die;0;B1;502;environment;Wir müssen die Umwelt schützen.;We must protect the **environment**.;
 Umweltschutz;Substantiv;mask.;der;0;B1;57;environmental protection;Der Umweltschutz ist ein wichtiges Thema.;**Environmental protection** is an important topic.;
 Umweltverschmutzung;Substantiv;fem.;die;0;B1;29;environmental pollution;Die Umweltverschmutzung nimmt zu.;**Environmental pollution** is increasing.;
-un-;Affix;nan;nan;0;B1;nan;un-/non-/dis-;Das ist unmöglich.;That is **un**possible (impossible).;
+un-;Affix;nan;nan;0;B1;nan;un-/non-/dis-;Das ist unmöglich.;That is **un**possible (impossible).;affix
 unentschieden;Adjektiv;nan;nan;0;B1;93;draw/tie/undecided;Das Spiel endete unentschieden.;The game ended in a **draw** (tie).;
 ungefähr;Adjektiv;nan;nan;0;B1;606;approximate/about/roughly;Die Fahrt dauert ungefähr eine Stunde.;The trip takes **about** (roughly) an hour.;
 ungewöhnlich;Adjektiv;nan;nan;0;B1;452;unusual/extraordinary/uncommon;Das ist ein ungewöhnlich warmer Tag.;That is an **unusual**ly warm day.;
@@ -2990,7 +2990,7 @@ unglaublich;Adjektiv;nan;nan;0;B1;309;incredible/unbelievable;Das ist einfach un
 Unglück;Substantiv;neutr.;das;0;B1;239;misfortune/accident/unhappiness;Er hatte ein schweres Unglück mit dem Auto.;He had a serious **accident** with the car.;
 unheimlich;Adjektiv;nan;nan;0;B1;216;scary/eerie/incredibly;Es war unheimlich dunkel im Wald.;It was **scary** (eerie) dark in the forest.;
 Uniform;Substantiv;fem.;die;0;B1;330;uniform;Polizisten tragen eine Uniform.;Police officers wear a **uniform**.;
-unter-;Affix;nan;nan;0;B1;2;under-/lower/sub-;Das Boot ist untergegangen.;The boat went **under** (sunk).;
+unter-;Affix;nan;nan;0;B1;2;under-/lower/sub-;Das Boot ist untergegangen.;The boat went **under** (sunk).;affix
 unterbrechen;Verb;nan;nan;0;B1;354;to interrupt/break/disrupt;Bitte unterbrich mich nicht beim Sprechen.;Please don't **interrupt** me when I'm speaking.;
 Unterhaltung;Substantiv;fem.;die;0;B1;279;entertainment/conversation;Vielen Dank für die gute Unterhaltung.;Thank you for the good **entertainment** (conversation).;
 Unterlage;Substantiv;fem.;die;0;B1;257;document/record/base;Ich habe alle notwendigen Unterlagen dabei.;I have all the necessary **documents** with me.;
@@ -3105,7 +3105,7 @@ vor allem;Mehrwortausdruck;nan;nan;0;B1;nan;above all/especially/mainly;Ich mag 
 voraus;Adverb;nan;nan;0;B1;401;ahead/in advance;Vielen Dank im Voraus!;Thank you **in advance**!;
 Voraussetzung;Substantiv;fem.;die;0;B1;532;requirement/condition/prerequisite;Das ist die Voraussetzung für den Kurs.;That is the **requirement** for the course.;
 voraussichtlich;Adjektiv;nan;nan;0;B1;117;probable/expected/likely;Der Zug kommt voraussichtlich pünktlich.;The train is **expected** (likely) to arrive on time.;
-vorbei-;Affix;nan;nan;0;B1;1;past-/by-;Wir sind am Haus vorbeigefahren.;We drove **past** the house.;
+vorbei-;Affix;nan;nan;0;B1;1;past-/by-;Wir sind am Haus vorbeigefahren.;We drove **past** the house.;affix
 Vorbereitung;Substantiv;fem.;die;0;B1;273;preparation;Die Vorbereitungen für das Fest laufen.;**Preparations** for the festival are underway.;
 vorder;Adjektiv;nan;nan;0;B1;218;front/former;Bitte setzen Sie sich in die vordere Reihe.;Please sit in the **front** row.;
 Vorfahrt;Substantiv;fem.;die;0;B1;50;right of way/priority;Hier haben Sie Vorfahrt.;You have the **right of way** here.;
@@ -3138,7 +3138,7 @@ warnen;Verb;nan;nan;0;B1;843;to warn/caution/alert;Ich muss dich warnen.;I must 
 Waschmittel;Substantiv;neutr.;das;0;B1;41;laundry detergent/washing agent;Welches Waschmittel benutzt du?;Which **laundry detergent** do you use?;
 Wecker;Substantiv;mask.;der;0;B1;61;alarm clock;Der Wecker klingelt um sechs Uhr.;The **alarm clock** rings at six o'clock.;
 weder;Konjunktion;nan;nan;0;B1;5023;neither;Er spricht weder Deutsch noch Englisch.;He speaks **neither** German nor English.;
-weg-;Affix;nan;nan;0;B1;nan;away-/off-;Er ist weggegangen.;He went **away**.;
+weg-;Affix;nan;nan;0;B1;nan;away-/off-;Er ist weggegangen.;He went **away**.;affix
 weigern;Verb;nan;nan;0;B1;226;to refuse/decline;Er weigert sich zu antworten.;He **refuses** to answer.;
 weiter;Adjektiv;nan;nan;0;B1;76521;further/next/wide;Haben Sie noch weitere Fragen?;Do you have any **further** questions?;
 Weiterbildung;Substantiv;fem.;die;0;B1;60;further education/training;Ich mache eine Weiterbildung zur Softwareentwicklerin.;I'm doing **further education** (training) as a software developer.;
@@ -3158,7 +3158,7 @@ wetten;Verb;nan;nan;0;B1;124;to bet/wager;Ich wette; dass es heute regnet.,I **b
 Wetterbericht;Substantiv;mask.;der;0;B1;35;weather report;Hast du den Wetterbericht gehört?;Have you heard the **weather report**?;
 Wettervorhersage;Substantiv;fem.;die;0;B1;22;weather forecast;Die Wettervorhersage war falsch.;The **weather forecast** was wrong.;
 widersprechen;Verb;nan;nan;0;B1;226;to contradict/disagree/object;Bitte widersprechen Sie mir nicht.;Please don't **contradict** me.;
-wieder-;Affix;nan;nan;0;B1;1;re-/again-;Man muss es wiederholen.;One must **re**peat (do again) it.;
+wieder-;Affix;nan;nan;0;B1;1;re-/again-;Man muss es wiederholen.;One must **re**peat (do again) it.;affix
 Wiederholung;Substantiv;fem.;die;0;B1;168;repetition/repetition;Die Wiederholung der Sendung ist morgen.;The **repetition** (rebroadcast) of the show is tomorrow.;of a show
 wiegen;Verb;nan;nan;0;B1;1787;to weigh/rock;Wie viel wiegen die Äpfel?;How much do the apples **weigh**?;cradle
 Wiese;Substantiv;fem.;die;0;B1;454;meadow/field/pasture;Die Kühe stehen auf der Wiese.;The cows are in the **meadow**.;
@@ -3227,7 +3227,7 @@ zunehmen;Verb;nan;nan;0;B1;280;to increase/put on weight/grow;Er hat über Weihn
 zunächst;nan;nan;nan;0;B1;1710;at first/initially/first of all;Zunächst müssen wir das Problem klären.,**First of all**; we need to clarify the problem.;
 zurechtkommen;Verb;nan;nan;0;B1;91;to cope/manage/get along;Kommst du allein zurecht?;Can you **cope** (manage) alone?;
 zusagen;Verb;nan;nan;0;B1;73;to accept/promise/agree;Er hat für die Party zugesagt.;He **accepted** (agreed) to come to the party.;
-zusammen-;Affix;nan;nan;0;B1;1;together-/co-/con-;Wir arbeiten zusammen.;We work **together**.;
+zusammen-;Affix;nan;nan;0;B1;1;together-/co-/con-;Wir arbeiten zusammen.;We work **together**.;affix
 Zusammenarbeit;Substantiv;fem.;die;0;B1;281;cooperation/collaboration;Vielen Dank für die gute Zusammenarbeit.;Thank you for the good **cooperation**.;
 zusammenfassen;Verb;nan;nan;0;B1;161;to summarize/conclude/group;Kannst du das Ergebnis zusammenfassen?;Can you **summarize** the result?;
 Zusammenhang;Substantiv;mask.;der;0;B1;1066;context/connection/coherence;Das steht in keinem Zusammenhang.;That has no **connection** (context).;
@@ -3263,9 +3263,9 @@ Zündholz;Substantiv;neutr.;das;0;B1;14;match/matchstick;Gib mir bitte ein Zünd
 öffentlich;Adjektiv;nan;nan;0;B1;22370;public;Das ist ein öffentliches Gebäude.;This is a **public** building.;
 Öffentlichkeit;Substantiv;fem.;die;0;B1;577;public/publicity;Die Nachricht kam an die Öffentlichkeit.;The news reached the **public**.;
 öfter;Komparativ;nan;nan;0;B1;254;more often/more frequently;Ich gehe jetzt öfter spazieren.;I'm going for walks **more often** now.;
-öko-;Affix;nan;nan;0;B1;nan;eco-/ecological-;Wir kaufen ökologische Produkte.;We buy **eco**-friendly products.;
+öko-;Affix;nan;nan;0;B1;nan;eco-/ecological-;Wir kaufen ökologische Produkte.;We buy **eco**-friendly products.;affix
 ökologisch;Adjektiv;nan;nan;0;B1;1433;ecological/eco-friendly/green;Das ist ein ökologisches Problem.;That is an **ecological** problem.;
-über-;Affix;nan;nan;0;B1;2;over-/super-/across-;Die Milch ist übergelaufen.;The milk boiled **over**.;
+über-;Affix;nan;nan;0;B1;2;over-/super-/across-;Die Milch ist übergelaufen.;The milk boiled **over**.;affix
 überfahren;Verb;nan;nan;0;B1;177;to run over/knock down;Die Katze wurde fast überfahren.;The cat was almost **run over**.;
 überhaupt;Adverb;nan;nan;0;B1;1258;at all/generally/anyway;Ich weiß überhaupt nichts davon.;I know nothing **at all** about it.;
 überholen;Verb;nan;nan;0;B1;353;to overtake/pass;Das Auto hat uns überholt.;The car **overtook** (passed) us.;
