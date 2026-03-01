@@ -892,7 +892,7 @@ Blog;Substantiv;neutr., mask.;das, der;0;A2;36;blog;Er schreibt einen Blog.;He w
 blond;Adjektiv;nan;nan;0;A2;5820;blond;Sie hat blonde Haare.;She has **blond** hair.;
 Bluse;Substantiv;fem.;die;0;A2;131;blouse;Die Bluse ist sehr schön.;The **blouse** is very beautiful.;
 blöd;Adjektiv;nan;nan;0;A2;18;stupid/silly/annoying;Das ist eine blöde Situation.;That is a **stupid** situation.;
-blöde;Adjektiv;nan;nan;0;A2;129;stupid/silly/annoying;Das war ein blöder Fehler.;That was a **stupid** mistake.;
+blöde;Adjektiv;nan;nan;0;A2;129;stupid/silly/annoying;Das war ein blöder Fehler.;That was a **stupid** mistake.;colloquial
 Bohne;Substantiv;fem.;die;0;A2;183;bean;Ich esse gerne Bohnen.;I like eating **beans**.;
 braten;Verb;nan;nan;0;A2;499;to fry/roast;Ich brate das Fleisch.;I am **frying** (roasting) the meat.;
 Brille;Substantiv;fem.;die;0;A2;272;glasses/spectacles;Wo ist meine Brille?;Where are my **glasses**?;
@@ -923,8 +923,8 @@ deutlich;Adjektiv;nan;nan;0;A2;2485;clear/distinct;Bitte sprechen Sie deutlich.;
 dick;Adjektiv;nan;nan;0;A2;2740;fat/thick/big;Das Buch ist sehr dick.;The book is very **thick**.;
 Ding;Substantiv;neutr.;das;0;A2;1946;thing;Was ist das für ein Ding?;What kind of **thing** is that?;object
 direkt;Adjektiv;nan;nan;0;A2;7815;direct/directly;Gehen Sie direkt zum Bahnhof.;Go **directly** to the train station.;
-Disco;Substantiv;fem.;die;0;A2;57;disco;Wir gehen am Freitag in die Disco.;We are going to the **disco** on Friday.;
-Disko;Substantiv;fem.;die;0;A2;25;disco;Gehen wir in die Disko?;Are we going to the **disko**?;
+Disco;Substantiv;fem.;die;0;A2;57;disco;Wir gehen am Freitag in die Disco.;We are going to the **disco** on Friday.;-c-
+Disko;Substantiv;fem.;die;0;A2;25;disco;Gehen wir in die Disko?;Are we going to the **disko**?;-k-
 diskutieren;Verb;nan;nan;0;A2;3462;to discuss;Wir müssen das Thema diskutieren.;We must **discuss** the topic.;
 doch;Adverb;nan;nan;0;A2;8350;but/though/surely;Komm doch mal vorbei!;Do come by! (**Surely** come by!);
 dorther;Pronominaladverb;nan;nan;0;A2;nan;from there;Ich komme dorther.;I come **from there**.;
@@ -970,7 +970,7 @@ fast;Adverb;nan;nan;0;A2;11299;almost/nearly;Ich bin fast fertig.;I'm **almost**
 faul;Adjektiv;nan;nan;0;A2;5;lazy/rotten;Er ist ein fauler Student.;He is a **lazy** student.;
 Feier;Substantiv;fem.;die;0;A2;392;celebration/party/ceremony;Die Feier war sehr schön.;The **celebration** was very nice.;
 Fenster;Substantiv;neutr.;das;0;A2;1533;window;Mach bitte das Fenster zu.;Please close the **window**.;
-Ferien;Substantiv;nan;nan;1;A2;121;vacation/holidays;Wir haben bald Ferien.;We are having **vacation** soon.;
+Ferien;Substantiv;nan;nan;1;A2;121;vacation/holidays;Wir haben bald Ferien.;We are having **vacation** soon.;for school, university
 Fest;Substantiv;neutr.;das;0;A2;280;festival/party/celebration;Wir feiern ein großes Fest.;We are celebrating a large **festival**.;
 Festival;Substantiv;neutr.;das;0;A2;124;festival;Wir gehen zum Musikfestival.;We are going to the music **festival**.;
 fett;Adjektiv;nan;nan;0;A2;304;fat/bold;Das Fleisch ist zu fett.;The meat is too **fat**.;
@@ -1162,8 +1162,8 @@ Paar;Substantiv;neutr.;das;0;A2;608;couple/pair;Dort ist ein schönes Paar.;Ther
 paar;Indefinitpronomen;nan;nan;0;A2;2251;few/a few;Ich habe noch ein paar Fragen.;I have **a few** more questions.;
 packen;Verb;nan;nan;0;A2;3679;to pack/grab/pack;Ich packe meinen Koffer.;I am **packing** my suitcase.;
 Paket;Substantiv;neutr.;das;0;A2;196;package/parcel;Ich bringe das Paket zur Post.;I'm taking the **parcel** to the post office.;
-Parfum;Substantiv;neutr.;das;0;A2;50;perfume;Das Parfum riecht gut.;The **perfume** smells good.;
-Parfüm;Substantiv;neutr.;das;0;A2;52;perfume;Hast du neues Parfüm?;Do you have new **perfume**?;
+Parfum;Substantiv;neutr.;das;0;A2;50;perfume;Das Parfum riecht gut.;The **perfume** smells good.;-u-
+Parfüm;Substantiv;neutr.;das;0;A2;52;perfume;Hast du neues Parfüm?;Do you have new **perfume**?;-ü-
 Park;Substantiv;mask.;der;0;A2;2074;park;Wir gehen im Park spazieren.;We are taking a walk in the **park**.;
 parken;Verb;nan;nan;0;A2;567;to park;Hier darf man nicht parken.;You are not allowed to **park** here.;
 passen;Verb;nan;nan;0;A2;3493;to fit/suit;Die Hose passt mir nicht.;The pants don't **fit** me.;
@@ -1267,7 +1267,7 @@ sonnig;Adjektiv;nan;nan;0;A2;37;sunny;Heute ist es sonnig.;Today it is **sunny**
 sonst;Adverb;nan;nan;0;A2;1450;otherwise/else;Beeil dich, sonst kommen wir zu spät.;Hurry up, **otherwise** we'll be late.;
 spannend;partizipiales Adjektiv;nan;nan;0;A2;234;exciting/thrilling/tense;Das Buch ist sehr spannend.;The book is very **exciting**.;
 sparen;Verb;nan;nan;0;A2;2156;to save (money)/economize;Ich spare für ein neues Auto.;I am **saving** for a new car.;
-Spass;Substantiv;mask.;der;0;A2;34;fun/joke;Das macht Spass!;That's **fun**!;
+Spass;Substantiv;mask.;der;0;A2;34;fun/joke;Das macht Spass!;That's **fun**!;swiss spelling
 spazieren;Verb;nan;nan;0;A2;5951;to stroll/walk;Wir gehen spazieren.;We are going for a **stroll**.;
 Spaziergang;Substantiv;mask.;der;0;A2;218;walk/stroll;Möchtest du einen Spaziergang machen?;Would you like to take a **walk**?;
 Spaß;Substantiv;mask.;der;0;A2;335;fun/joke;Viel Spaß!;Have **fun**!;
@@ -1401,9 +1401,9 @@ Wohnzimmer;Substantiv;neutr.;das;0;A2;289;living room;Wir sitzen im Wohnzimmer.;
 Wolke;Substantiv;fem.;die;0;A2;396;cloud;Es sind viele Wolken am Himmel.;There are many **clouds** in the sky.;
 Workshop;Substantiv;mask.;der;0;A2;42;workshop;Ich besuche einen Workshop.;I'm attending a **workshop**.;
 Wunsch;Substantiv;mask.;der;0;A2;626;wish/desire/request;Ich habe einen Wunsch.;I have a **wish**.;
-wurscht;Adjektiv;nan;nan;0;A2;nan;all the same/indifferent/sausages;Das ist mir wurscht.;I **don't care** (It's all the same to me).;
+das ist mir wurscht;Adjektiv;nan;nan;0;A2;nan;all the same/indifferent/sausages;Das ist mir wurscht.;**I don't care**.;-ch-
 Wurst;Substantiv;fem.;die;0;A2;192;sausage;Ich esse eine Wurst.;I am eating a **sausage**.;
-wurst;Adjektiv;nan;nan;0;A2;nan;all the same/indifferent;Das ist mir wurst.;I **don't care**.;
+das ist mir wurst;Adjektiv;nan;nan;0;A2;nan;all the same/indifferent;Das ist mir wurst.;**I don't care**.;
 wählen;Verb;nan;nan;0;A2;4356;to vote/choose/elect;Sie müssen eine Nummer wählen.;You have to **dial** (choose) a number.;
 Wäsche;Substantiv;fem.;die;0;A2;242;laundry/washing/linen;Ich muss die Wäsche waschen.;I have to wash the **laundry**.;
 wünschen;Verb;nan;nan;0;A2;1701;to wish/desire;Ich wünsche dir alles Gute.;I **wish** you all the best.;
