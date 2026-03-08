@@ -1495,9 +1495,9 @@ Amt;Substantiv;neutr.;das;0;B1;797;office/agency/post;Er arbeitet beim Finanzamt
 amüsieren;Verb;nan;nan;0;B1;44;to amuse/enjoy oneself;Wir haben uns gut amüsiert.;We **enjoyed ourselves** (had fun).;
 analysieren;Verb;nan;nan;0;B1;275;to analyze;Wir müssen die Daten analysieren.;We need to **analyze** the data.;
 Anbieter;Substantiv;mask.;der;0;B1;174;provider/supplier/vendor;Wer ist Ihr Internet-Anbieter?;Who is your internet **provider**?;
-andererseits;Adverb;nan;nan;0;B1;478;on the other hand;Andererseits ist es teurer.,**On the other hand**; it is more expensive.;
+andererseits;Adverb;nan;nan;0;B1;478;on the other hand;Andererseits ist es teurer.;**On the other hand**, it is more expensive.;-erer-
 anderseits;Adverb;nan;nan;0;B1;19;on the other hand;Das ist anderseits auch wahr.;That is **on the other hand** also true.;
-andrerseits;Adverb;nan;nan;0;B1;8;on the other hand;Andrerseits möchte ich gehen.,**On the other hand**; I want to go.;
+andrerseits;Adverb;nan;nan;0;B1;8;on the other hand;Andrerseits möchte ich gehen.;**On the other hand**, I want to go.;-rer-
 anerkennen;Verb;nan;nan;0;B1;519;to recognize/acknowledge/accept;Sein Erfolg wurde anerkannt.;His success was **recognized**.;
 anfangs;Adverb;nan;nan;0;B1;190;at first/initially;Anfangs war es schwierig.;**At first** it was difficult.;
 Angabe;Substantiv;fem.;die;0;B1;982;statement/information/detail;Bitte machen Sie genaue Angaben.;Please provide exact **details**.;
@@ -1805,7 +1805,7 @@ Einbrecherin;Substantiv;fem.;die;0;B1;11;burglar/housebreaker;Die Einbrecherin i
 Einbruch;Substantiv;mask.;der;0;B1;158;burglary/break-in/collapse;Es gab einen Einbruch im Laden.;There was a **burglary** in the shop.;
 eindeutig;Adjektiv;nan;nan;0;B1;667;clear/unique/unambiguous;Das ist ein eindeutiges Ergebnis.;That is a **clear** (unambiguous) result.;
 Eindruck;Substantiv;mask.;der;0;B1;652;impression/impact/mark;Er macht einen guten Eindruck.;He makes a good **impression**.;
-einerseits;Adverb;nan;nan;0;B1;358;on the one hand;Einerseits ist es gut.,**On the one hand**; it is good.;
+einerseits;Adverb;nan;nan;0;B1;358;on the one hand;Einerseits ist es gut.;**On the one hand**, it is good.;
 Einfahrt;Substantiv;fem.;die;0;B1;87;entrance/driveway/gateway;Die Einfahrt ist versperrt.;The **entrance** (driveway) is blocked.;
 Einfall;Substantiv;mask.;der;0;B1;91;idea/notion/brainwave;Das war ein guter Einfall.;That was a good **idea**.;
 einfallen;Verb;nan;nan;0;B1;144;to come to mind/occur/collapse;Mir fällt nichts dazu ein.;Nothing **comes to mind**.;
@@ -2043,7 +2043,7 @@ Gefahr;Substantiv;fem.;die;0;B1;1930;danger/risk/hazard;Es besteht keine Gefahr.
 Gefängnis;Substantiv;neutr.;das;0;B1;505;prison/jail;Er ist im Gefängnis.;He is in **prison**.;
 Gefühl;Substantiv;neutr.;das;0;B1;1376;feeling/emotion/sensation;Ich habe ein gutes Gefühl.;I have a good **feeling**.;
 Gegend;Substantiv;fem.;die;0;B1;635;region/area/neighborhood;Die Gegend hier ist schön.;The **area** (region) here is beautiful.;
-Gegensatz;Substantiv;mask.;der;0;B1;1097;opposite/contrast/contrary;Im Gegensatz dazu ist es hier warm.,In **contrast** to that; it's warm here.;
+Gegensatz;Substantiv;mask.;der;0;B1;1097;opposite/contrast/contrary;Im Gegensatz dazu ist es hier warm.;In **contrast** to that, it's warm here.;
 Gegenstand;Substantiv;mask.;der;0;B1;2229;object/item/subject;Auf dem Tisch liegen many Gegenstände.;There are many **objects** (items) on the table.;
 Gegner;Substantiv;mask.;der;0;B1;832;opponent/enemy/adversary;Er ist ein starker Gegner.;He is a strong **opponent**.;male
 geheim;Adjektiv;nan;nan;0;B1;2656;secret/confidential/private;Das ist eine geheime Information.;That is **secret** (confidential) information.;
@@ -2410,7 +2410,7 @@ Mehl;Substantiv;neutr.;das;0;B1;328;flour;Ich brauche Mehl für den Kuchen.;I ne
 mehrere;Indefinitpronomen;nan;nan;0;B1;7630;several/multiple;Ich habe mehrere Fragen.;I have **several** questions.;
 Mehrheit;Substantiv;fem.;die;0;B1;446;majority/bulk;Die Mehrheit stimmte dafür.;The **majority** voted in favor.;
 Mehrwertsteuer;Substantiv;fem.;die;0;B1;55;value added tax;Der Preis ist inklusive Mehrwertsteuer.;The price includes **VAT**.;VAT
-meinetwegen;Pronominaladverb;nan;nan;0;B1;19;for my sake/as far as I'm concerned;Meinetwegen können wir gehen.,**As far as I'm concerned**; we can go.;
+meinetwegen;Pronominaladverb;nan;nan;0;B1;19;for my sake/as far as I'm concerned;Meinetwegen können wir gehen.;**As far as I'm concerned**, we can go.;
 Meister;Substantiv;mask.;der;0;B1;470;master/champion;Er ist ein Meister seines Fachs.;He is a **master** of his trade.;male
 melden;Verb;nan;nan;0;B1;3939;to report/register/get in touch;Bitte melden Sie sich im Büro.;Please **report** to the office.;
 Meldung;Substantiv;fem.;die;0;B1;182;report/message/notification;Wir haben die Meldung erhalten.;We received the **report**.;
@@ -2954,7 +2954,7 @@ Trinkgeld;Substantiv;neutr.;das;0;B1;56;tip/gratuity;Hast du dem Kellner Trinkge
 trocknen;Verb;nan;nan;0;B1;645;to dry/dry up;Die Wäsche muss noch trocknen.;The laundry still needs to **dry**.;
 Tropfen;Substantiv;mask.;der;0;B1;362;drop/bead;Ein paar Tropfen Regen fielen.;A few **drops** of rain fell.;
 Trottoir;Substantiv;neutr.;das;0;B1;36;sidewalk/pavement;Bitte lauf auf dem Trottoir.;Please walk on the **sidewalk** (pavement).;Swiss
-trotz;Präposition;nan;nan;0;B1;3701;despite/in spite of;Trotz des Regens gingen wir spazieren.;**Despite** the rain; we went for a walk.;
+trotz;Präposition;nan;nan;0;B1;3701;despite/in spite of;Trotz des Regens gingen wir spazieren.;**Despite** the rain, we went for a walk.;
 trotzdem;Konjunktion;nan;nan;0;B1;696;nevertheless/anyway/still;Es war kalt, trotzdem ging er schwimmen.;It was cold, **nevertheless** he went swimming.;
 Träne;Substantiv;fem.;die;0;B1;761;tear;Sie hatte Tränen in den Augen.;She had **tears** in her eyes.;
 Tuch;Substantiv;neutr.;das;0;B1;273;cloth/towel/scarf;Wisch den Tisch mit einem Tuch ab.;Wipe the table with a **cloth**.;
@@ -3210,7 +3210,7 @@ ziemlich;Adjektiv;nan;nan;0;B1;963;quite/fairly/rather;Das ist ziemlich teuer.;T
 Zins;Substantiv;mask.;der;0;B1;219;interest;Wie hoch sind die Zinsen für den Kredit?;How high is the **interest** on the loan?;financial
 Zivilstand;Substantiv;mask.;der;0;B1;13;civil status/marital status;Bitte geben Sie Ihren Zivilstand an.;Please state your **civil status**.;
 Znüni;Substantiv;neutr., mask.;das, der;0;B1;nan;mid-morning snack;Es ist Zeit für den Znüni.;It's time for the **mid-morning snack**.;Swiss
-Zone;Substantiv;fem.;die;0;B1;330;zone/area/region;Das ist eine verkehrsberuhigte Zone.;This is a traffic-calmed **zone**.;
+Zone;Substantiv;fem.;die;0;B1;330;zone;Das ist eine verkehrsberuhigte Zone.;This is a traffic-calmed **zone**.;
 zubereiten;Verb;nan;nan;0;B1;298;to prepare/cook/make;Ich bereite das Abendessen zu.;I am **preparing** dinner.;
 Zufall;Substantiv;mask.;der;0;B1;213;coincidence/chance/accident;Das war ein reiner Zufall.;That was pure **coincidence**.;
 zufällig;Adjektiv;nan;nan;0;B1;342;accidental/random/by chance;Ich habe ihn zufällig in der Stadt getroffen.;I met him in the city **by chance**.;
