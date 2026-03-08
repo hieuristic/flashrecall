@@ -653,7 +653,7 @@ siebzehn;Kardinalzahlwort;nan;nan;0;A1;68;seventeen;Ich bin siebzehn Jahre alt.;
 siebzig;Kardinalzahlwort;nan;nan;0;A1;107;seventy;Es kostet siebzig Euro.;That costs **seventy** euros.;
 sitzen;Verb;nan;nan;0;A1;60829;to sit;Bitte setzen Sie sich (sitzen Sie hier).;Please **sit** here.;
 so;nan;nan;nan;0;A1;444502;so/like this;Machen Sie es bitte so.;Please do it **like this**.;
-Sofa;Substantiv;neutr.;das;0;A1;216;sofa/couch;Die Katze schläft auf dem Sofa.;The cat is sleeping on the **sofa**.;
+Sofa;Substantiv;neutr.;das;0;A1;216;sofa;Die Katze schläft auf dem Sofa.;The cat is sleeping on the **sofa**.;
 sofort;Adverb;nan;nan;0;A1;1212;immediately/right away;Ich komme sofort.;I'll be there **immediately**.;
 Sohn;Substantiv;mask.;der;0;A1;2245;son;Mein Sohn geht zur Schule.;My **son** goes to school.;
 sollen;Verb;nan;nan;0;A1;77994;should/shall;Soll ich dir helfen?;**Should** I help you?;
@@ -1722,7 +1722,7 @@ chic;Adjektiv;nan;nan;0;B1;nan;chic/stylish/elegant;Das Kleid sieht sehr chic au
 Chipkarte;Substantiv;fem.;die;0;B1;nan;chip card/smart card;Bezahlen Sie mit der Chipkarte.;Pay with the **chip card**.;
 Coiffeur;Substantiv;mask.;der;0;B1;10;hairdresser/barber;Ich habe einen Termin beim Coiffeur.;I have an appointment with the **hairdresser**.;male
 Coiffeuse;Substantiv;fem.;die;0;B1;nan;hairdresser;Die Coiffeuse schneidet meine Haare.;The (female) **hairdresser** is cutting my hair.;female
-Couch;Substantiv;fem.;die;0;B1;79;couch/sofa;Wir sitzen auf der Couch.;We are sitting on the **couch**.;
+Couch;Substantiv;fem.;die;0;B1;79;couch;Wir sitzen auf der Couch.;We are sitting on the **couch**.;
 Cousin;Substantiv;mask.;der;0;B1;58;cousin;Das ist mein Cousin aus Berlin.;That is my **cousin** from Berlin.;male
 Cousine;Substantiv;fem.;die;0;B1;75;cousin;Sie ist meine Cousine.;She is my (female) **cousin**.;female
 Couvert;Substantiv;neutr.;das;0;B1;9;envelope;Bitte legen Sie den Brief in das Couvert.;Please put the letter in the **envelope**.;
@@ -3029,7 +3029,7 @@ Verdacht;Substantiv;mask.;der;0;B1;312;suspicion;Es besteht der Verdacht auf Die
 verdächtig;Adjektiv;nan;nan;0;B1;192;suspicious;Sein Verhalten ist sehr verdächtig.;His behavior is very **suspicious**.;
 Vergangenheit;Substantiv;fem.;die;0;B1;579;past;In der Vergangenheit war alles anders.,In the **past**; everything was different.;
 vergeblich;Adjektiv;nan;nan;0;B1;202;in vain/futile/useless;Alle Versuche waren vergeblich.;All attempts were **in vain**.;
-Vergleich;Substantiv;mask.;der;0;B1;932;comparison/settlement;Im Vergleich zu letztem Jahr ist es kälter.,In **comparison** with last year; it's colder.;
+Vergleich;Substantiv;mask.;der;0;B1;932;comparison/settlement;Im Vergleich zu letztem Jahr ist es kälter.;In **comparison** with last year, it's colder.;
 Vergnügen;Substantiv;neutr.;das;0;B1;11;pleasure/enjoyment/delight;Es war mir ein Vergnügen.;It was a **pleasure** for me.;
 vergnügen;Verb;nan;nan;0;B1;475;to enjoy oneself/amuse;Die Kinder vergnügen sich im Park.;The children are **enjoying themselves** in the park.;
 vergnügt;partizipiales Adjektiv;nan;nan;0;B1;1;cheerful/merry/jolly;Er pfeift ein vergnügtes Lied.;He's whistling a **cheerful** (merry) tune.;
