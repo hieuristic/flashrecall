@@ -402,7 +402,7 @@ Januar;Substantiv;mask.;der;0;A1;721;January;Der erste Monat ist der Januar.;The
 jede;Indefinitpronomen;fem.;nan;0;A1;nan;every;Jede Woche gehen wir einkaufen.;**Every** week we go shopping.;fem.
 jeder;Indefinitpronomen;mask.;nan;0;A1;35211;everyone/each;Jeder Mensch ist anders.;**Each** person is different.;mas.
 jedes;Indefinitpronomen;neutr.;nan;0;A1;nan;every/each;Jedes Kind bekommt ein Geschenk.;**Each** child gets a gift.;neu.
-jetzt;Adverb;nan;nan;0;A1;9725;now;Jetzt habe ich Zeit.;**Now** I have time.;
+jetzt;Adverb;nan;nan;0;A1;9725;now;Jetzt habe ich Zeit.;**Now** I have time.;j-
 Job;Substantiv;mask.;der;0;A1;478;job;Ich suche einen neuen Job.;I am looking for a new **job**.;j-
 Jugendliche;Substantiv;fem., mask.;die, der;0;A1;833;teenager/youth;Viele Jugendliche spielen Fußball.;Many **teenagers** play soccer.;
 Juli;Substantiv;mask.;der;0;A1;646;July;Im Juli ist es oft heiß.;It is often hot in **July**.;
@@ -713,8 +713,8 @@ um;Präposition;nan;nan;0;A1;652476;at (time)/around;Der Film beginnt um 20 Uhr.
 umziehen;Verb;nan;nan;0;A1;165;to move (house)/change clothes;Wir ziehen nächste Woche um.;We are **moving** next week.;
 und;Konjunktion;nan;nan;0;A1;2114277;and;Ich habe einen Bruder und eine Schwester.;I have a brother **and** a sister.;
 unser;Possessivpronomen;mask., neutr.;nan;0;A1;7907;our;Das ist unser Haus.;That is **our** house.;
-unsere;Possessivpronomen;fem.;nan;0;A1;nan;our;Das ist unsere Katze.;That is **our** cat.;female
-unsre;Possessivpronomen;fem.;nan;0;A1;17;our;Wo ist unsre Tasche?;Where is **our** bag?;female/slang
+unsere;Possessivpronomen;fem.;nan;0;A1;nan;our;Das ist unsere Katze.;That is **our** cat.;fem.
+unsre;Possessivpronomen;fem.;nan;0;A1;17;our;Wo ist unsre Tasche?;Where is **our** bag?;fem./slang
 unten;Adverb;nan;nan;0;A1;4585;below/downstairs;Die Post ist unten.;The post office is **downstairs**.;
 unter;Präposition;nan;nan;0;A1;403116;under/among;Die Katze ist unter dem Tisch.;The cat is **under** the table.;
 Unterricht;Substantiv;mask.;der;0;A1;445;lesson/class;Der Unterricht beginnt um 8 Uhr.;The **lesson** starts at 8 AM.;noun, u-
@@ -2509,7 +2509,7 @@ Notaufnahme;Substantiv;fem.;die;0;B1;27;emergency room/ER;Er wurde in die Notauf
 Notausgang;Substantiv;mask.;der;0;B1;22;emergency exit;Wo ist der Notausgang?;Where is the **emergency exit**?;
 Notfall;Substantiv;mask.;der;0;B1;112;emergency;Rufen Sie im Notfall den Arzt.,In an **emergency**; call the doctor.;
 Notruf;Substantiv;mask.;der;0;B1;46;emergency call/number;Die Nummer für den Notruf ist 112.;The **emergency** number is 112.;
-nun;Adverb;nan;nan;0;B1;9830;now;Nun ist es zu spät.;**Now** it is too late.;
+nun;Adverb;nan;nan;0;B1;9830;now;Nun ist es zu spät.;**Now** it is too late.;n-
 nutzen;Verb;nan;nan;0;B1;6220;to use/utilize/benefit;Wir nutzen jede Gelegenheit.;We **use** every opportunity.;
 nähen;Verb;nan;nan;0;B1;491;to sew;Meine Mutter kann gut nähen.;My mother can **sew** well.;
 nähern;Verb;nan;nan;0;B1;806;to approach/get closer;Wir nähern uns dem Ziel.;We are **approaching** the goal.;
