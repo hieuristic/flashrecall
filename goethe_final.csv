@@ -988,7 +988,7 @@ froh;Adjektiv;nan;nan;0;A2;493;glad;Ich bin froh; dich zu sehen.,I am **glad** t
 früh;Adjektiv;nan;nan;0;A2;7652;early;Morgen müssen wir früh aufstehen.;Tomorrow we have to get up **early**.;
 Fundsache;Substantiv;fem.;die;0;A2;nan;lost property/found item;Geben Sie die Fundsache bitte beim Fundbüro ab.;Please hand in the **found item** at the lost property office.;
 furchtbar;Adjektiv;nan;nan;0;A2;212;terrible/awful;Der Film war furchtbar.;The movie was **terrible**.;f-
-fühlen;Verb;nan;nan;0;A2;9969;to feel;Ich fühle mich heute nicht gut.;I don't **feel** well today.;
+fühlen;Verb;nan;nan;0;A2;9969;to feel (emotion);Ich fühle mich heute nicht gut.;I don't **feel** well today.;
 Führerschein;Substantiv;mask.;der;0;A2;106;driver's license;Ich habe meinen Führerschein gemacht.;I got my **driver's license**.;
 Gabel;Substantiv;fem.;die;0;A2;157;fork;Messer;Knife, **fork**, spoon.;
 ganz;Adjektiv;nan;nan;0;A2;32754;whole/entire/quite;Das war ein ganzes Jahr Arbeit.;That was a **whole** year of work.;
@@ -2825,7 +2825,7 @@ Spritze;Substantiv;fem.;die;0;B1;73;injection/syringe/shot;Ich habe Angst vor Sp
 Spur;Substantiv;fem.;die;0;B1;680;track/trace/lane;Auf der Autobahn gibt es drei Spuren.;There are three **lanes** on the highway.;
 spätestens;Adverb;nan;nan;0;B1;228;at the latest;Komm bitte spätestens um acht Uhr.;Please come by eight o'clock **at the latest**.;
 spülen;Verb;nan;nan;0;B1;814;to rinse/wash (dishes)/flush;Ich muss das Geschirr spülen.;I have to **wash** (rinse) the dishes.;
-spüren;Verb;nan;nan;0;B1;2039;to feel/sense/perceive;Ich spüre den Wind im Gesicht.;I **feel** the wind on my face.;
+spüren;Verb;nan;nan;0;B1;2039;to feel (physically);Ich spüre den Wind im Gesicht.;I **feel** the wind on my face.;
 Stadion;Substantiv;neutr.;das;0;B1;157;stadium;Das Stadion ist ausverkauft.;The **stadium** is sold out.;
 stammen;Verb;nan;nan;0;B1;6392;to originate/come from/stem;Er stammt aus einer kleinen Stadt.;He **comes from** (originates from) a small town.;
 Standpunkt;Substantiv;mask.;der;0;B1;199;point of view/standpoint/position;Was ist dein Standpunkt dazu?;What is your **point of view** on that?;
