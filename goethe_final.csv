@@ -1500,7 +1500,7 @@ anderseits;Adverb;nan;nan;0;B1;19;on the other hand;Das ist anderseits auch wahr
 andrerseits;Adverb;nan;nan;0;B1;8;on the other hand;Andrerseits möchte ich gehen.;**On the other hand**, I want to go.;-rer-
 anerkennen;Verb;nan;nan;0;B1;519;to recognize/acknowledge/accept;Sein Erfolg wurde anerkannt.;His success was **recognized**.;
 anfangs;Adverb;nan;nan;0;B1;190;at first/initially;Anfangs war es schwierig.;**At first** it was difficult.;
-Angabe;Substantiv;fem.;die;0;B1;982;statement/information/detail;Bitte machen Sie genaue Angaben.;Please provide exact **details**.;
+Angabe;Substantiv;fem.;die;0;B1;982;statement/information/detail;Wir haben diese Angaben nicht.;We don't have that **information**.;
 angeben;Verb;nan;nan;0;B1;684;to state/show off/specify;Bitte geben Sie Ihren Namen an.;Please **state** your name.;
 Angehörige;Substantiv;fem., mask.;die, der;0;B1;1268;relative/member;Er ist ein Angehöriger der Familie.;He is a **relative** (member) of the family.;
 angenehm;Adjektiv;nan;nan;0;B1;294;pleasant/agreeable/comfortable;Das ist eine angenehme Überraschung.;That is a **pleasant** surprise.;
@@ -1558,7 +1558,7 @@ Auftritt;Substantiv;mask.;der;0;B1;328;performance/appearance/gig;Das war ein to
 aufwachen;Verb;nan;nan;0;B1;146;to wake up/awaken;Wann bist du aufgewacht?;When did you **wake up**?;
 aufwärts;Adverb;nan;nan;0;B1;170;upward;Es geht aufwärts.;Things are looking **upward** (up).;
 Augenblick;Substantiv;mask.;der;0;B1;659;moment/instant;Einen Augenblick, bitte.;One **moment**, please.;
-ausbilden;Verb;nan;nan;0;B1;541;to train/educate/instruct;Wir bilden neue Mitarbeiter aus.;We are **training** new employees.;
+ausbilden;Verb;nan;nan;0;B1;541;to train/educate/instruct;Wir bilden neue Mitarbeiter aus.;We are **training** new employees.;a-
 Ausdruck;Substantiv;mask.;der;0;B1;1601;expression/term/printout;Das ist ein schöner Ausdruck.;That is a beautiful **expression**.;
 ausdrucken;Verb;nan;nan;0;B1;99;to print;Kannst du das bitte ausdrucken?;Can you please **print** this **out**?;out
 auseinander;Adverb;nan;nan;0;B1;521;apart/asunder;Wir wohnen weit auseinander.;We live far **apart**.;
@@ -2888,8 +2888,8 @@ Störung;Substantiv;fem.;die;0;B1;567;disturbance/interference/fault;Es gibt ein
 stürzen;Verb;nan;nan;0;B1;7403;to fall/tumble/crash;Er ist vom Rad gestürzt.;He **fell** off his bike.;
 Sucht;Substantiv;fem.;die;0;B1;86;addiction/craze/mania;Die Spielsucht ist ein großes Problem.;Gambling **addiction** is a big problem.;
 Suchtmittel;Substantiv;neutr.;das;0;B1;15;addictive substance/drug;Der Handel mit Suchtmitteln ist strafbar.;Trafficking in **addictive substances** is punishable.;
-Summe;Substantiv;fem.;die;0;B1;489;sum/total/amount;Die Summe der Kosten ist hoch.;The **sum** of the costs is high.;
-Symbol;Substantiv;neutr.;das;0;B1;500;symbol/emblem;Die Taube ist ein Symbol für Frieden.;The dove is a **symbol** of peace.;
+Summe;Substantiv;fem.;die;0;B1;489;sum;Die Summe der Kosten ist hoch.;The **sum** of the costs is high.;
+Symbol;Substantiv;neutr.;das;0;B1;500;symbol;Die Taube ist ein Symbol für Frieden.;The dove is a **symbol** of peace.;
 System;Substantiv;neutr.;das;0;B1;1491;system/structure;Das System funktioniert einwandfrei.;The **system** works perfectly.;
 Szene;Substantiv;fem.;die;0;B1;529;scene;Das ist meine Lieblingsszene im Film.;That is my favorite **scene** in the movie.;
 sämtlich;Indefinitpronomen;nan;nan;0;B1;122;all/entire/complete;Er hat sämtliche Bücher gelesen.;He has read **all** the books.;
