@@ -466,7 +466,7 @@ ledig;Adjektiv;nan;nan;0;A1;151;single/unmarried;Er ist noch ledig.;He is still 
 legen;Verb;nan;nan;0;A1;117409;to lay/put;Legen Sie das Buch auf den Tisch.;**Lay** (Put) the book on the table.;
 Lehrer;Substantiv;mask.;der;0;A1;877;teacher;Der Lehrer erklärt die Aufgabe.;The **teacher** is explaining the task.;male
 leicht;Adjektiv;nan;nan;0;A1;27432;easy/light;Die Tasche ist sehr leicht.;The bag is very **light**.;
-leider;Adverb;nan;nan;0;A1;1333;unfortunately;Ich habe leider keine Zeit.,**Unfortunately**; I have no time.;
+leider;Adverb;nan;nan;0;A1;1333;unfortunately;Ich habe leider keine Zeit.;**Unfortunately**, I have no time.;
 leise;Adjektiv;nan;nan;0;A1;567;quiet/soft;Bitte seien Sie leise.;Please be **quiet**.;l-
 lernen;Verb;nan;nan;0;A1;6054;to learn/study;Ich lerne Deutsch.;I am **learning** German.;
 lesen;Verb;nan;nan;0;A1;19197;to read;Ich lese gerne Bücher.;I like to **read** books.;
@@ -854,7 +854,7 @@ Ausstellung;Substantiv;fem.;die;0;A2;328;exhibition;Die Ausstellung war sehr int
 austauschen;Verb;nan;nan;0;A2;304;to exchange/swap;Wir tauschen Informationen aus.;We are **exchanging** information.;idea, people, component
 austragen;Verb;nan;nan;0;A2;158;to deliver/settle;Er trägt die Zeitung aus.;He **delivers** the newspaper.;
 außer;Präposition;nan;nan;0;A2;8110;except for/outside of;Alle kommen außer Thomas.;Everyone is coming **except for** Thomas.;
-außerdem;Adverb;nan;nan;0;A2;1196;besides/furthermore;Außerdem möchte ich noch etwas sagen.,**Besides**; I want to say something else.;
+außerdem;Adverb;nan;nan;0;A2;1196;besides/furthermore;Außerdem möchte ich noch etwas sagen.;**Besides**, I want to say something else.;
 außerhalb;Adverb;nan;nan;0;A2;771;outside of;Wir wohnen außerhalb der Stadt.;We live **outside of** the city.;
 Babysitter;Substantiv;mask.;der;0;A2;16;babysitter;Wir brauchen einen Babysitter.;We need a **babysitter**.;
 backen;Verb;nan;nan;0;A2;3010;to bake;Meine Mutter backt einen Kuchen.;My mother is **baking** a cake.;
@@ -1011,7 +1011,7 @@ Gitarre;Substantiv;fem.;die;0;A2;176;guitar;Er spielt gerne Gitarre.;He likes pl
 Grippe;Substantiv;fem.;die;0;A2;106;flu/influenza;Ich habe eine starke Grippe.;I have a bad case of the **flu**.;
 Hals;Substantiv;mask.;der;0;A2;1474;neck/throat;Mein Hals tut weh.;My **throat** hurts.;
 Hamburger;Substantiv;mask.;der;0;A2;1452;hamburger/person from Hamburg;Möchttest du einen Hamburger essen?;Do you want to eat a **hamburger**?;
-Handtuch;Substantiv;neutr.;das;0;A2;81;towel;Bringst du mir bitte ein Handtuch?,Will you bring me a **towel**; please?;
+Handtuch;Substantiv;neutr.;das;0;A2;81;towel;Bringst du mir bitte ein Handtuch?;Will you bring me a **towel**, please?;
 hart;Adjektiv;nan;nan;0;A2;5109;hard/tough;Das Brot ist schon ganz hart.;The bread is already quite **hard**.;
 Hauptstadt;Substantiv;fem.;die;0;A2;1732;capital city;Berlin ist die Hauptstadt von Deutschland.;Berlin is the **capital city** of Germany.;
 Haushalt;Substantiv;mask.;der;0;A2;515;household/budget;Ich helfe im Haushalt.;I help with the **household** chores.;
@@ -1579,7 +1579,7 @@ Auswahl;Substantiv;fem.;die;0;B1;327;selection/choice/assortment;Wir haben eine 
 auswählen;Verb;nan;nan;0;B1;313;to select/choose/pick;Bitte wählen Sie ein Thema aus.;Please **select** a topic.;
 Autor;Substantiv;mask.;der;0;B1;875;author;Der Autor liest aus seinem Buch.;The **author** is reading from his book.;male
 Autorin;Substantiv;fem.;die;0;B1;114;author;Sie ist eine bekannte Autorin.;She is a well-known (female) **author**.;female
-außen;Adverb;nan;nan;0;B1;777;outside/external;Von außen sieht das Haus gut aus.,From the **outside**; the house looks good.;
+außen;Adverb;nan;nan;0;B1;777;outside/external;Von außen sieht das Haus gut aus.;From the **outside**, the house looks good.;
 Backofen;Substantiv;mask.;der;0;B1;2;oven;Schieb den Kuchen in den Backofen.;Put the cake in the **oven**.;
 Backrohr;Substantiv;neutr.;das;0;B1;14;oven;Das Fleisch ist im Backrohr.;The meat is in the **oven**.;
 Badewanne;Substantiv;fem.;die;0;B1;69;bathtub;Ich liege in der Badewanne.;I am lying in the **bathtub**.;
@@ -1617,7 +1617,7 @@ Begründung;Substantiv;fem.;die;0;B1;164;reason/justification/explanation;Haben 
 begrüßen;Verb;nan;nan;0;B1;323;to greet/welcome/hail;Der Chef begrüßt die neuen Mitarbeiter.;The boss **greets** the new employees.;
 behalten;Verb;nan;nan;0;B1;4810;to keep/retain/remember;Darf ich das Buch behalten?;May I **keep** the book?;
 behandeln;Verb;nan;nan;0;B1;5423;to treat/handle/deal with;Der Arzt behandelt den Patienten.;The doctor **treats** the patient.;
-behaupten;Verb;nan;nan;0;B1;754;to claim/assert/maintain;Er behauptet; es nicht getan zu haben.,He **claims** not to have done it.;
+behaupten;Verb;nan;nan;0;B1;754;to claim/assert/maintain;Er behauptet, es nicht getan zu haben.;He **claims** not to have done it.;
 behindern;Verb;nan;nan;0;B1;325;to hinder/obstruct/hamper;Der Schnee behindert den Verkehr.;The snow **hinders** the traffic.;
 Behörde;Substantiv;fem.;die;0;B1;944;authority/agency/department;Die Behörde hat den Antrag abgelehnt.;The **authority** (agency) rejected the application.;
 beinah;Adverb;nan;nan;0;B1;nan;almost/nearly;Ich hätte es beinah vergessen.;I **almost** forgot it.;
@@ -2975,7 +2975,7 @@ Umgebung;Substantiv;fem.;die;0;B1;735;surroundings/environment/vicinity;Die Umge
 umgehen;Verb;nan;nan;0;B1;417;to deal with/handle/bypass;Er kann gut mit Menschen umgehen.;He knows how to **deal with** people well.;
 umgekehrt;partizipiales Adjektiv;nan;nan;0;B1;290;opposite/reverse/vice versa;Es ist genau umgekehrt.;It is exactly the **opposite**.;
 Umleitung;Substantiv;fem.;die;0;B1;18;detour/diversion/bypass;Wegen der Baustelle gibt es eine Umleitung.;Because of the construction site, there is a **detour**.;
-umso;Konjunktion;nan;nan;0;B1;153;all the more/all the better;Umso besser; wenn du kommst!,**All the better** if you come!;
+umso;Konjunktion;nan;nan;0;B1;153;all the more/all the better;Umso besser, wenn du kommst!;**All the better** if you come!;
 umsonst;Adverb;nan;nan;0;B1;185;for free/in vain/for nothing;Der Eintritt ist umsonst.;The admission is **for free**.;
 Umtausch;Substantiv;mask.;der;0;B1;1;exchange;Ein Umtausch ist nur mit Kassenzettel möglich.;An **exchange** is only possible with a receipt.;
 umtauschen;Verb;nan;nan;0;B1;104;to exchange/swap;Ich möchte die Hose umtauschen.;I want to **exchange** the pants.;
