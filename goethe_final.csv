@@ -1764,7 +1764,7 @@ Direktor;Substantiv;mask.;der;0;B1;253;director/principal/manager;Der Direktor b
 Direktorin;Substantiv;fem.;die;0;B1;39;director/principal/manager;Die Direktorin leitet die Schule.;The (female) **principal** leads the school.;female
 Diskothek;Substantiv;fem.;die;0;B1;53;disco/nightclub;Wir gehen am Wochenende in die Diskothek.;We are going to the **disco** on the weekend.;
 Diskussion;Substantiv;fem.;die;0;B1;537;discussion/debate;Das war eine interessante Diskussion.;That was an interesting **discussion**.;
-Distanz;Substantiv;fem.;die;0;B1;263;distance;Die Distanz ist zu groß.;The **distance** is too great.;
+Distanz;Substantiv;fem.;die;0;B1;263;distance;Die Distanz ist zu groß.;The **distance** is too great.;d-
 Diät;Substantiv;fem.;die;0;B1;104;diet;Ich mache eine Diät.;I am on a **diet**.;
 Doktorin;Substantiv;fem.;die;0;B1;14;doctor/PhD;Die Doktorin untersucht den Patienten.;The (female) **doctor** examines the patient.;female
 Dokument;Substantiv;neutr.;das;0;B1;571;document/paper;Bitte unterschreiben Sie das Dokument.;Please sign the **document**.;
@@ -1850,7 +1850,7 @@ Enkel;Substantiv;mask.;der;0;B1;125;grandson/grandchild;Mein Enkel besucht mich.
 Enkelin;Substantiv;fem.;die;0;B1;41;granddaughter/grandchild;Sie ist meine liebste Enkelin.;She is my favorite **granddaughter**.;female
 entdecken;Verb;nan;nan;0;B1;2816;to discover/detect/find;Kolumbus hat Amerika entdeckt.;Columbus **discovered** America.;
 entfernen;Verb;nan;nan;0;B1;1890;to remove/delete/withdraw;Bitte entfernen Sie den Fleck.;Please **remove** the stain.;
-Entfernung;Substantiv;fem.;die;0;B1;669;distance/removal;Die Entfernung ist zu groß.;The **distance** is too great.;
+Entfernung;Substantiv;fem.;die;0;B1;669;distance/removal;Die Entfernung ist zu groß.;The **distance** is too great.;e-
 entgegenkommen;Verb;nan;nan;0;B1;124;to approach/meet halfway/accommodate;Können Sie mir beim Preis entgegenkommen?;Can you **meet** me **halfway** on the price?;
 enthalten;Verb;nan;nan;0;B1;4391;to contain/include/hold;Das Buch enthält viele Bilder.;The book **contains** many pictures.;
 entlang;nan;nan;nan;0;B1;837;along;Gehen Sie die Straße entlang.;Go **along** the street.;
@@ -1870,7 +1870,7 @@ entwickeln;Verb;nan;nan;0;B1;11447;to develop/evolve/create;Wir entwickeln eine 
 Entwickelung;Substantiv;fem.;die;0;B1;10;development/evolution;Die Entwickelung des Kindes ist gut.;The **development** of the child is good.;
 Entwicklung;Substantiv;fem.;die;0;B1;1709;development/evolution/progress;Die technische Entwicklung geht schnell.;Technical **development** is fast.;
 Erdapfel;Substantiv;mask.;der;0;B1;10;potato;Ich esse gerne Erdäpfel.;I like eating **potatoes**.;
-Erde;Substantiv;fem.;die;0;B1;2130;earth/world/soil;Die Erde ist rund.;The **earth** is round.;
+Erde;Substantiv;fem.;die;0;B1;2130;earth;Die Erde ist rund.;The **earth** is round.;
 ereignen;Verb;nan;nan;0;B1;217;to happen/occur/take place;Ein Unfall hat sich ereignet.;An accident has **happened**.;
 Ereignis;Substantiv;neutr.;das;0;B1;1178;event/occurrence/incident;Das war ein wichtiges Ereignis.;That was an important **event**.;
 erfahren;Verb;nan;nan;0;B1;1057;to experience/learn/find out;Ich habe davon gestern erfahren.;I **found out** (learned) about it yesterday.;
@@ -2999,7 +2999,7 @@ Unternehmer;Substantiv;mask.;der;0;B1;201;entrepreneur/businessman;Er ist ein er
 Unternehmerin;Substantiv;fem.;die;0;B1;27;entrepreneur/businesswoman;Sie ist eine junge Unternehmerin.;She is a young (female) **entrepreneur**.;female
 unterrichten;Verb;nan;nan;0;B1;393;to teach/instruct;Sie unterrichtet Deutsch an einer Schule.;She **teaches** German at a school.;
 untersagt;partizipiales Adjektiv;nan;nan;0;B1;32;prohibited/forbidden;Das Betreten ist streng untersagt.;Entry is strictly **prohibited**.;
-unterscheiden;Verb;nan;nan;0;B1;1174;to distinguish/differ/differentiate;Ich kann die Zwillinge kaum unterscheiden.;I can hardly **distinguish** the twins.;
+unterscheiden;Verb;nan;nan;0;B1;1174;to distinguish/differ/differentiate;Ich kann die Zwillinge kaum unterscheiden.;I can hardly **distinguish** the twins.;u-
 unterschiedlich;Adjektiv;nan;nan;0;B1;1849;different/varying/diverse;Wir haben unterschiedliche Meinungen.;We have **different** opinions.;
 unterstreichen;Verb;nan;nan;0;B1;154;to underline/emphasize;Bitte unterstreichen Sie die wichtigen Wörter.;Please **underline** the important words.;
 unterstützen;Verb;nan;nan;0;B1;925;to support/assist/aid;Wir müssen ihn bei seiner Arbeit unterstützen.;We must **support** him in his work.;
@@ -3144,7 +3144,7 @@ weiter;Adjektiv;nan;nan;0;B1;76521;further/next/wide;Haben Sie noch weitere Frag
 Weiterbildung;Substantiv;fem.;die;0;B1;60;further education/training;Ich mache eine Weiterbildung zur Softwareentwicklerin.;I'm doing **further education** (training) as a software developer.;
 weltenweit;Adjektiv;nan;nan;0;B1;nan;world-wide/incredibly wide;Das ist ein weltenweiter Unterschied.;That is a **world-wide** (huge) difference.;
 weltweit;Adjektiv;nan;nan;0;B1;935;world-wide/global;Die Firma ist weltweit bekannt.;The company is known **world-wide**.;
-wenden;Verb;nan;nan;0;B1;6284;to turn/apply/address;Bitte wenden Sie sich an die Information.;Please **address** yourself (apply) to the information desk.;
+wenden;Verb;nan;nan;0;B1;6284;to turn/apply/address;Sie wendeten sich an mich.;They **turned** to me.;
 Werbung;Substantiv;fem.;die;0;B1;269;advertising/publicity/commercial;Die Werbung im Fernsehen nervt.;The **advertising** (commercials) on TV is annoying.;
 werfen;Verb;nan;nan;0;B1;42985;to throw/cast/toss;Wirf den Ball zu mir!;**Throw** the ball to me!;
 Werk;Substantiv;neutr.;das;0;B1;1387;work/work (of art)/factory;Das ist ein bedeutendes Werk.;This is a significant **work**.;
