@@ -744,7 +744,7 @@ vor;Präposition;nan;nan;0;A1;305332;in front of/before/ago;Das Auto steht vor d
 Vormittag;Substantiv;mask.;der;0;A1;181;late morning/forenoon;Am Vormittag bin ich im Büro.;In the **late morning** I am in the office.;
 Vorname;Substantiv;mask.;der;0;A1;1849;first name;Wie ist Ihr Vorname?;What is your **first name**?;
 Vorsicht;Substantiv;fem.;die;0;A1;387;careful;Vorsicht!;**Careful**!/Watch out!;
-vorstellen;Verb;nan;nan;0;A1;802;to introduce/imagine;Darf ich mich vorstellen?;May I **introduce** myself?;
+vorstellen;Verb;nan;nan;0;A1;802;to introduce/imagine;Darf ich mich vorstellen?;May I **introduce** myself?;v-, to present or introduce someone
 Vorwahl;Substantiv;fem.;die;0;A1;23;area code;Wie ist die Vorwahl von Berlin?;What is the **area code** for Berlin?;
 Wagen;Substantiv;mask.;der;0;A1;1176;car/wagon;Der Wagen steht in der Garage.;The **car** is in the garage.;
 wandern;Verb;nan;nan;0;A1;4541;to hike/wander;Wir wandern am Wochenende.;We are **hiking** on the weekend.;
@@ -1498,7 +1498,7 @@ Anbieter;Substantiv;mask.;der;0;B1;174;provider/supplier/vendor;Wer ist Ihr Inte
 andererseits;Adverb;nan;nan;0;B1;478;on the other hand;Andererseits ist es teurer.;**On the other hand**, it is more expensive.;-erer-
 anderseits;Adverb;nan;nan;0;B1;19;on the other hand;Das ist anderseits auch wahr.;That is **on the other hand** also true.;
 andrerseits;Adverb;nan;nan;0;B1;8;on the other hand;Andrerseits möchte ich gehen.;**On the other hand**, I want to go.;-rer-
-anerkennen;Verb;nan;nan;0;B1;519;to recognize/acknowledge/accept;Sein Erfolg wurde anerkannt.;His success was **recognized**.;
+anerkennen;Verb;nan;nan;0;B1;519;to recognize/acknowledge/accept;Sein Erfolg wurde anerkannt.;His success was **recognized**.;to acknowledge, validating
 anfangs;Adverb;nan;nan;0;B1;190;at first/initially;Anfangs war es schwierig.;**At first** it was difficult.;
 Angabe;Substantiv;fem.;die;0;B1;982;statement/information/detail;Wir haben diese Angaben nicht.;We don't have that **information**.;
 angeben;Verb;nan;nan;0;B1;684;to state/show off/specify;Bitte geben Sie Ihren Namen an.;Please **state** your name.;
@@ -1811,7 +1811,7 @@ Einfall;Substantiv;mask.;der;0;B1;91;idea/notion/brainwave;Das war ein guter Ein
 einfallen;Verb;nan;nan;0;B1;144;to come to mind/occur/collapse;Mir fällt nichts dazu ein.;Nothing **comes to mind**.;
 Einfluss;Substantiv;mask.;der;0;B1;648;influence/impact/inflow;Er hat großen Einfluss auf mich.;He has a great **influence** on me.;
 einfügen;Verb;nan;nan;0;B1;247;to insert/paste/fit in;Bitte fügen Sie den Text hier ein.;Please **insert** the text here.;
-einführen;Verb;nan;nan;0;B1;666;to introduce/import/guide;Wir führen ein neues System ein.;We are **introducing** a new system.;
+einführen;Verb;nan;nan;0;B1;666;to introduce/import/guide;Wir führen ein neues System ein.;We are **introducing** a new system.;e-
 Einführung;Substantiv;fem.;die;0;B1;389;introduction/launch/import;Das ist eine kurze Einführung.;This is a short **introduction**.;
 einheitlich;Adjektiv;nan;nan;0;B1;488;uniform/consistent/standard;Wir tragen einheitliche Kleidung.;We wear **uniform** (consistent) clothing.;
 einigen;Verb;nan;nan;0;B1;1494;to agree/unite/settle;Wir konnten uns auf einen Preis einigen.;We were able to **agree** on a price.;
@@ -1888,7 +1888,7 @@ Erholung;Substantiv;fem.;die;0;B1;129;recovery/recreation/relaxation;Ruhe ist gu
 erhöhen;Verb;nan;nan;0;B1;1016;to increase/raise/heighten;Die Preise wurden erhöht.;The prices were **increased**.;
 Erhöhung;Substantiv;fem.;die;0;B1;256;increase/rise/heightening;Es gab eine Erhöhung der Gebühren.;There was an **increase** in fees.;
 Erinnerung;Substantiv;fem.;die;0;B1;581;memory/remembrance/reminder;Das ist eine schöne Erinnerung.;That is a beautiful **memory**.;
-erkennen;Verb;nan;nan;0;B1;8685;to recognize/realize/see;Ich habe ihn sofort erkannt.;I **recognized** him immediately.;
+erkennen;Verb;nan;nan;0;B1;8685;to recognize/realize/see;Ich habe ihn sofort erkannt.;I **recognized** him immediately.;perceiving, being aware
 Erklärung;Substantiv;fem.;die;0;B1;532;explanation/declaration/statement;Können Sie mir das erklären?;Can you give me an **explanation**?;
 erkundigen;Verb;nan;nan;0;B1;120;to inquire/ask/check;Ich möchte mich nach dem Preis erkundigen.;I want to **inquire** about the price.;
 erkälten;Verb;nan;nan;0;B1;112;to catch a cold;Ich habe mich erkältet.;I **caught a cold**.;
@@ -2252,7 +2252,7 @@ Kiste;Substantiv;fem.;die;0;B1;96;box/crate/chest;Die Kiste ist schwer.;The **bo
 klagen;Verb;nan;nan;0;B1;835;to complain/lament/sue;Er klagt über Kopfschmerzen.;He **complains** about headaches.;
 klasse;Adjektiv;nan;nan;0;B1;nan;great/excellent;Das war eine klasse Leistung!;That was a **great** performance!;adjective
 Klassenarbeit;Substantiv;fem.;die;0;B1;40;class test/exam;Wir schreiben morgen eine Klassenarbeit.;We are writing a **class test** tomorrow.;
-kleben;Verb;nan;nan;0;B1;1985;to stick/glue/paste;Das Etikett klebt nicht mehr.;The label doesn't **stick** anymore.;
+kleben;Verb;nan;nan;0;B1;1985;to stick/glue;Das Etikett klebt nicht mehr.;The label doesn't **stick** anymore.;
 klettern;Verb;nan;nan;0;B1;5007;to climb;Wir klettern auf den Berg.;We are **climbing** the mountain.;
 Klick;Substantiv;mask., neutr.;der, das;0;B1;57;click;Nur ein Klick genügt.;Only one **click** is enough.;
 klicken;Verb;nan;nan;0;B1;195;to click;Klicken Sie auf den Button.;**Click** on the button.;
@@ -2841,7 +2841,7 @@ Staub saugen;Verb;nan;nan;0;B1;nan;to vacuum;Ich muss heute noch Staub saugen.;I
 staubsaugen;Verb;nan;nan;0;B1;69;to vacuum;Kannst du bitte staubsaugen?;Can you please **vacuum**?;
 stechen;Verb;nan;nan;0;B1;1849;to sting/prick/stab;Die Mücke hat mich gestochen.;The mosquito **stung** me.;
 Steckdose;Substantiv;fem.;die;0;B1;30;power outlet/socket;Steck den Stecker in die Steckdose.;Plug the plug into the **power outlet**.;
-stecken;Verb;nan;nan;0;B1;19249;to stick/put/be located;Der Schlüssel steckt im Schloss.;The key is **sticking** in the lock.;
+stecken;Verb;nan;nan;0;B1;19249;to stick/put;Der Schlüssel steckt im Schloss.;The key is **sticking** in the lock.;
 Stecker;Substantiv;mask.;der;0;B1;57;plug/connector;Zieh bitte den Stecker.;Please pull the **plug**.;
 stehen bleiben;Verb;nan;nan;0;B1;nan;to stop/stand still/stay put;Bleiben Sie bitte stehen!;Please **stop** (stand still)!;
 stehenbleiben;Verb;nan;nan;0;B1;83;to stop/stand still/stay put;Die Uhr ist stehengeblieben.;The watch has **stopped**.;variant
