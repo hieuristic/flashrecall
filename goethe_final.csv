@@ -1345,7 +1345,7 @@ Unterschied;Substantiv;mask.;der;0;A2;974;difference/distinction;Was ist der Unt
 untersuchen;Verb;nan;nan;0;A2;1054;to examine/investigate/analyze;Der Arzt untersucht das Kind.;The doctor **examines** the child.;
 unterwegs;Adverb;nan;nan;0;A2;580;on the way/on the road;Ich bin viel unterwegs.;I am **on the way** a lot.;
 verabreden;Verb;nan;nan;0;A2;99;to arrange/make an appointment;Wir haben uns für morgen verabredet.;We have **arranged** to meet tomorrow.;
-Veranstaltung;Substantiv;fem.;die;0;A2;635;event/performance/meeting;Die Veranstaltung war gut besucht.;The **event** was well attended.;
+Veranstaltung;Substantiv;fem.;die;0;A2;635;event/performance/meeting;Die Veranstaltung war gut besucht.;The **event** was well attended.;v-
 verbieten;Verb;nan;nan;0;A2;690;to forbid/prohibit/ban;Rauchen ist hier verboten.;Smoking is **forbidden** here.;
 vereinbaren;Verb;nan;nan;0;A2;316;to agree/arrange;Wir haben einen Termin vereinbart.;We have **arranged** (agreed on) an appointment.;
 vergessen;Verb;nan;nan;0;A2;814;to forget;Ich habe meinen Schlüssel vergessen.;I **forgot** my key.;
@@ -1978,7 +1978,7 @@ Flüssigkeit;Substantiv;fem.;die;0;B1;813;liquid/fluid;Trinken Sie viel Flüssig
 Folge;Substantiv;fem.;die;0;B1;2324;consequence/episode/series;Das hat fatale Folgen.;That has fatal **consequences**.;
 folgen;Verb;nan;nan;0;B1;6112;to follow/ensue/obey;Bitte folgen Sie mir.;Please **follow** me.;
 folgend;partizipiales Adjektiv;nan;nan;0;B1;1253;following/subsequent;Beachten Sie die folgenden Regeln.;Heed the **following** rules.;
-fordern;Verb;nan;nan;0;B1;8285;to demand/claim/challenge;Er fordert eine Erklärung.;He **demands** an explanation.;
+fordern;Verb;nan;nan;0;B1;8285;to demand/claim/challenge;Er fordert eine Erklärung.;He **demands** an explanation.;f-, forceful
 Forderung;Substantiv;fem.;die;0;B1;460;demand/claim/requirement;Die Forderung ist berechtigt.;The **demand** (claim) is justified.;
 Form;Substantiv;fem.;die;0;B1;18100;form/shape/mold;Das Brot hat eine runde Form.;The bread has a round **shape** (form).;
 Forschung;Substantiv;fem.;die;0;B1;555;research/study/investigation;Er arbeitet in der Forschung.;He works in **research**.;
@@ -2352,7 +2352,7 @@ Lehrling;Substantiv;mask.;der;0;B1;115;apprentice/trainee;Der neue Lehrling begi
 Lehrstelle;Substantiv;fem.;die;0;B1;22;apprenticeship position;Er sucht eine Lehrstelle als Koch.;He is looking for an **apprenticeship position** as a cook.;
 leiden;Verb;nan;nan;0;B1;2083;to suffer/endure;Er leidet an einer Allergie.;He **suffers** from an allergy.;
 leisten;Verb;nan;nan;0;B1;1982;to afford/achieve/perform;Das kann ich mir nicht leisten.;I cannot **afford** that.;
-Leistung;Substantiv;fem.;die;0;B1;1218;performance/achievement/benefit;Das war eine hervorragende Leistung.;That was an outstanding **performance**.;
+Leistung;Substantiv;fem.;die;0;B1;1218;performance/achievement/benefit;Das war eine hervorragende Leistung.;That was an outstanding **performance**.;l-
 leiten;Verb;nan;nan;0;B1;10132;to lead/manage/conduct;Wer leitet die Abteilung?;Who **leads** (manages) the department?;
 Leiter;Substantiv;mask.;der;0;B1;601;manager/conductor/ladder;Er ist der Leiter des Projekts.;He is the **manager** (leader) of the project.;male
 Leiterin;Substantiv;fem.;die;0;B1;149;manager/leader;Frau Schmidt ist die neue Leiterin.;Ms. Schmidt is the new (female) **manager**.;female
@@ -3042,7 +3042,7 @@ Verhältnis;Substantiv;neutr.;das;0;B1;1178;relationship/ratio/proportion;Sie ha
 Verkehrszeichen;Substantiv;neutr.;das;0;B1;36;traffic sign/road sign;Achten Sie auf die Verkehrszeichen.;Pay attention to the **traffic signs**.;
 Verkäuferin;Substantiv;fem.;die;0;B1;61;saleswoman/shop assistant;Die Verkäuferin berät den Kunden.;The (female) **shop assistant** advises the customer.;female
 Verlag;Substantiv;mask.;der;0;B1;275;publishing house/publisher;Das Buch erschien in einem großen Verlag.;The book was published by a large **publishing house**.;
-verlangen;Verb;nan;nan;0;B1;3555;to demand/request/require;Wir verlangen eine Erklärung.;We **demand** an explanation.;
+verlangen;Verb;nan;nan;0;B1;3555;to demand/request/require;Wir verlangen eine Erklärung.;We **demand** an explanation.;v-
 verlassen;Verb;nan;nan;0;B1;1822;to leave/abandon/desert;Er hat das Haus verlassen.;He **left** the house.;
 verlaufen;Verb;nan;nan;0;B1;725;to proceed/pass/run;Das Gespräch verlief sehr positiv.;The conversation **proceeded** very positively.;
 Verletzung;Substantiv;fem.;die;0;B1;568;injury/wound/violation;Die Verletzung am Bein heilt langsam.;The **injury** on the leg is healing slowly.;

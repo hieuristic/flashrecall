@@ -1,4 +1,4 @@
-ÓrabPr√§position"nan*nan2A1:86456Boff/fromJWir fahren ab Hamburg.R"We are departing **from** Hamburg.Z0Abend
+ÔrabPr√§position"nan*nan2A1:86456Boff/fromJWir fahren ab Hamburg.R"We are departing **from** Hamburg.Z0Abend
 Substantiv"mask.*der2A1:1607BeveningJ&Ich w√ºnsche dir einen sch√∂nen Abend.RI wish you a nice **evening**.Z0åaberKonjunktion"nan*nan2A1:120754BbutJ-Ich wollte kommen, aber ich hatte keine Zeit.R(I wanted to come, **but** I had no time.Z0zabfahrenVerb"nan*nan2A1:254B	to departJ!Der Zug wird p√ºnktlich abfahren.R"The train will **depart** on time.Z0õAbfahrt
 Substantiv"fem.*die2A1:133B	departureJ0Vor der Abfahrt m√ºssen wir alles kontrollieren.R.We must check everything before **departure**.Z0õ	abfliegenVerb"nan*nan2A1:94Bto take offJ,Das Flugzeug wird in zehn Minuten abfliegen.R+The plane will **take off** in ten minutes.Z0b	for planeôAbflug
 Substantiv"mask.*der2A1:61B	departureJ,Unser Abflug verz√∂gert sich um eine Stunde.R)Our **departure** is delayed by one hour.Z0bflight}abgebenVerb"nan*nan2A1:705B
@@ -888,9 +888,9 @@ Substantiv"mask.*der2A2:974Bdifference/distinctionJWas ist der Unterschied
 untersuchenVerb"nan*nan2A2:1054Bto examine/investigate/analyzeJDer Arzt untersucht das Kind.R"The doctor **examines** the child.Z0y¡
 	unterwegsAdverb"nan*nan2A2:580Bon the way/on the roadJIch bin viel unterwegs.RI am **on the way** a lot.Z0ô¬
 
-verabredenVerb"nan*nan2A2:99Bto arrange/make an appointmentJ%Wir haben uns f√ºr morgen verabredet.R&We have **arranged** to meet tomorrow.Z0ñ√
+verabredenVerb"nan*nan2A2:99Bto arrange/make an appointmentJ%Wir haben uns f√ºr morgen verabredet.R&We have **arranged** to meet tomorrow.Z0ö√
 Veranstaltung
-Substantiv"fem.*die2A2:635Bevent/performance/meetingJ"Die Veranstaltung war gut besucht.R The **event** was well attended.Z0~ƒ
+Substantiv"fem.*die2A2:635Bevent/performance/meetingJ"Die Veranstaltung war gut besucht.R The **event** was well attended.Z0bv-~ƒ
 	verbietenVerb"nan*nan2A2:690Bto forbid/prohibit/banJRauchen ist hier verboten.RSmoking is **forbidden** here.Z0î≈
 vereinbarenVerb"nan*nan2A2:316Bto agree/arrangeJ"Wir haben einen Termin vereinbart.R0We have **arranged** (agreed on) an appointment.Z0r∆
 	vergessenVerb"nan*nan2A2:814B	to forgetJ%Ich habe meinen Schl√ºssel vergessen.RI **forgot** my key.Z0t«
@@ -1339,7 +1339,7 @@ Substantiv"mask.*der2B1:224Bhallway/corridorJWir lassen die Schuhe im Flur
 Substantiv"fem.*die2B1:1126Barea/surface/spaceJDie Fl√§che ist gro√ü.R The **area** (surface) is large.Z0b∑Fl√∂te
 Substantiv"fem.*die2B1:54BfluteJSie spielt Fl√∂te.RShe plays the **flute**.Z0∏Fl√ºssigkeit
 Substantiv"fem.*die2B1:813Bliquid/fluidJTrinken Sie viel Fl√ºssigkeit.RDrink plenty of **liquid**.Z0ÑπFolge
-Substantiv"fem.*die2B1:2324Bconsequence/episode/seriesJDas hat fatale Folgen.R That has fatal **consequences**.Z0l∫folgenVerb"nan*nan2B1:6112Bto follow/ensue/obeyJBitte folgen Sie mir.RPlease **follow** me.Z0îªfolgendpartizipiales Adjektiv"nan*nan2B1:1253Bfollowing/subsequentJ"Beachten Sie die folgenden Regeln.RHeed the **following** rules.Z0ÅºfordernVerb"nan*nan2B1:8285Bto demand/claim/challengeJEr fordert eine Erkl√§rung.RHe **demands** an explanation.Z0êΩ	Forderung
+Substantiv"fem.*die2B1:2324Bconsequence/episode/seriesJDas hat fatale Folgen.R That has fatal **consequences**.Z0l∫folgenVerb"nan*nan2B1:6112Bto follow/ensue/obeyJBitte folgen Sie mir.RPlease **follow** me.Z0îªfolgendpartizipiales Adjektiv"nan*nan2B1:1253Bfollowing/subsequentJ"Beachten Sie die folgenden Regeln.RHeed the **following** rules.Z0èºfordernVerb"nan*nan2B1:8285Bto demand/claim/challengeJEr fordert eine Erkl√§rung.RHe **demands** an explanation.Z0bf-, forcefulêΩ	Forderung
 Substantiv"fem.*die2B1:460Bdemand/claim/requirementJDie Forderung ist berechtigt.R$The **demand** (claim) is justified.Z0áæForm
 Substantiv"fem.*die2B1:18100Bform/shape/moldJDas Brot hat eine runde Form.R'The bread has a round **shape** (form).Z0âø	Forschung
 Substantiv"fem.*die2B1:555Bresearch/study/investigationJEr arbeitet in der Forschung.RHe works in **research**.Z0ò¿Fortbildung
@@ -1625,8 +1625,8 @@ Substantiv"fem.*die2B1:798Bapprenticeship/lesson/theoryJ&Er macht eine Lehr
 Substantiv"fem.*die2B1:260BteacherJ"Unsere Lehrerin ist sehr geduldig.R)Our (female) **teacher** is very patient.Z0bfemaleìÆLehrling
 Substantiv"mask.*der2B1:115Bapprentice/traineeJ Der neue Lehrling beginnt heute.R$The new **apprentice** starts today.Z0bmale´Ø
 Lehrstelle
-Substantiv"fem.*die2B1:22Bapprenticeship positionJ"Er sucht eine Lehrstelle als Koch.R;He is looking for an **apprenticeship position** as a cook.Z0y∞leidenVerb"nan*nan2B1:2083Bto suffer/endureJEr leidet an einer Allergie.RHe **suffers** from an allergy.Z0Ä±leistenVerb"nan*nan2B1:1982Bto afford/achieve/performJDas kann ich mir nicht leisten.RI cannot **afford** that.Z0¢≤Leistung
-Substantiv"fem.*die2B1:1218Bperformance/achievement/benefitJ$Das war eine hervorragende Leistung.R(That was an outstanding **performance**.Z0Ö≥leitenVerb"nan*nan2B1:10132Bto lead/manage/conductJWer leitet die Abteilung?R'Who **leads** (manages) the department?Z0†¥Leiter
+Substantiv"fem.*die2B1:22Bapprenticeship positionJ"Er sucht eine Lehrstelle als Koch.R;He is looking for an **apprenticeship position** as a cook.Z0y∞leidenVerb"nan*nan2B1:2083Bto suffer/endureJEr leidet an einer Allergie.RHe **suffers** from an allergy.Z0Ä±leistenVerb"nan*nan2B1:1982Bto afford/achieve/performJDas kann ich mir nicht leisten.RI cannot **afford** that.Z0¶≤Leistung
+Substantiv"fem.*die2B1:1218Bperformance/achievement/benefitJ$Das war eine hervorragende Leistung.R(That was an outstanding **performance**.Z0bl-Ö≥leitenVerb"nan*nan2B1:10132Bto lead/manage/conductJWer leitet die Abteilung?R'Who **leads** (manages) the department?Z0†¥Leiter
 Substantiv"mask.*der2B1:601Bmanager/conductor/ladderJEr ist der Leiter des Projekts.R.He is the **manager** (leader) of the project.Z0bmaleõµLeiterin
 Substantiv"fem.*die2B1:149Bmanager/leaderJ#Frau Schmidt ist die neue Leiterin.R,Ms. Schmidt is the new (female) **manager**.Z0bfemaleú∂Leitung
 Substantiv"fem.*die2B1:498Bmanagement/pipe/leadJ$Die Leitung der Firma ist zufrieden.R/The **management** of the company is satisfied.Z0á∑Lerner
@@ -2134,7 +2134,7 @@ verhindernVerb"nan*nan2B1:1181Bto prevent/hinder/stopJ"Wir m√ºssen den Un
 Substantiv"neutr.*das2B1:1178Brelationship/ratio/proportionJ+Sie haben ein gutes Verh√§ltnis zueinander.R2They have a good **relationship** with each other.Z0û·Verkehrszeichen
 Substantiv"neutr.*das2B1:36Btraffic sign/road signJ#Achten Sie auf die Verkehrszeichen.R'Pay attention to the **traffic signs**.Z0≤‚Verk√§uferin
 Substantiv"fem.*die2B1:61Bsaleswoman/shop assistantJ#Die Verk√§uferin ber√§t den Kunden.R5The (female) **shop assistant** advises the customer.Z0bfemale∞„Verlag
-Substantiv"mask.*der2B1:275Bpublishing house/publisherJ*Das Buch erschien in einem gro√üen Verlag.R7The book was published by a large **publishing house**.Z0Ö‰	verlangenVerb"nan*nan2B1:3555Bto demand/request/requireJWir verlangen eine Erkl√§rung.RWe **demand** an explanation.Z0xÂ	verlassenVerb"nan*nan2B1:1822Bto leave/abandon/desertJEr hat das Haus verlassen.RHe **left** the house.Z0ïÊ	verlaufenVerb"nan*nan2B1:725Bto proceed/pass/runJ#Das Gespr√§ch verlief sehr positiv.R/The conversation **proceeded** very positively.Z0üÁ
+Substantiv"mask.*der2B1:275Bpublishing house/publisherJ*Das Buch erschien in einem gro√üen Verlag.R7The book was published by a large **publishing house**.Z0â‰	verlangenVerb"nan*nan2B1:3555Bto demand/request/requireJWir verlangen eine Erkl√§rung.RWe **demand** an explanation.Z0bv-xÂ	verlassenVerb"nan*nan2B1:1822Bto leave/abandon/desertJEr hat das Haus verlassen.RHe **left** the house.Z0ïÊ	verlaufenVerb"nan*nan2B1:725Bto proceed/pass/runJ#Das Gespr√§ch verlief sehr positiv.R/The conversation **proceeded** very positively.Z0üÁ
 Verletzung
 Substantiv"fem.*die2B1:568Binjury/wound/violationJ%Die Verletzung am Bein heilt langsam.R,The **injury** on the leg is healing slowly.Z0åËverliebtpartizipiales Adjektiv"nan*nan2B1:nanBin loveJ"Er ist √ºber beide Ohren verliebt.R"He is head over heels **in love**.Z0ÄÈ	Verlierer
 Substantiv"mask.*der2B1:52BloserJKeiner will ein Verlierer sein.RNobody wants to be a **loser**.Z0bmaleèÍVerlust
