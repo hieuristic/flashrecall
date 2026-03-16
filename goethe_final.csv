@@ -1411,7 +1411,7 @@ Zahl;Substantiv;fem.;die;0;A2;2540;number/figure/digit;Nennen Sie mir eine Zahl.
 Zahn;Substantiv;mask.;der;0;A2;567;tooth;Mein Zahn tut weh.;My **tooth** hurts.;
 zeichnen;Verb;nan;nan;0;A2;6744;to draw/sketch/sign;Das Kind zeichnet ein Haus.;The child is **drawing** a house.;
 zeigen;Verb;nan;nan;0;A2;32632;to show/point/indicate;Zeigen Sie mir bitte den Weg.;Please **show** me the way.;
-Zeitschrift;Substantiv;fem.;die;0;A2;408;magazine/journal/periodical;Ich lese eine Zeitschrift.;I am reading a **magazine**.;
+Zeitschrift;Substantiv;fem.;die;0;A2;408;magazine/journal/periodical;Ich lese eine Zeitschrift.;I am reading a **magazine**.;z
 Zelt;Substantiv;neutr.;das;0;A2;247;tent;Wir schlafen im Zelt.;We are sleeping in a **tent**.;
 Zentrum;Substantiv;neutr.;das;0;A2;844;center/town center;Das Hotel liegt im Zentrum.;The hotel is located in the **center**.;
 Zettel;Substantiv;mask.;der;0;A2;159;slip of paper/note;Ich schreibe es auf einen Zettel.;I'll write it on a **slip of paper**.;
@@ -2384,7 +2384,7 @@ längst;Adverb;nan;nan;0;B1;772;long ago/for a long time;Das wusste ich schon l�
 Lärm;Substantiv;mask.;der;0;B1;309;noise;Der Lärm auf der Straße ist laut.;The **noise** on the street is loud.;
 löschen;Verb;nan;nan;0;B1;770;to delete/extinguish/put out;Bitte löschen Sie die Datei.;Please **delete** the file.;
 lösen;Verb;nan;nan;0;B1;7611;to solve/loosen/buy;Wir müssen das Rätsel lösen.;We must **solve** the puzzle.;ticket
-Magazin;Substantiv;neutr.;das;0;B1;148;magazine/warehouse/periodical;Ich lese dieses Magazin jede Woche.;I read this **magazine** every week.;
+Magazin;Substantiv;neutr.;das;0;B1;148;magazine/warehouse/periodical;Ich lese dieses Magazin jede Woche.;I read this **magazine** every week.;m-
 mager;Adjektiv;nan;nan;0;B1;308;lean/thin/skinny;Das Fleisch ist sehr mager.;The meat is very **lean**.;
 Mahlzeit;Substantiv;fem.;die;0;B1;253;meal/lunchtime;Lass uns eine gemeinsame Mahlzeit einnehmen.;Let's have a **meal** together.;
 Mahnung;Substantiv;fem.;die;0;B1;60;reminder/warning/formal notice;Ich habe eine Mahnung erhalten.;I received a **formal notice** (reminder).;
