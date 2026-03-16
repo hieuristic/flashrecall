@@ -1064,7 +1064,7 @@ Kleid;Substantiv;neutr.;das;0;A2;971;dress/garment;Das Kleid passt dir gut.;The 
 Klub;Substantiv;mask.;der;0;A2;87;club;Wir treffen uns im Klub.;We are meeting at the **club**.;k-
 klug;Adjektiv;nan;nan;0;A2;291;smart/clever/wise;Er ist ein kluger Kopf.;He is a **smart** guy.;
 Kollegin;Substantiv;fem.;die;0;A2;128;colleague;Meine Kollegin hilft mir.;My (female) **colleague** helps me.;female
-komisch;Adjektiv;nan;nan;0;A2;279;strange/funny/weird;Das ist ein komisches Geräusch.;That is a **strange** noise.;
+komisch;Adjektiv;nan;nan;0;A2;279;strange/funny/weird;Das ist ein komisches Geräusch.;That is a **strange** noise.;k-
 Kontakt;Substantiv;mask.;der;0;A2;689;contact;Haben Sie Kontakt zu ihm?;Do you have **contact** with him?;
 kontrollieren;Verb;nan;nan;0;A2;696;to check/control;Bitte kontrollieren Sie die Rechnung.;Please **check** the bill.;
 Konzert;Substantiv;neutr.;das;0;A2;295;concert;Gehen wir heute Abend zum Konzert?;Are we going to the **concert** tonight?;
@@ -2754,7 +2754,7 @@ selb;Demonstrativpronomen;nan;nan;0;B1;1;same;Wir wohnen im selben Haus.;We live
 selber;Demonstrativpronomen;nan;nan;0;B1;1134;self/(by) oneself;Ich habe das Regal selber gebaut.;I built the shelf **myself** (by myself).;
 selbstverständlich;Adjektiv;nan;nan;0;B1;425;self-evident/natural/of course;Das ist für mich selbstverständlich.;That is **self-evident** (natural) to me.;
 selten;Adjektiv;nan;nan;0;B1;2488;rare/seldom;Das ist eine seltene Blume.;That is a **rare** flower.;
-seltsam;Adjektiv;nan;nan;0;B1;415;strange/odd/weird;Das ist ein seltsames Geräusch.;That is a **strange** (weird) noise.;
+seltsam;Adjektiv;nan;nan;0;B1;415;strange/odd/weird;Das ist ein seltsames Geräusch.;That is a **strange** (weird) noise.;s-
 Semester;Substantiv;neutr.;das;0;B1;152;semester/term;Das neue Semester beginnt im Oktober.;The new **semester** (term) begins in October.;
 Seminar;Substantiv;neutr.;das;0;B1;148;seminar/workshop;Ich nehme an einem Seminar teil.;I am participating in a **seminar**.;
 Semmel;Substantiv;fem.;die;0;B1;60;bread roll/bun;Möchten Sie eine Semmel zum Frühstück?;Would you like a **bread roll** for breakfast?;Austrian/Bavarian
