@@ -1135,7 +1135,7 @@ Nachricht;Substantiv;fem.;die;0;A2;763;news/message;Ich habe eine gute Nachricht
 nass;Adjektiv;nan;nan;0;A2;1278;wet;Die Wäsche ist noch nass.;The laundry is still **wet**.;
 Natur;Substantiv;fem.;die;0;A2;1082;nature;Ich liebe die Natur.;I love **nature**.;
 natürlich;Adjektiv;nan;nan;0;A2;12942;natural/of course;Das ist ganz natürlich.;That is quite **natural**.;
-nebelig;Adjektiv;nan;nan;0;A2;108;foggy/misty;Heute Morgen war es sehr nebelig.;It was very **foggy** this morning.;
+nebelig;Adjektiv;nan;nan;0;A2;108;foggy/misty;Heute Morgen war es sehr nebelig.;It was very **foggy** this morning.;-e-
 neben;Präposition;nan;nan;0;A2;5886;next to/beside;Stell dich neben mich.;Stand **next to** me.;
 nebenan;Adverb;nan;nan;0;A2;169;next door;Wer wohnt nebenan?;Who lives **next door**?;
 neblig;Adjektiv;nan;nan;0;A2;115;foggy/misty;Es ist sehr neblig draußen.;It's very **foggy** outside.;
@@ -1147,7 +1147,7 @@ nirgends;Adverb;nan;nan;0;A2;99;nowhere/not anywhere;Ich kann meinen Schlüssel 
 Note;Substantiv;fem.;die;0;A2;359;grade/note;Er hat eine gute Note in Mathe.;He has a good **grade** in math.;
 notieren;Verb;nan;nan;0;A2;202;to note down/record;Bitte notieren Sie sich den Termin.;Please **note down** the appointment.;
 Notiz;Substantiv;fem.;die;0;A2;157;note;Ich schreibe mir eine Notiz.;I'm writing myself a **note**.;
-notwendig;Adjektiv;nan;nan;0;A2;1033;necessary;Das ist absolut notwendig.;That is absolutely **necessary**.;
+notwendig;Adjektiv;nan;nan;0;A2;1033;necessary;Das ist absolut notwendig.;That is absolutely **necessary**.;no-
 Nudel;Substantiv;fem.;die;0;A2;26;noodle/pasta;Ich esse gerne Nudeln.;I like eating **noodles**.;
 Nächste;Substantiv;mask.;der;0;A2;33;neighbor/fellow man;Liebe deinen Nächsten.;Love your **neighbor**.;
 nächste;Substantiv;mask.;der;0;A2;33;neighbor/fellow man;Wer ist der Nächste?;Who is the **next** one?;
@@ -2514,7 +2514,7 @@ nutzen;Verb;nan;nan;0;B1;6220;to use/utilize/benefit;Wir nutzen jede Gelegenheit
 nähen;Verb;nan;nan;0;B1;491;to sew;Meine Mutter kann gut nähen.;My mother can **sew** well.;
 nähern;Verb;nan;nan;0;B1;806;to approach/get closer;Wir nähern uns dem Ziel.;We are **approaching** the goal.;
 nämlich;Konjunktion;nan;nan;0;B1;1225;namely/specifically/after all;Er kam zu spät;"He came late; he had overslept, **after all**.";
-nötig;Adjektiv;nan;nan;0;B1;2079;necessary/needed;Das ist nicht nötig.;That is not **necessary**.;
+nötig;Adjektiv;nan;nan;0;B1;2079;necessary/needed;Das ist nicht nötig.;That is not **necessary**.;nö-
 nützen;Verb;nan;nan;0;B1;316;to be useful/benefit/use;Das nützt mir gar nichts.;That's of no **use** to me at all.;
 ob;Konjunktion;nan;nan;0;B1;8437;if/whether;Frag ihn ob er kommt.;Ask him **if** (whether) he's coming.;
 Ober;Substantiv;mask.;der;0;B1;246;waiter;Herr Ober, die Rechnung bitte!;**Waiter**, the bill please!;male
