@@ -1023,7 +1023,7 @@ her;Adverb;nan;nan;0;A2;1707;ago/here/since;Das ist schon lange her.;That was a 
 her-;Affix;nan;nan;0;A2;nan;hither/forth;Komm bitte her.;Please come **here** (to me).;affix
 heraus;Adverb;nan;nan;0;A2;2348;out/out of;Gehen Sie bitte heraus.;Please go **out**.;
 herein;Adverb;nan;nan;0;A2;214;in/inside;Komm bitte herein.;Please come **in**.;
-herstellen;Verb;nan;nan;0;A2;2038;to produce/manufacture;Die Firma stellt Autos her.;The company **produces** cars.;
+herstellen;Verb;nan;nan;0;A2;2038;to produce/manufacture;Die Firma stellt Autos her.;The company **produces** cars.;h-
 herunterladen;Verb;nan;nan;0;A2;104;to download;Ich lade die App herunter.;I am **downloading** the app.;
 Himmel;Substantiv;mask.;der;0;A2;3916;sky/heaven;Der Himmel ist heute blau.;The **sky** is blue today.;
 hin;Adverb;nan;nan;0;A2;8606;-to;Wo gehen wir hin?;Where are we going **to**?;
@@ -1878,7 +1878,7 @@ erfinden;Verb;nan;nan;0;B1;442;to invent/fabricate/devise;Wer hat das Telefon er
 Erfindung;Substantiv;fem.;die;0;B1;267;invention/fabrication;Das ist eine nützliche Erfindung.;That is a useful **invention**.;
 Erfolg;Substantiv;mask.;der;0;B1;1019;success/achievement/hit;Viel Erfolg!;Good luck! (**Success**);
 erfolgreich;Adjektiv;nan;nan;0;B1;976;successful/prosperous;Er ist ein erfolgreicher Geschäftsmann.;He is a **successful** businessman.;
-erforderlich;Adjektiv;nan;nan;0;B1;589;necessary/required/requisite;Vorkenntnisse sind nicht erforderlich.;Previous knowledge is not **necessary** (required).;
+erforderlich;Adjektiv;nan;nan;0;B1;589;necessary/required/requisite;Vorkenntnisse sind nicht erforderlich.;Previous knowledge is not **necessary** (required).;e-
 erfordern;Verb;nan;nan;0;B1;381;to require/demand/call for;Das erfordert viel Geduld.;That **requires** a lot of patience.;
 erfüllen;Verb;nan;nan;0;B1;1031;to fulfill/satisfy/comply with;Er erfüllt alle Bedingungen.;He **fulfills** all conditions.;
 ergänzen;Verb;nan;nan;0;B1;367;to complete/supplement/add;Bitte ergänzen Sie den Text.;Please **complete** (supplement) the text.;
@@ -2595,7 +2595,7 @@ Praktikant;Substantiv;mask.;der;0;B1;30;intern;Der Praktikant lernt viel im Bür
 Praktikantin;Substantiv;fem.;die;0;B1;18;intern;Die neue Praktikantin beginnt am Montag.;The new (female) **intern** start on Monday.;female
 prima;Adjektiv;nan;nan;0;B1;80;excellent/great/fine;Das ist eine prima Idee!;That's an **excellent** (great) idea!;
 Produktion;Substantiv;fem.;die;0;B1;687;production;Die Produktion wurde gesteigert.;The **production** has been increased.;
-produzieren;Verb;nan;nan;0;B1;1756;to produce/manufacture/make;Wir produzieren hochwertige Möbel.;We **produce** (manufacture) high-quality furniture.;
+produzieren;Verb;nan;nan;0;B1;1756;to produce/manufacture/make;Wir produzieren hochwertige Möbel.;We **produce** (manufacture) high-quality furniture.;p-
 Professor;Substantiv;mask.;der;0;B1;609;professor;Der Professor hält eine Vorlesung.;The **professor** is giving a lecture.;male
 Professorin;Substantiv;fem.;die;0;B1;90;professor;Die Professorin berät die Studenten.;The (female) **professor** advises the students.;female
 Profi;Substantiv;mask.;der;0;B1;169;professional/pro;Er spielt Fußball wie ein Profi.;He plays soccer like a **professional**.;
