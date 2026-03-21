@@ -1642,7 +1642,7 @@ Bericht;Substantiv;mask.;der;0;B1;769;report/account/coverage;Ich schreibe einen
 beruflich;Adjektiv;nan;nan;0;B1;524;professional/vocational/work-related;Was machen Sie beruflich?;What do you do **professionally** (for a living)?;
 berufstätig;Adjektiv;nan;nan;0;B1;56;employed/working;Sind Sie berufstätig?;Are you **employed**?;
 beruhigen;Verb;nan;nan;0;B1;230;to calm/reassure/appease;Beruhige dich bitte.;Please **calm** down.;
-beschließen;Verb;nan;nan;0;B1;489;to decide/resolve/conclude;Wir haben beschlossen zu gehen.;We have **decided** to leave.;
+beschließen;Verb;nan;nan;0;B1;489;to decide/resolve/conclude;Wir haben beschlossen zu gehen.;We have **decided** to leave.;b-
 Beschreibung;Substantiv;fem.;die;0;B1;481;description/account;Geben Sie mir bitte eine Beschreibung.;Please give me a **description**.;
 beschränken;Verb;nan;nan;0;B1;580;to limit/restrict/confine;Wir müssen uns auf das Wesentliche beschränken.;We must **limit** (restrict) ourselves to the essentials.;
 beschädigen;Verb;nan;nan;0;B1;369;to damage/harm/mar;Die Sendung wurde beschädigt.;The shipment was **damaged**.;
@@ -1856,7 +1856,7 @@ enthalten;Verb;nan;nan;0;B1;4391;to contain/include/hold;Das Buch enthält viele
 entlang;nan;nan;nan;0;B1;837;along;Gehen Sie die Straße entlang.;Go **along** the street.;
 entlassen;Verb;nan;nan;0;B1;289;to dismiss/fire/release;Er wurde entlassen.;He was **dismissed** (fired).;
 Entlassung;Substantiv;fem.;die;0;B1;124;dismissal/discharge/release;Die Entlassung war ein Schock.;The **dismissal** (firing) was a shock.;
-entscheiden;Verb;nan;nan;0;B1;6821;to decide/determine/resolve;Das müssen Sie entscheiden.;You have to **decide** that.;
+entscheiden;Verb;nan;nan;0;B1;6821;to decide/determine/resolve;Das müssen Sie entscheiden.;You have to **decide** that.;e-
 Entscheidung;Substantiv;fem.;die;0;B1;1045;decision/determination;Das war eine gute Entscheidung.;That was a good **decision**.;
 entschließen;Verb;nan;nan;0;B1;92;to decide/resolve/make up one's mind;Ich konnte mich nicht entschließen.;I couldn't **make up my mind** (decide).;
 entschlossen;partizipiales Adjektiv;nan;nan;0;B1;331;determined/resolute;Er ist sehr entschlossen.;He is very **determined**.;
