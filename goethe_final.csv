@@ -26,8 +26,8 @@ am;Präposition + Artikel;nan;nan;0;A1;1;on the/at the;Wir treffen uns am Montag
 an;Adverb;nan;nan;0;A1;2029551;at/on;Das kommt auf den Zusammenhang an.;It depends **on** the context.;
 anbieten;Verb;nan;nan;0;A1;1546;to offer;Darf ich Ihnen einen Kaffee anbieten?;May I **offer** you a coffee?;verb
 ander;Indefinitpronomen;nan;nan;0;A1;44;other;Ich habe keine andere Wahl.;I have no **other** choice.;
-Anfang;Substantiv;mask.;der;0;A1;1450;beginning;Der Anfang des Films war sehr spannend.;The **beginning** of the movie was very exciting.;
-anfangen;Verb;nan;nan;0;A1;608;to start;Wann fängt der Unterricht an?;When does the lesson **start**?;
+Anfang;Substantiv;mask.;der;0;A1;1450;beginning;Der Anfang des Films war sehr spannend.;The **beginning** of the movie was very exciting.;a-
+anfangen;Verb;nan;nan;0;A1;608;to start;Wann fängt der Unterricht an?;When does the lesson **start**?;a-
 Angebot;Substantiv;neutr.;das;0;A1;1145;offer/deal;Das ist ein sehr gutes Angebot.;That is a very good **offer**.;noun
 anklicken;Verb;nan;nan;0;A1;98;to click on;Du musst den Link anklicken.;You have **to click on** the link.;
 ankommen;Verb;nan;nan;0;A1;608;to arrive;Wann wird der Brief ankommen?;When will the letter **arrive**?;
@@ -100,7 +100,7 @@ Bauch;Substantiv;mask.;der;0;A1;395;belly;Mein Bauch tut weh.;My **belly** hurts
 Baum;Substantiv;mask.;der;0;A1;1958;tree;Vor dem Haus steht ein großer Baum.;There is a big **tree** in front of the house.;
 Beamte;Substantiv;mask., fem.;der, die;0;A1;nan;official/civil servant;Der Beamte hat mir das Dokument gegeben.;The **official** gave me the document.;
 bedeuten;Verb;nan;nan;0;A1;1391;to mean;Was bedeutet dieses Wort?;What does this word **mean**?;
-beginnen;Verb;nan;nan;0;A1;3536;to begin/start;Das Konzert beginnt um 20 Uhr.;The concert **begins** at 8 PM.;
+beginnen;Verb;nan;nan;0;A1;3536;to begin/start;Das Konzert beginnt um 20 Uhr.;The concert **begins** at 8 PM.;b-
 bei;Präposition;nan;nan;0;A1;516500;at/near;Er wohnt bei seinen Eltern.;He lives **at** his parents' house.;
 beide;nan;nan;nan;0;A1;6498;both;Beide Kinder spielen im Garten.;**Both** children are playing in the garden.;
 Bein;Substantiv;neutr.;das;0;A1;1219;leg;Mein linkes Bein ist gebrochen.;My left **leg** is broken.;
@@ -1610,7 +1610,7 @@ befreit;partizipiales Adjektiv;nan;nan;0;B1;12;exempt/liberated/freed;Er ist von
 befriedigend;partizipiales Adjektiv;nan;nan;0;B1;149;satisfactory/satisfying;Das Ergebnis ist befriedigend.;The result is **satisfactory**.;
 begegnen;Verb;nan;nan;0;B1;1072;to meet/encounter/come across;Ich bin ihm gestern begegnet.;I **met** (encountered) him yesterday.;
 begeistert;partizipiales Adjektiv;nan;nan;0;B1;285;enthusiastic/excited/thrilled;Ich bin begeistert von der Idee.;I am **enthusiastic** about the idea.;
-Beginn;Substantiv;mask.;der;0;B1;1119;start/beginning/onset;Der Beginn der Vorstellung ist um 20 Uhr.;The **start** of the performance is at 8 PM.;
+Beginn;Substantiv;mask.;der;0;B1;1119;start/beginning/onset;Der Beginn der Vorstellung ist um 20 Uhr.;The **start** of the performance is at 8 PM.;b-
 begleiten;Verb;nan;nan;0;B1;5397;to accompany/escort/follow;Darf ich dich begleiten?;May I **accompany** you?;
 begrenzt;partizipiales Adjektiv;nan;nan;0;B1;186;limited/restricted/finite;Die Zeit ist begrenzt.;Time is **limited**.;
 Begründung;Substantiv;fem.;die;0;B1;164;reason/justification/explanation;Haben Sie eine Begründung dafür?;Do you have a **justification** (reason) for that?;
@@ -2211,7 +2211,7 @@ irgendein;Indefinitpronomen;nan;nan;0;B1;158;any/some;Hast du irgendeine Idee?;D
 irgendwann;Adverb;nan;nan;0;B1;362;sometime/eventually;Irgendwann werde ich dich besuchen.;**Sometime** (Eventually) I will visit you.;
 irren;Verb;nan;nan;0;B1;380;to be mistaken/err/wander;Ich glaube, Sie irren sich.;I think you **are mistaken**.;
 Jause;Substantiv;fem.;die;0;B1;15;snack/break;Wir machen jetzt eine kurze Jause.;We're having a quick **snack** now.;Austrian
-je;Konjunktion;nan;nan;0;B1;3799;each/per/depending on;Je mehr ich lerne, desto besser.;The more I learn, the better. (**Depending on**);
+je;Konjunktion;nan;nan;0;B1;3799;each/per/depending on;Je mehr ich lerne, desto besser.;__ mehr ich lerne, desto besser.;
 jederzeit;Adverb;nan;nan;0;B1;193;at any time/anytime;Sie können mich jederzeit anrufen.;You can call me **anytime**.;
 jedes Mal;Adverb;nan;nan;0;B1;nan;every time;Jedes Mal;**Every time** I see him, he laughs.;
 jedoch;Konjunktion;nan;nan;0;B1;3029;however/though/yet;Es war kalt, jedoch schien die Sonne.;It was cold, **however** the sun was shining.;
