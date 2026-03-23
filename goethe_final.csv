@@ -991,7 +991,7 @@ furchtbar;Adjektiv;nan;nan;0;A2;212;terrible/awful;Der Film war furchtbar.;The m
 fühlen;Verb;nan;nan;0;A2;9969;to feel (emotion);Ich fühle mich heute nicht gut.;I don't **feel** well today.;
 Führerschein;Substantiv;mask.;der;0;A2;106;driver's license;Ich habe meinen Führerschein gemacht.;I got my **driver's license**.;
 Gabel;Substantiv;fem.;die;0;A2;157;fork;Messer;Knife, **fork**, spoon.;
-ganz;Adjektiv;nan;nan;0;A2;32754;whole/entire/quite;Das war ein ganzes Jahr Arbeit.;That was a **whole** year of work.;
+ganz;Adjektiv;nan;nan;0;A2;32754;whole/entire/quite;Das war ein ganzes Jahr Arbeit.;That was a **whole** year of work.;ga-
 Garage;Substantiv;fem.;die;0;A2;180;garage;Das Auto steht in der Garage.;The car is in the **garage**.;
 gefährlich;Adjektiv;nan;nan;0;A2;733;dangerous;Löwen sind gefährliche Tiere.;Lions are **dangerous** animals.;
 Gegenteil;Substantiv;neutr.;das;0;A2;321;opposite;Das Gegenteil von gut ist schlecht.;The **opposite** of good is bad.;
@@ -2063,7 +2063,7 @@ genießen;Verb;nan;nan;0;B1;373;to enjoy/savor/relish;Genießen Sie Ihren Urlaub
 genügen;Verb;nan;nan;0;B1;351;to suffice/be enough/satisfy;Das genügt mir.;That **suffices** me (is enough).;
 gerecht;Adjektiv;nan;nan;0;B1;337;just/fair/equitable;Das ist eine gerechte Strafe.;That is a **just** (fair) punishment.;
 gering;Adjektiv;nan;nan;0;B1;35050;low/small/slight;Das Risiko ist gering.;The risk is **low** (small).;
-gesamt;Adjektiv;nan;nan;0;B1;1589;whole/total/entire;Der gesamte Tag war schön.;The **whole** (entire) day was nice.;
+gesamt;Adjektiv;nan;nan;0;B1;1589;whole/total/entire;Der gesamte Tag war schön.;The **whole** (entire) day was nice.;ge-
 geschehen;Verb;nan;nan;0;B1;7617;to happen/occur/take place;Was ist geschehen?;What **happened**?;
 geschieden;partizipiales Adjektiv;nan;nan;0;B1;1;divorced;Er ist seit zwei Jahren geschieden.;He is **divorced** since two years.;
 Geschlecht;Substantiv;neutr.;das;0;B1;752;gender/sex/lineage;Bitte geben Sie Ihr Geschlecht an.;Please state your **gender**.;
@@ -2273,7 +2273,7 @@ Knopf;Substantiv;mask.;der;0;B1;128;button/knob;Der Knopf ist abgefallen.;The **
 Knödel;Substantiv;mask.;der;0;B1;39;dumpling;Möchtest du noch einen Knödel?;Would you like another **dumpling**?;
 Koch;Substantiv;mask.;der;0;B1;340;cook/chef;Er ist ein ausgezeichneter Koch.;He is an excellent **cook**.;male
 Kommunikation;Substantiv;fem.;die;0;B1;446;communication;Gute Kommunikation ist wichtig.;Good **communication** is important.;
-komplett;Adjektiv;nan;nan;0;B1;473;complete/entirely/total;Die Wohnung ist komplett renoviert.;The apartment is **completely** renovated.;
+komplett;Adjektiv;nan;nan;0;B1;473;complete/entirely/total;Die Wohnung ist komplett renoviert.;The apartment is **completely** renovated.;k-
 kompliziert;partizipiales Adjektiv;nan;nan;0;B1;368;complicated/complex;Das ist eine komplizierte Aufgabe.;This is a **complicated** task.;
 Kompromiss;Substantiv;mask., neutr.;der;0;B1;83;compromise;Wir haben einen Kompromiss gefunden.;We found a **compromise**.;
 Konferenz;Substantiv;fem.;die;0;B1;211;conference;Die Konferenz findet in Berlin statt.;The **conference** is taking place in Berlin.;
@@ -2892,7 +2892,7 @@ Summe;Substantiv;fem.;die;0;B1;489;sum;Die Summe der Kosten ist hoch.;The **sum*
 Symbol;Substantiv;neutr.;das;0;B1;500;symbol;Die Taube ist ein Symbol für Frieden.;The dove is a **symbol** of peace.;
 System;Substantiv;neutr.;das;0;B1;1491;system/structure;Das System funktioniert einwandfrei.;The **system** works perfectly.;
 Szene;Substantiv;fem.;die;0;B1;529;scene;Das ist meine Lieblingsszene im Film.;That is my favorite **scene** in the movie.;
-sämtlich;Indefinitpronomen;nan;nan;0;B1;122;all/entire/complete;Er hat sämtliche Bücher gelesen.;He has read **all** the books.;
+sämtlich;Indefinitpronomen;nan;nan;0;B1;122;all/entire/complete;Er hat sämtliche Bücher gelesen.;He has read **all** the books.;sä-
 Sänger;Substantiv;mask.;der;0;B1;259;singer;Der Sänger hat eine kräftige Stimme.;The **singer** has a powerful voice.;male
 Sängerin;Substantiv;fem.;die;0;B1;108;singer;Sie ist eine berühmte Sängerin.;She is a famous (female) **singer**.;female
 süchtig;Adjektiv;nan;nan;0;B1;139;addicted/hook;Er ist süchtig nach Schokolade.;He is **addicted** to chocolate.;
@@ -3123,7 +3123,7 @@ Vorstellungsgespräch;Substantiv;neutr.;das;0;B1;37;job interview;Ich habe morge
 Vorteil;Substantiv;mask.;der;0;B1;727;advantage/benefit/pro;Das Haus hat viele Vorteile.;The house has many **advantages**.;
 Vortrag;Substantiv;mask.;der;0;B1;307;lecture/talk/presentation;Der Vortrag war sehr interessant.;The **lecture** (talk) was very interesting.;
 Vorwurf;Substantiv;mask.;der;0;B1;373;accusation/reproach/blame;Mach mir keine Vorwürfe.;Don't make me any **reproaches** (accusations).;
-völlig;Adjektiv;nan;nan;0;B1;1421;complete/total/entire;Das ist völlig egal.;That is **totally** irrelevant.;
+völlig;Adjektiv;nan;nan;0;B1;1421;complete/total/entire;Das ist völlig egal.;That is **totally** irrelevant.;vö-
 waagerecht;Adjektiv;nan;nan;0;B1;nan;horizontal/level;Die Linie ist waagerecht.;The line is **horizontal**.;
 waagrecht;Adjektiv;nan;nan;0;B1;42;horizontal;Stellen Sie das Brett waagrecht.;Set the board **horizontally**.;variant
 wachsen;Verb;nan;nan;0;B1;20199;to grow/increase/wax;Die Pflanzen wachsen schnell.;The plants are **growing** quickly.;
