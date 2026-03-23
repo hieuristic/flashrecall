@@ -1858,8 +1858,8 @@ entlassen;Verb;nan;nan;0;B1;289;to dismiss/fire/release;Er wurde entlassen.;He w
 Entlassung;Substantiv;fem.;die;0;B1;124;dismissal/discharge/release;Die Entlassung war ein Schock.;The **dismissal** (firing) was a shock.;
 entscheiden;Verb;nan;nan;0;B1;6821;to decide/determine/resolve;Das müssen Sie entscheiden.;You have to **decide** that.;e-
 Entscheidung;Substantiv;fem.;die;0;B1;1045;decision/determination;Das war eine gute Entscheidung.;That was a good **decision**.;
-entschließen;Verb;nan;nan;0;B1;92;to decide/resolve/make up one's mind;Ich konnte mich nicht entschließen.;I couldn't **make up my mind** (decide).;
-entschlossen;partizipiales Adjektiv;nan;nan;0;B1;331;determined/resolute;Er ist sehr entschlossen.;He is very **determined**.;
+entschließen;Verb;nan;nan;0;B1;92;to decide/resolve/make up one's mind;Ich konnte mich nicht entschließen.;I couldn't **make up my mind** (decide).;-ß-
+entschlossen;partizipiales Adjektiv;nan;nan;0;B1;331;determined/resolute;Er ist sehr entschlossen.;He is very **determined**.;particle adjective
 entsorgen;Verb;nan;nan;0;B1;226;to dispose of/get rid of;Wo kann ich den Müll entsorgen?;Where can I **dispose of** the trash?;
 entspannen;Verb;nan;nan;0;B1;230;to relax/unwind/ease;Ich möchte mich entspannen.;I want to **relax**.;
 entstehen;Verb;nan;nan;0;B1;3193;to arise/emerge/occur;Hier entsteht ein neues Haus.;A new house is **arising** (emerging) here.;
@@ -2730,7 +2730,7 @@ schreien;Verb;nan;nan;0;B1;3620;to shout/scream/yell;Warum schreist du so?;Why a
 Schrift;Substantiv;fem.;die;0;B1;896;writing/script/font;Deine Schrift ist schwer zu lesen.;Your **writing** is hard to read.;
 Schriftsteller;Substantiv;mask.;der;0;B1;398;writer/author;Er ist ein bekannter Schriftsteller.;He is a well-known **writer** (author).;male
 Schriftstellerin;Substantiv;fem.;die;0;B1;74;writer/author;Die Schriftstellerin liest aus ihrem neuen Buch.;The (female) **writer** is reading from her new book.;female
-Schritt;Substantiv;mask.;der;0;B1;3088;step/pace/stride;Gehen Sie Schritt für Schritt vor.;Proceed **step** by step.;
+Schritt;Substantiv;mask.;der;0;B1;3088;step/pace/stride;Gehen Sie Schritt für Schritt vor.;Proceed **step** by step.;s-
 Schularbeit;Substantiv;fem.;die;0;B1;27;school assignment/test;Wir schreiben heute eine Schularbeit.;We are writing a **school test** today.;Austrian
 Schuld;Substantiv;fem.;die;0;B1;601;guilt/debt/blame;Wer hat die Schuld am Unfall?;Who is to **blame** (at fault) for the accident?;
 schuld;Adjektiv;nan;nan;0;B1;78;guilty/to blame;Du bist schuld daran.;You are to **blame** for it.;
@@ -2879,7 +2879,7 @@ Strumpf;Substantiv;mask.;der;0;B1;38;stocking;Sie trägt schwarze Strümpfe.;She
 Studie;Substantiv;fem.;die;0;B1;843;study/survey;Die Studie zeigt interessante Ergebnisse.;The **study** shows interesting results.;
 Studierende;Substantiv;fem., mask.;die, der;0;B1;nan;student;Die Studierenden demonstrieren.;The **students** are demonstrating.;
 Studio;Substantiv;neutr.;das;0;B1;292;studio/gym;Wir trainieren im Studio.;We're training at the **studio** (gym).;
-Stufe;Substantiv;fem.;die;0;B1;845;step/level/stage;Vorsicht beim Gehen auf der Stufe!;Be careful walking on the **step**!;
+Stufe;Substantiv;fem.;die;0;B1;845;step/level/stage;Vorsicht beim Gehen auf der Stufe!;Be careful walking on the **step**!;noun, -e
 stumm;Adjektiv;nan;nan;0;B1;386;mute/silent/dumb;Er ist seit der Geburt stumm.;He has been **mute** since birth.;
 Sturm;Substantiv;mask.;der;0;B1;877;storm/gale/assault;Der Sturm hat Bäume umgeweht.;The **storm** blew over trees.;
 städtisch;Adjektiv;nan;nan;0;B1;335;urban/municipal/city;Das ist ein städtisches Gebäude.;This is a **municipal** (city) building.;
@@ -2948,7 +2948,7 @@ treiben;Verb;nan;nan;0;B1;18180;to drive/pursue/do;Gleich nach dem Aufstehen tre
 trennen;Verb;nan;nan;0;B1;2305;to separate/disconnect/divide;Wir müssen den Müll trennen.;We must **separate** the trash.;
 Trennung;Substantiv;fem.;die;0;B1;294;separation/division/breakup;Die Trennung war schmerzhaft.;The **separation** (breakup) was painful.;
 Treppenhaus;Substantiv;neutr.;das;0;B1;88;staircase/stairwell;Er wartet im Treppenhaus.;He is waiting in the **staircase**.;
-treten;Verb;nan;nan;0;B1;61138;to step/kick/tread;Treten Sie bitte ein.;Please **step** in (enter).;
+treten;Verb;nan;nan;0;B1;61138;to step/kick/tread;Treten Sie bitte ein.;Please **step** in (enter).;tr-
 treu;Adjektiv;nan;nan;0;B1;278;loyal/faithful;Er ist ein treuer Freund.;He is a **loyal** (faithful) friend.;
 Trinkgeld;Substantiv;neutr.;das;0;B1;56;tip/gratuity;Hast du dem Kellner Trinkgeld gegeben?;Did you give the waiter a **tip**?;
 trocknen;Verb;nan;nan;0;B1;645;to dry/dry up;Die Wäsche muss noch trocknen.;The laundry still needs to **dry**.;
