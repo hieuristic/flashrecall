@@ -883,7 +883,7 @@ bestehen;Verb;nan;nan;0;A2;13740;to consist/pass;Ich habe die Prüfung bestanden
 bestätigen;Verb;nan;nan;0;A2;1151;to confirm;Können Sie den Termin bestätigen?;Can you **confirm** the appointment?;
 Besuch;Substantiv;mask.;der;0;A2;757;visit/visitor;Wir bekommen am Wochenende Besuch.;We are having a **visitor** (visit) on the weekend.;
 besucht;partizipiales Adjektiv;nan;nan;0;A2;1;visited;Der Park wird oft besucht.;The park is often **visited**.;
-bewerben;Verb;nan;nan;0;A2;106;to apply;Ich möchte mich für die Stelle bewerben.;I want to **apply** for the position.;
+bewerben;Verb;nan;nan;0;A2;106;to apply;Ich möchte mich für die Stelle bewerben.;I want to **apply** for the position.;b-
 Bewerbung;Substantiv;fem.;die;0;A2;95;application;Ich habe meine Bewerbung abgeschickt.;I sent off my **application**.;
 bewölkt;partizipiales Adjektiv;nan;nan;0;A2;1;cloudy;Heute ist es bewölkt.;Today it is **cloudy**.;
 Bibliothek;Substantiv;fem.;die;0;A2;380;library;Ich lerne in der Bibliothek.;I study in the **library**.;
@@ -1521,7 +1521,7 @@ anstrengen;Verb;nan;nan;0;B1;101;to strain/exert/try hard;Ich muss mich anstreng
 anstrengend;partizipiales Adjektiv;nan;nan;0;B1;218;tiring/strenuous/demanding;Die Arbeit ist sehr anstrengend.;The work is very **strenuous**.;
 Antrag;Substantiv;mask.;der;0;B1;424;application/motion/proposal;Ich habe einen Antrag gestellt.;I have submitted an **application**.;
 Anwalt;Substantiv;mask.;der;0;B1;258;lawyer/attorney;Er ist ein guter Anwalt.;He is a good **lawyer**.;male
-anwenden;Verb;nan;nan;0;B1;632;to apply/use/employ;Man muss die Regeln anwenden.;One must **apply** the rules.;
+anwenden;Verb;nan;nan;0;B1;632;to apply/use/employ;Man muss die Regeln anwenden.;One must **apply** the rules.;a-
 anwesend;Adjektiv;nan;nan;0;B1;201;present;Sind alle anwesend?;Are all **present**?;
 Anwältin;Substantiv;fem.;die;0;B1;31;lawyer/attorney;Die Anwältin berät mich.;The (female) **lawyer** is advising me.;female
 Anzahl;Substantiv;fem.;die;0;B1;1053;number/quantity/amount;Eine große Anzahl von Menschen war da.;A large **number** of people were there.;
@@ -3144,7 +3144,7 @@ weiter;Adjektiv;nan;nan;0;B1;76521;further/next/wide;Haben Sie noch weitere Frag
 Weiterbildung;Substantiv;fem.;die;0;B1;60;further education/training;Ich mache eine Weiterbildung zur Softwareentwicklerin.;I'm doing **further education** (training) as a software developer.;
 weltenweit;Adjektiv;nan;nan;0;B1;nan;world-wide/incredibly wide;Das ist ein weltenweiter Unterschied.;That is a **world-wide** (huge) difference.;
 weltweit;Adjektiv;nan;nan;0;B1;935;world-wide/global;Die Firma ist weltweit bekannt.;The company is known **world-wide**.;
-wenden;Verb;nan;nan;0;B1;6284;to turn/apply/address;Sie wendeten sich an mich.;They **turned** to me.;
+wenden;Verb;nan;nan;0;B1;6284;to turn/apply/address;Sie wendeten sich an mich.;They **turned** to me.;w-
 Werbung;Substantiv;fem.;die;0;B1;269;advertising/publicity/commercial;Die Werbung im Fernsehen nervt.;The **advertising** (commercials) on TV is annoying.;
 werfen;Verb;nan;nan;0;B1;42985;to throw/cast/toss;Wirf den Ball zu mir!;**Throw** the ball to me!;
 Werk;Substantiv;neutr.;das;0;B1;1387;work/work (of art)/factory;Das ist ein bedeutendes Werk.;This is a significant **work**.;
