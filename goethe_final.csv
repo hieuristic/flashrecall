@@ -1112,10 +1112,10 @@ meinen;Verb;nan;nan;0;A2;11570;to mean/think/believe;Was meinst du dazu?;What do
 Meinung;Substantiv;fem.;die;0;A2;962;opinion;Das ist meine Meinung.;That is my **opinion**.;
 meistens;Adverb;nan;nan;0;A2;656;mostly/usually;Meistens trinke ich Tee.;I **mostly** drink tea.;
 Menge;Substantiv;fem.;die;0;A2;2400;amount/quantity/crowd;Eine große Menge Leute war da.;A large **amount** (crowd) of people was there.;
-merken;Verb;nan;nan;0;A2;1420;to notice/realize/remember;Hast du das gemerkt?;Did you **notice** that?;
+merken;Verb;nan;nan;0;A2;1420;to notice/realize/remember;Hast du das gemerkt?;Did you **notice** that?;m-
 Messe;Substantiv;fem.;die;0;A2;382;trade fair/mass;Ich besuche die Buchmesse.;I am visiting the book **trade fair**.;
 Messer;Substantiv;neutr.;das;0;A2;457;knife;Das Messer ist sehr scharf.;The **knife** is very sharp.;
-mindestens;Adverb;nan;nan;0;A2;1312;at least;Du musst mindestens 18 sein.;You must be **at least** 18.;
+mindestens;Adverb;nan;nan;0;A2;1312;at least;Du musst mindestens 18 sein.;You must be **at least** 18.;m-
 Mineralwasser;Substantiv;neutr.;das;0;A2;71;mineral water;Ein Mineralwasser, bitte.;A **mineral water**, please.;
 Mitarbeiter;Substantiv;mask.;der;0;A2;884;employee/staff member;Er ist ein guter Mitarbeiter.;He is a good **employee**.;
 Mittagessen;Substantiv;neutr.;das;0;A2;154;lunch;Was gibt es zum Mittagessen?;What's for **lunch**?;
@@ -1389,7 +1389,7 @@ wegen;Präposition;nan;nan;0;A2;3794;because of;Wegen des Regens bleiben wir hie
 weich;Adjektiv;nan;nan;0;A2;3089;soft/tender;Das Bett ist sehr weich.;The bed is very **soft**.;
 weil;Konjunktion;nan;nan;0;A2;7602;because;Ich bleibe zu Hause, weil ich krank bin.;I am staying at home **because** I am sick.;w-
 weinen;Verb;nan;nan;0;A2;837;to cry/weep;Das Kind weint.;The child is **crying**.;
-wenigstens;Adverb;nan;nan;0;A2;460;at least;Du hättest wenigstens anrufen können.;You could have **at least** called.;
+wenigstens;Adverb;nan;nan;0;A2;460;at least;Du hättest wenigstens anrufen können.;You could have **at least** called.;w-
 wenn;Konjunktion;nan;nan;0;A2;124865;if/when;Wenn es regnet, bleiben wir hier.;**If** it rains, we stay here.;
 Werkstatt;Substantiv;fem.;die;0;A2;300;workshop/garage/repair shop;Mein Auto ist in der Werkstatt.;My car is in the **repair shop**.;
 Wettbewerb;Substantiv;mask.;der;0;A2;452;competition/contest;Er nimmt an einem Wettbewerb teil.;He is participating in a **competition**.;
@@ -1515,7 +1515,7 @@ anschaffen;Verb;nan;nan;0;B1;185;to acquire/purchase/get;Wir schaffen uns ein ne
 anschließen;Verb;nan;nan;0;B1;379;to connect/join/plug in;Kann ich meinen Computer anschließen?;Can I **connect** my computer?;
 anschnallen;Verb;nan;nan;0;B1;nan;to buckle up/fasten seat belt;Bitte schnallen Sie sich an.;Please **buckle up**.;
 ansprechen;Verb;nan;nan;0;B1;384;to address/speak to/appeal to;Er hat mich auf der Straße angesprochen.;He **spoke to** me on the street.;
-Anspruch;Substantiv;mask.;der;0;B1;759;claim/demand/standard;Er hat hohe Ansprüche.;He has high **demands** (standards).;
+Anspruch;Substantiv;mask.;der;0;B1;759;claim/standard;Er hat hohe Ansprüche.;He has high **demands** (standards).;a-
 anstellen;Verb;nan;nan;0;B1;307;to employ/turn on/line up;Wir haben ihn als Gärtner angestellt.;We **employed** him as a gardener.;
 anstrengen;Verb;nan;nan;0;B1;101;to strain/exert/try hard;Ich muss mich anstrengen.;I have to **try hard** (exert myself).;
 anstrengend;partizipiales Adjektiv;nan;nan;0;B1;218;tiring/strenuous/demanding;Die Arbeit ist sehr anstrengend.;The work is very **strenuous**.;
@@ -1539,7 +1539,7 @@ Asyl;Substantiv;neutr.;das;0;B1;95;asylum;Er hat Asyl beantragt.;He has applied 
 Atem;Substantiv;mask.;der;0;B1;439;breath;Der Atem ist wichtig.;**Breath** is important.;
 atmen;Verb;nan;nan;0;B1;1493;to breathe;Bitte tief atmen.;Please **breathe** deeply.;
 Aufenthalt;Substantiv;mask.;der;0;B1;261;stay/residence/stopover;Wie war Ihr Aufenthalt?;How was your **stay**?;
-auffallen;Verb;nan;nan;0;B1;305;to notice/attract attention/stand out;Ist dir etwas aufgefallen?;Did you **notice** anything?;
+auffallen;Verb;nan;nan;0;B1;305;to notice/attract attention/stand out;Ist dir etwas aufgefallen?;Did you **notice** anything?;a-
 auffordern;Verb;nan;nan;0;B1;299;to request/call on/invite;Er forderte mich auf zu gehen.;He **requested** (called on) me to leave.;
 Aufforderung;Substantiv;fem.;die;0;B1;208;request/invitation/summons;Das war eine freundliche Aufforderung.;That was a friendly **request**.;
 aufführen;Verb;nan;nan;0;B1;391;to perform/list/act out;Das Stück wird heute aufgeführt.;The play is being **performed** today.;
@@ -1617,7 +1617,7 @@ Begründung;Substantiv;fem.;die;0;B1;164;reason/justification/explanation;Haben 
 begrüßen;Verb;nan;nan;0;B1;323;to greet/welcome/hail;Der Chef begrüßt die neuen Mitarbeiter.;The boss **greets** the new employees.;
 behalten;Verb;nan;nan;0;B1;4810;to keep/retain/remember;Darf ich das Buch behalten?;May I **keep** the book?;
 behandeln;Verb;nan;nan;0;B1;5423;to treat/handle/deal with;Der Arzt behandelt den Patienten.;The doctor **treats** the patient.;
-behaupten;Verb;nan;nan;0;B1;754;to claim/assert/maintain;Er behauptet, es nicht getan zu haben.;He **claims** not to have done it.;
+behaupten;Verb;nan;nan;0;B1;754;to claim/assert/maintain;Er behauptet, es nicht getan zu haben.;He **claims** not to have done it.;b-
 behindern;Verb;nan;nan;0;B1;325;to hinder/obstruct/hamper;Der Schnee behindert den Verkehr.;The snow **hinders** the traffic.;
 Behörde;Substantiv;fem.;die;0;B1;944;authority/agency/department;Die Behörde hat den Antrag abgelehnt.;The **authority** (agency) rejected the application.;
 beinah;Adverb;nan;nan;0;B1;nan;almost/nearly;Ich hätte es beinah vergessen.;I **almost** forgot it.;
@@ -1628,7 +1628,7 @@ bekannt geben;Verb;nan;nan;0;B1;nan;to announce/make known;Das Ergebnis wird mor
 bekanntgeben;Verb;nan;nan;0;B1;187;to announce/make known;Wir werden den Gewinner bald bekanntgeben.;We will **announce** the winner soon.;
 Beleg;Substantiv;mask.;der;0;B1;199;receipt/proof/voucher;Bitte heben Sie den Beleg auf.;Please keep the **receipt**.;
 beleidigen;Verb;nan;nan;0;B1;257;to offend/insult;Ich wollte dich nicht beleidigen.;I didn't mean to **offend** (insult) you.;
-bemerken;Verb;nan;nan;0;B1;597;to notice/remark/observe;Ich habe die Änderung nicht bemerkt.;I didn't **notice** the change.;
+bemerken;Verb;nan;nan;0;B1;597;to notice/remark/observe;Ich habe die Änderung nicht bemerkt.;I didn't **notice** the change.;b-
 bemühen;Verb;nan;nan;0;B1;1502;to strive/endeavor/bother;Er bemüht sich sehr.;He is **striving** (trying hard).;
 Benzin;Substantiv;neutr., mask.;das;0;B1;205;gasoline/petrol/gas;Das Auto braucht Benzin.;The car needs **gasoline**.;
 benötigen;Verb;nan;nan;0;B1;1050;to need/require/want;Wir benötigen weitere Informationen.;We **require** (need) more information.;
@@ -1978,8 +1978,8 @@ Flüssigkeit;Substantiv;fem.;die;0;B1;813;liquid/fluid;Trinken Sie viel Flüssig
 Folge;Substantiv;fem.;die;0;B1;2324;consequence/episode/series;Das hat fatale Folgen.;That has fatal **consequences**.;
 folgen;Verb;nan;nan;0;B1;6112;to follow/ensue/obey;Bitte folgen Sie mir.;Please **follow** me.;
 folgend;partizipiales Adjektiv;nan;nan;0;B1;1253;following/subsequent;Beachten Sie die folgenden Regeln.;Heed the **following** rules.;
-fordern;Verb;nan;nan;0;B1;8285;to demand/claim/challenge;Er fordert eine Erklärung.;He **demands** an explanation.;f-, forceful
-Forderung;Substantiv;fem.;die;0;B1;460;demand/claim/requirement;Die Forderung ist berechtigt.;The **demand** (claim) is justified.;
+fordern;Verb;nan;nan;0;B1;8285;to demand;Er fordert eine Erklärung.;He **demands** an explanation.;f-, forceful
+Forderung;Substantiv;fem.;die;0;B1;460;demand;Die Forderung ist berechtigt.;The **demand** is justified.;
 Form;Substantiv;fem.;die;0;B1;18100;form/shape/mold;Das Brot hat eine runde Form.;The bread has a round **shape** (form).;
 Forschung;Substantiv;fem.;die;0;B1;555;research/study/investigation;Er arbeitet in der Forschung.;He works in **research**.;
 Fortbildung;Substantiv;fem.;die;0;B1;64;further education/training;Ich mache eine Fortbildung.;I'm doing **further education** (training).;
@@ -3222,7 +3222,7 @@ Zuhörer;Substantiv;mask.;der;0;B1;180;listener/auditor;Die Zuhörer hörten ges
 Zuhörerin;Substantiv;fem.;die;0;B1;10;listener/auditor;Sie ist eine gute Zuhörerin.;She is a good (female) **listener**.;female
 Zukunft;Substantiv;fem.;die;0;B1;892;future;Was planst du für die Zukunft?;What are you planning for the **future**?;
 zukünftig;Adjektiv;nan;nan;0;B1;227;future/in the future;Das ist mein zukünftiger Chef.;That is my **future** boss.;
-zumindest;Adverb;nan;nan;0;B1;797;at least;Du hättest zumindest anrufen können.;You could **at least** have called.;
+zumindest;Adverb;nan;nan;0;B1;797;at least;Du hättest zumindest anrufen können.;You could **at least** have called.;z-
 zunehmen;Verb;nan;nan;0;B1;280;to increase/put on weight/grow;Er hat über Weihnachten zugenommen.;He **put on weight** over Christmas.;
 zunächst;nan;nan;nan;0;B1;1710;at first/initially/first of all;Zunächst müssen wir das Problem klären.;**First of all**, we need to clarify the problem.;
 zurechtkommen;Verb;nan;nan;0;B1;91;to cope/manage/get along;Kommst du allein zurecht?;Can you **cope** (manage) alone?;
