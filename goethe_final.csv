@@ -475,7 +475,7 @@ Leute;Substantiv;nan;nan;1;A1;2092;people;Dort sind many Leute.;There are many *
 Licht;Substantiv;neutr.;das;0;A1;2050;light;Machen Sie bitte das Licht aus.;Please turn off the **light**.;
 lieb;Adjektiv;nan;nan;0;A1;2482;dear/kind/nice;Das ist sehr lieb von dir.;That is very **kind** of you.;
 lieben;Verb;nan;nan;0;A1;2930;to love;Ich liebe meine Familie.;I **love** my family.;
-lieber;Komparativ;nan;nan;0;A1;2884;rather/preferably;Ich trinke lieber Tee als Kaffee.;I'd **rather** drink tea than coffee.;
+lieber;Komparativ;nan;nan;0;A1;2884;rather/preferably;Ich trinke lieber Tee als Kaffee.;I'd **rather** drink tea than coffee.;l-
 Lieblingslied;Substantiv;neutr.;das;0;A1;14;favorite song;Das ist mein Lieblingslied.;That is my **favorite song**.;
 Lied;Substantiv;neutr.;das;0;A1;1011;song;Das Lied ist sehr schön.;The **song** is very beautiful.;
 liegen;Verb;nan;nan;0;A1;385929;to lie/be located;Das Buch liegt auf dem Tisch.;The book **lies** on the table.;
@@ -1792,7 +1792,7 @@ Eck;Substantiv;neutr.;das;0;B1;108;corner;Das Geschäft ist gleich um das Eck.;T
 eckig;Adjektiv;nan;nan;0;B1;141;angular/square/cornered;Der Tisch ist eckig.;The table is **square** (angular).;
 Ehe;Substantiv;fem.;die;0;B1;498;marriage/matrimony;Sie führen eine glückliche Ehe.;They have a happy **marriage**.;
 Ehepaar;Substantiv;neutr.;das;0;B1;119;married couple;Das Ehepaar wohnt nebenan.;The **married couple** lives next door.;
-eher;Komparativ;nan;nan;0;B1;1674;rather/sooner/earlier;Ich gehe eher nach Hause.;I'm going home **rather** (sooner).;
+eher;Komparativ;nan;nan;0;B1;1674;rather/sooner/earlier;Ich gehe eher nach Hause.;I'm going home **rather** (sooner).;e-
 ehrlich;Adjektiv;nan;nan;0;B1;707;honest/sincere/frank;Sei bitte ehrlich zu mir.;Please be **honest** with me.;
 eignen;Verb;nan;nan;0;B1;1800;to be suitable/fit/suit;Das Buch eignet sich für Anfänger.;The book **is suitable** for beginners.;
 Eile;Substantiv;fem.;die;0;B1;205;hurry/haste/rush;Ich habe es sehr in Eile.;I am in a great **hurry**.;
@@ -1980,7 +1980,7 @@ folgen;Verb;nan;nan;0;B1;6112;to follow/ensue/obey;Bitte folgen Sie mir.;Please 
 folgend;partizipiales Adjektiv;nan;nan;0;B1;1253;following/subsequent;Beachten Sie die folgenden Regeln.;Heed the **following** rules.;
 fordern;Verb;nan;nan;0;B1;8285;to demand;Er fordert eine Erklärung.;He **demands** an explanation.;f-, forceful
 Forderung;Substantiv;fem.;die;0;B1;460;demand;Die Forderung ist berechtigt.;The **demand** is justified.;
-Form;Substantiv;fem.;die;0;B1;18100;form/shape/mold;Das Brot hat eine runde Form.;The bread has a round **shape** (form).;
+Form;Substantiv;fem.;die;0;B1;18100;form;Das Brot hat eine runde Form.;The bread has a round **shape** (form).;
 Forschung;Substantiv;fem.;die;0;B1;555;research/study/investigation;Er arbeitet in der Forschung.;He works in **research**.;
 Fortbildung;Substantiv;fem.;die;0;B1;64;further education/training;Ich mache eine Fortbildung.;I'm doing **further education** (training).;
 Fortschritt;Substantiv;mask.;der;0;B1;334;progress/advancement;Wir machen gute Fortschritte.;We are making good **progress**.;
@@ -3206,7 +3206,7 @@ Zertifikat;Substantiv;neutr.;das;0;B1;77;certificate;Er hat das Zertifikat besta
 Zeug;Substantiv;neutr.;das;0;B1;366;stuff/things/fabric;Räum dein Zeug weg!;Put your **stuff** away!;
 Zeuge;Substantiv;mask.;der;0;B1;752;witness;Der Zeuge sah den Unfall.;The **witness** saw the accident.;male
 Zeugin;Substantiv;fem.;die;0;B1;102;witness;Die Zeugin sagte vor Gericht aus.;The (female) **witness** testified in court.;female
-ziemlich;Adjektiv;nan;nan;0;B1;963;quite/fairly/rather;Das ist ziemlich teuer.;That is **quite** expensive.;
+ziemlich;Adjektiv;nan;nan;0;B1;963;quite/fairly/rather;Das ist ziemlich teuer.;That is **quite** expensive.;z-
 Zins;Substantiv;mask.;der;0;B1;219;interest;Wie hoch sind die Zinsen für den Kredit?;How high is the **interest** on the loan?;financial
 Zivilstand;Substantiv;mask.;der;0;B1;13;civil status/marital status;Bitte geben Sie Ihren Zivilstand an.;Please state your **civil status**.;
 Znüni;Substantiv;neutr., mask.;das, der;0;B1;nan;mid-morning snack;Es ist Zeit für den Znüni.;It's time for the **mid-morning snack**.;Swiss
