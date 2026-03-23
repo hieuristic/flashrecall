@@ -1589,7 +1589,7 @@ Bancomatkarte;Substantiv;fem.;die;0;B1;nan;ATM card/debit card;Ich habe meine Ba
 Bankleitzahl;Substantiv;fem.;die;0;B1;9;bank sort code/routing number;Wie ist Ihre Bankleitzahl?;What is your **bank sort code**?;
 Bankomat;Substantiv;mask.;der;0;B1;19;ATM/cash machine;Der Bankomat ist außer Betrieb.;The **ATM** is out of order.;
 Bankomatkarte;Substantiv;fem.;die;0;B1;7;ATM card/cash card;Haben Sie Ihre Bankomatkarte dabei?;Do you have your **ATM card** with you?;
-Bar;Substantiv;fem.;die;0;B1;2225;bar/pub/nightclub;Treffen wir uns in der Bar?;Shall we meet in the **bar**?;
+Bar;Substantiv;fem.;die;0;B1;2225;bar;Treffen wir uns in der Bar?;Shall we meet in the **bar**?;
 Bargeld;Substantiv;neutr.;das;0;B1;116;cash;Bezahlen Sie mit Bargeld?;Are you paying with **cash**?;
 Bart;Substantiv;mask.;der;0;B1;214;beard;Er trägt einen langen Bart.;He is wearing a long **beard**.;
 Batterie;Substantiv;fem.;die;0;B1;219;battery;Die Batterie ist leer.;The **battery** is dead.;

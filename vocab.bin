@@ -1,4 +1,4 @@
-ÅrabPr√§position"nan*nan2A1:86456Boff/fromJWir fahren ab Hamburg.R"We are departing **from** Hamburg.Z0Abend
+ÇrabPr√§position"nan*nan2A1:86456Boff/fromJWir fahren ab Hamburg.R"We are departing **from** Hamburg.Z0Abend
 Substantiv"mask.*der2A1:1607BeveningJ&Ich w√ºnsche dir einen sch√∂nen Abend.RI wish you a nice **evening**.Z0åaberKonjunktion"nan*nan2A1:120754BbutJ-Ich wollte kommen, aber ich hatte keine Zeit.R(I wanted to come, **but** I had no time.Z0zabfahrenVerb"nan*nan2A1:254B	to departJ!Der Zug wird p√ºnktlich abfahren.R"The train will **depart** on time.Z0õAbfahrt
 Substantiv"fem.*die2A1:133B	departureJ0Vor der Abfahrt m√ºssen wir alles kontrollieren.R.We must check everything before **departure**.Z0õ	abfliegenVerb"nan*nan2A1:94Bto take offJ,Das Flugzeug wird in zehn Minuten abfliegen.R+The plane will **take off** in ten minutes.Z0b	for planeôAbflug
 Substantiv"mask.*der2A1:61B	departureJ,Unser Abflug verz√∂gert sich um eine Stunde.R)Our **departure** is delayed by one hour.Z0bflight}abgebenVerb"nan*nan2A1:705B
@@ -1093,8 +1093,8 @@ Substantiv"mask.*der2B1:14BATM/cash machineJWo ist der n√§chste Bancomat?R
 Substantiv"fem.*die2B1:nanBATM card/debit cardJ&Ich habe meine Bancomatkarte verloren.RI lost my **ATM card**.Z0è¥Bankleitzahl
 Substantiv"fem.*die2B1:9Bbank sort code/routing numberJWie ist Ihre Bankleitzahl?R What is your **bank sort code**?Z0ÇµBankomat
 Substantiv"mask.*der2B1:19BATM/cash machineJ Der Bankomat ist au√üer Betrieb.RThe **ATM** is out of order.Z0ï∂Bankomatkarte
-Substantiv"fem.*die2B1:7BATM card/cash cardJ#Haben Sie Ihre Bankomatkarte dabei?R'Do you have your **ATM card** with you?Z0{∑Bar
-Substantiv"fem.*die2B1:2225Bbar/pub/nightclubJTreffen wir uns in der Bar?RShall we meet in the **bar**?Z0q∏Bargeld
+Substantiv"fem.*die2B1:7BATM card/cash cardJ#Haben Sie Ihre Bankomatkarte dabei?R'Do you have your **ATM card** with you?Z0m∑Bar
+Substantiv"fem.*die2B1:2225BbarJTreffen wir uns in der Bar?RShall we meet in the **bar**?Z0q∏Bargeld
 Substantiv"neutr.*das2B1:116BcashJBezahlen Sie mit Bargeld?RAre you paying with **cash**?Z0sπBart
 Substantiv"mask.*der2B1:214BbeardJEr tr√§gt einen langen Bart.RHe is wearing a long **beard**.Z0k∫Batterie
 Substantiv"fem.*die2B1:219BbatteryJDie Batterie ist leer.RThe **battery** is dead.Z0ïªBau
