@@ -1481,7 +1481,7 @@ Alarm;Substantiv;mask.;der;0;B1;93;alarm/alert;Der Alarm ging los.;The **alarm**
 Alkohol;Substantiv;mask.;der;0;B1;633;alcohol;Er trinkt keinen Alkohol.;He doesn't drink **alcohol**.;
 aller-;Affix;nan;nan;0;B1;1;of all;Das ist das Allerbeste.;That is the best **of all**.;affix
 allerbest;Adjektiv;nan;nan;0;B1;1;best of all;Das ist mein allerbestes Freund.;That is my **best of all** friend.;
-allerdings;Adverb;nan;nan;0;B1;2034;however/certainly/though;Das Hotel war sehr schön, allerdings war es ein bisschen zu teuer für uns.;The hotel was very nice. However, it was a little too expensive for us.;
+allerdings;Adverb;nan;nan;0;B1;2034;however/certainly/though;Das Hotel war sehr schön, allerdings war es ein bisschen zu teuer für uns.;The hotel was very nice. However, it was a little too expensive for us.;a-
 allerschönst;Adjektiv;nan;nan;0;B1;nan;most beautiful of all;Das war der allerschönste Tag.;That was the **most beautiful of all** day.;
 allgemein;Adjektiv;nan;nan;0;B1;9461;general/common/generally;Das ist allgemein bekannt.;That is **generally** known.;
 Alltag;Substantiv;mask.;der;0;B1;388;everyday life/daily routine;Der Alltag kann stressig sein.;**Everyday life** can be stressful.;
@@ -2214,7 +2214,7 @@ Jause;Substantiv;fem.;die;0;B1;15;snack/break;Wir machen jetzt eine kurze Jause.
 je;Konjunktion;nan;nan;0;B1;3799;each/per/depending on;Je mehr ich lerne, desto besser.;__ mehr ich lerne, desto besser.;
 jederzeit;Adverb;nan;nan;0;B1;193;at any time/anytime;Sie können mich jederzeit anrufen.;You can call me **anytime**.;
 jedes Mal;Adverb;nan;nan;0;B1;nan;every time;Jedes Mal;**Every time** I see him, he laughs.;
-jedoch;Konjunktion;nan;nan;0;B1;3029;however/though/yet;Es war kalt, jedoch schien die Sonne.;It was cold, **however** the sun was shining.;
+jedoch;Konjunktion;nan;nan;0;B1;3029;however/though/yet;Es war kalt, jedoch schien die Sonne.;It was cold, **however** the sun was shining.;j-
 jemals;Adverb;nan;nan;0;B1;251;ever;Hast du jemals einen Löwen gesehen?;Have you **ever** seen a lion?;
 jeweils;Adverb;nan;nan;0;B1;852;each/at a time/respectively;Wir zahlen jeweils fünf Euro.;We each pay five euros (**respectively**).;
 Journalist;Substantiv;mask.;der;0;B1;396;journalist;Er arbeitet als Journalist.;He works as a **journalist**.;male
