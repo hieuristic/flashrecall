@@ -1732,8 +1732,8 @@ dahin;Pronominaladverb;nan;nan;0;B1;520;there/that way;Gehen wir dahin?;Are we g
 damit;Konjunktion;nan;nan;0;B1;12584;to/in order to/with it;Beeil dich, damit wir rechtzeitig kommen.;Hurry up **so that** (in order to) we arrive on time.;
 danach;Pronominaladverb;nan;nan;0;B1;1127;after that/afterwards/according to it;Zuerst essen wir, danach gehen wir spazieren.;First we eat, **afterwards** we take a walk.;
 dankbar;Adjektiv;nan;nan;0;B1;198;grateful/thankful;Ich bin dir sehr dankbar.;I am very **grateful** to you.;
-darstellen;Verb;nan;nan;0;B1;1650;to represent/depict/constitute;Er stellt die Situation dar.;He **depicts** (represents) the situation.;
-Darstellung;Substantiv;fem.;die;0;B1;1017;representation/depiction/presentation;Die Darstellung ist sehr realistisch.;The **depiction** (representation) is very realistic.;
+darstellen;Verb;nan;nan;0;B1;1650;to represent/depict/constitute;Er stellt die Situation dar.;He **depicts** (represents) the situation.;da-
+Darstellung;Substantiv;fem.;die;0;B1;1017;representation/depiction/presentation;Die Darstellung ist sehr realistisch.;The **depiction** (representation) is very realistic.;da-
 dasselbe;Demonstrativpronomen;neutr.;nan;0;B1;502;the same;Wir haben dasselbe Ziel.;We have **the same** goal.;thing
 Daten;Substantiv;nan;nan;1;B1;39;data/information;Wir müssen die Daten speichern.;We need to save the **data**.;
 Dauer;Substantiv;fem.;die;0;B1;521;duration/period/length;Die Dauer des Films ist zwei Stunden.;The **duration** of the film is two hours.;
@@ -2675,7 +2675,7 @@ Rolle;Substantiv;fem.;die;0;B1;2967;role/roll/part;Er spielt eine wichtige Rolle
 Roman;Substantiv;mask.;der;0;B1;750;novel;Ich lese gerade einen spannenden Roman.;I am reading an exciting **novel**.;
 Rufnummer;Substantiv;fem.;die;0;B1;30;phone number/telephone number;Wie ist Ihre Rufnummer?;What is your **phone number**?;
 Runde;Substantiv;fem.;die;0;B1;1362;round/lap;Ich laufe noch eine Runde.;I'm running one more **round** (lap).;
-Rundfahrt;Substantiv;fem.;die;0;B1;20;tour/round trip/sightseeing tour;Wir machen eine Rundfahrt durch die Stadt.;We are taking a **tour** of the city.;
+Rundfahrt;Substantiv;fem.;die;0;B1;20;tour/round trip/sightseeing tour;Wir machen eine Rundfahrt durch die Stadt.;We are taking a **tour** of the city.;r-
 runterwerfen;Verb;nan;nan;0;B1;nan;to throw down/drop;Wirf den Ball bitte nicht runter!;Please don't **throw** the ball **down**!;
 rück-;Affix;nan;nan;0;B1;1;back-/re-;Er forderte eine Rückzahlung.;He demanded a **re**payment (money back).;affix
 Rückfahrt;Substantiv;fem.;die;0;B1;38;return journey/trip back;Wann ist die Rückfahrt geplant?;When is the **return journey** planned?;
@@ -3078,10 +3078,10 @@ versäumen;Verb;nan;nan;0;B1;148;to miss/neglect/fail;Er hat den Termin versäum
 verteilen;Verb;nan;nan;0;B1;1097;to distribute/deal/spread;Bitte verteilen Sie die Handzettel.;Please **distribute** the flyers.;
 Vertrauen;Substantiv;neutr.;das;0;B1;40;trust/confidence/faith;Ich habe volles Vertrauen zu dir.;I have full **trust** (confidence) in you.;
 vertrauen;Verb;nan;nan;0;B1;629;to trust/rely on/confide;Du kannst mir vertrauen.;You can **trust** me.;
-vertreten;Verb;nan;nan;0;B1;757;to represent/replace/stand in for;Er vertritt mich im Urlaub.;He is **representing** (standing in for) me while on vacation.;
-Vertreter;Substantiv;mask.;der;0;B1;1254;representative/agent/salesman;Er ist ein Vertreter der Firma.;He is a **representative** (agent) of the company.;male
-Vertreterin;Substantiv;fem.;die;0;B1;88;representative/agent/saleswoman;Sie ist die Vertreterin des Bürgermeisters.;She is the (female) **representative** of the mayor.;female
-Vertretung;Substantiv;fem.;die;0;B1;133;representation/substitution/agency;Ich übernehme die Vertretung.;I'll take over the **representation** (substitution).;
+vertreten;Verb;nan;nan;0;B1;757;to represent/replace/stand in for;Er vertritt mich im Urlaub.;He is **representing** (standing in for) me while on vacation.;ve-
+Vertreter;Substantiv;mask.;der;0;B1;1254;representative/agent/salesman;Er ist ein Vertreter der Firma.;He is a **representative** (agent) of the company.;male, ve-
+Vertreterin;Substantiv;fem.;die;0;B1;88;representative/agent/saleswoman;Sie ist die Vertreterin des Bürgermeisters.;She is the (female) **representative** of the mayor.;female, ve-
+Vertretung;Substantiv;fem.;die;0;B1;133;representation/substitution/agency;Ich übernehme die Vertretung.;I'll take over the **representation** (substitution).;ve-
 verursachen;Verb;nan;nan;0;B1;2307;to cause/provoke/induce;Der Lärm verursacht Kopfschmerzen.;The noise **causes** headaches.;
 verurteilen;Verb;nan;nan;0;B1;519;to condemn/sentence/judge;Der Richter verurteilte ihn zu einer Geldstrafe.;The judge **sentenced** him to a fine.;
 Verwaltung;Substantiv;fem.;die;0;B1;443;administration/management;Er arbeitet in der städtischen Verwaltung.;He works in the city **administration**.;
