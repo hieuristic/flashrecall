@@ -450,7 +450,7 @@ kurz;Adjektiv;nan;nan;0;A1;14495;short/brief;Ich habe nur kurz Zeit.;I have only
 können;Verb;nan;nan;0;A1;744550;to be able to/can;Ich kann Deutsch sprechen.;I **can** speak German.;
 Küche;Substantiv;fem.;die;0;A1;951;kitchen;Die Küche ist sehr modern.;The **kitchen** is very modern.;
 Kühlschrank;Substantiv;mask.;der;0;A1;215;fridge/refrigerator;Die Milch steht im Kühlschrank.;The milk is in the **fridge**.;
-kümmern;Verb;nan;nan;0;A1;543;to take care of/look after;Ich kümmere mich um die Kinder.;I am **taking care of** the children.;
+kümmern;Verb;nan;nan;0;A1;543;to take care of;Ich kümmere mich um die Kinder.;I am **taking care of** the children.;kü-
 lachen;Verb;nan;nan;0;A1;7556;to laugh;Wir lachen über den Witz.;We **laugh** at the joke.;
 Laden;Substantiv;mask.;der;0;A1;164;shop/store;Der Laden ist heute geschlossen.;The **shop** is closed today.;l-
 Land;Substantiv;neutr.;das;0;A1;38761;country/land;Deutschland ist ein schönes Land.;Germany is a beautiful **country**.;
@@ -1659,7 +1659,7 @@ bestrafen;Verb;nan;nan;0;B1;296;to punish/penalize/fine;Die Tat muss bestraft we
 Bestätigung;Substantiv;fem.;die;0;B1;109;confirmation/acknowledgement;Ich brauche eine schriftliche Bestätigung.;I need a written **confirmation**.;
 beteiligen;Verb;nan;nan;0;B1;732;to involve/participate/share;Er möchte sich an dem Projekt beteiligen.;He wants to **participate** (be involved) in the project.;
 Betrag;Substantiv;mask.;der;0;B1;287;amount/sum/value;Der Betrag ist zu hoch.;The **amount** (sum) is too high.;
-betreuen;Verb;nan;nan;0;B1;296;to look after/care for/guide;Sie betreut die Kinder.;She **looks after** the children.;
+betreuen;Verb;nan;nan;0;B1;296;to look after;Sie betreut die Kinder.;She **looks after** the children.;be-
 Betreuer;Substantiv;mask.;der;0;B1;50;supervisor/caretaker/advisor;Er ist mein Betreuer an der Uni.;He is my **supervisor** (advisor) at the university.;male
 Betreuerin;Substantiv;fem.;die;0;B1;24;supervisor/caretaker/advisor;Die Betreuerin hilft den Patienten.;The (female) **caretaker** helps the patients.;female
 Betreuung;Substantiv;fem.;die;0;B1;171;care/supervision/guidance;Die Betreuung ist ausgezeichnet.;The **care** is excellent.;
