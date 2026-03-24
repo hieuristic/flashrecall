@@ -108,7 +108,7 @@ Beispiel;Substantiv;neutr.;das;0;A1;5105;example;Kannst du mir ein Beispiel gebe
 bekannt;partizipiales Adjektiv;nan;nan;0;A1;71814;known/famous;Er ist ein bekannter Schauspieler.;He is a **known** actor.;
 Bekannte;Substantiv;fem., mask.;die, der;0;A1;214;acquaintance;Ich habe eine Bekannte in Berlin getroffen.;I met an **acquaintance** in Berlin.;
 bekommen;Verb;nan;nan;0;A1;56102;to receive;Ich habe einen Brief bekommen.;I **received** a letter.;b-
-benutzen;Verb;nan;nan;0;A1;2939;to use;Darf ich deinen Computer benutzen?;May I **use** your computer?;
+benutzen;Verb;nan;nan;0;A1;2939;to use;Darf ich deinen Computer benutzen?;May I **use** your computer?;b-
 Beruf;Substantiv;mask.;der;0;A1;593;occupation;Mein Beruf ist Lehrer.;My **occupation** is teacher.;
 besetzt;partizipiales Adjektiv;nan;nan;0;A1;225;occupied/busy;Das Telefon ist gerade besetzt.;The phone is **busy** right now.;
 besichtigen;Verb;nan;nan;0;A1;176;to visit/sightsee;Wir möchten das Schloss besichtigen.;We would like to view (**visit**) the castle.;
@@ -2029,7 +2029,7 @@ Gasthaus;Substantiv;neutr.;das;0;B1;92;inn/guesthouse/pub;Wir essen im Gasthaus.
 Gaststätte;Substantiv;fem.;die;0;B1;112;restaurant/inn;Die Gaststätte ist heute geschlossen.;The **restaurant** (inn) is closed today.;
 Gebiet;Substantiv;neutr.;das;0;B1;2706;area/region/field;Das ist ein großes Gebiet.;That is a large **area**.;
 Gebirge;Substantiv;neutr.;das;0;B1;258;mountain range/mountains;Wir wandern im Gebirge.;We're hiking in the **mountains** (mountain range).;
-gebrauchen;Verb;nan;nan;0;B1;218;to use/employ/make use of;Ich kann das Werkzeug gut gebrauchen.;I can **use** the tool well.;
+gebrauchen;Verb;nan;nan;0;B1;218;to use/employ/make use of;Ich kann das Werkzeug gut gebrauchen.;I can **use** the tool well.;g-
 Gebrauchsanweisung;Substantiv;fem.;die;0;B1;22;operating instructions/user manual;Lies die Gebrauchsanweisung.;Read the **operating instructions**.;
 Geburt;Substantiv;fem.;die;0;B1;582;birth;Herzlichen Glückwunsch zur Geburt!;Congratulations on the **birth**!;
 Gebäck;Substantiv;neutr.;das;0;B1;170;pastries/biscuits/cookies;Möchten Sie etwas Gebäck?;Would you like some **pastries**?;
@@ -2510,7 +2510,7 @@ Notausgang;Substantiv;mask.;der;0;B1;22;emergency exit;Wo ist der Notausgang?;Wh
 Notfall;Substantiv;mask.;der;0;B1;112;emergency;Rufen Sie im Notfall den Arzt.;In an **emergency**, call the doctor.;
 Notruf;Substantiv;mask.;der;0;B1;46;emergency call/number;Die Nummer für den Notruf ist 112.;The **emergency** number is 112.;
 nun;Adverb;nan;nan;0;B1;9830;now;Nun ist es zu spät.;**Now** it is too late.;n-
-nutzen;Verb;nan;nan;0;B1;6220;to use/utilize/benefit;Wir nutzen jede Gelegenheit.;We **use** every opportunity.;
+nutzen;Verb;nan;nan;0;B1;6220;to use/utilize/benefit;Wir nutzen jede Gelegenheit.;We **use** every opportunity.;n-
 nähen;Verb;nan;nan;0;B1;491;to sew;Meine Mutter kann gut nähen.;My mother can **sew** well.;
 nähern;Verb;nan;nan;0;B1;806;to approach/get closer;Wir nähern uns dem Ziel.;We are **approaching** the goal.;
 nämlich;Konjunktion;nan;nan;0;B1;1225;namely/specifically/after all;Er kam zu spät;"He came late; he had overslept, **after all**.";
@@ -3087,7 +3087,7 @@ verurteilen;Verb;nan;nan;0;B1;519;to condemn/sentence/judge;Der Richter verurtei
 Verwaltung;Substantiv;fem.;die;0;B1;443;administration/management;Er arbeitet in der städtischen Verwaltung.;He works in the city **administration**.;
 verwandt;Adjektiv;nan;nan;0;B1;393;related/akin;Sind Sie mit ihm verwandt?;Are you **related** to him?;
 verwechseln;Verb;nan;nan;0;B1;229;to confuse/mix up/mistake;Ich habe die beiden Namen verwechselt.;I **confused** (mixed up) the two names.;
-verwenden;Verb;nan;nan;0;B1;10982;to use/employ/apply;Welches Reinigungsmittel verwenden Sie?;Which cleaning agent do you **use**?;
+verwenden;Verb;nan;nan;0;B1;10982;to use/employ/apply;Welches Reinigungsmittel verwenden Sie?;Which cleaning agent do you **use**?;v-
 verzeihen;Verb;nan;nan;0;B1;188;to forgive/pardon/excuse;Verzeihen Sie mir bitte.;Please **forgive** me.;
 Verzeihung;Substantiv;fem.;die;0;B1;43;forgiveness/pardon/excuse;Ich bitte um Verzeihung.;I beg your **pardon** (forgiveness).;
 verzichten;Verb;nan;nan;0;B1;579;to do without/forgo/waive;Ich kann auf Nachtisch verzichten.;I can **do without** (forgo) dessert.;
