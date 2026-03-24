@@ -796,7 +796,7 @@ wohnen;Verb;nan;nan;0;A1;4868;to live/dwell;Ich wohne in Berlin.;I **live** in B
 Wohnung;Substantiv;fem.;die;0;A1;1419;apartment/flat;Die Wohnung ist sehr schön.;The **apartment** is very beautiful.;w-
 wollen;Verb;nan;nan;0;A1;151105;to want;Was wollen Sie trinken?;What do you **want** to drink?;
 Wort;Substantiv;neutr.;das;0;A1;14707;word;Das ist ein schwieriges Wort.;That is a difficult **word**.;
-wunderbar;Adjektiv;nan;nan;0;A1;317;wonderful/marvelous;Das Wetter ist wunderbar.;The weather is **wonderful**.;
+wunderbar;Adjektiv;nan;nan;0;A1;317;wonderful/marvelous;Das Wetter ist wunderbar.;The weather is **wonderful**.;-a-
 zahlen;Verb;nan;nan;0;A1;8401;to pay;Ich möchte bitte zahlen.;I would like to **pay**, please.;
 zehn;Kardinalzahlwort;nan;nan;0;A1;2361;ten;Ich habe zehn Finger.;I have **ten** fingers.;
 Zeit;Substantiv;fem.;die;0;A1;39975;time;Ich habe heute leider keine Zeit.;I unfortunately have no **time** today.;
@@ -1603,7 +1603,7 @@ Bedarf;Substantiv;mask.;der;0;B1;409;need/demand/requirement;Es gibt einen groß
 Bedeutung;Substantiv;fem.;die;0;B1;2317;meaning/importance/significance;Was ist die Bedeutung dieses Wortes?;What is the **meaning** of this word?;
 bedienen;Verb;nan;nan;0;B1;592;to serve/operate/wait on;Er bedient die Kunden.;He **serves** (waits on) the customers.;
 Bedienungsanleitung;Substantiv;fem.;die;0;B1;15;instruction manual/user guide;Wo ist die Bedienungsanleitung?;Where is the **instruction manual**?;
-Bedingung;Substantiv;fem.;die;0;B1;777;condition/requirement/term;Das ist meine Bedingung.;That is my **condition**.;
+Bedingung;Substantiv;fem.;die;0;B1;777;condition/requirement/term;Das ist meine Bedingung.;That is my **condition**.;be-
 beeinflussen;Verb;nan;nan;0;B1;322;to influence/affect/bias;Das Wetter beeinflusst meine Laune.;The weather **influences** my mood.;
 befinden;Verb;nan;nan;0;B1;2850;to be located/be found/feel;Das Museum befindet sich im Zentrum.;The museum **is located** in the center.;
 befreit;partizipiales Adjektiv;nan;nan;0;B1;12;exempt/liberated/freed;Er ist von der Steuer befreit.;He is **exempt** from tax.;
@@ -2014,7 +2014,7 @@ Fähre;Substantiv;fem.;die;0;B1;19;ferry;Wir nehmen die Fähre.;We are taking th
 fällig;Adjektiv;nan;nan;0;B1;112;due/payable;Die Rechnung ist fällig.;The bill is **due**.;
 färbig;Adjektiv;nan;nan;0;B1;104;colored/colourful;Das ist ein färbiges Foto.;That is a **colored** photo.;
 fördern;Verb;nan;nan;0;B1;1165;to promote/encourage/support;Wir fördern junge Talente.;We **promote** (support) young talents.;
-führen;Verb;nan;nan;0;B1;241353;to lead/guide/conduct;Er führt uns durch die Stadt.;He **leads** (guides) us through the city.;
+führen;Verb;nan;nan;0;B1;241353;to lead/guide/conduct;Er führt uns durch die Stadt.;He **leads** (guides) us through the city.;f-
 Führerausweis;Substantiv;mask.;der;0;B1;10;driver's license;Zeigen Sie Ihren Führerausweis.;Show your **driver's license**.;
 fürchten;Verb;nan;nan;0;B1;464;to fear/be afraid;Du brauchst dich nicht zu fürchten.;You don't need to **be afraid** (fear).;
 füttern;Verb;nan;nan;0;B1;726;to feed;Hast du die Katze gefüttert?;Have you **fed** the cat?;
@@ -2353,7 +2353,7 @@ Lehrstelle;Substantiv;fem.;die;0;B1;22;apprenticeship position;Er sucht eine Leh
 leiden;Verb;nan;nan;0;B1;2083;to suffer/endure;Er leidet an einer Allergie.;He **suffers** from an allergy.;
 leisten;Verb;nan;nan;0;B1;1982;to afford/achieve/perform;Das kann ich mir nicht leisten.;I cannot **afford** that.;
 Leistung;Substantiv;fem.;die;0;B1;1218;performance/achievement/benefit;Das war eine hervorragende Leistung.;That was an outstanding **performance**.;l-
-leiten;Verb;nan;nan;0;B1;10132;to lead/manage/conduct;Wer leitet die Abteilung?;Who **leads** (manages) the department?;
+leiten;Verb;nan;nan;0;B1;10132;to lead/manage/conduct;Wer leitet die Abteilung?;Who **leads** (manages) the department?;l-
 Leiter;Substantiv;mask.;der;0;B1;601;manager/conductor/ladder;Er ist der Leiter des Projekts.;He is the **manager** (leader) of the project.;male
 Leiterin;Substantiv;fem.;die;0;B1;149;manager/leader;Frau Schmidt ist die neue Leiterin.;Ms. Schmidt is the new (female) **manager**.;female
 Leitung;Substantiv;fem.;die;0;B1;498;management/pipe/lead;Die Leitung der Firma ist zufrieden.;The **management** of the company is satisfied.;
@@ -3103,7 +3103,7 @@ Vollzeit;Substantiv;fem.;die;0;B1;19;full-time;Er arbeitet in Vollzeit.;He works
 voneinander;Adverb;nan;nan;0;B1;349;from each other/one another;Sie wohnen weit voneinander entfernt.;They live far **from each other**.;
 vor allem;Mehrwortausdruck;nan;nan;0;B1;nan;above all/especially/mainly;Ich mag Obst, vor allem Äpfel.;I like fruit, **especially** (above all) apples.;
 voraus;Adverb;nan;nan;0;B1;401;ahead/in advance;Vielen Dank im Voraus!;Thank you **in advance**!;
-Voraussetzung;Substantiv;fem.;die;0;B1;532;requirement/condition/prerequisite;Das ist die Voraussetzung für den Kurs.;That is the **requirement** for the course.;
+Voraussetzung;Substantiv;fem.;die;0;B1;532;requirement/condition/prerequisite;Das ist die Voraussetzung für den Kurs.;That is the **requirement** for the course.;vo-
 voraussichtlich;Adjektiv;nan;nan;0;B1;117;probable/expected/likely;Der Zug kommt voraussichtlich pünktlich.;The train is **expected** (likely) to arrive on time.;
 vorbei-;Affix;nan;nan;0;B1;1;past-/by-;Wir sind am Haus vorbeigefahren.;We drove **past** the house.;affix
 Vorbereitung;Substantiv;fem.;die;0;B1;273;preparation;Die Vorbereitungen für das Fest laufen.;**Preparations** for the festival are underway.;
@@ -3183,7 +3183,7 @@ worüber;Pronominaladverb;nan;nan;0;B1;63;about what/of which;Worüber habt ihr 
 Wunde;Substantiv;fem.;die;0;B1;354;wound/injury;Die Wunde muss gereinigt werden.;The **wound** must be cleaned.;
 Wunder;Substantiv;neutr.;das;0;B1;291;wonder/miracle;Es ist ein Wunder dass er überlebt hat.;It is a **wonder** (miracle) that he survived.;
 wundern;Verb;nan;nan;0;B1;164;to wonder/be surprised;Es wundert mich nicht.;It doesn't **surprise** (wonder) me.;
-wunderschön;Adjektiv;nan;nan;0;B1;241;wonderful/beautiful/gorgeous;Das war ein wunderschöner Abend.;That was a **wonderful** (beautiful) evening.;
+wunderschön;Adjektiv;nan;nan;0;B1;241;wonderful/beautiful/gorgeous;Das war ein wunderschöner Abend.;That was a **wonderful** (beautiful) evening.;-ö-
 während;nan;nan;nan;0;B1;7072;during/while/whereas;Während der Fahrt darf man nicht rauchen.;One must not smoke **during** the journey.;
 Wärme;Substantiv;fem.;die;0;B1;478;warmth/heat;Die Wärme der Sonne ist angenehm.;The **warmth** of the sun is pleasant.;
 Wörterbuch;Substantiv;neutr.;das;0;B1;427;dictionary;Ich schaue das Wort im Wörterbuch nach.;I'll look up the word in the **dictionary**.;
@@ -3235,7 +3235,7 @@ zuschauen;Verb;nan;nan;0;B1;90;to watch/look on;Ich schaue den Kindern beim Spie
 Zuschauer;Substantiv;mask.;der;0;B1;409;spectator/viewer/audience;Die Zuschauer klatschten.;The **spectators** clapped.;male
 Zuschauerin;Substantiv;fem.;die;0;B1;15;spectator/viewer/audience;Sie ist eine begeisterte Zuschauerin.;She is an enthusiastic (female) **spectator**.;female
 Zuschlag;Substantiv;mask.;der;0;B1;75;surcharge/extra charge/acceptance;Man muss einen Zuschlag bezahlen.;One must pay a **surcharge**.;
-Zustand;Substantiv;mask.;der;0;B1;2268;condition/state/status;Das Haus ist in einem guten Zustand.;The house is in a good **condition**.;
+Zustand;Substantiv;mask.;der;0;B1;2268;condition/state/status;Das Haus ist in einem guten Zustand.;The house is in a good **condition**.;zu-
 zustimmen;Verb;nan;nan;0;B1;224;to agree/consent/approve;Ich stimme dir voll und ganz zu.;I **agree** with you completely.;
 Zustimmung;Substantiv;fem.;die;0;B1;265;agreement/approval/consent;Wir brauchen deine Zustimmung.;We need your **approval** (consent).;
 zuständig;Adjektiv;nan;nan;0;B1;872;responsible/competent/in charge;Wer ist für diese Abteilung zuständig?;Who is **responsible** for this department?;
