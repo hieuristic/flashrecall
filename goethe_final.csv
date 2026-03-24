@@ -830,7 +830,7 @@ aktiv;Adjektiv;nan;nan;0;A2;514373;active;Er ist ein sehr aktiver Mensch.;He is 
 aktuell;Adjektiv;nan;nan;0;A2;849;current/present/actual;Das ist der aktuelle Preis.;That is the **current** price.;
 als;Konjunktion;nan;nan;0;A2;166392;than/when/as;Er ist größer als ich.;He is taller **than** I am.;
 Ampel;Substantiv;fem.;die;0;A2;140;traffic light;An der Ampel müssen wir anhalten.;We have to stop at the **traffic light**.;
-anders;Adverb;nan;nan;0;A2;1230;different/differently;Heute ist alles anders.;Today everything is **different**.;
+anders;Adverb;nan;nan;0;A2;1230;different/differently;Heute ist alles anders.;Today everything is **different**.;a-
 Angst;Substantiv;fem.;die;0;A2;2151;fear/anxiety;Ich habe Angst vor Spinnen.;I have a **fear** of spiders.;
 ansehen;Verb;nan;nan;0;A2;1297;to look at/watch;Darf ich mir das Foto ansehen?;May I **look at** the photo?;
 Anzug;Substantiv;mask.;der;0;A2;325;suit;Er trägt einen blauen Anzug.;He is wearing a blue **suit**.;
@@ -841,7 +841,7 @@ Artikel;Substantiv;mask.;der;0;A2;936;article;Ich lese einen interessanten Artik
 auf jeden Fall;Mehrwortausdruck;nan;nan;0;A2;nan;definitely/in any case;Ich komme auf jeden Fall.;I'm **definitely** coming.;
 auf keinen Fall;Mehrwortausdruck;nan;nan;0;A2;nan;no way/certainly not;Das mache ich auf keinen Fall.;I am **certainly not** doing that.;
 aufmachen;Verb;nan;nan;0;A2;195;to open;Kannst du bitte das Fenster aufmachen?;Can you please **open** the window?;a-
-aufpassen;Verb;nan;nan;0;A2;946;to pay attention/watch out;Bitte pass auf beim Überqueren der Straße.;Please **pay attention** when crossing the street.;
+aufpassen;Verb;nan;nan;0;A2;946;to pay attention/watch out;Bitte pass auf beim Überqueren der Straße.;Please **pay attention** when crossing the street.;au-
 aufregen;Verb;nan;nan;0;A2;115;to upset/get excited;Reg dich nicht auf!;Don't get **upset**!;
 aufräumen;Verb;nan;nan;0;A2;131;to clean up/tidy up;Ich muss mein Zimmer aufräumen.;I must **clean up** my room.;
 Ausbildung;Substantiv;fem.;die;0;A2;797;vocational training;Er macht eine Ausbildung als Koch.;He is doing **training** as a chef.;
@@ -1188,7 +1188,7 @@ probieren;Verb;nan;nan;0;A2;520;to taste/test/try;Möchtest du mal probieren?;Wo
 Produkt;Substantiv;neutr.;das;0;A2;1225;product;Das ist ein neues Produkt.;That is a new **product**.;
 Programm;Substantiv;neutr.;das;0;A2;875;program/schedule/channel;Was läuft heute im Programm?;What's on the **program** (schedule) today?;
 Projekt;Substantiv;neutr.;das;0;A2;976;project;Das Projekt ist sehr wichtig.;The **project** is very important.;
-prüfen;Verb;nan;nan;0;A2;1325;to check/test/examine;Bitte prüfen Sie die Rechnung.;Please **check** the bill.;
+prüfen;Verb;nan;nan;0;A2;1325;to check/test/examine;Bitte prüfen Sie die Rechnung.;Please **check** the bill.;p-
 Pullover;Substantiv;mask.;der;0;A2;612;sweater/pullover;Zieh deinen Pullover an.;Put on your **sweater**.;
 putzen;Verb;nan;nan;0;A2;1008;to clean/polish/brush;Ich muss meine Zähne putzen.;I have to **brush** my teeth.;
 Qualität;Substantiv;fem.;die;0;A2;611;quality;Die Qualität ist ausgezeichnet.;The **quality** is excellent.;
@@ -1342,7 +1342,7 @@ unterhalten;Verb;nan;nan;0;A2;497;to entertain/maintain/chat;Wir haben uns gut u
 Unterkunft;Substantiv;fem.;die;0;A2;218;accommodation/lodging;Wir suchen eine Unterkunft.;We are looking for **accommodation**.;
 unternehmen;Verb;nan;nan;0;A2;310;to undertake/do/venture;Wollen wir heute was unternehmen?;Shall we **do** (undertake) something today?;
 Unterschied;Substantiv;mask.;der;0;A2;974;difference/distinction;Was ist der Unterschied?;What is the **difference**?;noun
-untersuchen;Verb;nan;nan;0;A2;1054;to examine/investigate/analyze;Der Arzt untersucht das Kind.;The doctor **examines** the child.;
+untersuchen;Verb;nan;nan;0;A2;1054;to examine/investigate/analyze;Der Arzt untersucht das Kind.;The doctor **examines** the child.;u-
 unterwegs;Adverb;nan;nan;0;A2;580;on the way/on the road;Ich bin viel unterwegs.;I am **on the way** a lot.;
 verabreden;Verb;nan;nan;0;A2;99;to arrange/make an appointment;Wir haben uns für morgen verabredet.;We have **arranged** to meet tomorrow.;
 Veranstaltung;Substantiv;fem.;die;0;A2;635;event/performance/meeting;Die Veranstaltung war gut besucht.;The **event** was well attended.;v-
@@ -1473,7 +1473,7 @@ Abwartin;Substantiv;fem.;die;0;B1;nan;caretaker/janitor;Die Abwartin reinigt den
 abwaschen;Verb;nan;nan;0;B1;109;to wash up/wash dishes;Ich muss noch das Geschirr abwaschen.;I still have to **wash** the dishes.;
 abwesend;Adjektiv;nan;nan;0;B1;73;absent/away;Er war gestern abwesend.;He was **absent** yesterday.;
 abwärts;Adverb;nan;nan;0;B1;182;downward/downhill;Der Weg führt abwärts.;The path leads **downward**.;
-achten;Verb;nan;nan;0;B1;2702;to respect/pay attention/esteem;Bitte achten Sie auf die Stufe.;Please **pay attention** to the step.;
+achten;Verb;nan;nan;0;B1;2702;to respect/pay attention/esteem;Bitte achten Sie auf die Stufe.;Please **pay attention** to the step.;ac-
 Aktion;Substantiv;fem.;die;0;B1;577;action/campaign/promotion;Das war eine gute Aktion.;That was a good **action**.;
 Aktivität;Substantiv;fem.;die;0;B1;639;activity;Wir planen eine neue Aktivität.;We are planning a new **activity**.;
 akzeptieren;Verb;nan;nan;0;B1;422;to accept/agree to;Ich kann das nicht akzeptieren.;I cannot **accept** that.;
@@ -1596,7 +1596,7 @@ Batterie;Substantiv;fem.;die;0;B1;219;battery;Die Batterie ist leer.;The **batte
 Bau;Substantiv;mask.;der;0;B1;1132;construction/building/structure;Das Haus ist noch im Bau.;The house is still under **construction**.;
 Bauer;Substantiv;mask.;der;0;B1;973;farmer/peasant;Der Bauer arbeitet auf dem Feld.;The **farmer** is working in the field.;male
 Bauernhof;Substantiv;mask.;der;0;B1;126;farm;Wir machen Urlaub auf dem Bauernhof.;We are taking a vacation on a **farm**.;
-beachten;Verb;nan;nan;0;B1;327;to pay attention/heed/notice;Bitte beachten Sie die Regeln.;Please **heed** (pay attention to) the rules.;
+beachten;Verb;nan;nan;0;B1;327;to pay attention/heed/notice;Bitte beachten Sie die Regeln.;Please **heed** (pay attention to) the rules.;be-
 Beamtin;Substantiv;fem.;die;0;B1;61;civil servant/official;Die Beamtin hilft mir bei dem Antrag.;The (female) **official** is helping me with the application.;female
 beantragen;Verb;nan;nan;0;B1;238;to apply for/request;Ich habe ein Visum beantragt.;I have **applied for** a visa.;
 Bedarf;Substantiv;mask.;der;0;B1;409;need/demand/requirement;Es gibt einen großen Bedarf an Fachkräften.;There is a great **need** for skilled workers.;
@@ -3000,7 +3000,7 @@ Unternehmerin;Substantiv;fem.;die;0;B1;27;entrepreneur/businesswoman;Sie ist ein
 unterrichten;Verb;nan;nan;0;B1;393;to teach/instruct;Sie unterrichtet Deutsch an einer Schule.;She **teaches** German at a school.;
 untersagt;partizipiales Adjektiv;nan;nan;0;B1;32;prohibited/forbidden;Das Betreten ist streng untersagt.;Entry is strictly **prohibited**.;
 unterscheiden;Verb;nan;nan;0;B1;1174;to distinguish/differ/differentiate;Ich kann die Zwillinge kaum unterscheiden.;I can hardly **distinguish** the twins.;u-
-unterschiedlich;Adjektiv;nan;nan;0;B1;1849;different/varying/diverse;Wir haben unterschiedliche Meinungen.;We have **different** opinions.;
+unterschiedlich;Adjektiv;nan;nan;0;B1;1849;different/varying/diverse;Wir haben unterschiedliche Meinungen.;We have **different** opinions.;u-
 unterstreichen;Verb;nan;nan;0;B1;154;to underline/emphasize;Bitte unterstreichen Sie die wichtigen Wörter.;Please **underline** the important words.;
 unterstützen;Verb;nan;nan;0;B1;925;to support/assist/aid;Wir müssen ihn bei seiner Arbeit unterstützen.;We must **support** him in his work.;
 Unterstützung;Substantiv;fem.;die;0;B1;535;support/assistance/backing;Ich brauche deine Unterstützung.;I need your **support**.;
