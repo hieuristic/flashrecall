@@ -1404,7 +1404,7 @@ Wunsch;Substantiv;mask.;der;0;A2;626;wish/desire/request;Ich habe einen Wunsch.;
 das ist mir wurscht;Adjektiv;nan;nan;0;A2;nan;all the same/indifferent/sausages;Das ist mir wurscht.;**I don't care**.;-ch-
 Wurst;Substantiv;fem.;die;0;A2;192;sausage;Ich esse eine Wurst.;I am eating a **sausage**.;
 das ist mir wurst;Adjektiv;nan;nan;0;A2;nan;all the same/indifferent;Das ist mir wurst.;**I don't care**.;
-wählen;Verb;nan;nan;0;A2;4356;to vote/choose/elect;Sie müssen eine Nummer wählen.;You have to **dial** (choose) a number.;
+wählen;Verb;nan;nan;0;A2;4356;to vote/choose/elect;Sie müssen eine Nummer wählen.;You have to **dial** (choose) a number.;w-
 Wäsche;Substantiv;fem.;die;0;A2;242;laundry/washing/linen;Ich muss die Wäsche waschen.;I have to wash the **laundry**.;
 wünschen;Verb;nan;nan;0;A2;1701;to wish/desire;Ich wünsche dir alles Gute.;I **wish** you all the best.;
 Zahl;Substantiv;fem.;die;0;A2;2540;number/figure/digit;Nennen Sie mir eine Zahl.;Tell me a **number**.;
@@ -1465,7 +1465,7 @@ Abschnitt;Substantiv;mask.;der;0;B1;486;section/part/segment;Lesen Sie den näch
 abschreiben;Verb;nan;nan;0;B1;164;to copy/write off;Er hat in der Prüfung abgeschrieben.;He **copied** during the exam.;
 Absenderin;Substantiv;fem.;die;0;B1;7;sender;Wer ist die Absenderin?;Who is the (female) **sender**?;female
 absolut;Adjektiv;nan;nan;0;B1;10896;absolute/absolutely;Das ist absolut richtig.;That is **absolutely** right.;
-abstimmen;Verb;nan;nan;0;B1;262;to vote/coordinate/tune;Wir stimmen über den Vorschlag ab.;We are **voting** on the proposal.;
+abstimmen;Verb;nan;nan;0;B1;262;to vote/coordinate/tune;Wir stimmen über den Vorschlag ab.;We are **voting** on the proposal.;a-
 Abt;Substantiv;mask.;der;0;B1;49;abbot;Der Abt leitet das Kloster.;The **abbot** leads the monastery.;
 Abteilung;Substantiv;fem.;die;0;B1;453;department/section/unit;Er arbeitet in der Marketing-Abteilung.;He works in the marketing **department**.;
 Abwart;Substantiv;mask.;der;0;B1;8;caretaker/janitor;Der Abwart schließt die Tür auf.;The **caretaker** unlocks the door.;male
