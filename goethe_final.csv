@@ -1557,7 +1557,7 @@ auftreten;Verb;nan;nan;0;B1;1308;to appear/perform/occur;Die Band tritt heute Ab
 Auftritt;Substantiv;mask.;der;0;B1;328;performance/appearance/gig;Das war ein toller Auftritt!;That was a great **performance**!;
 aufwachen;Verb;nan;nan;0;B1;146;to wake up/awaken;Wann bist du aufgewacht?;When did you **wake up**?;
 aufwärts;Adverb;nan;nan;0;B1;170;upward;Es geht aufwärts.;Things are looking **upward** (up).;
-Augenblick;Substantiv;mask.;der;0;B1;659;moment/instant;Einen Augenblick, bitte.;One **moment**, please.;
+Augenblick;Substantiv;mask.;der;0;B1;659;instant;Einen Augenblick, bitte.;One **moment**, please.;a-
 ausbilden;Verb;nan;nan;0;B1;541;to train/educate/instruct;Wir bilden neue Mitarbeiter aus.;We are **training** new employees.;a-
 Ausdruck;Substantiv;mask.;der;0;B1;1601;expression/term/printout;Das ist ein schöner Ausdruck.;That is a beautiful **expression**.;
 ausdrucken;Verb;nan;nan;0;B1;99;to print;Kannst du das bitte ausdrucken?;Can you please **print** this **out**?;out
@@ -2072,7 +2072,7 @@ Geschwindigkeit;Substantiv;fem.;die;0;B1;624;speed/velocity/pace;Halten Sie die 
 Geschwindigkeitsbeschränkung;Substantiv;fem.;die;0;B1;9;speed limit;Hier gilt eine Geschwindigkeitsbeschränkung.;There is a **speed limit** here.;
 Gesellschaft;Substantiv;fem.;die;0;B1;1739;society/company/party;Wir leben in einer modernen Gesellschaft.;We live in a modern **society**.;
 Gesetz;Substantiv;neutr.;das;0;B1;4406;law/act/statute;Das Gesetz muss befolgt werden.;The **law** must be followed.;
-gespannt;partizipiales Adjektiv;nan;nan;0;B1;274;curious/anxious/tense;Ich bin gespannt auf das Ergebnis.;I am **curious** (anxious) about the result.;
+gespannt;partizipiales Adjektiv;nan;nan;0;B1;274;curious/anxious/tense;Ich bin gespannt auf das Ergebnis.;I am **curious** (anxious) about the result.;g-
 getrennt;partizipiales Adjektiv;nan;nan;0;B1;96;separate/separated/apart;Wir zahlen getrennt.;We're paying **separately**.;
 Gewalt;Substantiv;fem.;die;0;B1;822;violence/force/power;Gewalt ist keine Lösung.;**Violence** is no solution.;
 Gewerkschaft;Substantiv;fem.;die;0;B1;262;union/trade union/labor union;Er ist Mitglied der Gewerkschaft.;He is a member of the **union**.;
@@ -2491,7 +2491,7 @@ negativ;Adjektiv;nan;nan;0;B1;1007;negative;Das Ergebnis war negativ.;The result
 Nerv;Substantiv;mask.;der;0;B1;992;nerve;Er hat starke Nerven.;He has strong **nerves**.;
 Netz;Substantiv;neutr.;das;0;B1;648;net/network/web;Die Fischer werfen ihre Netze aus.;The fishermen are throwing out their **nets**.;
 Netzwerk;Substantiv;neutr.;das;0;B1;317;network;Das soziale Netzwerk wächst schnell.;The social **network** is growing quickly.;
-neugierig;Adjektiv;nan;nan;0;B1;222;curious/inquisitive;Kinder sind oft sehr neugierig.;Children are often very **curious**.;
+neugierig;Adjektiv;nan;nan;0;B1;222;curious/inquisitive;Kinder sind oft sehr neugierig.;Children are often very **curious**.;n-
 Neuigkeit;Substantiv;fem.;die;0;B1;79;news/novelty;Ich habe eine gute Neuigkeit für dich.;I have some good **news** for you.;
 neulich;Adverb;nan;nan;0;B1;96;the other day/recently/lately;Ich habe ihn neulich getroffen.;I met him **the other day**.;
 Nichte;Substantiv;fem.;die;0;B1;nan;niece;Meine Nichte studiert in Wien.;My **niece** is studying in Vienna.;
