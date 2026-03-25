@@ -426,7 +426,7 @@ Kind;Substantiv;neutr.;das;0;A1;12892;child;Das Kind schläft.;The **child** is 
 Kindergarten;Substantiv;mask.;der;0;A1;13;kindergarten;Mein Sohn geht in den Kindergarten.;My son goes to **kindergarten**.;
 Kino;Substantiv;neutr.;das;0;A1;298;cinema/movie theater;Gehen wir heute ins Kino?;Are we going to the **cinema** today?;
 Kiosk;Substantiv;mask.;der;0;A1;63;kiosk;Ich kaufe mir am Kiosk eine Zeitung.;I'll buy a newspaper at the **kiosk**.;
-klar;Adjektiv;nan;nan;0;A1;8010;clear/sure;Alles klar!;Everything **clear** (Alright)!;
+klar;Adjektiv;nan;nan;0;A1;8010;clear;Alles klar!;Everything **clear** (Alright)!;
 Klasse;Substantiv;fem.;die;0;A1;1107;class/grade;In meiner Klasse sind zwanzig Schüler.;There are twenty students in my **class**.;noun, k-
 Kleidung;Substantiv;fem.;die;0;A1;733;clothes/clothing;Ich brauche neue Kleidung.;I need new **clothes**.;
 klein;Adjektiv;nan;nan;0;A1;129141;small/little;Das Zimmer ist sehr klein.;The room is very **small**.;
@@ -919,7 +919,7 @@ dass;Konjunktion;nan;nan;0;A2;52033;that;Ich weiß, dass du kommst.;I know **tha
 Datei;Substantiv;fem.;die;0;A2;190;file;Ich speichere die Datei.;I am saving the **file**.;computer
 denken;Verb;nan;nan;0;A2;37199;to think;Was denkst du darüber?;What do you **think** about it?;
 deshalb;Konjunktion;nan;nan;0;A2;1787;therefore/that's why;Ich bin krank, deshalb bleibe ich zu Hause.;I am sick, **therefore** (that's why) I'm staying at home.;
-deutlich;Adjektiv;nan;nan;0;A2;2485;clear/distinct;Bitte sprechen Sie deutlich.;Please speak **clearly**.;
+deutlich;Adjektiv;nan;nan;0;A2;2485;distinct;Bitte sprechen Sie deutlich.;Please speak **clearly**.;
 dick;Adjektiv;nan;nan;0;A2;2740;fat/thick/big;Das Buch ist sehr dick.;The book is very **thick**.;
 Ding;Substantiv;neutr.;das;0;A2;1946;thing;Was ist das für ein Ding?;What kind of **thing** is that?;object
 direkt;Adjektiv;nan;nan;0;A2;7815;direct/directly;Gehen Sie direkt zum Bahnhof.;Go **directly** to the train station.;
@@ -1803,7 +1803,7 @@ einbrechen;Verb;nan;nan;0;B1;173;to break in/collapse/cave in;Jemand ist in das 
 Einbrecher;Substantiv;mask.;der;0;B1;70;burglar/housebreaker;Der Einbrecher wurde gefasst.;The **burglar** was caught.;male
 Einbrecherin;Substantiv;fem.;die;0;B1;11;burglar/housebreaker;Die Einbrecherin ist entkommen.;The (female) **burglar** escaped.;female
 Einbruch;Substantiv;mask.;der;0;B1;158;burglary/break-in/collapse;Es gab einen Einbruch im Laden.;There was a **burglary** in the shop.;
-eindeutig;Adjektiv;nan;nan;0;B1;667;clear/unique/unambiguous;Das ist ein eindeutiges Ergebnis.;That is a **clear** (unambiguous) result.;
+eindeutig;Adjektiv;nan;nan;0;B1;667;unique/unambiguous;Das ist ein eindeutiges Ergebnis.;That is a **clear** (unambiguous) result.;
 Eindruck;Substantiv;mask.;der;0;B1;652;impression/impact/mark;Er macht einen guten Eindruck.;He makes a good **impression**.;
 einerseits;Adverb;nan;nan;0;B1;358;on the one hand;Einerseits ist es gut.;**On the one hand**, it is good.;
 Einfahrt;Substantiv;fem.;die;0;B1;87;entrance/driveway/gateway;Die Einfahrt ist versperrt.;The **entrance** (driveway) is blocked.;
@@ -3071,7 +3071,7 @@ Versichertenkarte;Substantiv;fem.;die;0;B1;nan;insurance card/health card;Bitte 
 Versicherung;Substantiv;fem.;die;0;B1;675;insurance/assurance;Die Versicherung zahlt den Schaden.;The **insurance** pays for the damage.;
 versprechen;Verb;nan;nan;0;B1;484;to promise;Ich verspreche dir zu helfen.;I **promise** to help you.;
 verstecken;Verb;nan;nan;0;B1;606;to hide/conceal;Die Kinder verstecken sich im Garten.;The children are **hiding** in the garden.;
-verständlich;Adjektiv;nan;nan;0;B1;322;understandable/clear/intelligible;Die Erklärung war sehr verständlich.;The explanation was very **understandable**.;
+verständlich;Adjektiv;nan;nan;0;B1;322;understandable/intelligible;Die Erklärung war sehr verständlich.;The explanation was very **understandable**.;
 Verständnis;Substantiv;neutr.;das;0;B1;338;understanding/comprehension/sympathy;Ich danke dir für dein Verständnis.;I thank you for your **understanding**.;
 Versuch;Substantiv;mask.;der;0;B1;886;attempt/trial/experiment;Das war mein erster Versuch.;That was my first **attempt**.;
 versäumen;Verb;nan;nan;0;B1;148;to miss/neglect/fail;Er hat den Termin versäumt.;He **missed** the appointment.;
