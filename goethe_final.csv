@@ -1276,7 +1276,7 @@ sportlich;Adjektiv;nan;nan;0;A2;370;athletic/sporty;Du bist sehr sportlich.;You 
 Sportplatz;Substantiv;mask.;der;0;A2;47;sports field/playground;Wir treffen uns auf dem Sportplatz.;We are meeting at the **sports field**.;
 Sprechstunde;Substantiv;fem.;die;0;A2;27;consultation hours/office hours;Wann ist die Sprechstunde?;When are the **consultation hours**?;
 Stadtplan;Substantiv;mask.;der;0;A2;26;city map;Haben Sie einen Stadtplan?;Do you have a **city map**?;
-Star;Substantiv;mask.;der;0;A2;374;star;Er ist ein berühmter star.;He is a famous **star**.;celebrity/bird
+Star;Substantiv;mask.;der;0;A2;374;star;Er ist ein berühmter star.;He is a famous **star**.;-r
 stark;Adjektiv;nan;nan;0;A2;6385264;strong/powerful/heavy;Er ist ein starker Mann.;He is a **strong** man.;
 stattfinden;Verb;nan;nan;0;A2;945;to take place/happen;Das Konzert findet morgen statt.;The concert **takes place** tomorrow.;
 sterben;Verb;nan;nan;0;A2;7504;to die;Er ist im Alter von 80 Jahren gestorben.;He **died** at the age of 80.;
@@ -2850,7 +2850,7 @@ steigen;Verb;nan;nan;0;B1;31593;to climb/rise/increase;Die Preise steigen.;Price
 steil;Adjektiv;nan;nan;0;B1;49;steep;Der Weg nach oben ist sehr steil.;The path up is very **steep**.;
 Stein;Substantiv;mask.;der;0;B1;6561;stone/rock;Er warf einen Stein ins Wasser.;He threw a **stone** into the water.;
 Stempel;Substantiv;mask.;der;0;B1;273;stamp/seal;Ich brauche einen Stempel auf dem Dokument.;I need a **stamp** on the document.;
-Stern;Substantiv;mask.;der;0;B1;720;star;Die Sterne leuchten heute hell.;The **stars** are shining brightly today.;
+Stern;Substantiv;mask.;der;0;B1;720;star;Die Sterne leuchten heute hell.;The **stars** are shining brightly today.;-rn
 Steuer;Substantiv;fem.;die;0;B1;2352;tax/steering wheel/toll;Wie hoch ist die Steuer?;How much is the **tax**?;
 Steward;Substantiv;mask.;der;0;B1;21;steward/flight attendant;Der Steward bringt die Getränke.;The **steward** is bringing the drinks.;male
 Stewardess;Substantiv;fem.;die;0;B1;16;stewardess/flight attendant;Die Stewardess ist sehr hilfsbereit.;The **stewardess** is very helpful.;female
