@@ -2252,7 +2252,7 @@ Kiste;Substantiv;fem.;die;0;B1;96;box/crate/chest;Die Kiste ist schwer.;The **bo
 klagen;Verb;nan;nan;0;B1;835;to complain/lament/sue;Er klagt über Kopfschmerzen.;He **complains** about headaches.;k-
 klasse;Adjektiv;nan;nan;0;B1;nan;great/excellent;Das war eine klasse Leistung!;That was a **great** performance!;adjective
 Klassenarbeit;Substantiv;fem.;die;0;B1;40;class test/exam;Wir schreiben morgen eine Klassenarbeit.;We are writing a **class test** tomorrow.;
-kleben;Verb;nan;nan;0;B1;1985;to stick/glue;Das Etikett klebt nicht mehr.;The label doesn't **stick** anymore.;
+kleben;Verb;nan;nan;0;B1;1985;to stick/glue;Das Etikett klebt nicht mehr.;The label doesn't **stick** anymore.;k-
 klettern;Verb;nan;nan;0;B1;5007;to climb;Wir klettern auf den Berg.;We are **climbing** the mountain.;
 Klick;Substantiv;mask., neutr.;der, das;0;B1;57;click;Nur ein Klick genügt.;Only one **click** is enough.;
 klicken;Verb;nan;nan;0;B1;195;to click;Klicken Sie auf den Button.;**Click** on the button.;
@@ -2841,7 +2841,7 @@ Staub saugen;Verb;nan;nan;0;B1;nan;to vacuum;Ich muss heute noch Staub saugen.;I
 staubsaugen;Verb;nan;nan;0;B1;69;to vacuum;Kannst du bitte staubsaugen?;Can you please **vacuum**?;
 stechen;Verb;nan;nan;0;B1;1849;to sting/prick/stab;Die Mücke hat mich gestochen.;The mosquito **stung** me.;
 Steckdose;Substantiv;fem.;die;0;B1;30;power outlet/socket;Steck den Stecker in die Steckdose.;Plug the plug into the **power outlet**.;
-stecken;Verb;nan;nan;0;B1;19249;to stick/put;Der Schlüssel steckt im Schloss.;The key is **sticking** in the lock.;
+stecken;Verb;nan;nan;0;B1;19249;to stick/put;Der Schlüssel steckt im Schloss.;The key is **sticking** in the lock.;s-
 Stecker;Substantiv;mask.;der;0;B1;57;plug/connector;Zieh bitte den Stecker.;Please pull the **plug**.;
 stehen bleiben;Verb;nan;nan;0;B1;nan;to stop/stand still/stay put;Bleiben Sie bitte stehen!;Please **stop** (stand still)!;
 stehenbleiben;Verb;nan;nan;0;B1;83;to stop/stand still/stay put;Die Uhr ist stehengeblieben.;The watch has **stopped**.;variant
