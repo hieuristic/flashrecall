@@ -1167,7 +1167,7 @@ Parfüm;Substantiv;neutr.;das;0;A2;52;perfume;Hast du neues Parfüm?;Do you have
 Park;Substantiv;mask.;der;0;A2;2074;park;Wir gehen im Park spazieren.;We are taking a walk in the **park**.;
 parken;Verb;nan;nan;0;A2;567;to park;Hier darf man nicht parken.;You are not allowed to **park** here.;
 passen;Verb;nan;nan;0;A2;3493;to fit/suit;Die Hose passt mir nicht.;The pants don't **fit** me.;
-passieren;Verb;nan;nan;0;A2;1384;to happen/occur;Was ist passiert?;What **happened**?;
+passieren;Verb;nan;nan;0;A2;1384;to happen/occur;Was ist passiert?;What **happened**?;p-
 Passwort;Substantiv;neutr.;das;0;A2;44;password;Wie ist dein Passwort?;What is your **password**?;
 Person;Substantiv;fem.;die;0;A2;1042031;person;Sie ist eine sehr nette Person.;She is a very nice **person**.;
 Pferd;Substantiv;neutr.;das;0;A2;1463;horse;Er reitet auf einem Pferd.;He is riding a **horse**.;
@@ -1827,7 +1827,7 @@ einschließlich;Präposition;nan;nan;0;B1;259;including/inclusive of;Der Preis i
 Einschreiben;Substantiv;neutr.;das;0;B1;165;registered letter/registration;Ich schicke den Brief als Einschreiben.;I'm sending the letter as a **registered letter**.;
 einsetzen;Verb;nan;nan;0;B1;1999;to use/deploy/insert;Die Lehrerin setzt viele Spiele ein.;The teacher **uses** many games.;e-
 einstellen;Verb;nan;nan;0;B1;727;to set/adjust/hire;Wir stellen neue Mitarbeiter ein.;We are **hiring** new employees.;
-eintreten;Verb;nan;nan;0;B1;595;to enter/occur/join;Darf ich eintreten?;May I **enter**?;
+eintreten;Verb;nan;nan;0;B1;595;to enter/join;Darf ich eintreten?;May I **enter**?;
 Einwohner;Substantiv;mask.;der;0;B1;908;inhabitant/resident;Die Stadt hat many Einwohner.;The city has many **inhabitants**.;male
 Einwohnerin;Substantiv;fem.;die;0;B1;131;inhabitant/resident;Sie ist eine Einwohnerin von Berlin.;She is an **inhabitant** of Berlin.;female
 einzahlen;Verb;nan;nan;0;B1;106;to deposit/pay in;Ich möchte Geld auf mein Konto einzahlen.;I want to **deposit** money into my account.;
@@ -1862,7 +1862,7 @@ entschließen;Verb;nan;nan;0;B1;92;to decide/resolve/make up one's mind;Ich konn
 entschlossen;partizipiales Adjektiv;nan;nan;0;B1;331;determined/resolute;Er ist sehr entschlossen.;He is very **determined**.;particle adjective
 entsorgen;Verb;nan;nan;0;B1;226;to dispose of/get rid of;Wo kann ich den Müll entsorgen?;Where can I **dispose of** the trash?;
 entspannen;Verb;nan;nan;0;B1;230;to relax/unwind/ease;Ich möchte mich entspannen.;I want to **relax**.;
-entstehen;Verb;nan;nan;0;B1;3193;to arise/emerge/occur;Hier entsteht ein neues Haus.;A new house is **arising** (emerging) here.;
+entstehen;Verb;nan;nan;0;B1;3193;to arise/emerge;Hier entsteht ein neues Haus.;A new house is **arising** (emerging) here.;
 enttäuschen;Verb;nan;nan;0;B1;241;to disappoint/let down;Ich wollte dich nicht enttäuschen.;I didn't mean to **disappoint** you.;
 Enttäuschung;Substantiv;fem.;die;0;B1;107;disappointment/letdown;Das war eine große Enttäuschung.;That was a great **disappointment**.;
 entweder;Konjunktion;nan;nan;0;B1;1575;either;Entweder jetzt oder nie.;**Either** now or never.;
@@ -1871,7 +1871,7 @@ Entwickelung;Substantiv;fem.;die;0;B1;10;development/evolution;Die Entwickelung 
 Entwicklung;Substantiv;fem.;die;0;B1;1709;development/evolution/progress;Die technische Entwicklung geht schnell.;Technical **development** is fast.;
 Erdapfel;Substantiv;mask.;der;0;B1;10;potato;Ich esse gerne Erdäpfel.;I like eating **potatoes**.;
 Erde;Substantiv;fem.;die;0;B1;2130;earth;Die Erde ist rund.;The **earth** is round.;
-ereignen;Verb;nan;nan;0;B1;217;to happen/occur/take place;Ein Unfall hat sich ereignet.;An accident has **happened**.;
+ereignen;Verb;nan;nan;0;B1;217;to happen/take place;Ein Unfall hat sich ereignet.;An accident has **happened**.;e-
 Ereignis;Substantiv;neutr.;das;0;B1;1178;event/occurrence/incident;Das war ein wichtiges Ereignis.;That was an important **event**.;
 erfahren;Verb;nan;nan;0;B1;1057;to experience/learn/find out;Ich habe davon gestern erfahren.;I **found out** (learned) about it yesterday.;
 erfinden;Verb;nan;nan;0;B1;442;to invent/fabricate/devise;Wer hat das Telefon erfunden?;Who **invented** the telephone?;
@@ -2064,7 +2064,7 @@ genügen;Verb;nan;nan;0;B1;351;to suffice/be enough/satisfy;Das genügt mir.;Tha
 gerecht;Adjektiv;nan;nan;0;B1;337;just/fair/equitable;Das ist eine gerechte Strafe.;That is a **just** (fair) punishment.;
 gering;Adjektiv;nan;nan;0;B1;35050;low/small/slight;Das Risiko ist gering.;The risk is **low** (small).;
 gesamt;Adjektiv;nan;nan;0;B1;1589;whole/total/entire;Der gesamte Tag war schön.;The **whole** (entire) day was nice.;ge-
-geschehen;Verb;nan;nan;0;B1;7617;to happen/occur/take place;Was ist geschehen?;What **happened**?;
+geschehen;Verb;nan;nan;0;B1;7617;to happen/take place;Was ist geschehen?;What **happened**?;g-
 geschieden;partizipiales Adjektiv;nan;nan;0;B1;1;divorced;Er ist seit zwei Jahren geschieden.;He is **divorced** since two years.;
 Geschlecht;Substantiv;neutr.;das;0;B1;752;gender/sex/lineage;Bitte geben Sie Ihr Geschlecht an.;Please state your **gender**.;
 Geschmack;Substantiv;mask.;der;0;B1;572;taste/flavor/liking;Der Kuchen hat einen guten Geschmack.;The cake has a good **taste**.;
