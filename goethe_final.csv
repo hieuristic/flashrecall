@@ -198,7 +198,7 @@ Dusche;Substantiv;fem.;die;0;A1;79;shower;Die Dusche ist im Bad.;The **shower** 
 duschen;Verb;nan;nan;0;A1;105;to shower;Ich dusche jeden Morgen.;I **shower** every morning.;
 dürfen;Verb;nan;nan;0;A1;38903;to be allowed;Darf ich hier parken?;Am I **allowed** to park here?;passive
 E-Mail;Substantiv;fem., neutr.;die;0;A1;2;email;Ich schreibe eine E-Mail an meinen Chef.;I am writing an **email** to my boss.;
-Ecke;Substantiv;fem.;die;0;A1;786;corner;Die Apotheke ist an der nächsten Ecke.;The pharmacy is on the next **corner**.;
+Ecke;Substantiv;fem.;die;0;A1;786;corner;Die Apotheke ist an der nächsten Ecke.;The pharmacy is on the next **corner**.;fem.
 Ehefrau;Substantiv;fem.;die;0;A1;296;wife;Seine Ehefrau ist Ärztin.;His **wife** is a doctor.;
 Ehemann;Substantiv;mask.;der;0;A1;182;husband;Ihr Ehemann arbeitet in München.;Her **husband** works in Munich.;
 Ei;Substantiv;neutr.;das;0;A1;876;egg;Möchtest du ein Ei zum Frühstück?;Would you like an **egg** for breakfast?;
@@ -1788,7 +1788,7 @@ eben;Adverb;nan;nan;0;B1;1508;just/even/flat;Ich bin eben erst gekommen.;I **jus
 ebenfalls;Konjunktion;nan;nan;0;B1;1360;as well/also/likewise;Ich wünsche Ihnen ebenfalls einen schönen Tag.;I wish you a nice day **as well**.;
 ebenso;Adverb;nan;nan;0;B1;1571;just as/as well/likewise;Er ist ebenso groß wie sein Bruder.;He is **just as** tall as his brother.;
 EC-Karte;Substantiv;fem.;die;0;B1;nan;debit card/EC card;Kann ich mit EC-Karte bezahlen?;Can I pay with **EC card** (debit card)?;
-Eck;Substantiv;neutr.;das;0;B1;108;corner;Das Geschäft ist gleich um das Eck.;The shop is just around the **corner**.;
+Eck;Substantiv;neutr.;das;0;B1;108;corner;Das Geschäft ist gleich um das Eck.;The shop is just around the **corner**.;neu.
 eckig;Adjektiv;nan;nan;0;B1;141;angular/square/cornered;Der Tisch ist eckig.;The table is **square** (angular).;
 Ehe;Substantiv;fem.;die;0;B1;498;marriage/matrimony;Sie führen eine glückliche Ehe.;They have a happy **marriage**.;
 Ehepaar;Substantiv;neutr.;das;0;B1;119;married couple;Das Ehepaar wohnt nebenan.;The **married couple** lives next door.;
