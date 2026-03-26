@@ -102,7 +102,7 @@ Beamte;Substantiv;mask., fem.;der, die;0;A1;nan;official/civil servant;Der Beamt
 bedeuten;Verb;nan;nan;0;A1;1391;to mean;Was bedeutet dieses Wort?;What does this word **mean**?;
 beginnen;Verb;nan;nan;0;A1;3536;to begin/start;Das Konzert beginnt um 20 Uhr.;The concert **begins** at 8 PM.;b-
 bei;Präposition;nan;nan;0;A1;516500;at/near;Er wohnt bei seinen Eltern.;He lives **at** his parents' house.;
-beide;nan;nan;nan;0;A1;6498;both;Beide Kinder spielen im Garten.;**Both** children are playing in the garden.;
+beide;nan;nan;nan;0;A1;6498;both;Beide Kinder spielen im Garten.;**Both** children are playing in the garden.;b-
 Bein;Substantiv;neutr.;das;0;A1;1219;leg;Mein linkes Bein ist gebrochen.;My left **leg** is broken.;
 Beispiel;Substantiv;neutr.;das;0;A1;5105;example;Kannst du mir ein Beispiel geben?;Can you give me an **example**?;
 bekannt;partizipiales Adjektiv;nan;nan;0;A1;71814;known/famous;Er ist ein bekannter Schauspieler.;He is a **known** actor.;
@@ -2798,7 +2798,7 @@ sorgen;Verb;nan;nan;0;B1;2526;to care/worry/provide;Ich sorge für das Essen.;I'
 Souvenir;Substantiv;neutr.;das;0;B1;33;souvenir;Ich habe ein Souvenir aus Paris mitgebracht.;I brought a **souvenir** from Paris.;
 soviel;Indefinitpronomen;nan;nan;0;B1;160;as much as/as far as;Soviel ich weiß, kommt er morgen.;**As far as** I know, he's coming tomorrow.;
 sowieso;Partikel;nan;nan;0;B1;156;anyway/anyhow;Das wollte ich sowieso machen.;I wanted to do that **anyway**.;
-sowohl;Konjunktion;nan;nan;0;B1;3914;both;Er spricht sowohl Deutsch als auch Englisch.;He speaks **both** German and English.;
+sowohl;Konjunktion;nan;nan;0;B1;3914;both;Er spricht sowohl Deutsch als auch Englisch.;He speaks **both** German and English.;s-
 sozial;Adjektiv;nan;nan;0;B1;27560;social;Wir brauchen mehr soziale Gerechtigkeit.;We need more **social** justice.;
 Sozialarbeiter;Substantiv;mask.;der;0;B1;30;social worker;Der Sozialarbeiter berät die Familie.;The **social worker** advises the family.;male
 Sozialarbeiterin;Substantiv;fem.;die;0;B1;19;social worker;Sie arbeitet als Sozialarbeiterin.;She works as a (female) **social worker**.;female
