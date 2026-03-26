@@ -1291,7 +1291,7 @@ Stress;Substantiv;mask.;der;0;A2;161;stress/hassle;Ich habe viel Stress bei der 
 stressig;Adjektiv;nan;nan;0;A2;111;stressful;Der Umzug war sehr stressig.;The move was very **stressful**.;
 Studentin;Substantiv;fem.;die;0;A2;72;student;Sie ist Studentin an der Universität.;She is a (female) **student** at the university.;st-, female
 Stuhl;Substantiv;mask.;der;0;A2;677;chair;Setzen Sie sich bitte auf den Stuhl.;Please sit on the **chair**.;
-stören;Verb;nan;nan;0;A2;552;to disturb/bother/annoy;Entschuldigung, störe ich?;Excuse me, am I **disturbing**?;
+stören;Verb;nan;nan;0;A2;552;to disturb/bother/annoy;Entschuldigung, störe ich?;Excuse me, am I **disturbing**?;s-
 Stück;Substantiv;neutr.;das;0;A2;2206;piece/bit/play;Möchten Sie ein Stück Kuchen?;Would you like a **piece** of cake?;theater
 super;Adjektiv;nan;nan;0;A2;nan;super/great;Das war eine super Idee!;That was a **super** idea!;
 Supermarkt;Substantiv;mask.;der;0;A2;207;supermarket;Ich gehe im Supermarkt einkaufen.;I am going shopping at the **supermarket**.;
@@ -2991,7 +2991,7 @@ Unglück;Substantiv;neutr.;das;0;B1;239;misfortune/accident/unhappiness;Er hatte
 unheimlich;Adjektiv;nan;nan;0;B1;216;scary/eerie/incredibly;Es war unheimlich dunkel im Wald.;It was **scary** (eerie) dark in the forest.;
 Uniform;Substantiv;fem.;die;0;B1;330;uniform;Polizisten tragen eine Uniform.;Police officers wear a **uniform**.;
 unter-;Affix;nan;nan;0;B1;2;under-/lower/sub-;Das Boot ist untergegangen.;The boat went **under** (sunk).;affix
-unterbrechen;Verb;nan;nan;0;B1;354;to interrupt/break/disrupt;Bitte unterbrich mich nicht beim Sprechen.;Please don't **interrupt** me when I'm speaking.;
+unterbrechen;Verb;nan;nan;0;B1;354;to interrupt/break/disrupt;Bitte unterbrich mich nicht beim Sprechen.;Please don't **interrupt** me when I'm speaking.;u-
 Unterhaltung;Substantiv;fem.;die;0;B1;279;entertainment/conversation;Vielen Dank für die gute Unterhaltung.;Thank you for the good **entertainment** (conversation).;
 Unterlage;Substantiv;fem.;die;0;B1;257;document/record/base;Ich habe alle notwendigen Unterlagen dabei.;I have all the necessary **documents** with me.;
 unterlassen;Verb;nan;nan;0;B1;145;to refrain/omit/neglect;Bitte unterlassen Sie das Rauchen hier.;Please **refrain** from smoking here.;
