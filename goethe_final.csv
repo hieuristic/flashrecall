@@ -1477,7 +1477,7 @@ achten;Verb;nan;nan;0;B1;2702;to respect/pay attention/esteem;Bitte achten Sie a
 Aktion;Substantiv;fem.;die;0;B1;577;action/campaign/promotion;Das war eine gute Aktion.;That was a good **action**.;
 Aktivität;Substantiv;fem.;die;0;B1;639;activity;Wir planen eine neue Aktivität.;We are planning a new **activity**.;
 akzeptieren;Verb;nan;nan;0;B1;422;to accept/agree to;Ich kann das nicht akzeptieren.;I cannot **accept** that.;
-Alarm;Substantiv;mask.;der;0;B1;93;alarm/alert;Der Alarm ging los.;The **alarm** went off.;
+Alarm;Substantiv;mask.;der;0;B1;93;alarm;Der Alarm ging los.;The **alarm** went off.;a-
 Alkohol;Substantiv;mask.;der;0;B1;633;alcohol;Er trinkt keinen Alkohol.;He doesn't drink **alcohol**.;
 aller-;Affix;nan;nan;0;B1;1;of all;Das ist das Allerbeste.;That is the best **of all**.;affix
 allerbest;Adjektiv;nan;nan;0;B1;1;best of all;Das ist mein allerbestes Freund.;That is my **best of all** friend.;
@@ -3136,7 +3136,7 @@ Wandrung;Substantiv;fem.;die;0;B1;nan;hike;Auf unserer Wandrung sahen wir viele 
 Ware;Substantiv;fem.;die;0;B1;1177;goods/merchandise/product;Die Ware wird heute geliefert.;The **goods** (merchandise) will be delivered today.;
 warnen;Verb;nan;nan;0;B1;843;to warn/caution/alert;Ich muss dich warnen.;I must **warn** you.;
 Waschmittel;Substantiv;neutr.;das;0;B1;41;laundry detergent/washing agent;Welches Waschmittel benutzt du?;Which **laundry detergent** do you use?;
-Wecker;Substantiv;mask.;der;0;B1;61;alarm clock;Der Wecker klingelt um sechs Uhr.;The **alarm clock** rings at six o'clock.;
+Wecker;Substantiv;mask.;der;0;B1;61;alarm clock;Der Wecker klingelt um sechs Uhr.;The **alarm clock** rings at six o'clock.;w-
 weder;Konjunktion;nan;nan;0;B1;5023;neither;Er spricht weder Deutsch noch Englisch.;He speaks **neither** German nor English.;
 weg-;Affix;nan;nan;0;B1;nan;away-/off-;Er ist weggegangen.;He went **away**.;affix
 weigern;Verb;nan;nan;0;B1;226;to refuse/decline;Er weigert sich zu antworten.;He **refuses** to answer.;
