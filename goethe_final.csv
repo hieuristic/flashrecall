@@ -884,7 +884,7 @@ bestätigen;Verb;nan;nan;0;A2;1151;to confirm;Können Sie den Termin bestätigen
 Besuch;Substantiv;mask.;der;0;A2;757;visit/visitor;Wir bekommen am Wochenende Besuch.;We are having a **visitor** (visit) on the weekend.;
 besucht;partizipiales Adjektiv;nan;nan;0;A2;1;visited;Der Park wird oft besucht.;The park is often **visited**.;
 bewerben;Verb;nan;nan;0;A2;106;to apply;Ich möchte mich für die Stelle bewerben.;I want to **apply** for the position.;b-
-Bewerbung;Substantiv;fem.;die;0;A2;95;application;Ich habe meine Bewerbung abgeschickt.;I sent off my **application**.;
+Bewerbung;Substantiv;fem.;die;0;A2;95;application;Ich habe meine Bewerbung abgeschickt.;I sent off my **application**.;b-
 bewölkt;partizipiales Adjektiv;nan;nan;0;A2;1;cloudy;Heute ist es bewölkt.;Today it is **cloudy**.;
 Bibliothek;Substantiv;fem.;die;0;A2;380;library;Ich lerne in der Bibliothek.;I study in the **library**.;
 Blatt;Substantiv;neutr.;das;0;A2;1315;leaf/sheet;Das Blatt am Baum ist grün.;The **leaf** on the tree is green.;of paper
@@ -1519,7 +1519,7 @@ Anspruch;Substantiv;mask.;der;0;B1;759;claim/standard;Er hat hohe Ansprüche.;He
 anstellen;Verb;nan;nan;0;B1;307;to employ/turn on/line up;Wir haben ihn als Gärtner angestellt.;We **employed** him as a gardener.;
 anstrengen;Verb;nan;nan;0;B1;101;to strain/exert/try hard;Ich muss mich anstrengen.;I have to **try hard** (exert myself).;
 anstrengend;partizipiales Adjektiv;nan;nan;0;B1;218;tiring/strenuous/demanding;Die Arbeit ist sehr anstrengend.;The work is very **strenuous**.;
-Antrag;Substantiv;mask.;der;0;B1;424;application/motion/proposal;Ich habe einen Antrag gestellt.;I have submitted an **application**.;
+Antrag;Substantiv;mask.;der;0;B1;424;application/motion/proposal;Ich habe einen Antrag gestellt.;I have submitted an **application**.;a-
 Anwalt;Substantiv;mask.;der;0;B1;258;lawyer/attorney;Er ist ein guter Anwalt.;He is a good **lawyer**.;male
 anwenden;Verb;nan;nan;0;B1;632;to apply/use/employ;Man muss die Regeln anwenden.;One must **apply** the rules.;a-
 anwesend;Adjektiv;nan;nan;0;B1;201;present;Sind alle anwesend?;Are all **present**?;
