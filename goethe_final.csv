@@ -1645,7 +1645,7 @@ beruhigen;Verb;nan;nan;0;B1;230;to calm/reassure/appease;Beruhige dich bitte.;Pl
 beschließen;Verb;nan;nan;0;B1;489;to decide/resolve/conclude;Wir haben beschlossen zu gehen.;We have **decided** to leave.;b-
 Beschreibung;Substantiv;fem.;die;0;B1;481;description/account;Geben Sie mir bitte eine Beschreibung.;Please give me a **description**.;
 beschränken;Verb;nan;nan;0;B1;580;to limit/restrict/confine;Wir müssen uns auf das Wesentliche beschränken.;We must **limit** (restrict) ourselves to the essentials.;
-beschädigen;Verb;nan;nan;0;B1;369;to damage/harm/mar;Die Sendung wurde beschädigt.;The shipment was **damaged**.;
+beschädigen;Verb;nan;nan;0;B1;369;to damage/harm/mar;Die Sendung wurde beschädigt.;The shipment was **damaged**.;b-
 beschäftigen;Verb;nan;nan;0;B1;3671;to employ/occupy/deal with;Er beschäftigt sich mit Kunst.;He **occupies** himself with art.;
 Beschäftigung;Substantiv;fem.;die;0;B1;449;employment/occupation/activity;Was ist Ihre aktuelle Beschäftigung?;What is your current **occupation**?;
 besetzen;Verb;nan;nan;0;B1;1788;to occupy/fill/cast;Die Plätze sind besetzt.;The seats are **occupied**.;
@@ -2046,7 +2046,7 @@ Gegend;Substantiv;fem.;die;0;B1;635;region/area/neighborhood;Die Gegend hier ist
 Gegensatz;Substantiv;mask.;der;0;B1;1097;opposite/contrast/contrary;Im Gegensatz dazu ist es hier warm.;In **contrast** to that, it's warm here.;
 Gegenstand;Substantiv;mask.;der;0;B1;2229;object/item/subject;Auf dem Tisch liegen many Gegenstände.;There are many **objects** (items) on the table.;
 Gegner;Substantiv;mask.;der;0;B1;832;opponent/enemy/adversary;Er ist ein starker Gegner.;He is a strong **opponent**.;male
-geheim;Adjektiv;nan;nan;0;B1;2656;secret/confidential/private;Das ist eine geheime Information.;That is **secret** (confidential) information.;
+geheim;Adjektiv;nan;nan;0;B1;2656;secret/confidential/private;Das ist eine geheime Information.;That is **secret** (confidential) information.;g-
 Geheimnis;Substantiv;neutr.;das;0;B1;273;secret;Kannst du ein Geheimnis bewahren?;Can you keep a **secret**?;
 Gehsteig;Substantiv;mask.;der;0;B1;42;pavement/sidewalk;Bleib auf dem Gehsteig.;Stay on the **sidewalk** (pavement).;
 Geldautomat;Substantiv;mask.;der;0;B1;33;ATM/cash machine;Wo ist der Geldautomat?;Where is the **ATM**?;
@@ -2134,7 +2134,7 @@ Haut;Substantiv;fem.;die;0;B1;1310;skin;Die Sonne ist gut für die Haut.;The sun
 heben;Verb;nan;nan;0;B1;10635;to lift/raise/hold;Kannst du das Paket heben?;Can you **lift** the package?;
 Heim;Substantiv;neutr.;das;0;B1;205;home/hostel/institution;Das ist ein schönes Heim.;That is a beautiful **home**.;
 heim;Adverb;nan;nan;0;B1;nan;home/homeward;Ich gehe jetzt heim.;I'm going **home** now.;
-heimlich;Adjektiv;nan;nan;0;B1;494;secret/clandestine/covert;Das war ein heimliches Treffen.;That was a **secret** (clandestine) meeting.;
+heimlich;Adjektiv;nan;nan;0;B1;494;secret/clandestine/covert;Das war ein heimliches Treffen.;That was a **secret** (clandestine) meeting.;h-
 Heimweh;Substantiv;neutr.;das;0;B1;25;homesickness;Ich habe Heimweh nach Deutschland.;I have **homesickness** for Germany.;
 heizen;Verb;nan;nan;0;B1;732;to heat;Wir heizen mit Holz.;We **heat** with wood.;
 Held;Substantiv;mask.;der;0;B1;325;hero;Er ist mein Held.;He is my **hero**.;
@@ -2694,7 +2694,7 @@ Sauce;Substantiv;fem.;die;0;B1;330;sauce/gravy;Die Sauce schmeckt hervorragend.;
 Schachtel;Substantiv;fem.;die;0;B1;160;box/packet/carton;In der Schachtel sind Pralinen.;There are chocolates in the **box**.;
 Schade;Substantiv;mask.;der;0;B1;33;A pity/What a shame;Schade, dass du nicht kommen kannst.;It's **a pity** (What a shame) that you can't come.;
 Schaden;Substantiv;mask.;der;0;B1;815;damage/harm/loss;Der Sturm hat großen Schaden angerichtet.;The storm caused great **damage**.;
-schaden;Verb;nan;nan;0;B1;242;to damage/harm/hurt;Rauchen schadet der Gesundheit.;Smoking **harms** (damages) your health.;
+schaden;Verb;nan;nan;0;B1;242;to damage/harm/hurt;Rauchen schadet der Gesundheit.;Smoking **harms** (damages) your health.;s-
 schalten;Verb;nan;nan;0;B1;3412;to switch/shift/advertise;Schalte bitte das Licht aus.;Please **switch** off the light.;
 Schatten;Substantiv;mask.;der;0;B1;3317;shadow/shade;Wir saßen im Schatten eines Baumes.;We sat in the **shade** of a tree.;
 schauen;Verb;nan;nan;0;B1;14593;to look/watch/see;Schau mal aus dem Fenster!;**Look** out the window!;s-
