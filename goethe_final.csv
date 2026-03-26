@@ -1737,7 +1737,7 @@ Darstellung;Substantiv;fem.;die;0;B1;1017;representation/depiction/presentation;
 dasselbe;Demonstrativpronomen;neutr.;nan;0;B1;502;the same;Wir haben dasselbe Ziel.;We have **the same** goal.;thing
 Daten;Substantiv;nan;nan;1;B1;39;data/information;Wir müssen die Daten speichern.;We need to save the **data**.;
 Dauer;Substantiv;fem.;die;0;B1;521;duration/period/length;Die Dauer des Films ist zwei Stunden.;The **duration** of the film is two hours.;
-dauernd;partizipiales Adjektiv;nan;nan;0;B1;375;constant/continuous/all the time;Er redet dauernd.;He's talking **all the time** (constantly).;
+dauernd;partizipiales Adjektiv;nan;nan;0;B1;375;constant/continuous/all the time;Er redet dauernd.;He's talking **all the time** (constantly).;d-
 Decke;Substantiv;fem.;die;0;B1;646;blanket/ceiling/cover;Die Decke ist hoch.;The **ceiling** is high.;
 dekorieren;Verb;nan;nan;0;B1;240;to decorate;Wir dekorieren das Haus für das Fest.;We are **decorating** the house for the party.;
 Denkmal;Substantiv;neutr.;das;0;B1;169;monument/memorial;Das ist ein berühmtes Denkmal.;That is a famous **monument**.;
@@ -2883,7 +2883,7 @@ Stufe;Substantiv;fem.;die;0;B1;845;step/level/stage;Vorsicht beim Gehen auf der 
 stumm;Adjektiv;nan;nan;0;B1;386;mute/silent/dumb;Er ist seit der Geburt stumm.;He has been **mute** since birth.;
 Sturm;Substantiv;mask.;der;0;B1;877;storm/gale/assault;Der Sturm hat Bäume umgeweht.;The **storm** blew over trees.;
 städtisch;Adjektiv;nan;nan;0;B1;335;urban/municipal/city;Das ist ein städtisches Gebäude.;This is a **municipal** (city) building.;
-ständig;Adjektiv;nan;nan;0;B1;968;constant/permanent/continuous;Er redet ständig.;He's talking **constantly**.;
+ständig;Adjektiv;nan;nan;0;B1;968;constant/permanent/continuous;Er redet ständig.;He's talking **constantly**.;s-
 Störung;Substantiv;fem.;die;0;B1;567;disturbance/interference/fault;Es gibt eine Störung im Netz.;There is a **disturbance** (fault) in the network.;
 stürzen;Verb;nan;nan;0;B1;7403;to fall/tumble/crash;Er ist vom Rad gestürzt.;He **fell** off his bike.;
 Sucht;Substantiv;fem.;die;0;B1;86;addiction/craze/mania;Die Spielsucht ist ein großes Problem.;Gambling **addiction** is a big problem.;
@@ -3163,7 +3163,7 @@ Wiederholung;Substantiv;fem.;die;0;B1;168;repetition/repetition;Die Wiederholung
 wiegen;Verb;nan;nan;0;B1;1787;to weigh/rock;Wie viel wiegen die Äpfel?;How much do the apples **weigh**?;cradle
 Wiese;Substantiv;fem.;die;0;B1;454;meadow/field/pasture;Die Kühe stehen auf der Wiese.;The cows are in the **meadow**.;
 wieso;Adverb;nan;nan;0;B1;165;why/how so;Wieso hast du das getan?;**Why** (How so) did you do that?;
-wild;Adjektiv;nan;nan;0;B1;1737;wild/fierce/frantic;Im Wald leben wilde Tiere.;**Wild** animals live in the forest.;
+wild;Adjektiv;nan;nan;0;B1;1737;wild;Im Wald leben wilde Tiere.;**Wild** animals live in the forest.;
 winken;Verb;nan;nan;0;B1;966;to wave/beckon;Sie winkte zum Abschied.;She **waved** goodbye.;
 wirken;Verb;nan;nan;0;B1;18241;to work/act/seem;Die Medizin beginnt zu wirken.;The medicine is starting to **work** (act).;
 Wirklichkeit;Substantiv;fem.;die;0;B1;456;truth;In Wirklichkeit war alles ganz anders.;In **reality**, everything was quite different.;
