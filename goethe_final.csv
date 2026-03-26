@@ -2536,8 +2536,8 @@ Ordination;Substantiv;fem.;die;0;B1;26;doctor's surgery/practice;Die Ordination 
 ordnen;Verb;nan;nan;0;B1;2581;to organize/arrange/order;Bitte ordnen Sie die Dokumente.;Please **organize** (arrange) the documents.;
 Ordner;Substantiv;mask.;der;0;B1;12;folder/file/binder;Die Unterlagen liegen im Ordner.;The documents are in the **folder**.;
 Organisation;Substantiv;fem.;die;0;B1;1229;organization;Sie arbeitet für eine internationale Organisation.;She works for an international **organization**.;
-Original;Substantiv;neutr.;das;0;B1;302;original;Das ist kein Original, sondern eine Kopie.;This is not an **original**, but a copy.;
-original;Adjektiv;nan;nan;0;B1;29;original;Das ist eine originale Verpackung.;This is an **original** package.;
+Original;Substantiv;neutr.;das;0;B1;302;original;Das ist kein Original, sondern eine Kopie.;This is not an **original**, but a copy.;o-
+original;Adjektiv;nan;nan;0;B1;29;original;Das ist eine originale Verpackung.;This is an **original** package.;o-
 Ostsee;Eigenname;fem.;die;0;B1;269;Baltic Sea;Wir fahren an die Ostsee.;We are going to the **Baltic Sea**.;
 Ozean;Substantiv;mask.;der;0;B1;372;ocean;Der Ozean ist sehr tief.;The **ocean** is very deep.;
 Panne;Substantiv;fem.;die;0;B1;76;breakdown/flat tire/glitch;Wir hatten eine Panne mit dem Auto.;We had a **breakdown** with the car.;
@@ -3007,7 +3007,7 @@ Unterstützung;Substantiv;fem.;die;0;B1;535;support/assistance/backing;Ich brauc
 Untersuchung;Substantiv;fem.;die;0;B1;1109;investigation/examination/study;Die Untersuchung des Vorfalls dauert an.;The **investigation** into the incident continues.;
 Urkunde;Substantiv;fem.;die;0;B1;133;document/certificate/deed;Er erhielt eine Urkunde für seine Leistung.;He received a **certificate** for his performance.;
 Ursache;Substantiv;fem.;die;0;B1;714;cause/reason/source;Was war die Ursache für den Unfall?;What was the **cause** of the accident?;u-
-ursprünglich;Adjektiv;nan;nan;0;B1;1518;original/originally;Ursprünglich wollte ich Lehrer werden.;**Originally**, I wanted to be a teacher.;
+ursprünglich;Adjektiv;nan;nan;0;B1;1518;original/originally;Ursprünglich wollte ich Lehrer werden.;**Originally**, I wanted to be a teacher.;u-
 Urteil;Substantiv;neutr.;das;0;B1;536;judgment/verdict/sentence;Das Urteil wird morgen verkündet.;The **verdict** (judgment) will be announced tomorrow.;
 Vase;Substantiv;fem.;die;0;B1;103;vase;Die Blumen stehen in einer Vase.;The flowers are in a **vase**.;
 vegetarisch;Adjektiv;nan;nan;0;B1;63;vegetarian;Ich esse gerne vegetarisch.;I like eating **vegetarian**.;
