@@ -547,7 +547,7 @@ Nummer;Substantiv;fem.;die;0;A1;534;number;Wie ist Ihre Telefonnummer?;What is y
 nur;Adverb;nan;nan;0;A1;186978;only;Ich habe nur fünf Euro.;I **only** have five euros.;
 nächst;Superlativ;nan;nan;0;A1;31;next;Bis zum nächsten Mal!;Until the **next** time!;
 oben;Adverb;nan;nan;0;A1;8761;above/upstairs;Die Wohnung ist oben.;The apartment is **upstairs**.;
-Obst;Substantiv;neutr.;das;0;A1;322;fruit;Möchten Sie etwas Obst?;Would you like some **fruit**?;
+Obst;Substantiv;neutr.;das;0;A1;322;fruit;Möchten Sie etwas Obst?;Would you like some **fruit**?;o-
 oder;Konjunktion;nan;nan;0;A1;62048;or;Tee oder Kaffee?;Tea **or** coffee?;
 oft;Adverb;nan;nan;0;A1;5049;often;Ich gehe oft ins Kino.;I **often** go to the cinema.;
 ohne;nan;nan;nan;0;A1;125773;without;Ich trinke kaffee ohne Zucker.;I drink coffee **without** sugar.;
@@ -2002,7 +2002,7 @@ Friseur;Substantiv;mask.;der;0;B1;71;hairdresser/barber;Ich muss zum Friseur.;I 
 Frist;Substantiv;fem.;die;0;B1;130;deadline/period/term;Die Frist läuft morgen ab.;The **deadline** expires tomorrow.;
 Frisur;Substantiv;fem.;die;0;B1;141;haircut/hairstyle;Deine neue Frisur sieht gut aus.;Your new **haircut** looks good.;
 Frisör;Substantiv;mask.;der;0;B1;15;hairdresser/barber;Wo ist der Frisör?;Where is the **hairdresser**?;male
-Frucht;Substantiv;fem.;die;0;B1;970;fruit/crop/product;Die Frucht ist reif.;The **fruit** is ripe.;
+Frucht;Substantiv;fem.;die;0;B1;970;fruit/crop/product;Die Frucht ist reif.;The **fruit** is ripe.;f-
 fröhlich;Adjektiv;nan;nan;0;B1;316;happy/cheerful/joyful;Sie ist ein fröhlicher Mensch.;She is a **cheerful** person.;
 Fundbüro;Substantiv;neutr.;das;0;B1;12;lost and found office;Ich gehe zum Fundbüro.;I'm going to the **lost and found office**.;
 funktionieren;Verb;nan;nan;0;B1;1230;to function/work;Das Gerät funktioniert nicht.;The device is not **working** (functioning).;
@@ -2912,7 +2912,7 @@ Tatsache;Substantiv;fem.;die;0;B1;666;fact;Das ist eine bekannte Tatsache.;That 
 tatsächlich;Adjektiv;nan;nan;0;B1;1519;actually/indeed/real;Ist das tatsächlich wahr?;Is that **actually** true?;
 taub;Adjektiv;nan;nan;0;B1;1;deaf/numb;Er ist auf einem Ohr taub.;He is **deaf** in one ear.;
 tauchen;Verb;nan;nan;0;B1;3373;to dive/dip/submerge;Wir gehen im Urlaub tauchen.;We're going **diving** on vacation.;
-Technik;Substantiv;fem.;die;0;B1;785;technology/technique/engineering;Die Technik macht enorme Fortschritte.;**Technology** is making enormous progress.;
+Technik;Substantiv;fem.;die;0;B1;785;technique;Die Technik macht enorme Fortschritte.;**Technology** is making enormous progress.;
 technisch;Adjektiv;nan;nan;0;B1;2753;technical/technological;Es gab technische Probleme.;There were **technical** problems.;
 Technologie;Substantiv;fem.;die;0;B1;249;technology;Neue Technologien verändern die Welt.;New **technologies** are changing the world.;
 Teilnahme;Substantiv;fem.;die;0;B1;249;participation/attendance;Die Teilnahme am Kurs ist kostenlos.;**Participation** in the course is free.;
