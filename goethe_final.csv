@@ -348,7 +348,7 @@ gültig;Adjektiv;nan;nan;0;A1;237;valid;Wie lange ist die Fahrkarte gültig?;How
 günstig;Adjektiv;nan;nan;0;A1;499;cheap/favorable;Das Angebot ist sehr günstig.;The offer is very **cheap** (favorable).;g-
 Haar;Substantiv;neutr.;das;0;A1;1994;hair;Maria hat lange Haare.;Maria has long **hair**.;
 haben;Verb;nan;nan;0;A1;2109558;to have;Ich habe Hunger.;I **have** hunger (I'm hungry).;
-halb;Adjektiv;nan;nan;0;A1;10654;half;Es ist halb eins.;It is **half** past twelve (half one).;
+halb;Adjektiv;nan;nan;0;A1;10654;half;Es ist halb eins.;It is **half** past twelve (half one).;-a-
 Halbpension;Substantiv;fem.;die;0;A1;4;half board;Wir haben das Hotel mit Halbpension gebucht.;We booked the hotel with **half board**.;
 Halle;Substantiv;fem.;die;0;A1;2083;hall;Wir treffen uns in der Halle.;We are meeting in the **hall**.;
 hallo;Interjektion;nan;nan;0;A1;nan;hello;Hallo, wie geht es dir?;**Hello**, how are you?;
@@ -1919,9 +1919,9 @@ Etage;Substantiv;fem.;die;0;B1;141;floor/story/deck;Ich wohne in der ersten Etag
 etwa;Adverb;nan;nan;0;B1;5239;about/approximately/for example;Es sind etwa zehn Kilometer.;It's **about** (approximately) ten kilometers.;
 eventuell;Adjektiv;nan;nan;0;B1;313;possible/possibly/potential;Wir kommen eventuell später.;We **possibly** (potentially) will come later.;
 ewig;Adjektiv;nan;nan;0;B1;2329;eternal/forever/everlasting;Das hat ewig gedauert.;That took **forever** (eternal).;
-Experte;Substantiv;mask.;der;0;B1;488;expert/specialist;Er ist ein Experte auf seinem Gebiet.;He is an **expert** in his field.;male
+Experte;Substantiv;mask.;der;0;B1;488;expert;Er ist ein Experte auf seinem Gebiet.;He is an **expert** in his field.;male
 Export;Substantiv;mask.;der;0;B1;159;export;Der Export ist für die Wirtschaft wichtig.;**Export** is important for the economy.;
-extra;Adverb;nan;nan;0;B1;244;extra/separately/specially;Ich habe das extra für dich gemacht.;I made this **specially** for you.;
+extra;Adverb;nan;nan;0;B1;244;extra;Ich habe das extra für dich gemacht.;I made this **specially** for you.;
 extrem;Adjektiv;nan;nan;0;B1;780;extreme/extremely;Das ist ein extremes Beispiel.;That is an **extreme** example.;
 Fabrik;Substantiv;fem.;die;0;B1;293;factory/plant/mill;Er arbeitet in der Fabrik.;He works in the **factory**.;
 Fachfrau;Substantiv;fem.;die;0;B1;38;expert/specialist;Sie ist eine Fachfrau für Computer.;She is a (female) **expert** for computers.;female
@@ -1971,7 +1971,7 @@ fliehen;Verb;nan;nan;0;B1;1055;to flee/escape/run away;Die Gefangenen sind geflo
 fließen;Verb;nan;nan;0;B1;12489;to flow/run/stream;Der Fluss fließt ins Meer.;The river **flows** into the sea.;
 fließend;partizipiales Adjektiv;nan;nan;0;B1;179;fluent/flowing;Er spricht fließend Deutsch.;He speaks **fluent** German.;
 Flucht;Substantiv;fem.;die;0;B1;466;escape/flight/alignment;Die Flucht gelang.;The **escape** (flight) succeeded.;
-Flur;Substantiv;mask.;der;0;B1;224;hallway/corridor;Wir lassen die Schuhe im Flur.;We leave the shoes in the **hallway**.;
+Flur;Substantiv;mask.;der;0;B1;224;hallway;Wir lassen die Schuhe im Flur.;We leave the shoes in the **hallway**.;
 Fläche;Substantiv;fem.;die;0;B1;1126;area/surface/space;Die Fläche ist groß.;The **area** (surface) is large.;
 Flöte;Substantiv;fem.;die;0;B1;54;flute;Sie spielt Flöte.;She plays the **flute**.;
 Flüssigkeit;Substantiv;fem.;die;0;B1;813;liquid/fluid;Trinken Sie viel Flüssigkeit.;Drink plenty of **liquid**.;
@@ -2019,7 +2019,7 @@ Führerausweis;Substantiv;mask.;der;0;B1;10;driver's license;Zeigen Sie Ihren F�
 fürchten;Verb;nan;nan;0;B1;464;to fear/be afraid;Du brauchst dich nicht zu fürchten.;You don't need to **be afraid** (fear).;
 füttern;Verb;nan;nan;0;B1;726;to feed;Hast du die Katze gefüttert?;Have you **fed** the cat?;f-
 Galerie;Substantiv;fem.;die;0;B1;141;gallery;Wir besuchen eine Galerie.;We are visiting a **gallery**.;
-Gang;Substantiv;mask.;der;0;B1;772;aisle/corridor/gear;Der Gang ist sehr lang.;The **corridor** (aisle) is very long.;
+Gang;Substantiv;mask.;der;0;B1;772;aisle;Der Gang ist sehr lang.;The **aisle** is very long.;
 gar;Adverb;nan;nan;0;B1;10814;even/at all/quite;Ich weiß gar nichts.;I know nothing **at all**.;
 Garantie;Substantiv;fem.;die;0;B1;59;guarantee/warranty;Das Gerät hat zwei Jahre Garantie.;The device has a two-year **warranty**.;
 garantieren;Verb;nan;nan;0;B1;319;to guarantee/warrant;Ich garantiere für ihn.;I **guarantee** for him.;
@@ -2167,7 +2167,7 @@ hungrig;Adjektiv;nan;nan;0;B1;189;hungry;Bist du hungrig?;Are you **hungry**?;
 hupen;Verb;nan;nan;0;B1;63;to honk/beep;Hup nicht so laut!;Don't **honk** so loud!;horn
 Husten;Substantiv;mask.;der;0;B1;2;cough/coughing;Er hat einen starken Husten.;He has a bad **cough**.;
 Hut;Substantiv;mask.;der;0;B1;701;hat;Er trägt einen Hut.;He is wearing a **hat**.;
-Hälfte;Substantiv;fem.;die;0;B1;945;half;Ich möchte die Hälfte.;I want **half**.;
+Hälfte;Substantiv;fem.;die;0;B1;945;half;Ich möchte die Hälfte.;I want **half**.;-ä-
 Händler;Substantiv;mask.;der;0;B1;310;dealer/trader/merchant;Der Händler verkauft Autos.;The **dealer** sells cars.;male
 Händlerin;Substantiv;fem.;die;0;B1;18;dealer/trader/merchant;Sie ist eine erfahrene Händlerin.;She is an experienced (female) **trader**.;female
 häufig;Adjektiv;nan;nan;0;B1;2933;frequent/common/often;Das kommt häufig vor.;That happens **frequently**.;
@@ -2289,7 +2289,7 @@ Kopie;Substantiv;fem.;die;0;B1;181;copy/photocopy/duplicate;Kannst du mir eine K
 kopieren;Verb;nan;nan;0;B1;161;to copy/photocopy;Ich muss dieses Dokument kopieren.;I need to **copy** this document.;
 Kopierer;Substantiv;mask.;der;0;B1;18;copier/photocopier;Der Kopierer ist im Moment kaputt.;The **copier** is broken at the moment.;
 korrekt;Adjektiv;nan;nan;0;B1;349;correct/right/properly;Ihre Antwort ist absolut korrekt.;Your answer is absolutely **correct**.;
-Korridor;Substantiv;mask.;der;0;B1;95;corridor/hallway;Der Korridor führt zum Ausgang.;The **corridor** (hallway) leads to the exit.;
+Korridor;Substantiv;mask.;der;0;B1;95;corridor;Der Korridor führt zum Ausgang.;The **corridor** (hallway) leads to the exit.;
 korrigieren;Verb;nan;nan;0;B1;181;to correct/marking/adjust;Der Lehrer korrigiert die Prüfungen.;The teacher is **correcting** the exams.;
 Kosten;Substantiv;nan;nan;1;B1;6450;costs/expense/price;Die Kosten für die Reise sind hoch.;The **costs** for the trip are high.;
 Kostüm;Substantiv;neutr.;das;0;B1;129;costume/suit;Sie trägt ein schönes Kostüm.;She is wearing a beautiful **costume** (suit).;women
@@ -2431,7 +2431,7 @@ Migration;Substantiv;fem.;die;0;B1;76;migration;Migration ist ein weltweites Ph�
 mild;Adjektiv;nan;nan;0;B1;179;mild/gentle/mild;Das Wetter ist heute mild.;The weather is **mild** today.;weather
 Minderheit;Substantiv;fem.;die;0;B1;216;minority;Die Rechte der Minderheiten müssen geschützt werden.;The rights of **minorities** must be protected.;
 minimal;Adjektiv;nan;nan;0;B1;388;minimal/minimum;Der Aufwand ist minimal.;The effort is **minimal**.;
-mischen;Verb;nan;nan;0;B1;2820;to mix/blend/mingle;Mischen Sie alle Zutaten.;**Mix** all the ingredients.;
+mischen;Verb;nan;nan;0;B1;2820;to mix;Mischen Sie alle Zutaten.;**Mix** all the ingredients.;
 miss-;Affix;nan;nan;0;B1;1;mis-/dis-;Er hat mich missverstanden.;He **mis**understood me.;
 Mitarbeiterin;Substantiv;fem.;die;0;B1;114;employee/coworker;Sie ist eine fleißige Mitarbeiterin.;She is a hard-working (female) **employee**.;female
 miteinander;Adverb;nan;nan;0;B1;1984;with each other;Wir müssen miteinander reden.;We must talk **together** (with each other).;
