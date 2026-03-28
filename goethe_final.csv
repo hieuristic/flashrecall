@@ -1672,8 +1672,8 @@ bevor;Konjunktion;nan;nan;0;B1;1641;before;Wasch dir die Hände, bevor du isst.;
 Bevölkerung;Substantiv;fem.;die;0;B1;1172;population;Die Bevölkerung der Stadt wächst.;The town's **population** is growing.;
 Beweis;Substantiv;mask.;der;0;B1;406;proof/evidence/demonstration;Gibt es Beweise dafür?;Is there any **proof** for that?;
 beweisen;Verb;nan;nan;0;B1;537;to prove/demonstrate/show;Können Sie das beweisen?;Can you **prove** that?;
-Bewohner;Substantiv;mask.;der;0;B1;852;resident/inhabitant/occupant;Die Bewohner des Hauses sind nett.;The **residents** of the house are nice.;male
-Bewohnerin;Substantiv;fem.;die;0;B1;123;resident/inhabitant/occupant;Sie ist eine neue Bewohnerin.;She is a new (female) **resident**.;female
+Bewohner;Substantiv;mask.;der;0;B1;852;resident/inhabitant/occupant;Die Bewohner des Hauses sind nett.;The **residents** of the house are nice.;mas., be-
+Bewohnerin;Substantiv;fem.;die;0;B1;123;resident/inhabitant/occupant;Sie ist eine neue Bewohnerin.;She is a new (female) **resident**.;fem., be-
 Beziehung;Substantiv;fem.;die;0;B1;1165;relationship/relation/connection;Wir haben eine gute Beziehung.;We have a good **relationship**.;b-
 bieten;Verb;nan;nan;0;B1;14544;to bid/provide;Was bietet die Firma?;What does the company **provide**?;
 Bildschirm;Substantiv;mask.;der;0;B1;222;screen/monitor/display;Schau nicht so lange auf den Bildschirm.;Don't look at the **screen** for so long.;
@@ -1828,8 +1828,8 @@ Einschreiben;Substantiv;neutr.;das;0;B1;165;registered letter/registration;Ich s
 einsetzen;Verb;nan;nan;0;B1;1999;to use/deploy/insert;Die Lehrerin setzt viele Spiele ein.;The teacher **uses** many games.;e-
 einstellen;Verb;nan;nan;0;B1;727;to set/adjust/hire;Wir stellen neue Mitarbeiter ein.;We are **hiring** new employees.;
 eintreten;Verb;nan;nan;0;B1;595;to enter/join;Darf ich eintreten?;May I **enter**?;
-Einwohner;Substantiv;mask.;der;0;B1;908;inhabitant/resident;Die Stadt hat many Einwohner.;The city has many **inhabitants**.;male
-Einwohnerin;Substantiv;fem.;die;0;B1;131;inhabitant/resident;Sie ist eine Einwohnerin von Berlin.;She is an **inhabitant** of Berlin.;female
+Einwohner;Substantiv;mask.;der;0;B1;908;inhabitant/resident;Die Stadt hat many Einwohner.;The city has many **inhabitants**.;mak., ei-
+Einwohnerin;Substantiv;fem.;die;0;B1;131;inhabitant/resident;Sie ist eine Einwohnerin von Berlin.;She is an **inhabitant** of Berlin.;fem., ei-
 einzahlen;Verb;nan;nan;0;B1;106;to deposit/pay in;Ich möchte Geld auf mein Konto einzahlen.;I want to **deposit** money into my account.;
 Einzahlung;Substantiv;fem.;die;0;B1;11;deposit/payment;Die Einzahlung wurde bestätigt.;The **deposit** (payment) was confirmed.;
 einzel-;Affix;nan;nan;0;B1;nan;single/individual;Das ist ein Einzelzimmer.;That is a **single** room.;affix
