@@ -3014,7 +3014,7 @@ vegetarisch;Adjektiv;nan;nan;0;B1;63;vegetarian;Ich esse gerne vegetarisch.;I li
 Velo;Substantiv;neutr.;das;0;B1;13;bicycle/bike;Kommst du mit dem Velo?;Are you coming by **bicycle**?;Swiss
 Verabredung;Substantiv;fem.;die;0;B1;45;appointment/date/arrangement;Ich habe heute eine Verabredung.;I have a **date** (appointment) today.;
 verabschieden;Verb;nan;nan;0;B1;345;to say goodbye/pass;Wir müssen uns leider verabschieden.;Unfortunately, we have to **say goodbye**.;law
-verantwortlich;Adjektiv;nan;nan;0;B1;1225;responsible/accountable;Wer ist für das Projekt verantwortlich?;Who is **responsible** for the project?;
+verantwortlich;Adjektiv;nan;nan;0;B1;1225;responsible/accountable;Wer ist für das Projekt verantwortlich?;Who is **responsible** for the project?;v-
 Verantwortung;Substantiv;fem.;die;0;B1;368;responsibility;Er übernimmt die volle Verantwortung.;He assumes full **responsibility**.;
 verbessern;Verb;nan;nan;0;B1;699;to improve/correct;Ich möchte mein Englisch verbessern.;I want to **improve** my English.;
 verbinden;Verb;nan;nan;0;B1;2487;to connect/link/combine;Die Brücke verbindet die beiden Städte.;The bridge **connects** the two cities.;
@@ -3204,8 +3204,8 @@ zentral;Adjektiv;nan;nan;0;B1;814;central;Die Wohnung liegt sehr zentral.;The ap
 zerstören;Verb;nan;nan;0;B1;952;to destroy/ruin/wreck;Der Sturm hat das Haus zerstört.;The storm **destroyed** the house.;
 Zertifikat;Substantiv;neutr.;das;0;B1;77;certificate;Er hat das Zertifikat bestanden.;He passed the **certificate**.;
 Zeug;Substantiv;neutr.;das;0;B1;366;stuff/things/fabric;Räum dein Zeug weg!;Put your **stuff** away!;
-Zeuge;Substantiv;mask.;der;0;B1;752;witness;Der Zeuge sah den Unfall.;The **witness** saw the accident.;male
-Zeugin;Substantiv;fem.;die;0;B1;102;witness;Die Zeugin sagte vor Gericht aus.;The (female) **witness** testified in court.;female
+Zeuge;Substantiv;mask.;der;0;B1;752;witness;Der Zeuge sah den Unfall.;The **witness** saw the accident.;mak., z-
+Zeugin;Substantiv;fem.;die;0;B1;102;witness;Die Zeugin sagte vor Gericht aus.;The (female) **witness** testified in court.;fem., z-
 ziemlich;Adjektiv;nan;nan;0;B1;963;quite/fairly/rather;Das ist ziemlich teuer.;That is **quite** expensive.;z-
 Zins;Substantiv;mask.;der;0;B1;219;interest;Wie hoch sind die Zinsen für den Kredit?;How high is the **interest** on the loan?;financial
 Zivilstand;Substantiv;mask.;der;0;B1;13;civil status/marital status;Bitte geben Sie Ihren Zivilstand an.;Please state your **civil status**.;
@@ -3238,7 +3238,7 @@ Zuschlag;Substantiv;mask.;der;0;B1;75;surcharge/extra charge/acceptance;Man muss
 Zustand;Substantiv;mask.;der;0;B1;2268;condition/state/status;Das Haus ist in einem guten Zustand.;The house is in a good **condition**.;zu-
 zustimmen;Verb;nan;nan;0;B1;224;to agree/consent/approve;Ich stimme dir voll und ganz zu.;I **agree** with you completely.;
 Zustimmung;Substantiv;fem.;die;0;B1;265;agreement/approval/consent;Wir brauchen deine Zustimmung.;We need your **approval** (consent).;
-zuständig;Adjektiv;nan;nan;0;B1;872;responsible/competent/in charge;Wer ist für diese Abteilung zuständig?;Who is **responsible** for this department?;
+zuständig;Adjektiv;nan;nan;0;B1;872;responsible/competent/in charge;Wer ist für diese Abteilung zuständig?;Who is **responsible** for this department?;z-
 zusätzlich;Adjektiv;nan;nan;0;B1;1312;additional/extra/supplementary;Es entstehen keine zusätzlichen Kosten.;There are no **additional** costs.;
 Zutat;Substantiv;fem.;die;0;B1;219;ingredient/fixings;Welche Zutaten brauchst du für den Kuchen?;Which **ingredients** do you need for the cake?;
 zuverlässig;Adjektiv;nan;nan;0;B1;252;reliable/dependable/trustworthy;Sie ist eine sehr zuverlässige Mitarbeiterin.;She is a very **reliable** employee.;
