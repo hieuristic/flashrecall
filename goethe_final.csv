@@ -1751,7 +1751,7 @@ Dialog;Substantiv;mask.;der;0;B1;161;dialogue/conversation;Wir üben den Dialog.
 dicht;Adjektiv;nan;nan;0;B1;25181;dense/thick/close;Der Nebel ist sehr dicht.;The fog is very **dense**.;
 Dieb;Substantiv;mask.;der;0;B1;386;thief;Der Dieb hat das Geld gestohlen.;The **thief** stole the money.;male
 dienen;Verb;nan;nan;0;B1;21848;to serve/be of use;Wem dient diese Information?;Whom does this information **serve**?;
-Dienst;Substantiv;mask.;der;0;B1;2023;service/duty/post;Er ist heute im Dienst.;He is on **duty** today.;
+Dienst;Substantiv;mask.;der;0;B1;2023;service/duty/post;Er ist heute im Dienst.;He is on **duty** today.;d-
 dies;Demonstrativpronomen;neutr.;nan;0;B1;nan;this;Dies ist ein Test.;**This** is a test.;
 diese;Demonstrativpronomen;fem.;nan;0;B1;nan;this/these;Diese Frau kenne ich.;I know **this** woman.;
 dieselbe;Demonstrativpronomen;fem.;nan;0;B1;nan;the same;Sie trägt dieselbe Jacke wie ich.;She is wearing **the same** jacket as me.;
@@ -2034,7 +2034,7 @@ Gebrauchsanweisung;Substantiv;fem.;die;0;B1;22;operating instructions/user manua
 Geburt;Substantiv;fem.;die;0;B1;582;birth;Herzlichen Glückwunsch zur Geburt!;Congratulations on the **birth**!;
 Gebäck;Substantiv;neutr.;das;0;B1;170;pastries/biscuits/cookies;Möchten Sie etwas Gebäck?;Would you like some **pastries**?;
 Gebäude;Substantiv;neutr.;das;0;B1;2092;building/structure;Das Gebäude ist sehr alt.;The **building** is very old.;
-Gebühr;Substantiv;fem.;die;0;B1;250;fee/charge/duty;Die Gebühr beträgt 10 Euro.;The **fee** is 10 euros.;
+Gebühr;Substantiv;fem.;die;0;B1;250;fee/charge;Die Gebühr beträgt 10 Euro.;The **fee** is 10 euros.;
 Gedanke;Substantiv;mask.;der;0;B1;1934;thought/idea/notion;Das ist ein interessanter Gedanke.;That is an interesting **thought**.;
 Gedicht;Substantiv;neutr.;das;0;B1;389;poem;Er schreibt ein Gedicht.;He is writing a **poem**.;
 Geduld;Substantiv;fem.;die;0;B1;137;patience;Haben Sie etwas Geduld.;Have some **patience**.;
@@ -2571,7 +2571,7 @@ Pflaume;Substantiv;fem.;die;0;B1;21;plum;Die Pflaume ist sehr süß.;The **plum*
 pflegen;Verb;nan;nan;0;B1;1238;to nurse/maintain/care for;Sie pflegt ihre kranke Mutter.;She is **nursing** (caring for) her sick mother.;
 Pfleger;Substantiv;mask.;der;0;B1;63;nurse/caregiver;Der Pfleger hilft dem Patienten.;The **caregiver** (nurse) helps the patient.;male
 Pflegerin;Substantiv;fem.;die;0;B1;24;nurse/caregiver;Die Pflegerin arbeitet im Krankenhaus.;The (female) **nurse** works in the hospital.;female
-Pflicht;Substantiv;fem.;die;0;B1;503;duty/obligation;Das ist meine Pflicht.;That is my **duty**.;
+Pflicht;Substantiv;fem.;die;0;B1;503;duty/obligation;Das ist meine Pflicht.;That is my **duty**.;p-
 Phantasie;Substantiv;fem.;die;0;B1;126;imagination/fantasy;Kinder haben viel Phantasie.;Children have a lot of **imagination**.;
 Photograph;Substantiv;mask.;der;0;B1;19;photographer;Der Photograph macht ein Porträt.;The **photographer** is taking a portrait.;male
 Photographie;Substantiv;fem.;die;0;B1;42;photography;Sie interessiert sich für Photographie.;She is interested in **photography**.;
