@@ -1842,7 +1842,7 @@ elektrisch;Adjektiv;nan;nan;0;B1;4220;electric/electrical;Das Auto hat elektrisc
 elektro-;Affix;nan;nan;0;B1;nan;electro-;Er ist ein Elektroingenieur.;He is an **electrical** engineer.;affix
 elektronisch;Adjektiv;nan;nan;0;B1;1130;electronic;Ich habe eine elektronische Nachricht erhalten.;I received an **electronic** message.;
 Empfang;Substantiv;mask.;der;0;B1;278;reception/receipt/greeting;Die Gäste wurden am Empfang begrüßt.;The guests were greeted at the **reception**.;
-empfangen;Verb;nan;nan;0;B1;469;to receive/welcome/welcome;Wir haben das Paket empfangen.;We have **received** the package.;
+empfangen;Verb;nan;nan;0;B1;469;to receive/welcome/welcome;Wir haben das Paket empfangen.;We have **received** the package.;em-
 Empfehlung;Substantiv;fem.;die;0;B1;170;recommendation/reference;Haben Sie eine Empfehlung für ein Restaurant?;Do you have a **recommendation** for a restaurant?;
 endgültig;Adjektiv;nan;nan;0;B1;362;final/definitive/ultimate;Das ist meine endgültige Entscheidung.;That is my **final** decision.;
 Energie;Substantiv;fem.;die;0;B1;1205;energy/power;Wir müssen Energie sparen.;We need to save **energy**.;
@@ -1882,7 +1882,7 @@ erforderlich;Adjektiv;nan;nan;0;B1;589;necessary/required/requisite;Vorkenntniss
 erfordern;Verb;nan;nan;0;B1;381;to require;Das erfordert viel Geduld.;That **requires** a lot of patience.;
 erfüllen;Verb;nan;nan;0;B1;1031;to fulfill/satisfy/comply with;Er erfüllt alle Bedingungen.;He **fulfills** all conditions.;
 ergänzen;Verb;nan;nan;0;B1;367;to complete/supplement/add;Bitte ergänzen Sie den Text.;Please **complete** (supplement) the text.;
-erhalten;Verb;nan;nan;0;B1;9205;to receive/get/maintain;Ich habe Ihren Brief erhalten.;I **received** your letter.;
+erhalten;Verb;nan;nan;0;B1;9205;to receive/get/maintain;Ich habe Ihren Brief erhalten.;I **received** your letter.;er-
 erholen;Verb;nan;nan;0;B1;222;to recover/relax/rest;Er muss sich von der Arbeit erholen.;He needs to **recover** (rest) from work.;
 Erholung;Substantiv;fem.;die;0;B1;129;recovery/recreation/relaxation;Ruhe ist gut für die Erholung.;Rest is good for **recovery**.;
 erhöhen;Verb;nan;nan;0;B1;1016;to increase/raise/heighten;Die Preise wurden erhöht.;The prices were **increased**.;e-
