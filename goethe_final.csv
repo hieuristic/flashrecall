@@ -1320,7 +1320,7 @@ Titel;Substantiv;mask.;der;0;A2;793;title/headline;Wie heißt der Titel des Buch
 toll;Adjektiv;nan;nan;0;A2;794;great/fantastic/awesome;Das war ein toller Urlaub!;That was a **great** holiday!;
 Topf;Substantiv;mask.;der;0;A2;253;pot/pan;Das Essen ist im Topf.;The food is in the **pot**.;
 Torte;Substantiv;fem.;die;0;A2;nan;cake/tart/gateau;Möchten Sie ein Stück Torte?;Would you like a piece of **cake**?;
-total;Adjektiv;nan;nan;0;A2;725;total/complete/totally;Das ist mir total egal.;I **totally** don't care.;
+total;Adjektiv;nan;nan;0;A2;725;total;Das ist mir total egal.;I **totally** don't care.;
 Tour;Substantiv;fem.;die;0;A2;724;tour/trip/turn;Wir machen eine Tour durch die Alpen.;We are taking a **tour** through the Alps.;
 Tourist;Substantiv;mask.;der;0;A2;362;tourist;Dort sind viele Touristen.;There are many **tourists** there.;male
 Touristin;Substantiv;fem.;die;0;A2;17;tourist;Sie ist eine Touristin aus Japan.;She is a (female) **tourist** from Japan.;female
@@ -1525,7 +1525,7 @@ anwenden;Verb;nan;nan;0;B1;632;to apply/use/employ;Man muss die Regeln anwenden.
 anwesend;Adjektiv;nan;nan;0;B1;201;present;Sind alle anwesend?;Are all **present**?;
 Anwältin;Substantiv;fem.;die;0;B1;31;lawyer/attorney;Die Anwältin berät mich.;The (female) **lawyer** is advising me.;female
 Anzahl;Substantiv;fem.;die;0;B1;1053;number/quantity/amount;Eine große Anzahl von Menschen war da.;A large **number** of people were there.;
-anzeigen;Verb;nan;nan;0;B1;388;to report/display/announce;Er hat den Diebstahl angezeigt.;He **reported** the theft.;
+anzeigen;Verb;nan;nan;0;B1;388;to report/display/announce;Er hat den Diebstahl angezeigt.;He **reported** the theft.;a-
 Aprikose;Substantiv;fem.;die;0;B1;17;apricot;Ich mag Aprikosen.;I like **apricots**.;
 Arbeiter;Substantiv;mask.;der;0;B1;549;worker/laborer;Er ist ein fleißiger Arbeiter.;He is a hard-working **worker**.;male
 Arbeiterin;Substantiv;fem.;die;0;B1;83;worker/laborer;Sie arbeitet als Arbeiterin in der Fabrik.;She works as a **worker** in the factory.;female
@@ -1638,7 +1638,7 @@ berechnen;Verb;nan;nan;0;B1;1512;to calculate/compute/charge;Wie berechnet man d
 Bereich;Substantiv;mask., neutr.;der;0;B1;3010;area/range/sector;Das ist nicht mein Bereich.;That is not my **area** (sector).;
 bereit;Adjektiv;nan;nan;0;B1;3005;ready/prepared/willing;Sind Sie bereit für die Reise?;Are you **ready** for the trip?;
 bereits;Adverb;nan;nan;0;B1;4391;already;Das habe ich bereits erledigt.;I have **already** taken care of that.;b-
-Bericht;Substantiv;mask.;der;0;B1;769;report/account/coverage;Ich schreibe einen Bericht über den Unfall.;I am writing a **report** about the accident.;
+Bericht;Substantiv;mask.;der;0;B1;769;report/account/coverage;Ich schreibe einen Bericht über den Unfall.;I am writing a **report** about the accident.;b-
 beruflich;Adjektiv;nan;nan;0;B1;524;professional/vocational/work-related;Was machen Sie beruflich?;What do you do **professionally** (for a living)?;
 berufstätig;Adjektiv;nan;nan;0;B1;56;employed/working;Sind Sie berufstätig?;Are you **employed**?;
 beruhigen;Verb;nan;nan;0;B1;230;to calm/reassure/appease;Beruhige dich bitte.;Please **calm** down.;
@@ -1735,7 +1735,7 @@ dankbar;Adjektiv;nan;nan;0;B1;198;grateful/thankful;Ich bin dir sehr dankbar.;I 
 darstellen;Verb;nan;nan;0;B1;1650;to represent/depict/constitute;Er stellt die Situation dar.;He **depicts** (represents) the situation.;da-
 Darstellung;Substantiv;fem.;die;0;B1;1017;representation/depiction/presentation;Die Darstellung ist sehr realistisch.;The **depiction** (representation) is very realistic.;da-
 dasselbe;Demonstrativpronomen;neutr.;nan;0;B1;502;the same;Wir haben dasselbe Ziel.;We have **the same** goal.;thing
-Daten;Substantiv;nan;nan;1;B1;39;data/information;Wir müssen die Daten speichern.;We need to save the **data**.;
+Daten;Substantiv;nan;nan;1;B1;39;data/information;Wir müssen die Daten speichern.;We need to save the **data**.;-n
 Dauer;Substantiv;fem.;die;0;B1;521;duration/period/length;Die Dauer des Films ist zwei Stunden.;The **duration** of the film is two hours.;
 dauernd;partizipiales Adjektiv;nan;nan;0;B1;375;constant/continuous/all the time;Er redet dauernd.;He's talking **all the time** (constantly).;d-
 Decke;Substantiv;fem.;die;0;B1;646;blanket/ceiling/cover;Die Decke ist hoch.;The **ceiling** is high.;
@@ -2412,12 +2412,12 @@ Mehrheit;Substantiv;fem.;die;0;B1;446;majority/bulk;Die Mehrheit stimmte dafür.
 Mehrwertsteuer;Substantiv;fem.;die;0;B1;55;value added tax;Der Preis ist inklusive Mehrwertsteuer.;The price includes **VAT**.;VAT
 meinetwegen;Pronominaladverb;nan;nan;0;B1;19;for my sake/as far as I'm concerned;Meinetwegen können wir gehen.;**As far as I'm concerned**, we can go.;
 Meister;Substantiv;mask.;der;0;B1;470;master/champion;Er ist ein Meister seines Fachs.;He is a **master** of his trade.;male
-melden;Verb;nan;nan;0;B1;3939;to report/register/get in touch;Bitte melden Sie sich im Büro.;Please **report** to the office.;
-Meldung;Substantiv;fem.;die;0;B1;182;report/message/notification;Wir haben die Meldung erhalten.;We received the **report**.;
+melden;Verb;nan;nan;0;B1;3939;to report/register/get in touch;Bitte melden Sie sich im Büro.;Please **report** to the office.;m-
+Meldung;Substantiv;fem.;die;0;B1;182;report/message/notification;Wir haben die Meldung erhalten.;We received the **report**.;m-
 Mensa;Substantiv;fem.;die;0;B1;99;cafeteria/refectory;Wir essen in der Mensa.;We eat in the **cafeteria**.;university
 menschlich;Adjektiv;nan;nan;0;B1;6846;human;Das ist ein menschliches Versagen.;That is a **human** error.;
 Menü;Substantiv;neutr.;das;0;B1;80;menu;Was steht heute auf dem Menü?;What is on the **menu** today?;m-
-merkwürdig;Adjektiv;nan;nan;0;B1;286;strange/odd/peculiar;Das ist ein merkwürdiger Zufall.;That is a **strange** coincidence.;
+merkwürdig;Adjektiv;nan;nan;0;B1;286;strange/odd/peculiar;Das ist ein merkwürdiger Zufall.;That is a **strange** coincidence.;m-
 messen;Verb;nan;nan;0;B1;2457;to measure/compare;Ich muss die Länge messen.;I need to **measure** the length.;
 Metall;Substantiv;neutr.;das;0;B1;855;metal;Der Tisch ist aus Metall.;The table is made of **metal**.;
 Methode;Substantiv;fem.;die;0;B1;958;method/way;Welche Methode ist am besten?;Which **method** is best?;
@@ -2640,16 +2640,16 @@ rechtlich;Adjektiv;nan;nan;0;B1;359;legal/judicial;Wir brauchen rechtlichen Beis
 rechtzeitig;Adjektiv;nan;nan;0;B1;344;on time/in time/timely;Er kam rechtzeitig zum Termin.;He arrived **on time** for the appointment.;
 Rede;Substantiv;fem.;die;0;B1;1596;speech/talk/address;Die Rede war sehr beeindruckend.;The **speech** was very impressive.;
 reduzieren;Verb;nan;nan;0;B1;533;to reduce/decrease;Der Preis wurde reduziert.;The price has been **reduced**.;
-Referat;Substantiv;neutr.;das;0;B1;82;presentation/report/department;Er hält ein Referat über Geschichte.;He's giving a **presentation** on history.;
+Referat;Substantiv;neutr.;das;0;B1;82;presentation/report/department;Er hält ein Referat über Geschichte.;He's giving a **presentation** on history.;r-
 Reform;Substantiv;fem.;die;0;B1;259;reform;Die Regierung plant eine Reform.;The government is planning a **reform**.;
 Regal;Substantiv;neutr.;das;0;B1;233;shelf/rack/bookcase;Das Buch steht im Regal.;The book is on the **shelf**.;
 Regel;Substantiv;fem.;die;0;B1;2195;rule/regulation/period;Man muss die Regeln beachten.;You have to follow the **rules**.;
 regelmäßig;Adjektiv;nan;nan;0;B1;2429;regular/regularly;Er treibt regelmäßig Sport.;He exercises **regularly**.;
 regeln;Verb;nan;nan;0;B1;572;to regulate/control/settle;Wir müssen das Problem regeln.;We need to **settle** (regulate) the problem.;
-Region;Substantiv;fem.;die;0;B1;1762;region/area;In dieser Region regnet es oft.;It often rains in this **region**.;
+Region;Substantiv;fem.;die;0;B1;1762;region;In dieser Region regnet es oft.;It often rains in this **region**.;
 regional;Adjektiv;nan;nan;0;B1;225;regional;Wir kaufen regionale Produkte.;We buy **regional** products.;
 reichen;Verb;nan;nan;0;B1;23054;to reach/be enough/pass;Das Geld muss bis Ende des Monats reichen.;The money must **be enough** until the end of the month.;
-reif;Adjektiv;nan;nan;0;B1;775;ripe/mature;Die Äpfel sind schon reif.;The apples are already **ripe**.;
+reif;Adjektiv;nan;nan;0;B1;775;ripe;Die Äpfel sind schon reif.;The apples are already **ripe**.;
 Reihenfolge;Substantiv;fem.;die;0;B1;264;order/sequence;In welcher Reihenfolge sollen wir gehen?;In what **order** should we go?;
 reinigen;Verb;nan;nan;0;B1;541;to clean/purify;Ich muss das Zimmer reinigen.;I have to **clean** the room.;
 Reklame;Substantiv;fem.;die;0;B1;35;advertisement/advertising/publicity;Die Reklame ist überall.;The **advertisement** (advertising) is everywhere.;
@@ -3091,7 +3091,7 @@ verwenden;Verb;nan;nan;0;B1;10982;to use/employ/apply;Welches Reinigungsmittel v
 verzeihen;Verb;nan;nan;0;B1;188;to forgive/pardon/excuse;Verzeihen Sie mir bitte.;Please **forgive** me.;
 Verzeihung;Substantiv;fem.;die;0;B1;43;forgiveness/pardon/excuse;Ich bitte um Verzeihung.;I beg your **pardon** (forgiveness).;
 verzichten;Verb;nan;nan;0;B1;579;to do without/forgo/waive;Ich kann auf Nachtisch verzichten.;I can **do without** (forgo) dessert.;
-verändern;Verb;nan;nan;0;B1;1141;to change/alter/modify;Die Stadt hat sich stark verändert.;The city has **changed** a lot.;
+verändern;Verb;nan;nan;0;B1;1141;to change/alter/modify;Die Stadt hat sich stark verändert.;The city has **changed** a lot.;v-
 veröffentlichen;Verb;nan;nan;0;B1;1278;to publish/release/announce;Das Buch wurde letztes Jahr veröffentlicht.;The book was **published** last year.;
 Video;Substantiv;neutr.;das;0;B1;316;video;Hast du das Video gesehen?;Have you seen the **video**?;
 virtuell;Adjektiv;nan;nan;0;B1;178;virtual;Das ist eine virtuelle Welt.;This is a **virtual** world.;
@@ -3221,7 +3221,7 @@ Zuhause;Substantiv;neutr.;das;0;B1;100;home;Ich fühle mich hier wie zuhause.;I 
 Zuhörer;Substantiv;mask.;der;0;B1;180;listener/auditor;Die Zuhörer hörten gespannt zu.;The **listeners** listened intently.;male
 Zuhörerin;Substantiv;fem.;die;0;B1;10;listener/auditor;Sie ist eine gute Zuhörerin.;She is a good (female) **listener**.;female
 Zukunft;Substantiv;fem.;die;0;B1;892;future;Was planst du für die Zukunft?;What are you planning for the **future**?;
-zukünftig;Adjektiv;nan;nan;0;B1;227;future/in the future;Das ist mein zukünftiger Chef.;That is my **future** boss.;
+zukünftig;Adjektiv;nan;nan;0;B1;227;in the future;Das ist mein zukünftiger Chef.;That is my **future** boss.;
 zumindest;Adverb;nan;nan;0;B1;797;at least;Du hättest zumindest anrufen können.;You could **at least** have called.;z-
 zunehmen;Verb;nan;nan;0;B1;280;to increase/put on weight/grow;Er hat über Weihnachten zugenommen.;He **put on weight** over Christmas.;z-
 zunächst;nan;nan;nan;0;B1;1710;at first/initially/first of all;Zunächst müssen wir das Problem klären.;**First of all**, we need to clarify the problem.;
@@ -3266,7 +3266,7 @@ Zündholz;Substantiv;neutr.;das;0;B1;14;match/matchstick;Gib mir bitte ein Zünd
 öko-;Affix;nan;nan;0;B1;nan;eco-/ecological-;Wir kaufen ökologische Produkte.;We buy **eco**-friendly products.;affix
 ökologisch;Adjektiv;nan;nan;0;B1;1433;ecological/eco-friendly/green;Das ist ein ökologisches Problem.;That is an **ecological** problem.;
 über-;Affix;nan;nan;0;B1;2;over-/super-/across-;Die Milch ist übergelaufen.;The milk boiled **over**.;affix
-überfahren;Verb;nan;nan;0;B1;177;to run over/knock down;Die Katze wurde fast überfahren.;The cat was almost **run over**.;
+überfahren;Verb;nan;nan;0;B1;177;to run over;Die Katze wurde fast überfahren.;The cat was almost **run over**.;
 überhaupt;Adverb;nan;nan;0;B1;1258;at all/generally/anyway;Ich weiß überhaupt nichts davon.;I know nothing **at all** about it.;
 überholen;Verb;nan;nan;0;B1;353;to overtake/pass;Das Auto hat uns überholt.;The car **overtook** (passed) us.;
 überlegen;Verb;nan;nan;0;B1;731;to consider/think over/ponder;Ich muss mir das noch überlegen.;I still have to **consider** (think over) that.;
