@@ -1784,7 +1784,7 @@ Durchschnitt;Substantiv;mask.;der;0;B1;238;average/mean;Das ist über dem Durchs
 durchschnittlich;Adjektiv;nan;nan;0;B1;441;average/on average;Das ist ein durchschnittlicher Wert.;That is an **average** value.;
 durstig;Adjektiv;nan;nan;0;B1;120;thirsty;Bist du durstig?;Are you **thirsty**?;
 duzen;Verb;nan;nan;0;B1;78;"to address as ""du""/be on first-name terms";Wollen wir uns duzen?;"Shall we **be on first-name terms** (address as ""du"")?";
-eben;Adverb;nan;nan;0;B1;1508;just/even/flat;Ich bin eben erst gekommen.;I **just** arrived.;
+eben;Adverb;nan;nan;0;B1;1508;just/even/flat;Ich bin eben erst gekommen.;I **just** arrived.;e-
 ebenfalls;Konjunktion;nan;nan;0;B1;1360;as well/also/likewise;Ich wünsche Ihnen ebenfalls einen schönen Tag.;I wish you a nice day **as well**.;
 ebenso;Adverb;nan;nan;0;B1;1571;just as/as well/likewise;Er ist ebenso groß wie sein Bruder.;He is **just as** tall as his brother.;
 EC-Karte;Substantiv;fem.;die;0;B1;nan;debit card/EC card;Kann ich mit EC-Karte bezahlen?;Can I pay with **EC card** (debit card)?;
@@ -1929,7 +1929,7 @@ Fachleute;Substantiv;nan;nan;1;B1;146;experts/specialists/professionals;Die Fach
 Fachmann;Substantiv;mask.;der;0;B1;121;expert/specialist;Fragen Sie einen Fachmann.;Ask an **expert**.;male
 Fahrbahn;Substantiv;fem.;die;0;B1;212;lane/roadway/carriageway;Bitte bleiben Sie auf der Fahrbahn.;Please stay on the **lane** (roadway).;
 Fahrzeug;Substantiv;neutr.;das;0;B1;1671;vehicle/craft;Das Fahrzeug ist geparkt.;The **vehicle** is parked.;
-fair;Adjektiv;nan;nan;0;B1;168;fair/just/sporting;Das war ein fairer Kampf.;That was a **fair** fight.;
+fair;Adjektiv;nan;nan;0;B1;168;fair;Das war ein fairer Kampf.;That was a **fair** fight.;
 Faktor;Substantiv;mask.;der;0;B1;436;factor;Das ist ein wichtiger Faktor.;That is an important **factor**.;
 Fall;Substantiv;mask.;der;0;B1;3631;case/fall/instance;In diesem Fall haben Sie recht.;In this **case**, you are right.;
 falls;Konjunktion;nan;nan;0;B1;747;if/in case/provided that;Falls es regnet;In **case** it rains, I will stay here.;
@@ -2061,7 +2061,7 @@ genehmigen;Verb;nan;nan;0;B1;134;to approve/permit/allow;Der Antrag wurde genehm
 Generation;Substantiv;fem.;die;0;B1;2470;generation;Das ist ein Problem der jungen Generation.;This is a problem of the young **generation**.;
 genießen;Verb;nan;nan;0;B1;373;to enjoy/savor/relish;Genießen Sie Ihren Urlaub!;**Enjoy** your vacation!;
 genügen;Verb;nan;nan;0;B1;351;to suffice/be enough/satisfy;Das genügt mir.;That **suffices** me (is enough).;
-gerecht;Adjektiv;nan;nan;0;B1;337;just/fair/equitable;Das ist eine gerechte Strafe.;That is a **just** (fair) punishment.;
+gerecht;Adjektiv;nan;nan;0;B1;337;just/fair/equitable;Das ist eine gerechte Strafe.;That is a **just** (fair) punishment.;g-
 gering;Adjektiv;nan;nan;0;B1;35050;low/small/slight;Das Risiko ist gering.;The risk is **low** (small).;
 gesamt;Adjektiv;nan;nan;0;B1;1589;whole/total/entire;Der gesamte Tag war schön.;The **whole** (entire) day was nice.;ge-
 geschehen;Verb;nan;nan;0;B1;7617;to happen/take place;Was ist geschehen?;What **happened**?;g-
@@ -2118,7 +2118,7 @@ hageln;Verb;nan;nan;0;B1;67;to hail;Es hat heute kurz gehagelt.;It **hailed** br
 halbtags;Adverb;nan;nan;0;B1;3;part-time;Sie arbeitet halbtags.;She works **part-time**.;
 Hallenbad;Substantiv;neutr.;das;0;B1;22;indoor swimming pool;Wir gehen im Winter ins Hallenbad.;We go to the **indoor swimming pool** in winter.;
 Halt;Substantiv;mask.;der;0;B1;5785;stop/hold/support;Der nächste Halt ist Frankfurt.;The next **stop** is Frankfurt.;
-halt;Partikel;nan;nan;0;B1;10800;just/simply;So ist es halt.;That's **just** (simply) how it is.;
+halt;Partikel;nan;nan;0;B1;10800;just/simply;So ist es halt.;That's **just** (simply) how it is.;h-
 haltbar;Adjektiv;nan;nan;0;B1;223;durable/long-lasting/shelf-stable;Die Milch ist lange haltbar.;The milk is **long-lasting** (shelf-stable).;
 Hammer;Substantiv;mask.;der;0;B1;387;hammer;Ich brauche einen Hammer.;I need a **hammer**.;
 Handel;Substantiv;mask.;der;0;B1;706;trade/commerce/business;Der Handel mit China wächst.;**Trade** with China is growing.;
