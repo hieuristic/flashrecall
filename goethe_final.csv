@@ -954,7 +954,7 @@ Eis;Substantiv;neutr.;das;0;A2;1973;ice/ice cream;Möchtest du ein Eis essen?;Wo
 endlich;Adverb;nan;nan;0;A2;1389;finally/at last;Endlich ist der Urlaub da!;**Finally** the holiday is here!;e-
 eng;Adjektiv;nan;nan;0;A2;3448;narrow/tight/close;Die Straße ist sehr eng.;The street is very **narrow**.;
 Erdgeschoss;Substantiv;neutr.;das;0;A2;98;ground floor;Wir wohnen im Erdgeschoss.;We live on the **ground floor**.;
-Erfahrung;Substantiv;fem.;die;0;A2;904;experience;Er hat viel Erfahrung in seinem Beruf.;He has a lot of **experience** in his job.;
+Erfahrung;Substantiv;fem.;die;0;A2;904;experience;Er hat viel Erfahrung in seinem Beruf.;He has a lot of **experience** in his job.;-f-
 erinnern;Verb;nan;nan;0;A2;2853;to remember/remind;Erinnerst du dich an mich?;Do you **remember** me?;
 Erlaubnis;Substantiv;fem.;die;0;A2;245;permission/allowance;Haben Sie eine Erlaubnis?;Do you have **permission**?;
 Ermäßigung;Substantiv;fem.;die;0;A2;14;discount/reduction;Für Studenten gibt es eine Ermäßigung.;There is a **discount** for students.;
@@ -1873,7 +1873,7 @@ Erdapfel;Substantiv;mask.;der;0;B1;10;potato;Ich esse gerne Erdäpfel.;I like ea
 Erde;Substantiv;fem.;die;0;B1;2130;earth;Die Erde ist rund.;The **earth** is round.;
 ereignen;Verb;nan;nan;0;B1;217;to happen/take place;Ein Unfall hat sich ereignet.;An accident has **happened**.;e-
 Ereignis;Substantiv;neutr.;das;0;B1;1178;event/occurrence/incident;Das war ein wichtiges Ereignis.;That was an important **event**.;
-erfahren;Verb;nan;nan;0;B1;1057;to experience/learn/find out;Ich habe davon gestern erfahren.;I **found out** (learned) about it yesterday.;
+erfahren;Verb;nan;nan;0;B1;1057;to experience/learn/find out;Ich habe davon gestern erfahren.;I **found out** (learned) about it yesterday.;-f-
 erfinden;Verb;nan;nan;0;B1;442;to invent/fabricate/devise;Wer hat das Telefon erfunden?;Who **invented** the telephone?;
 Erfindung;Substantiv;fem.;die;0;B1;267;invention/fabrication;Das ist eine nützliche Erfindung.;That is a useful **invention**.;
 Erfolg;Substantiv;mask.;der;0;B1;1019;success/achievement/hit;Viel Erfolg!;Good luck! (**Success**);
@@ -1893,8 +1893,8 @@ Erklärung;Substantiv;fem.;die;0;B1;532;explanation/declaration/statement;Könne
 erkundigen;Verb;nan;nan;0;B1;120;to inquire/ask/check;Ich möchte mich nach dem Preis erkundigen.;I want to **inquire** about the price.;
 erkälten;Verb;nan;nan;0;B1;112;to catch a cold;Ich habe mich erkältet.;I **caught a cold**.;
 Erkältung;Substantiv;fem.;die;0;B1;96;cold;Er hat eine starke Erkältung.;He has a bad **cold**.;
-erleben;Verb;nan;nan;0;B1;2857;to experience/witness/undergo;Wir haben viel erlebt.;We have **experienced** (witnessed) a lot.;
-Erlebnis;Substantiv;neutr.;das;0;B1;288;experience/adventure;Das war ein tolles Erlebnis.;That was a great **experience**.;
+erleben;Verb;nan;nan;0;B1;2857;to experience/witness/undergo;Wir haben viel erlebt.;We have **experienced** (witnessed) a lot.;-l-
+Erlebnis;Substantiv;neutr.;das;0;B1;288;experience/adventure;Das war ein tolles Erlebnis.;That was a great **experience**.;-l-
 erledigen;Verb;nan;nan;0;B1;498;to take care of/settle/finish;Ich muss noch etwas erledigen.;I still have to **take care of** something.;e-
 erleichtern;Verb;nan;nan;0;B1;413;to facilitate/ease/lighten;Das erleichtert die Arbeit.;That **facilitates** (eases) the work.;
 ernst;Adjektiv;nan;nan;0;B1;3121;serious/earnest/grave;Das ist eine ernste Angelegenheit.;That is a **serious** matter.;
