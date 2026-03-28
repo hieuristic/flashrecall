@@ -1767,7 +1767,7 @@ Diskussion;Substantiv;fem.;die;0;B1;537;discussion/debate;Das war eine interessa
 Distanz;Substantiv;fem.;die;0;B1;263;distance;Die Distanz ist zu groß.;The **distance** is too great.;d-
 Diät;Substantiv;fem.;die;0;B1;104;diet;Ich mache eine Diät.;I am on a **diet**.;
 Doktorin;Substantiv;fem.;die;0;B1;14;doctor/PhD;Die Doktorin untersucht den Patienten.;The (female) **doctor** examines the patient.;female
-Dokument;Substantiv;neutr.;das;0;B1;571;document/paper;Bitte unterschreiben Sie das Dokument.;Please sign the **document**.;
+Dokument;Substantiv;neutr.;das;0;B1;571;document/paper;Bitte unterschreiben Sie das Dokument.;Please sign the **document**.;d-
 Donner;Substantiv;mask.;der;0;B1;32;thunder;Man kann den Donner hören.;You can hear the **thunder**.;
 donnern;Verb;nan;nan;0;B1;654;to thunder;Es donnert draußen.;It's **thundering** outside.;
 doppel-;Affix;nan;nan;0;B1;nan;double-;Das ist ein Doppelzimmer.;That is a **double** room.;affix
@@ -2775,7 +2775,7 @@ siegen;Verb;nan;nan;0;B1;1695;to win/triumph/be victorious;Am Ende wird die Gere
 Sieger;Substantiv;mask.;der;0;B1;179;winner/victor;Der Sieger bekommt einen Pokal.;The **winner** gets a trophy.;male
 Siegerin;Substantiv;fem.;die;0;B1;18;winner/victor;Sie ist die Siegerin des Rennens.;She is the **winner** of the race.;female
 siezen;Verb;nan;nan;0;B1;52;"to use ""Sie""";Wir siezen uns im Büro.;"We use the **formal ""you""** in the office.";formal you
-sinken;Verb;nan;nan;0;B1;4316;to sink/fall/decrease;Die Preise sinken wieder.;Prices are **falling** (sinking) again.;
+sinken;Verb;nan;nan;0;B1;4316;to sink;Die Preise sinken wieder.;Prices are **falling** (sinking) again.;
 Sinn;Substantiv;mask.;der;0;B1;2211;sense/meaning/purpose;Das ergibt keinen Sinn.;That doesn't make any **sense**.;
 sinnlos;Adjektiv;nan;nan;0;B1;234;pointless/senseless/useless;Es ist sinnlos darüber zu streiten.;It is **pointless** to argue about it.;
 sinnvoll;Adjektiv;nan;nan;0;B1;326;meaningful/sensible/useful;Das ist ein sinnvoller Vorschlag.;That is a **sensible** (meaningful) suggestion.;
@@ -2993,7 +2993,7 @@ Uniform;Substantiv;fem.;die;0;B1;330;uniform;Polizisten tragen eine Uniform.;Pol
 unter-;Affix;nan;nan;0;B1;2;under-/lower/sub-;Das Boot ist untergegangen.;The boat went **under** (sunk).;affix
 unterbrechen;Verb;nan;nan;0;B1;354;to interrupt/break/disrupt;Bitte unterbrich mich nicht beim Sprechen.;Please don't **interrupt** me when I'm speaking.;u-
 Unterhaltung;Substantiv;fem.;die;0;B1;279;entertainment/conversation;Vielen Dank für die gute Unterhaltung.;Thank you for the good **entertainment** (conversation).;
-Unterlage;Substantiv;fem.;die;0;B1;257;document/record/base;Ich habe alle notwendigen Unterlagen dabei.;I have all the necessary **documents** with me.;
+Unterlage;Substantiv;fem.;die;0;B1;257;document/record/base;Ich habe alle notwendigen Unterlagen dabei.;I have all the necessary **documents** with me.;un-
 unterlassen;Verb;nan;nan;0;B1;145;to refrain/omit/neglect;Bitte unterlassen Sie das Rauchen hier.;Please **refrain** from smoking here.;
 Unternehmer;Substantiv;mask.;der;0;B1;201;entrepreneur/businessman;Er ist ein erfolgreicher Unternehmer.;He is a successful **entrepreneur**.;male
 Unternehmerin;Substantiv;fem.;die;0;B1;27;entrepreneur/businesswoman;Sie ist eine junge Unternehmerin.;She is a young (female) **entrepreneur**.;female
@@ -3005,7 +3005,7 @@ unterstreichen;Verb;nan;nan;0;B1;154;to underline/emphasize;Bitte unterstreichen
 unterstützen;Verb;nan;nan;0;B1;925;to support/assist/aid;Wir müssen ihn bei seiner Arbeit unterstützen.;We must **support** him in his work.;
 Unterstützung;Substantiv;fem.;die;0;B1;535;support/assistance/backing;Ich brauche deine Unterstützung.;I need your **support**.;
 Untersuchung;Substantiv;fem.;die;0;B1;1109;investigation/examination/study;Die Untersuchung des Vorfalls dauert an.;The **investigation** into the incident continues.;
-Urkunde;Substantiv;fem.;die;0;B1;133;document/certificate/deed;Er erhielt eine Urkunde für seine Leistung.;He received a **certificate** for his performance.;
+Urkunde;Substantiv;fem.;die;0;B1;133;document/certificate/deed;Er erhielt eine Urkunde für seine Leistung.;He received a **certificate** for his performance.;ur-
 Ursache;Substantiv;fem.;die;0;B1;714;cause/reason/source;Was war die Ursache für den Unfall?;What was the **cause** of the accident?;u-
 ursprünglich;Adjektiv;nan;nan;0;B1;1518;original/originally;Ursprünglich wollte ich Lehrer werden.;**Originally**, I wanted to be a teacher.;u-
 Urteil;Substantiv;neutr.;das;0;B1;536;judgment/verdict/sentence;Das Urteil wird morgen verkündet.;The **verdict** (judgment) will be announced tomorrow.;
