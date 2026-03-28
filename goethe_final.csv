@@ -1221,7 +1221,7 @@ Rose;Substantiv;fem.;die;0;A2;272;rose;Die Rose duftet gut.;The **rose** smells 
 Rucksack;Substantiv;mask.;der;0;A2;141;backpack;Mein Rucksack ist sehr schwer.;My **backpack** is very heavy.;
 rufen;Verb;nan;nan;0;A2;17856;to call/shout;Ruf mich bitte an.;Please **call** me.;
 Ruhe;Substantiv;fem.;die;0;A2;1379;rest/peace/quiet;Ich brauche etwas Ruhe.;I need some **rest** (quiet).;
-rund;Adjektiv;nan;nan;0;A2;9344;round/approximately/around;Der Tisch ist rund.;The table is **round**.;
+rund;Adjektiv;nan;nan;0;A2;9344;round/approximately/around;Der Tisch ist rund.;The table is **round**.;r-
 Rundgang;Substantiv;mask.;der;0;A2;56;tour/circuit;Wir machen einen Rundgang durch die Stadt.;We are taking a **tour** of the city.;
 Rätsel;Substantiv;neutr.;das;0;A2;157;riddle/mystery;Das ist ein schwieriges Rätsel.;That is a difficult **riddle**.;
 Rücken;Substantiv;mask.;der;0;A2;1574;back;Mein Rücken tut weh.;My **back** hurts.;
@@ -2743,7 +2743,7 @@ schweigen;Verb;nan;nan;0;B1;1120;to be silent/keep quiet;Er kann einfach nicht s
 schwieger-;Affix;nan;nan;0;B1;nan;in-law;Das ist meine Schwiegermutter.;That is my mother-**in-law**.;affix
 Schwierigkeit;Substantiv;fem.;die;0;B1;458;difficulty/trouble;Hatten Sie Schwierigkeiten bei der Suche?;Did you have **difficulties** in finding it?;
 schwitzen;Verb;nan;nan;0;B1;522;to sweat/perspire;Bei dieser Hitze schwitze ich sehr.;I **sweat** a lot in this heat.;
-schätzen;Verb;nan;nan;0;B1;3078;to estimate/value/appreciate;Ich schätze dich sehr als Freund.;I **value** (appreciate) you very much as a friend.;
+schätzen;Verb;nan;nan;0;B1;3078;to estimate/value/appreciate;Ich schätze dich sehr als Freund.;I **value** (appreciate) you very much as a friend.;s-
 Schüssel;Substantiv;fem.;die;0;B1;197;bowl/dish;Die Schüssel ist voll mit Obst.;The **bowl** is full of fruit.;
 schütteln;Verb;nan;nan;0;B1;1440;to shake;Schütteln Sie die Flasche vor Gebrauch.;**Shake** the bottle before use.;
 schützen;Verb;nan;nan;0;B1;2067;to protect/guard/shield;Hut und Sonnenbrille schützen vor der Sonne.;A hat and sunglasses **protect** from the sun.;
