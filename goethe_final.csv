@@ -702,7 +702,7 @@ Tochter;Substantiv;fem.;die;0;A1;1880;daughter;Meine Tochter geht in den Kinderg
 Toilette;Substantiv;fem.;die;0;A1;226;toilet/restroom;Wo ist die Toilette?;Where is the **toilet**?;
 Tomate;Substantiv;fem.;die;0;A1;312;tomato;Ich esse gerne Tomaten.;I like to eat **tomatoes**.;
 tot;Adjektiv;nan;nan;0;A1;5184;dead;Mein Fisch ist leider tot.;My fish is unfortunately **dead**.;
-treffen;Verb;nan;nan;0;A1;16367;to meet;Wir treffen uns im Café.;We are **meeting** at the café.;
+treffen;Verb;nan;nan;0;A1;16367;to meet;Wir treffen uns im Café.;We are **meeting** at the café.;t-
 Treppe;Substantiv;fem.;die;0;A1;490;stairs/staircase;Gehen Sie bitte die Treppe hoch.;Please go up the **stairs**.;
 trinken;Verb;nan;nan;0;A1;6549;to drink;Ich trinke gerne Wasser.;I like to **drink** water.;
 Tschüss;Interjektion;nan;nan;0;A1;11;bye/goodbye;Tschüss, bis morgen!;**Bye**, see you tomorrow!;
@@ -1608,7 +1608,7 @@ beeinflussen;Verb;nan;nan;0;B1;322;to influence/affect/bias;Das Wetter beeinflus
 befinden;Verb;nan;nan;0;B1;2850;to be located/be found/feel;Das Museum befindet sich im Zentrum.;The museum **is located** in the center.;
 befreit;partizipiales Adjektiv;nan;nan;0;B1;12;exempt/liberated/freed;Er ist von der Steuer befreit.;He is **exempt** from tax.;
 befriedigend;partizipiales Adjektiv;nan;nan;0;B1;149;satisfactory/satisfying;Das Ergebnis ist befriedigend.;The result is **satisfactory**.;
-begegnen;Verb;nan;nan;0;B1;1072;to meet/encounter/come across;Ich bin ihm gestern begegnet.;I **met** (encountered) him yesterday.;
+begegnen;Verb;nan;nan;0;B1;1072;to meet/encounter/come across;Ich bin ihm gestern begegnet.;I **met** (encountered) him yesterday.;b-
 begeistert;partizipiales Adjektiv;nan;nan;0;B1;285;enthusiastic/excited/thrilled;Ich bin begeistert von der Idee.;I am **enthusiastic** about the idea.;
 Beginn;Substantiv;mask.;der;0;B1;1119;start/beginning/onset;Der Beginn der Vorstellung ist um 20 Uhr.;The **start** of the performance is at 8 PM.;b-
 begleiten;Verb;nan;nan;0;B1;5397;to accompany/escort/follow;Darf ich dich begleiten?;May I **accompany** you?;
