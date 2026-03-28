@@ -934,7 +934,7 @@ drinnen;Adverb;nan;nan;0;A2;156;inside/indoors;Draußen ist es kalt, gehen wir n
 drüben;Adverb;nan;nan;0;A2;210;over there;Dort drüben ist der Park.;The park is **over there**.;
 dumm;Adjektiv;nan;nan;0;A2;1486;stupid/dumb;Das war eine dumme Idee.;That was a **stupid** idea.;
 dunkel;Adjektiv;nan;nan;0;A2;4431;dark;Im Winter wird es früh dunkel.;In winter it gets **dark** early.;
-dünn;Adjektiv;nan;nan;0;A2;862;thin/slim;Er ist sehr dünn.;He is very **thin**.;
+dünn;Adjektiv;nan;nan;0;A2;862;thin/slim;Er ist sehr dünn.;He is very **thin**.;-n
 E-Book;Substantiv;neutr.;das;0;A2;1;e-book;Ich lese ein E-Book.;I am reading an **e-book**.;
 echt;Adjektiv;nan;nan;0;A2;5247;real/genuine;Ist das echt?;Is that **real**?;
 egal;Adjektiv;nan;nan;0;A2;445;doesn't matter/all the same;Das ist mir egal.;That **doesn't matter** to me.;
@@ -2715,9 +2715,9 @@ Schlagobers;Substantiv;neutr.;das;0;B1;nan;whipped cream;Ich hätte gerne Apfels
 Schlagrahm;Substantiv;mask.;der;0;B1;9;whipped cream;Möchten Sie Schlagrahm dazu?;Would you like **whipped cream** with that?;Swiss
 Schlagsahne;Substantiv;fem.;die;0;B1;51;whipped cream;Die Schlagsahne ist im Kühlschrank.;The **whipped cream** is in the fridge.;
 Schlange;Substantiv;fem.;die;0;B1;355;snake/line/queue;Wir mussten in einer langen Schlange warten.;We had to wait in a long **line** (queue).;
-schlank;Adjektiv;nan;nan;0;B1;104;slim/slender/thin;Sie ist groß und schlank.;She is tall and **slim**.;
+schlank;Adjektiv;nan;nan;0;B1;104;slim/slender/thin;Sie ist groß und schlank.;She is tall and **slim**.;-k
 schließlich;Adverb;nan;nan;0;B1;1846;finally/eventually/after all;Schließlich haben wir es geschafft.;We **finally** made it.;s-
-schmal;Adjektiv;nan;nan;0;B1;640;narrow/slim/slender;Der Weg ist sehr schmal.;The path is very **narrow**.;
+schmal;Adjektiv;nan;nan;0;B1;640;narrow/slim/slender;Der Weg ist sehr schmal.;The path is very **narrow**.;-l
 Schmerzmittel;Substantiv;neutr.;das;0;B1;34;painkiller/analgesic;Haben Sie ein Schmerzmittel gegen Kopfschmerzen?;Do you have a **painkiller** for headaches?;
 schminken;Verb;nan;nan;0;B1;171;to put on makeup;Sie schminkt sich vor dem Spiegel.;She is **putting on makeup** in front of the mirror.;
 Schmuck;Substantiv;mask.;der;0;B1;256;jewelry;Sie trägt teuren Schmuck.;She is wearing expensive **jewelry**.;
