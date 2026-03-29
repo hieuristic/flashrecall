@@ -1500,7 +1500,7 @@ anderseits;Adverb;nan;nan;0;B1;19;on the other hand;Das ist anderseits auch wahr
 andrerseits;Adverb;nan;nan;0;B1;8;on the other hand;Andrerseits möchte ich gehen.;**On the other hand**, I want to go.;-rer-
 anerkennen;Verb;nan;nan;0;B1;519;to recognize/acknowledge/accept;Sein Erfolg wurde anerkannt.;His success was **recognized**.;to acknowledge, validating
 anfangs;Adverb;nan;nan;0;B1;190;at first/initially;Anfangs war es schwierig.;**At first** it was difficult.;
-Angabe;Substantiv;fem.;die;0;B1;982;statement/information/detail;Wir haben diese Angaben nicht.;We don't have that **information**.;
+Angabe;Substantiv;fem.;die;0;B1;982;detail/statement;Bitte füllen Sie Ihre persönlichen Angaben aus.;Please fill in your personal **details**.;a-
 angeben;Verb;nan;nan;0;B1;684;to state/show off/specify;Bitte geben Sie Ihren Namen an.;Please **state** your name.;
 Angehörige;Substantiv;fem., mask.;die, der;0;B1;1268;relative/member;Er ist ein Angehöriger der Familie.;He is a **relative** (member) of the family.;
 angenehm;Adjektiv;nan;nan;0;B1;294;pleasant/agreeable/comfortable;Das ist eine angenehme Überraschung.;That is a **pleasant** surprise.;
@@ -1745,7 +1745,7 @@ derselbe;Demonstrativpronomen;mask.;nan;0;B1;2137;the same;Er ist derselbe Mann 
 Dessert;Substantiv;neutr.;das;0;B1;86;dessert;Möchten Sie ein Dessert?;Would you like a **dessert**?;
 desto;Konjunktion;nan;nan;0;B1;394;Je mehr du lernst; desto besser.;The more you learn, **the** better.;
 deswegen;Konjunktion;nan;nan;0;B1;381;therefore/that's why;Es war kalt, deswegen blieb ich zu Hause.;It was cold, **that's why** I stayed at home.;
-Detail;Substantiv;neutr.;das;0;B1;311;detail;Bitte erklären Sie das im Detail.;Please explain that in **detail**.;
+Detail;Substantiv;neutr.;das;0;B1;311;detail;Bitte erklären Sie das im Detail.;Please explain that in **detail**.;d-
 Dialekt;Substantiv;mask.;der;0;B1;659;dialect;Er spricht einen starken Dialekt.;He speaks a strong **dialect**.;
 Dialog;Substantiv;mask.;der;0;B1;161;dialogue/conversation;Wir üben den Dialog.;We are practicing the **dialogue**.;
 dicht;Adjektiv;nan;nan;0;B1;25181;dense/thick/close;Der Nebel ist sehr dicht.;The fog is very **dense**.;
@@ -1833,7 +1833,7 @@ Einwohnerin;Substantiv;fem.;die;0;B1;131;inhabitant/resident;Sie ist eine Einwoh
 einzahlen;Verb;nan;nan;0;B1;106;to deposit/pay in;Ich möchte Geld auf mein Konto einzahlen.;I want to **deposit** money into my account.;
 Einzahlung;Substantiv;fem.;die;0;B1;11;deposit/payment;Die Einzahlung wurde bestätigt.;The **deposit** (payment) was confirmed.;
 einzel-;Affix;nan;nan;0;B1;nan;single/individual;Das ist ein Einzelzimmer.;That is a **single** room.;affix
-Einzelheit;Substantiv;fem.;die;0;B1;173;detail/particular;Erzählen Sie mir alle Einzelheiten.;Tell me all the **details**.;
+Einzelheit;Substantiv;fem.;die;0;B1;173;detail/particular;Erzählen Sie mir alle Einzelheiten.;Tell me all the **details**.;e-
 einzig;Adjektiv;nan;nan;0;B1;1655;only/single/unique;Das war meine einzige Chance.;That was my **only** chance.;e-
 Eisenbahn;Substantiv;fem.;die;0;B1;218;railway/railroad;Wir fahren mit der Eisenbahn.;We are going by **railway**.;
 elegant;Adjektiv;nan;nan;0;B1;243;elegant/stylish/graceful;Sie trägt ein elegantes Kleid.;She is wearing an **elegant** dress.;
