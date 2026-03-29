@@ -2404,7 +2404,7 @@ Mauer;Substantiv;fem.;die;0;B1;729;wall;Die **Mauer** ist sehr alt.;The **wall**
 maximal;Adjektiv;nan;nan;0;B1;332;maximum/maximal;Die **maximale** Geschwindigkeit beträgt 50 km/h.;The **maximum** speed is 50 km/h.;
 Mechaniker;Substantiv;mask.;der;0;B1;64;mechanic;Der **Mechaniker** repariert das Auto.;The **mechanic** is repairing the car.;male
 Mechanikerin;Substantiv;fem.;die;0;B1;6;mechanic;Sie ist eine erfahrene **Mechanikerin**.;She is an experienced (female) **mechanic**.;female
-Medium;Substantiv;neutr.;das;0;B1;1196;medium/means;Das Internet ist ein wichtiges **Medium**.;The internet is an important **medium**.;
+Medium;Substantiv;neutr.;das;0;B1;1196;medium;Das Internet ist ein wichtiges **Medium**.;The internet is an important **medium**.;
 Medizin;Substantiv;fem.;die;0;B1;397;medicine;Sie studiert **Medizin** in Berlin.;She is studying **medicine** in Berlin.;
 Mehl;Substantiv;neutr.;das;0;B1;328;flour;Ich brauche **Mehl** für den Kuchen.;I need **flour** for the cake.;
 mehrere;Indefinitpronomen;nan;nan;0;B1;7630;several/multiple;Ich habe **mehrere** Fragen.;I have **several** questions.;
