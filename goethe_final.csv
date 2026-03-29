@@ -1390,7 +1390,7 @@ weich;Adjektiv;nan;nan;0;A2;3089;soft/tender;Das Bett ist sehr **weich**.;The be
 weil;Konjunktion;nan;nan;0;A2;7602;because;Ich bleibe zu Hause, **weil** ich krank bin.;I am staying at home **because** I am sick.;w-
 weinen;Verb;nan;nan;0;A2;837;to cry/weep;Das Kind weint.;The child is **crying**.;
 wenigstens;Adverb;nan;nan;0;A2;460;at least;Du hättest **wenigstens** anrufen können.;You could have **at least** called.;w-
-wenn;Konjunktion;nan;nan;0;A2;124865;if/when;**Wenn** es regnet, bleiben wir hier.;**If** it rains, we stay here.;
+wenn;Konjunktion;nan;nan;0;A2;124865;if/when;**Wenn** es regnet, bleiben wir hier.;**If** it rains, we stay here.;w-
 Werkstatt;Substantiv;fem.;die;0;A2;300;workshop/garage/repair shop;Mein Auto ist in der **Werkstatt**.;My car is in the **repair shop**.;
 Wettbewerb;Substantiv;mask.;der;0;A2;452;competition/contest;Er nimmt an einem **Wettbewerb** teil.;He is participating in a **competition**.;
 windig;Adjektiv;nan;nan;0;A2;128;windy;Heute ist es sehr **windig**.;Today it is very **windy**.;
@@ -1932,7 +1932,7 @@ Fahrzeug;Substantiv;neutr.;das;0;B1;1671;vehicle/craft;Das **Fahrzeug** ist gepa
 fair;Adjektiv;nan;nan;0;B1;168;fair;Das war ein **fairer** Kampf.;That was a **fair** fight.;
 Faktor;Substantiv;mask.;der;0;B1;436;factor;Das ist ein wichtiger **Faktor**.;That is an important **factor**.;
 Fall;Substantiv;mask.;der;0;B1;3631;case/fall/instance;In diesem **Fall** haben Sie recht.;In this **case**, you are right.;
-falls;Konjunktion;nan;nan;0;B1;747;if/in case/provided that;**Falls** es regnet;In **case** it rains, I will stay here.;
+falls;Konjunktion;nan;nan;0;B1;747;if/in case/provided that;**Falls** es regnet;In **case** it rains, I will stay here.;f-
 fangen;Verb;nan;nan;0;B1;2570;to catch/capture/trap;Der Junge fängt den Ball.;The boy **catches** the ball.;
 Fantasie;Substantiv;fem.;die;0;B1;89;fantasy/imagination;Du hast viel **Fantasie**.;You have a lot of **imagination** (fantasy).;
 farbig;Adjektiv;nan;nan;0;B1;228;colored/colorful;Ich möchte ein **farbiges** Bild.;I want a **colored** picture.;f-
@@ -2516,7 +2516,7 @@ nähern;Verb;nan;nan;0;B1;806;to approach/get closer;Wir **nähern** uns dem Zie
 nämlich;Konjunktion;nan;nan;0;B1;1225;namely/specifically/after all;Er kam zu spät;"He came late; he had overslept, **after all**.";
 nötig;Adjektiv;nan;nan;0;B1;2079;necessary/needed;Das ist nicht **nötig**.;That is not **necessary**.;nö-
 nützen;Verb;nan;nan;0;B1;316;to be useful/benefit/use;Das nützt mir gar nichts.;That's of no **use** to me at all.;
-ob;Konjunktion;nan;nan;0;B1;8437;if/whether;Frag ihn **ob** er kommt.;Ask him **if** (whether) he's coming.;
+ob;Konjunktion;nan;nan;0;B1;8437;if/whether;Frag ihn **ob** er kommt.;Ask him **if** (whether) he's coming.;o-
 Ober;Substantiv;mask.;der;0;B1;246;waiter;Herr **Ober**, die Rechnung bitte!;**Waiter**, the bill please!;male
 ober-;Affix;nan;nan;0;B1;2;upper/top/superior;Das Obergeschoss ist renoviert.;The **upper** floor is renovated.;
 Obers;Substantiv;neutr.;das;0;B1;1;cream;Möchten Sie **Obers** zum Kaffee?;Would you like **cream** with your coffee?;Austrian
