@@ -543,7 +543,7 @@ noch;Adverb;nan;nan;0;A1;187700;still/yet;Ich bin noch müde.;I am **still** tir
 Norden;Substantiv;mask.;der;0;A1;1276;North;Hamburg liegt im Norden.;Hamburg is in the **North**.;
 normal;Adjektiv;nan;nan;0;A1;655;normal;Das ist ganz normal.;That is quite **normal**.;
 November;Substantiv;mask.;der;0;A1;700;November;Im November ist es oft grau.;It is often grey in **November**.;
-Nummer;Substantiv;fem.;die;0;A1;534;number;Wie ist Ihre Telefonnummer?;What is your phone **number**?;
+Nummer;Substantiv;fem.;die;0;A1;534;number;Wie ist Ihre Telefonnummer?;What is your phone **number**?;n-
 nur;Adverb;nan;nan;0;A1;186978;only;Ich habe nur fünf Euro.;I **only** have five euros.;
 nächst;Superlativ;nan;nan;0;A1;31;next;Bis zum nächsten Mal!;Until the **next** time!;
 oben;Adverb;nan;nan;0;A1;8761;above/upstairs;Die Wohnung ist oben.;The apartment is **upstairs**.;
@@ -1524,7 +1524,7 @@ Anwalt;Substantiv;mask.;der;0;B1;258;lawyer/attorney;Er ist ein guter Anwalt.;He
 anwenden;Verb;nan;nan;0;B1;632;to apply/use/employ;Man muss die Regeln anwenden.;One must **apply** the rules.;a-
 anwesend;Adjektiv;nan;nan;0;B1;201;present;Sind alle anwesend?;Are all **present**?;
 Anwältin;Substantiv;fem.;die;0;B1;31;lawyer/attorney;Die Anwältin berät mich.;The (female) **lawyer** is advising me.;female
-Anzahl;Substantiv;fem.;die;0;B1;1053;number/quantity/amount;Eine große Anzahl von Menschen war da.;A large **number** of people were there.;
+Anzahl;Substantiv;fem.;die;0;B1;1053;number/quantity/amount;Eine große Anzahl von Menschen war da.;A large **number** of people were there.;a-
 anzeigen;Verb;nan;nan;0;B1;388;to report/display/announce;Er hat den Diebstahl angezeigt.;He **reported** the theft.;a-
 Aprikose;Substantiv;fem.;die;0;B1;17;apricot;Ich mag Aprikosen.;I like **apricots**.;
 Arbeiter;Substantiv;mask.;der;0;B1;549;worker/laborer;Er ist ein fleißiger Arbeiter.;He is a hard-working **worker**.;male
