@@ -215,7 +215,7 @@
       font-size: 1rem;
       color: var(--muted-text);
       font-style: italic;
-      margin-top: 1rem;
+      margin-top: 0.5rem;
       min-height: 1.5rem;
       max-width: 37.5rem;
       text-align: center;
@@ -224,7 +224,7 @@
     .example-en {
       font-size: 0.75rem;
       color: var(--muted-text-light);
-      margin-top: 0.5rem;
+      margin-top: 1rem;
       min-height: 1rem;
       max-width: 37.5rem;
       text-align: center;
@@ -626,8 +626,8 @@
   <div id="mainPage" class="page active">
     <div id="clarifier"></div>
     <div id="show">Loading...</div>
-    <div id="example-de" class="example-de"></div>
     <div id="example-en" class="example-en"></div>
+    <div id="example-de" class="example-de"></div>
     <br><br>
     <div id="showUse" class="show-use"></div>
     <input type="text" id="tell" placeholder="type here" autocomplete="off" autofocus>
@@ -662,6 +662,14 @@
       <div class="checkUmlautBtn">
         <div class="btn" onclick="setUmlautCheck(true)" data-umlaut="true">on</div>
         <div class="btn" onclick="setUmlautCheck(false)" data-umlaut="false">off</div>
+      </div>
+    </div>
+    <div class="settingItem">
+      <div>fill in german</div>
+      <div class="helpBtn" data-help="Show the English sentence and German sentence with a blank initially">[?]</div>
+      <div class="fillInGermanBtn">
+        <div class="btn" onclick="setFillInGerman(true)" data-fill="true">on</div>
+        <div class="btn" onclick="setFillInGerman(false)" data-fill="false">off</div>
       </div>
     </div>
     <div class="settingItem">
@@ -900,6 +908,7 @@
       mode: 0, // 0 for learning, 1 for reviewing
       levels: [true, false, false], // binary array for [A1, A2, B1]
       check_umlaut: false, // default off
+      fill_in_german: false, // default off
       dailyLimit: 100, // new words per day
       fuzzy_error: true, // show fuzzy correction
       mute: false, // speak German answer aloud via TTS
@@ -1175,6 +1184,12 @@
 
     function setUmlautCheck(value) {
       userSettings.check_umlaut = value;
+      loadSettingsIntoUI();
+      saveSettings();
+    }
+
+    function setFillInGerman(value) {
+      userSettings.fill_in_german = value;
       loadSettingsIntoUI();
       saveSettings();
     }
@@ -1647,6 +1662,16 @@
       document.querySelectorAll('.checkUmlautBtn .btn').forEach(btn => {
         const btnVal = btn.getAttribute('data-umlaut') === 'true';
         if (userSettings.check_umlaut === btnVal) {
+          btn.classList.add('selected');
+        } else {
+          btn.classList.remove('selected');
+        }
+      });
+
+      // Highlight fill in german buttons
+      document.querySelectorAll('.fillInGermanBtn .btn').forEach(btn => {
+        const btnVal = btn.getAttribute('data-fill') === 'true';
+        if (userSettings.fill_in_german === btnVal) {
           btn.classList.add('selected');
         } else {
           btn.classList.remove('selected');
@@ -2134,29 +2159,31 @@
       }
 
       // Pre-calculate unmasked example for error display
-      let unmaskedDe = deText;
-      if (!isPureArticle && currentWord.german) {
-        const lemmaRegex = new RegExp(`(\\b${currentWord.german}\\b)`, 'gi');
-        unmaskedDe = unmaskedDe.replace(lemmaRegex, '<u>$1</u>');
-      }
-      currentWord.unmasked_german_example = formatMarkdown(unmaskedDe);
+      currentWord.unmasked_german_example = formatMarkdown(deText);
 
       // Masking logic
       let maskedDeText = deText;
       if (deText) {
-        if (isPureArticle) {
-          if (nounToMaskInArticleCase) {
-            const nounRegex = new RegExp(`\\b${nounToMaskInArticleCase}\\b`, 'gi');
-            maskedDeText = maskedDeText.replace(nounRegex, '___');
+        // Use the ** highlighting from CSV for more accurate masking (handles separable verbs etc)
+        // We replace the content inside ** with ___
+        maskedDeText = deText.replace(/\*\*(.*?)\*\*/g, '___');
+
+        // Fallback or article-specific masking
+        if (maskedDeText === deText) {
+          if (isPureArticle) {
+            if (nounToMaskInArticleCase) {
+              const nounRegex = new RegExp(`\\b${nounToMaskInArticleCase}\\b`, 'gi');
+              maskedDeText = maskedDeText.replace(nounRegex, '___');
+            }
+          } else if (currentWord.german) {
+            const lemmaRegex = new RegExp(`\\b${currentWord.german}\\b`, 'gi');
+            maskedDeText = maskedDeText.replace(lemmaRegex, '___');
           }
-        } else if (currentWord.german) {
-          const lemmaRegex = new RegExp(`\\b${currentWord.german}\\b`, 'gi');
-          maskedDeText = maskedDeText.replace(lemmaRegex, '___');
         }
       }
 
       exampleDeDiv.innerHTML = formatMarkdown(maskedDeText);
-      exampleDeDiv.style.display = 'none';
+      exampleDeDiv.style.display = userSettings.fill_in_german ? 'block' : 'none';
 
       exampleEnDiv.innerHTML = formatMarkdown(enText);
       exampleEnDiv.style.display = 'block';
