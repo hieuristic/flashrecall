@@ -257,7 +257,7 @@ Feierabend;Substantiv;mask.;der;0;A1;76;end of the workday;Wann hast du heute **
 feiern;Verb;nan;nan;0;A1;4333;to celebrate;Wir **feiern** heute meinen Geburtstag.;We are **celebrating** my birthday today.;
 Feiertag;Substantiv;mask.;der;0;A1;166;holiday;Morgen ist ein **Feiertag**.;Tomorrow is a **holiday**.;f-
 fernsehen;Verb;nan;nan;0;A1;70;to watch TV;Ich möchte heute Abend **fernsehen**.;I want to **watch TV** tonight.;
-fertig;Adjektiv;nan;nan;0;A1;3980;ready/finished;Bist du schon **fertig**?;Are you **ready** already?;
+fertig;Adjektiv;nan;nan;0;A1;3980;ready/finished;Bist du schon **fertig**?;Are you **ready** already?;f-
 Feuer;Substantiv;neutr.;das;0;A1;4172;fire;Im Kamin brennt ein **Feuer**.;A **fire** is burning in the fireplace.;
 Fieber;Substantiv;neutr.;das;0;A1;238;fever;Das Kind hat hohes **Fieber**.;The child has a high **fever**.;
 Film;Substantiv;mask.;der;0;A1;2707;movie/film;Der **Film** war sehr spannend.;The **movie** was very exciting.;
@@ -1506,7 +1506,7 @@ Angehörige;Substantiv;fem., mask.;die, der;0;B1;1268;relative/member;Er ist ein
 angenehm;Adjektiv;nan;nan;0;B1;294;pleasant/agreeable/comfortable;Das ist eine **angenehme** Überraschung.;That is a **pleasant** surprise.;
 Angestellte;Substantiv;mask., fem.;der, die;0;B1;nan;employee/staff member;Er ist ein **Angestellter** der Firma.;He is an **employee** of the company.;
 anhaben;Verb;nan;nan;0;B1;67;have on;Was hast du heute an?;What do you **have on** (wearing) today?;
-ankündigen;Verb;nan;nan;0;B1;343;to announce/notify/herald;Der Besuch wurde angekündigt.;The visit was **announced**.;
+ankündigen;Verb;nan;nan;0;B1;343;to announce/notify/herald;Der Besuch wurde angekündigt.;The visit was **announced**.;a-
 Anlage;Substantiv;fem.;die;0;B1;1080;system/facility/attachment;Das ist eine moderne **Anlage**.;That is a modern **system** (facility).;
 Anleitung;Substantiv;fem.;die;0;B1;125;instruction/manual/guidance;Bitte lesen Sie die **Anleitung**.;Please read the **instructions**.;
 annehmen;Verb;nan;nan;0;B1;1015;to accept/assume/take on;Ich **nehme** die Einladung **an.**;I **accept** the invitation.;
@@ -1636,7 +1636,7 @@ beobachten;Verb;nan;nan;0;B1;1046;to observe/watch/monitor;Ich beobachte die Vö
 Beratung;Substantiv;fem.;die;0;B1;174;advice/counseling/consultation;Die **Beratung** war sehr hilfreich.;The **advice** (consultation) was very helpful.;
 berechnen;Verb;nan;nan;0;B1;1512;to calculate/compute/charge;Wie berechnet man das?;How do you **calculate** that?;
 Bereich;Substantiv;mask., neutr.;der;0;B1;3010;area/range/sector;Das ist nicht mein **Bereich**.;That is not my **area** (sector).;
-bereit;Adjektiv;nan;nan;0;B1;3005;ready/prepared/willing;Sind Sie **bereit** für die Reise?;Are you **ready** for the trip?;
+bereit;Adjektiv;nan;nan;0;B1;3005;ready/prepared/willing;Sind Sie **bereit** für die Reise?;Are you **ready** for the trip?;b-
 bereits;Adverb;nan;nan;0;B1;4391;already;Das habe ich **bereits** erledigt.;I have **already** taken care of that.;b-
 Bericht;Substantiv;mask.;der;0;B1;769;report/account/coverage;Ich schreibe einen **Bericht** über den Unfall.;I am writing a **report** about the accident.;b-
 beruflich;Adjektiv;nan;nan;0;B1;524;professional/vocational/work-related;Was machen Sie **beruflich**?;What do you do **professionally** (for a living)?;
