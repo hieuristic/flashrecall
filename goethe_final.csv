@@ -1543,7 +1543,7 @@ auffallen;Verb;nan;nan;0;B1;305;to notice/attract attention/stand out;Ist dir et
 auffordern;Verb;nan;nan;0;B1;299;to request/call on/invite;Er forderte mich auf zu gehen.;He **requested** (called on) me to leave.;a-
 Aufforderung;Substantiv;fem.;die;0;B1;208;request/invitation/summons;Das war eine freundliche **Aufforderung**.;That was a friendly **request**.;
 aufführen;Verb;nan;nan;0;B1;391;to perform/list/act out;Das Stück wird heute aufgeführt.;The play is being **performed** today.;
-aufgeben;Verb;nan;nan;0;B1;524;to give up/quit/surrender;Gib niemals auf!;Never **give up**!;a-
+aufgeben;Verb;nan;nan;0;B1;524;to give up;Gib niemals auf!;Never **give up**!;a-
 aufhalten;Verb;nan;nan;0;B1;488;to stop/delay/stay;Niemand kann ihn **aufhalten**.;Nobody can **stop** him.;
 aufheben;Verb;nan;nan;0;B1;433;to pick up/keep/abolish;Bitte **heb** das Papier **auf.**;Please **pick up** the paper.;
 aufladen;Verb;nan;nan;0;B1;115;to charge/load;Ich muss mein Handy **aufladen**.;I need to **charge** my phone.;
@@ -2158,7 +2158,7 @@ hinweisen;Verb;nan;nan;0;B1;438;to point out/indicate/refer;Er hat auf den Fehle
 historisch;Adjektiv;nan;nan;0;B1;2609;historical/historic;Das ist ein **historisches** Gebäude.;That is a **historical** building.;
 Hitze;Substantiv;fem.;die;0;B1;473;heat;Die **Hitze** ist unerträglich.;The **heat** is unbearable.;
 hochladen;Verb;nan;nan;0;B1;94;to upload;Ich lade die Fotos hoch.;I'm **uploading** the photos.;
-Hof;Substantiv;mask.;der;0;B1;2385;courtyard/yard/court;Die Kinder spielen im **Hof**.;The children are playing in the **courtyard**.;
+Hof;Substantiv;mask.;der;0;B1;2385;courtyard/yard/court;Die Kinder spielen im **Hof**.;The children are playing in the **courtyard**.;h-
 Hoffnung;Substantiv;fem.;die;0;B1;527;hope;Wir haben noch **Hoffnung**.;We still have **hope**.;
 Holz;Substantiv;neutr.;das;0;B1;5513;wood/timber/lumber;Der Tisch ist aus **Holz**.;The table is made of **wood**.;
 Honig;Substantiv;mask.;der;0;B1;211;honey;Ich mag **Honig** im Tee.;I like **honey** in my tea.;
