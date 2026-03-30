@@ -1376,7 +1376,7 @@ Vorschlag;Substantiv;mask.;der;0;A2;393;suggestion/proposal;Das war ein guter **
 vorwärts;Adverb;nan;nan;0;A2;167;forward/onwards;Der Wagen rollt **vorwärts**.;The car is rolling **forward**.;
 wach;Adjektiv;nan;nan;0;A2;221;awake;Bist du schon **wach**?;Are you **awake** already?;
 wahr;Adjektiv;nan;nan;0;A2;739;true;Das ist nicht **wahr**!;That is not **true**!;opposite of false
-wahrscheinlich;Adjektiv;nan;nan;0;A2;989;probably;Ich komme **wahrscheinlich** morgen.;I'll **probably** come tomorrow.;
+wahrscheinlich;Adjektiv;nan;nan;0;A2;989;probably;Ich komme **wahrscheinlich** morgen.;I'll **probably** come tomorrow.;wa-
 Wald;Substantiv;mask.;der;0;A2;1342;forest/woods;Wir gehen im **Wald** spazieren.;We are taking a walk in the **forest**.;
 warm;Adjektiv;nan;nan;0;A2;501;warm;Heute ist es angenehm **warm**.;Today it is pleasantly **warm**.;
 Web-Seite;Substantiv;fem.;die;0;A2;nan;web page/website;Besuchen Sie unsere **Web-Seite**.;Visit our **web page**.;
@@ -3055,7 +3055,7 @@ Vermietung;Substantiv;fem.;die;0;B1;19;rental/hiring;Die **Vermietung** von Fahr
 vermissen;Verb;nan;nan;0;B1;132;to miss;Ich vermisse meine Familie sehr.;I **miss** my family very much.;
 Vermittlung;Substantiv;fem.;die;0;B1;158;placement/agency/mediation;Die **Vermittlung** von Jobs ist ihre Aufgabe.;The **placement** (agency) of jobs is her task.;
 vermuten;Verb;nan;nan;0;B1;484;to suspect/assume/guess;Ich vermute, dass er heute kommt.;I **suspect** (assume) that he's coming today.;
-vermutlich;Adjektiv;nan;nan;0;B1;602;probable/probably/likely;Er ist **vermutlich** krank.;He is **probably** sick.;
+vermutlich;Adjektiv;nan;nan;0;B1;602;probable/probably/likely;Er ist **vermutlich** krank.;He is **probably** sick.;v-
 vernünftig;Adjektiv;nan;nan;0;B1;237;reasonable/sensible/rational;Das ist ein **vernünftiger** Vorschlag.;That is a **reasonable** (sensible) suggestion.;
 verpacken;Verb;nan;nan;0;B1;426;to pack/wrap/package;Bitte **verpacken** Sie das Geschenk schön.;Please **wrap** (pack) the gift nicely.;
 verpflegen;Verb;nan;nan;0;B1;80;to feed/provide food;Wir müssen die Gäste gut **verpflegen**.;We have to **feed** (provide food for) the guests well.;v-
@@ -3174,7 +3174,7 @@ Wirtschaft;Substantiv;fem.;die;0;B1;685;economy/economics/pub;Die **Wirtschaft**
 Wissen;Substantiv;neutr.;das;0;B1;1;knowledge;**Wissen** ist Macht.;**Knowledge** is power.;
 Wissenschaftler;Substantiv;mask.;der;0;B1;641;scientist;Er ist ein bedeutender **Wissenschaftler**.;He is an important **scientist**.;male
 Wissenschaftlerin;Substantiv;fem.;die;0;B1;136;scientist;Die **Wissenschaftlerin** forscht im Labor.;The (female) **scientist** is researching in the lab.;female
-wohl;Adjektiv;nan;nan;0;B1;22036;well/probably/perhaps;Ich fühle mich heute nicht **wohl**.;I don't feel **well** today.;
+wohl;Adjektiv;nan;nan;0;B1;22036;well/probably/perhaps;Ich fühle mich heute nicht **wohl**.;I don't feel **well** today.;wo-
 Wohnort;Substantiv;mask.;der;0;B1;11;place of residence;Wie lautet Ihr **Wohnort**?;What is your **place of residence**?;
 Wohnsitz;Substantiv;mask.;der;0;B1;127;residence/domicile/abode;Er hat seinen **Wohnsitz** in Wien.;He has his **residence** in Vienna.;
 Wolle;Substantiv;fem.;die;0;B1;209;wool;Der Pullover ist aus reiner **Wolle**.;The sweater is made of pure **wool**.;
