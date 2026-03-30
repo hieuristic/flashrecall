@@ -1093,7 +1093,7 @@ leihen;Verb;nan;nan;0;A2;343;to lend/borrow;Kannst du mir ein Buch **leihen**?;C
 Liebe;Substantiv;fem.;die;0;A2;5419;love;**Liebe** ist blind.;**Love** is blind.;
 liefern;Verb;nan;nan;0;A2;7815;to deliver/supply;Wir **liefern** das Sofa morgen.;We are **delivering** the sofa tomorrow.;
 Link;Substantiv;mask., neutr.;der;0;A2;52;link;Klick auf den **Link**.;Click on the **link**.;
-Lust;Substantiv;fem.;die;0;A2;453;desire/mood/inclination;Ich habe **Lust** auf Eis.;I'm in the **mood** for ice cream.;
+Lust;Substantiv;fem.;die;0;A2;453;desire/mood/inclination;Ich habe **Lust** auf Eis.;I'm in the **mood** for ice cream.;lu-
 Löffel;Substantiv;mask.;der;0;A2;201;spoon;Suppe isst man mit dem **Löffel**.;You eat soup with a **spoon**.;
 Lüge;Substantiv;fem.;die;0;A2;267;lie;Das war eine **Lüge**.;That was a **lie**.;
 lügen;Verb;nan;nan;0;A2;872;to lie;Du sollst nicht **lügen**.;You shall not **lie**.;
@@ -2341,7 +2341,7 @@ Langweile;Substantiv;fem.;die;0;B1;nan;boredom;Er klagt oft über **Langweile**.
 langweilen;Verb;nan;nan;0;B1;60;to bore/be bored;Der Film langweilt mich.;The movie **bores** me.;
 Laster;Substantiv;mask.;der;0;B1;103;truck/vice;Der **Laster** versperrt die Straße.;The **truck** (lorry) is blocking the road.;lorry
 Laufwerk;Substantiv;neutr.;das;0;B1;32;drive/disk drive;Legen Sie die CD in das **Laufwerk**.;Put the CD in the **drive**.;
-Laune;Substantiv;fem.;die;0;B1;171;mood/temper;Heute habe ich gute **Laune**.;Today I am in a good **mood**.;
+Laune;Substantiv;fem.;die;0;B1;171;mood/temper;Heute habe ich gute **Laune**.;Today I am in a good **mood**.;la-
 Lautsprecher;Substantiv;mask.;der;0;B1;128;loudspeaker/speaker;Die Musik kommt aus den **Lautsprechern.**;The music is coming from the **loudspeakers**.;
 Lebenslauf;Substantiv;mask.;der;0;B1;65;CV/resume/curriculum vitae;Bitte schicken Sie uns Ihren **Lebenslauf**.;Please send us your **CV** (resume).;
 lecker;Adjektiv;nan;nan;0;B1;201;delicious/tasty;Das Essen war sehr **lecker**.;The food was very **delicious**.;
@@ -2861,7 +2861,7 @@ stilistisch;Adjektiv;nan;nan;0;B1;147;stylistic;Der Text hat einige **stilistisc
 still;Adjektiv;nan;nan;0;B1;4325;quiet/silent/still;Sei bitte **still**!;Please be **quiet**!;
 Stimme;Substantiv;fem.;die;0;B1;2151;voice/vote;Sie hat eine schöne **Stimme**.;She has a beautiful **voice**.;
 stimmen;Verb;nan;nan;0;B1;5281;to be correct/vote/tune;Das stimmt nicht.;That's not **correct** (true).;
-Stimmung;Substantiv;fem.;die;0;B1;513;mood/atmosphere/spirit;Die **Stimmung** auf der Party war toll.;The **mood** (atmosphere) at the party was great.;
+Stimmung;Substantiv;fem.;die;0;B1;513;mood/atmosphere/spirit;Die **Stimmung** auf der Party war toll.;The **mood** (atmosphere) at the party was great.;s-
 stinken;Verb;nan;nan;0;B1;303;to stink;Hier stinkt es nach Rauch.;It **stinks** of smoke here.;
 Stoff;Substantiv;mask.;der;0;B1;1685;material/fabric/substance;Der **Stoff** fühlt sich weich an.;The **material** (fabric) feels soft.;s-
 stolz;Adjektiv;nan;nan;0;B1;1163;proud;Er ist **stolz** auf seinen Erfolg.;He is **proud** of his success.;
