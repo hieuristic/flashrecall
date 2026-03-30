@@ -940,7 +940,7 @@ echt;Adjektiv;nan;nan;0;A2;5247;real/genuine;Ist das **echt**?;Is that **real**?
 egal;Adjektiv;nan;nan;0;A2;445;doesn't matter/all the same;Das ist mir **egal**.;That **doesn't matter** to me.;
 Ehepartner;Substantiv;mask.;der;0;A2;80;spouse;Mein **Ehepartner** kommt auch.;My **spouse** is coming too.;
 eigen;Adjektiv;nan;nan;0;A2;6867;own;Ich habe ein **eigenes** Auto.;I have my **own** car.;
-eigentlich;Adjektiv;nan;nan;0;A2;2069;actually/actually;Was ist **eigentlich** passiert?;What **actually** happened?;
+eigentlich;Adjektiv;nan;nan;0;A2;2069;actually/actually;Was ist **eigentlich** passiert?;What **actually** happened?;e-
 ein Mal;Adverb;nan;nan;0;A2;nan;once/one time;Ich war erst **ein Mal** dort.;I have only been there **once**.;
 einige;Indefinitpronomen;nan;nan;0;A2;2392;some/several/quite a few;Ich habe **einige** Fragen.;I have **some** (several) questions.;
 Einkaufszentrum;Substantiv;neutr.;das;0;A2;66;shopping mall/mall;Wir gehen im **Einkaufszentrum** einkaufen.;We go shopping at the **mall**.;
@@ -1394,7 +1394,7 @@ wenn;Konjunktion;nan;nan;0;A2;124865;if/when;**Wenn** es regnet, bleiben wir hie
 Werkstatt;Substantiv;fem.;die;0;A2;300;workshop/garage/repair shop;Mein Auto ist in der **Werkstatt**.;My car is in the **repair shop**.;
 Wettbewerb;Substantiv;mask.;der;0;A2;452;competition/contest;Er nimmt an einem **Wettbewerb** teil.;He is participating in a **competition**.;
 windig;Adjektiv;nan;nan;0;A2;128;windy;Heute ist es sehr **windig**.;Today it is very **windy**.;
-wirklich;Adjektiv;nan;nan;0;A2;2000;real/really/actual;Das ist **wirklich** wahr.;That is **really** true.;
+wirklich;Adjektiv;nan;nan;0;A2;2000;real/really/actual;Das ist **wirklich** wahr.;That is **really** true.;w-
 Witz;Substantiv;mask.;der;0;A2;436;joke/wit/gag;Erzähl uns einen **Witz**.;Tell us a **joke**.;
 witzig;Adjektiv;nan;nan;0;A2;195;witty;Er ist ein **witziger** Typ.;He is a **funny** guy.;
 Wohnzimmer;Substantiv;neutr.;das;0;A2;289;living room;Wir sitzen im **Wohnzimmer**.;We are sitting in the **living room**.;
@@ -2909,7 +2909,7 @@ Tastatur;Substantiv;fem.;die;0;B1;82;keyboard;Meine **Tastatur** ist kaputt.;My 
 Taste;Substantiv;fem.;die;0;B1;73;key/button;Drücken Sie die Enter-**Taste**.;Press the enter **key**.;
 Tat;Substantiv;fem.;die;0;B1;1824;act/deed/fact;Er wurde auf frischer **Tat** ertappt.;He was caught in the **act**.;
 Tatsache;Substantiv;fem.;die;0;B1;666;fact;Das ist eine bekannte **Tatsache**.;That is a well-known **fact**.;
-tatsächlich;Adjektiv;nan;nan;0;B1;1519;actually/indeed/real;Ist das **tatsächlich** wahr?;Is that **actually** true?;
+tatsächlich;Adjektiv;nan;nan;0;B1;1519;actually/indeed/real;Ist das **tatsächlich** wahr?;Is that **actually** true?;t-
 taub;Adjektiv;nan;nan;0;B1;1;deaf/numb;Er ist auf einem Ohr **taub**.;He is **deaf** in one ear.;
 tauchen;Verb;nan;nan;0;B1;3373;to dive/dip/submerge;Wir gehen im Urlaub **tauchen**.;We're going **diving** on vacation.;
 Technik;Substantiv;fem.;die;0;B1;785;technique;Die **Technik** macht enorme Fortschritte.;**Technology** is making enormous progress.;
