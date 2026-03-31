@@ -930,7 +930,7 @@ doch;Adverb;nan;nan;0;A2;8350;but/though/surely;Komm **doch** mal vorbei!;Do com
 dorther;Pronominaladverb;nan;nan;0;A2;nan;from there;Ich komme **dorther**.;I come **from there**.;
 dorthin;Pronominaladverb;nan;nan;0;A2;275;there/to that place;Gehen wir **dorthin**.;Let's go **there**.;
 dringend;partizipiales Adjektiv;nan;nan;0;A2;443;urgent/urgently;Ich muss Sie **dringend** sprechen.;I need to speak to you **urgently**.;
-drinnen;Adverb;nan;nan;0;A2;156;inside/indoors;Draußen ist es kalt, gehen wir nach **drinnen**.;It's cold outside, let's go **inside**.;
+drinnen;Adverb;nan;nan;0;A2;156;inside/indoors;Draußen ist es kalt, gehen wir nach **drinnen**.;It's cold outside, let's go **inside**.;dri-
 drüben;Adverb;nan;nan;0;A2;210;over there;Dort **drüben** ist der Park.;The park is **over there**.;
 dumm;Adjektiv;nan;nan;0;A2;1486;stupid/dumb;Das war eine **dumme** Idee.;That was a **stupid** idea.;
 dunkel;Adjektiv;nan;nan;0;A2;4431;dark;Im Winter wird es früh **dunkel**.;In winter it gets **dark** early.;
@@ -1775,7 +1775,7 @@ doppelt;Adjektiv;nan;nan;0;B1;5855;double/twice;Ich nehme die **doppelte** Porti
 Dose;Substantiv;fem.;die;0;B1;242;can/tin/box;Eine **Dose** Cola, bitte.;A **can** of cola, please.;
 Dreck;Substantiv;mask.;der;0;B1;287;dirt/mud/trash;Der Schuh ist voller **Dreck**.;The shoe is full of **dirt**.;
 drehen;Verb;nan;nan;0;B1;12618;to turn/film/shoot;**Drehen** Sie sich bitte um.;Please **turn** around.;
-drin;Pronominaladverb;nan;nan;0;B1;139;inside/in it;Was ist in der Kiste **drin**?;What is **inside** (in) the box?;
+drin;Pronominaladverb;nan;nan;0;B1;139;inside/in it;Was ist in der Kiste **drin**?;What is **inside** (in) the box?;drin
 Droge;Substantiv;fem.;die;0;B1;433;drug;**Drogen** sind gefährlich.;**Drugs** are dangerous.;
 Drogerie;Substantiv;fem.;die;0;B1;19;drugstore/chemist's;Ich kaufe Shampoo in der **Drogerie**.;I'm buying shampoo at the **drugstore**.;
 Druck;Substantiv;mask.;der;0;B1;2886;pressure/print;Er steht unter großem **Druck**.;He is under great **pressure**.;
@@ -2143,7 +2143,7 @@ Henderl;Substantiv;neutr.;das;0;B1;nan;chicken;Ich esse heute ein **Henderl**.;I
 Hendl;Substantiv;neutr.;das;0;B1;27;chicken;Möchtest du ein **Hendl**?;Would you like a (roasted) **chicken**?;Austrian/Bavarian
 herausfinden;Verb;nan;nan;0;B1;343;to find out/discover/figure out;Wir müssen die Adresse **herausfinden**.;We need to **find out** the address.;
 Herausforderung;Substantiv;fem.;die;0;B1;267;challenge;Das ist eine große **Herausforderung**.;That is a great **challenge**.;
-herein-;Affix;nan;nan;0;B1;1;in/inside;Komm herein!;Come **in**!;
+herein-;Affix;nan;nan;0;B1;1;in/inside;Komm herein!;Come **in**!;affix, h-
 Herkunft;Substantiv;fem.;die;0;B1;568;origin/background/descent;Was ist deine **Herkunft**?;What is your **origin** (background)?;
 Hersteller;Substantiv;mask.;der;0;B1;356;manufacturer/producer/maker;Fragen Sie beim **Hersteller** nach.;Ask the **manufacturer**.;
 herunterfahren;Verb;nan;nan;0;B1;96;to shut down/power down;Ich fahre den Computer herunter.;I'm **shutting down** the computer.;
@@ -2191,9 +2191,9 @@ Infektion;Substantiv;fem.;die;0;B1;423;infection;Er hat eine schwere **Infektion
 Ingenieur;Substantiv;mask.;der;0;B1;220;engineer;Er arbeitet als **Ingenieur** bei Siemens.;He works as an **engineer** at Siemens.;male
 Inhalt;Substantiv;mask.;der;0;B1;912;content;Der **Inhalt** des Buches ist spannend.;The **content** of the book is exciting.;
 inklusive;Präposition;nan;nan;0;B1;149;including/inclusive of;Der Preis ist **inklusive** Versandkosten.;The price is **including** shipping costs.;
-innen;Adverb;nan;nan;0;B1;524;inside;Die Tür ist von **innen** verschlossen.;The door is locked from the **inside**.;
+innen;Adverb;nan;nan;0;B1;524;inside;Die Tür ist von **innen** verschlossen.;The door is locked from the **inside**.;i-nen
 inner;Adjektiv;nan;nan;0;B1;2399;inner/internal/interior;Er spürt eine **innere** Ruhe.;He feels an **inner** peace.;
-innerhalb;Präposition;nan;nan;0;B1;2037;within/inside;Bitte antworten Sie **innerhalb** einer Woche.;Please reply **within** a week.;
+innerhalb;Präposition;nan;nan;0;B1;2037;within/inside;Bitte antworten Sie **innerhalb** einer Woche.;Please reply **within** a week.;-halb
 Inserat;Substantiv;neutr.;das;0;B1;25;advertisement/ad;Ich habe ein **Inserat** in der Zeitung gelesen.;I read an **advertisement** (ad) in the newspaper.;
 insgesamt;Adverb;nan;nan;0;B1;952;altogether/in total;Das kostet **insgesamt** 50 Euro.;That costs 50 euros **in total** (altogether).;i-
 installieren;Verb;nan;nan;0;B1;260;to install/set up;Ich installiere das neue Programm.;I'm **installing** the new program.;
