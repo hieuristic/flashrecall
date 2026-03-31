@@ -1718,7 +1718,7 @@ Bürger;Substantiv;mask.;der;0;B1;869;citizen;Er ist ein stolzer **Bürger**.;He
 Bürgerin;Substantiv;fem.;die;0;B1;100;citizen;Sie ist eine engagierte **Bürgerin**.;She is a committed (female) **citizen**.;female
 Bürste;Substantiv;fem.;die;0;B1;57;brush;Ich brauche eine **Bürste**.;I need a **brush**.;
 Chance;Substantiv;fem.;die;0;B1;558;chance/opportunity;Nutzen Sie die **Chance**!;Use the **chance** (opportunity)!;
-chic;Adjektiv;nan;nan;0;B1;nan;chic/stylish/elegant;Das Kleid sieht sehr **chic** aus.;The dress looks very **chic**.;
+chic;Adjektiv;nan;nan;0;B1;nan;chic;Das Kleid sieht sehr **chic** aus.;The dress looks very **chic**.;
 Chipkarte;Substantiv;fem.;die;0;B1;nan;chip card/smart card;Bezahlen Sie mit der **Chipkarte**.;Pay with the **chip card**.;
 Coiffeur;Substantiv;mask.;der;0;B1;10;hairdresser/barber;Ich habe einen Termin beim **Coiffeur**.;I have an appointment with the **hairdresser**.;male
 Coiffeuse;Substantiv;fem.;die;0;B1;nan;hairdresser;Die **Coiffeuse** schneidet meine Haare.;The (female) **hairdresser** is cutting my hair.;female
@@ -1836,7 +1836,7 @@ einzel-;Affix;nan;nan;0;B1;nan;single/individual;Das ist ein Einzelzimmer.;That 
 Einzelheit;Substantiv;fem.;die;0;B1;173;detail/particular;Erzählen Sie mir alle **Einzelheiten.**;Tell me all the **details**.;e-
 einzig;Adjektiv;nan;nan;0;B1;1655;only/single/unique;Das war meine **einzige** Chance.;That was my **only** chance.;e-
 Eisenbahn;Substantiv;fem.;die;0;B1;218;railway/railroad;Wir fahren mit der **Eisenbahn**.;We are going by **railway**.;
-elegant;Adjektiv;nan;nan;0;B1;243;elegant/stylish/graceful;Sie trägt ein **elegantes** Kleid.;She is wearing an **elegant** dress.;
+elegant;Adjektiv;nan;nan;0;B1;243;elegant;Sie trägt ein **elegantes** Kleid.;She is wearing an **elegant** dress.;
 elektr-;Affix;nan;nan;0;B1;nan;electr-;Ist das elektrisch?;Is that **electric**?;affix
 elektrisch;Adjektiv;nan;nan;0;B1;4220;electric/electrical;Das Auto hat **elektrische** Fensterheber.;The car has **electric** windows.;
 elektro-;Affix;nan;nan;0;B1;nan;electro-;Er ist ein Elektroingenieur.;He is an **electrical** engineer.;affix
