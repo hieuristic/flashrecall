@@ -523,7 +523,7 @@ männlich;Adjektiv;nan;nan;0;A1;1998;male;Bitte geben Sie an: **männlich** oder
 März;Substantiv;mask.;der;0;A1;773;March;Der Frühling beginnt im **März**.;Spring begins in **March**.;
 Möbel;Substantiv;neutr.;das;0;A1;312;furniture;Ich brauche neue **Möbel**.;I need new **furniture**.;
 mögen;Verb;nan;nan;0;A1;5896;to like;Ich mag Pizza.;I **like** pizza.;m-
-möglich;Adjektiv;nan;nan;0;A1;5605;possible;Das ist leider nicht **möglich**.;That is unfortunately not **possible**.;
+möglich;Adjektiv;nan;nan;0;A1;5605;possible;Das ist leider nicht **möglich**.;That is unfortunately not **possible**.;m-
 müde;Adjektiv;nan;nan;0;A1;321;tired/sleepy;Ich bin so **müde**.;I am so **tired** (sleepy).;
 müssen;Verb;nan;nan;0;A1;49274;must/have to;Ich muss heute arbeiten.;I **must** work today.;
 nach;Präposition;nan;nan;0;A1;573683;after/to;Ich fahre **nach** Berlin.;I'm going **to** Berlin.;cities/countries
@@ -1917,7 +1917,7 @@ Eröffnung;Substantiv;fem.;die;0;B1;227;opening/inauguration/disclosure;Die **Er
 Essig;Substantiv;mask.;der;0;B1;2;vinegar;Ich brauche **Essig** für den Salat.;I need **vinegar** for the salad.;
 Etage;Substantiv;fem.;die;0;B1;141;floor/story/deck;Ich wohne in der ersten **Etage**.;I live on the first **floor**.;
 etwa;Adverb;nan;nan;0;B1;5239;about/approximately/for example;Es sind **etwa** zehn Kilometer.;It's **about** (approximately) ten kilometers.;e-
-eventuell;Adjektiv;nan;nan;0;B1;313;possible/possibly/potential;Wir kommen **eventuell** später.;We **possibly** (potentially) will come later.;
+eventuell;Adjektiv;nan;nan;0;B1;313;possible/possibly/potential;Wir kommen **eventuell** später.;We **possibly** (potentially) will come later.;e-
 ewig;Adjektiv;nan;nan;0;B1;2329;eternal/forever/everlasting;Das hat **ewig** gedauert.;That took **forever** (eternal).;
 Experte;Substantiv;mask.;der;0;B1;488;expert;Er ist ein **Experte** auf seinem Gebiet.;He is an **expert** in his field.;male
 Export;Substantiv;mask.;der;0;B1;159;export;Der **Export** ist für die Wirtschaft wichtig.;**Export** is important for the economy.;
