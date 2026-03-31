@@ -2132,8 +2132,8 @@ Hausmeisterin;Substantiv;fem.;die;0;B1;9;caretaker/janitor;Die **Hausmeisterin**
 Haustier;Substantiv;neutr.;das;0;B1;84;pet;Hast du ein **Haustier**?;Do you have a **pet**?;
 Haut;Substantiv;fem.;die;0;B1;1310;skin;Die Sonne ist gut für die **Haut**.;The sun is good for the **skin**.;
 heben;Verb;nan;nan;0;B1;10635;to lift/raise/hold;Kannst du das Paket **heben**?;Can you **lift** the package?;
-Heim;Substantiv;neutr.;das;0;B1;205;home/hostel/institution;Das ist ein schönes **Heim**.;That is a beautiful **home**.;
-heim;Adverb;nan;nan;0;B1;nan;home/homeward;Ich gehe jetzt **heim**.;I'm going **home** now.;
+Heim;Substantiv;neutr.;das;0;B1;205;home;Das ist ein schönes **Heim**.;That is a beautiful **home**.;
+heim;Adverb;nan;nan;0;B1;nan;homeward;Ich gehe jetzt **heim**.;I'm going **home** now.;adv.
 heimlich;Adjektiv;nan;nan;0;B1;494;secret/clandestine/covert;Das war ein **heimliches** Treffen.;That was a **secret** (clandestine) meeting.;h-
 Heimweh;Substantiv;neutr.;das;0;B1;25;homesickness;Ich habe **Heimweh** nach Deutschland.;I have **homesickness** for Germany.;
 heizen;Verb;nan;nan;0;B1;732;to heat;Wir **heizen** mit Holz.;We **heat** with wood.;
