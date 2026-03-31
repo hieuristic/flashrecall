@@ -812,7 +812,7 @@ zufrieden;Adjektiv;nan;nan;0;A1;380;satisfied/content;Ich bin mit meiner Arbeit 
 Zug;Substantiv;mask.;der;0;A1;1635;train;Der **Zug** kommt pünktlich.;The **train** is arriving on time.;
 zurzeit;Adverb;nan;nan;0;A1;nan;at the moment/currently;**Zurzeit** habe ich viel zu tun.;**At the moment** I have a lot to do.;
 zurück;Adverb;nan;nan;0;A1;5531;back;Wann kommst du **zurück**?;When are you coming **back**?;
-zusammen;Adverb;nan;nan;0;A1;2623;together;Wir lernen **zusammen** Deutsch.;We are learning German **together**.;
+zusammen;Adverb;nan;nan;0;A1;2623;together;Wir lernen **zusammen** Deutsch.;We are learning German **together**.;z-
 zwanzig;Kardinalzahlwort;nan;nan;0;A1;588;twenty;Er ist **zwanzig** Jahre alt.;He is **twenty** years old.;
 zwei;Kardinalzahlwort;nan;nan;0;A1;40468;two;Ich habe **zwei** Geschwister.;I have **two** siblings.;
 zweihundert;Kardinalzahlwort;nan;nan;0;A1;nan;two hundred;Es kostet **zweihundert** Euro.;It costs **two hundred** euros.;
@@ -2053,7 +2053,7 @@ Geldautomat;Substantiv;mask.;der;0;B1;33;ATM/cash machine;Wo ist der **Geldautom
 Gelegenheit;Substantiv;fem.;die;0;B1;960;opportunity/occasion/chance;Das war eine gute **Gelegenheit**.;That was a good **opportunity**.;
 gelingen;Verb;nan;nan;0;B1;2234;to succeed/work out/manage;Es ist mir gelungen.;I **succeeded** (managed).;
 gelten;Verb;nan;nan;0;B1;7391;to be valid/apply/count;Die Regeln **gelten** für alle.;The rules **apply** to everyone.;
-gemeinsam;Adjektiv;nan;nan;0;B1;2610;together/common/joint;Wir essen **gemeinsam**.;We eat **together**.;
+gemeinsam;Adjektiv;nan;nan;0;B1;2610;together/common/joint;Wir essen **gemeinsam**.;We eat **together**.;g-
 Gemeinschaft;Substantiv;fem.;die;0;B1;527;community/fellowship/association;Wir leben in einer **Gemeinschaft**.;We live in a **community**.;
 gemütlich;Adjektiv;nan;nan;0;B1;284;cozy/comfortable/snug;Das Wohnzimmer ist sehr **gemütlich**.;The living room is very **cozy**.;
 genauso;Adverb;nan;nan;0;B1;434;exactly the same/just as;Es ist **genauso** teuer.;It is **exactly the same** price (just as expensive).;
@@ -2195,7 +2195,7 @@ innen;Adverb;nan;nan;0;B1;524;inside;Die Tür ist von **innen** verschlossen.;Th
 inner;Adjektiv;nan;nan;0;B1;2399;inner/internal/interior;Er spürt eine **innere** Ruhe.;He feels an **inner** peace.;
 innerhalb;Präposition;nan;nan;0;B1;2037;within/inside;Bitte antworten Sie **innerhalb** einer Woche.;Please reply **within** a week.;
 Inserat;Substantiv;neutr.;das;0;B1;25;advertisement/ad;Ich habe ein **Inserat** in der Zeitung gelesen.;I read an **advertisement** (ad) in the newspaper.;
-insgesamt;Adverb;nan;nan;0;B1;952;altogether/in total;Das kostet **insgesamt** 50 Euro.;That costs 50 euros **in total** (altogether).;
+insgesamt;Adverb;nan;nan;0;B1;952;altogether/in total;Das kostet **insgesamt** 50 Euro.;That costs 50 euros **in total** (altogether).;i-
 installieren;Verb;nan;nan;0;B1;260;to install/set up;Ich installiere das neue Programm.;I'm **installing** the new program.;
 Institut;Substantiv;neutr.;das;0;B1;558;institute;Er arbeitet an einem wissenschaftlichen **Institut**.;He works at a scientific **institute**.;
 Integration;Substantiv;fem.;die;0;B1;172;integration;Die **Integration** neuer Mitarbeiter ist wichtig.;The **integration** of new employees is important.;
