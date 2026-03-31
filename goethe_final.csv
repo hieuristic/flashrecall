@@ -913,7 +913,7 @@ dafür;Pronominaladverb;nan;nan;0;A2;12906;for it/for that;Ich bin **dafür**.;I
 dagegen;Pronominaladverb;nan;nan;0;A2;4195;against it/on the other hand;Ich bin **dagegen**.;I am **against** it.;
 damals;Adverb;nan;nan;0;A2;1643;back then/at that time;**Damals** war alles billiger.;**Back then** everything was cheaper.;
 Dame;Substantiv;fem.;die;0;A2;871;lady;Guten Tag, meine **Damen** und Herren.;Good day, **ladies** and gentlemen.;
-darauf;Pronominaladverb;nan;nan;0;A2;21661;on it/after that;Freust du dich **darauf**?;Are you looking forward to **it**?;
+darauf;Pronominaladverb;nan;nan;0;A2;21661;on it/after that;Freust du dich **darauf**?;Are you looking forward to **it**?;-f
 darüber;Pronominaladverb;nan;nan;0;A2;3112;about it/over it;Wir haben **darüber** gesprochen.;We talked **about it**.;
 dass;Konjunktion;nan;nan;0;A2;52033;that;Ich weiß, **dass** du kommst.;I know **that** you are coming.;
 Datei;Substantiv;fem.;die;0;A2;190;file;Ich speichere die **Datei**.;I am saving the **file**.;computer
@@ -1730,7 +1730,7 @@ Dach;Substantiv;neutr.;das;0;B1;829;roof;Das **Dach** ist rot.;The **roof** is r
 daher;Pronominaladverb;nan;nan;0;B1;1894;therefore/hence/from there;Es regnete, **daher** blieben wir zu Hause.;It rained, **therefore** we stayed at home.;
 dahin;Pronominaladverb;nan;nan;0;B1;520;there/that way;Gehen wir **dahin**?;Are we going **there**?;
 damit;Konjunktion;nan;nan;0;B1;12584;to/in order to/with it;Beeil dich, **damit** wir rechtzeitig kommen.;Hurry up **so that** (in order to) we arrive on time.;
-danach;Pronominaladverb;nan;nan;0;B1;1127;after that/afterwards/according to it;Zuerst essen wir, **danach** gehen wir spazieren.;First we eat, **afterwards** we take a walk.;d-
+danach;Pronominaladverb;nan;nan;0;B1;1127;after that;Zuerst essen wir, **danach** gehen wir spazieren.;First we eat, **afterwards** we take a walk.;-h
 dankbar;Adjektiv;nan;nan;0;B1;198;grateful/thankful;Ich bin dir sehr **dankbar**.;I am very **grateful** to you.;
 darstellen;Verb;nan;nan;0;B1;1650;to represent/depict/constitute;Er stellt die Situation dar.;He **depicts** (represents) the situation.;da-
 Darstellung;Substantiv;fem.;die;0;B1;1017;representation/depiction/presentation;Die **Darstellung** ist sehr realistisch.;The **depiction** (representation) is very realistic.;da-
