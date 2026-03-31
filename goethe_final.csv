@@ -206,7 +206,7 @@ eilig;Adjektiv;nan;nan;0;A1;239;hurried/in a rush;Ich habe es heute sehr **eilig
 ein;unbestimmter Artikel;mask., neutr.;nan;0;A1;11657240;a/one;Ich habe **ein** Buch gekauft.;I bought **a** book.;mas.
 eine;unbestimmter Artikel;fem.;nan;0;A1;nan;a/one;Dort steht **eine** Frau.;There is **a** woman standing there.;fem.
 einfach;Adjektiv;nan;nan;0;A1;7215;easy/simple;Die Aufgabe ist ganz **einfach**.;The task is quite **simple**.;
-Eingang;Substantiv;mask.;der;0;A1;459;entrance;Der **Eingang** ist um die Ecke.;The **entrance** is around the corner.;physical location
+Eingang;Substantiv;mask.;der;0;A1;459;entrance;Der **Eingang** ist um die Ecke.;The **entrance** is around the corner.;physical location, -g-
 einhundert;Kardinalzahlwort;nan;nan;0;A1;nan;one hundred;Das Ticket kostet **einhundert** Euro.;The ticket costs **one hundred** euros.;
 einkaufen;Verb;nan;nan;0;A1;313;to shop/buy;Ich gehe heute Nachmittag **einkaufen**.;I am going to **shop** this afternoon.;e-
 einladen;Verb;nan;nan;0;A1;462;to invite;Darf ich dich zum Essen **einladen**?;May I **invite** you to dinner?;
@@ -1806,7 +1806,7 @@ Einbruch;Substantiv;mask.;der;0;B1;158;burglary/break-in/collapse;Es gab einen *
 eindeutig;Adjektiv;nan;nan;0;B1;667;unique/unambiguous;Das ist ein **eindeutiges** Ergebnis.;That is a **clear** (unambiguous) result.;-d-
 Eindruck;Substantiv;mask.;der;0;B1;652;impression/impact/mark;Er macht einen guten **Eindruck**.;He makes a good **impression**.;
 einerseits;Adverb;nan;nan;0;B1;358;on the one hand;**Einerseits** ist es gut.;**On the one hand**, it is good.;
-Einfahrt;Substantiv;fem.;die;0;B1;87;entrance/driveway/gateway;Die **Einfahrt** ist versperrt.;The **entrance** (driveway) is blocked.;
+Einfahrt;Substantiv;fem.;die;0;B1;87;entrance/driveway/gateway;Die **Einfahrt** ist versperrt.;The **entrance** (driveway) is blocked.;-f-
 Einfall;Substantiv;mask.;der;0;B1;91;idea/notion/brainwave;Das war ein guter **Einfall**.;That was a good **idea**.;
 einfallen;Verb;nan;nan;0;B1;144;to come to mind/occur/collapse;Mir fällt nichts dazu ein.;Nothing **comes to mind**.;e-
 Einfluss;Substantiv;mask.;der;0;B1;648;influence/impact/inflow;Er hat großen **Einfluss** auf mich.;He has a great **influence** on me.;
