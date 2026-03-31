@@ -1481,7 +1481,7 @@ Alarm;Substantiv;mask.;der;0;B1;93;alarm;Der **Alarm** ging los.;The **alarm** w
 Alkohol;Substantiv;mask.;der;0;B1;633;alcohol;Er trinkt keinen **Alkohol**.;He doesn't drink **alcohol**.;
 aller-;Affix;nan;nan;0;B1;1;of all;Das ist das Allerbeste.;That is the best **of all**.;affix
 allerbest;Adjektiv;nan;nan;0;B1;1;best of all;Das ist mein **allerbestes** Freund.;That is my **best of all** friend.;
-allerdings;Adverb;nan;nan;0;B1;2034;however/certainly/though;Das Hotel war sehr schön, **allerdings** war es ein bisschen zu teuer für uns.;The hotel was very nice. However, it was a little too expensive for us.;a-
+allerdings;Adverb;nan;nan;0;B1;2034;however/certainly/though;Das Hotel war sehr schön, **allerdings** war es ein bisschen zu teuer für uns.;The hotel was very nice. **However**, it was a little too expensive for us.;a-
 allerschönst;Adjektiv;nan;nan;0;B1;nan;most beautiful of all;Das war der **allerschönste** Tag.;That was the **most beautiful of all** day.;
 allgemein;Adjektiv;nan;nan;0;B1;9461;general/common/generally;Das ist **allgemein** bekannt.;That is **generally** known.;
 Alltag;Substantiv;mask.;der;0;B1;388;everyday life/daily routine;Der **Alltag** kann stressig sein.;**Everyday life** can be stressful.;
