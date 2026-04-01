@@ -1239,7 +1239,7 @@ schimpfen;Verb;nan;nan;0;A2;955;to scold/complain/swear;Die Mutter schimpft mit 
 Schirm;Substantiv;mask.;der;0;A2;105;umbrella/screen/shield;Hast du einen **Schirm** dabei?;Do you have an **umbrella** with you?;
 Schlafzimmer;Substantiv;neutr.;das;0;A2;191;bedroom;Das **Schlafzimmer** ist oben.;The **bedroom** is upstairs.;
 schlimm;Adjektiv;nan;nan;0;A2;414;bad/serious/grave;Es ist nicht so **schlimm**.;It is not so **bad**.;
-Schloss;Substantiv;neutr.;das;0;A2;3385;castle/lock/palace;Das **Schloss** ist sehr alt.;The **castle** (lock) is very old.;
+Schloss;Substantiv;neutr.;das;0;A2;3385;castle/lock/palace;Das **Schloss** ist sehr alt.;The **castle** (lock) is very old.;s-
 Schmerz;Substantiv;mask.;der;0;A2;734;pain/ache/sorrow;Ich habe starke **Schmerzen.**;I have severe **pain**.;
 schmutzig;Adjektiv;nan;nan;0;A2;902;dirty/filthy;Die Hände sind **schmutzig**.;The hands are **dirty**.;
 Schnee;Substantiv;mask.;der;0;A2;1404;snow;Im Winter liegt viel **Schnee**.;There is a lot of **snow** in winter.;
@@ -1710,7 +1710,7 @@ Brötli;Substantiv;neutr.;das;0;B1;nan;bread roll/bun;Möchten Sie ein **Brötli
 Bub;Substantiv;mask.;der;0;B1;45;boy/lad;Er ist ein braver **Bub**.;He is a good **boy**.;
 Buchhandlung;Substantiv;fem.;die;0;B1;73;bookstore/bookshop;Ich gehe in die **Buchhandlung**.;I'm going to the **bookstore**.;
 Buffet;Substantiv;neutr.;das;0;B1;69;buffet/sideboard;Das Essen steht am **Buffet**.;The food is at the **buffet**.;-u-
-Burg;Substantiv;fem.;die;0;B1;310;castle/fortress;Die **Burg** steht auf dem Berg.;The **castle** stands on the mountain.;
+Burg;Substantiv;fem.;die;0;B1;310;castle/fortress;Die **Burg** steht auf dem Berg.;The **castle** stands on the mountain.;b-
 Büchse;Substantiv;fem.;die;0;B1;150;can/tin/rifle;Ich öffne eine **Büchse** Erbsen.;I'm opening a **can** of peas.;
 Büfett;Substantiv;neutr.;das;0;B1;37;buffet/sideboard;Das **Büfett** ist eröffnet.;The **buffet** is open.;-ü-
 Bühne;Substantiv;fem.;die;0;B1;522;stage/platform;Die Schauspieler treten auf die **Bühne**.;The actors step onto the **stage**.;
