@@ -1626,7 +1626,7 @@ Beitrag;Substantiv;mask.;der;0;B1;482;contribution/contribution/article;Vielen D
 beißen;Verb;nan;nan;0;B1;1734;to bite;Der Hund beißt nicht.;The dog does not **bite**.;
 bekannt geben;Verb;nan;nan;0;B1;nan;to announce/make known;Das Ergebnis wird morgen bekannt gegeben.;The result will be **announced** tomorrow.;b-, with space
 bekanntgeben;Verb;nan;nan;0;B1;187;to announce/make known;Wir werden den Gewinner bald **bekanntgeben**.;We will **announce** the winner soon.;b-, no space
-Beleg;Substantiv;mask.;der;0;B1;199;receipt/proof/voucher;Bitte heben Sie den **Beleg** auf.;Please keep the **receipt**.;
+Beleg;Substantiv;mask.;der;0;B1;199;receipt/proof/voucher;Bitte heben Sie den **Beleg** auf.;Please keep the **receipt**.;b-
 beleidigen;Verb;nan;nan;0;B1;257;to offend/insult;Ich wollte dich nicht **beleidigen**.;I didn't mean to **offend** (insult) you.;
 bemerken;Verb;nan;nan;0;B1;597;to notice/remark/observe;Ich habe die Änderung nicht bemerkt.;I didn't **notice** the change.;b-
 bemühen;Verb;nan;nan;0;B1;1502;to strive/endeavor/bother;Er bemüht sich sehr.;He is **striving** (trying hard).;
@@ -2613,7 +2613,7 @@ Puppe;Substantiv;fem.;die;0;B1;183;doll/puppet;Das Kind spielt mit seiner **Pupp
 Qualifikation;Substantiv;fem.;die;0;B1;128;qualification;Er hat die nötigen **Qualifikationen.**;He has the necessary **qualifications**.;
 Quartier;Substantiv;neutr.;das;0;B1;203;district/quarters/accommodation;Wir haben ein schönes **Quartier** gefunden.;We found nice **accommodation**.;
 quer;Adverb;nan;nan;0;B1;317;across/crosswise/diagonal;Fahren Sie **quer** durch die Stadt.;Drive **across** the city.;
-Quittung;Substantiv;fem.;die;0;B1;39;receipt;Brauchen Sie eine **Quittung**?;Do you need a **receipt**?;
+Quittung;Substantiv;fem.;die;0;B1;39;receipt;Brauchen Sie eine **Quittung**?;Do you need a **receipt**?;q-
 Rabatt;Substantiv;mask.;der;0;B1;78;discount/rebate;Gibt es einen **Rabatt** für Studenten?;Is there a **discount** for students?;
 Radfahrer;Substantiv;mask.;der;0;B1;97;cyclist/biker;Achtung, ein **Radfahrer** kommt von rechts!;Watch out, a **cyclist** is coming from the right!;male
 Radfahrerin;Substantiv;fem.;die;0;B1;12;cyclist/biker;Die **Radfahrerin** trägt einen Helm.;The (female) **cyclist** is wearing a helmet.;female
