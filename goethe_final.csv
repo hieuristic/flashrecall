@@ -1347,7 +1347,7 @@ unterwegs;Adverb;nan;nan;0;A2;580;on the way/on the road;Ich bin viel **unterweg
 verabreden;Verb;nan;nan;0;A2;99;to arrange/make an appointment;Wir haben uns für morgen verabredet.;We have **arranged** to meet tomorrow.;
 Veranstaltung;Substantiv;fem.;die;0;A2;635;event/performance/meeting;Die **Veranstaltung** war gut besucht.;The **event** was well attended.;v-
 verbieten;Verb;nan;nan;0;A2;690;to forbid/prohibit/ban;Rauchen ist hier verboten.;Smoking is **forbidden** here.;
-vereinbaren;Verb;nan;nan;0;A2;316;to agree/arrange;Wir haben einen Termin vereinbart.;We have **arranged** (agreed on) an appointment.;
+vereinbaren;Verb;nan;nan;0;A2;316;to agree/arrange;Wir haben einen Termin vereinbart.;We have **arranged** (agreed on) an appointment.;v-
 vergessen;Verb;nan;nan;0;A2;814;to forget;Ich habe meinen Schlüssel **vergessen**.;I **forgot** my key.;
 vergleichen;Verb;nan;nan;0;A2;406;to compare/match;**Vergleichen** Sie die Preise.;**Compare** the prices.;
 Verkehr;Substantiv;mask.;der;0;A2;520;traffic/communication/intercourse;Es gibt heute viel **Verkehr**.;There is a lot of **traffic** today.;
@@ -1454,7 +1454,7 @@ abhängen;Verb;nan;nan;0;B1;266;to depend/hang up;Es hängt vom Wetter ab.;It **
 abhängig;Adjektiv;nan;nan;0;B1;507;dependent/addicted;Er ist von seinen Eltern **abhängig**.;He is **dependent** on his parents.;
 Abitur;Substantiv;neutr.;das;0;B1;142;A-levels/high school graduation;Er macht dieses Jahr sein **Abitur**.;He is doing his **high school graduation** (A-levels) this year.;
 ablehnen;Verb;nan;nan;0;B1;513;to reject/refuse/decline;Er hat das Angebot abgelehnt.;He **rejected** the offer.;
-abmachen;Verb;nan;nan;0;B1;89;to agree/settle;Wir hatten abgemacht, dass wir uns treffen.;We had **agreed** to meet.;
+abmachen;Verb;nan;nan;0;B1;89;to agree/settle;Wir hatten abgemacht, dass wir uns treffen.;We had **agreed** to meet.;a-
 abnehmen;Verb;nan;nan;0;B1;425;to lose weight/decrease;Ich möchte fünf Kilo **abnehmen**.;I want to **lose** five kilos.;
 Abonnement;Substantiv;neutr.;das;0;B1;43;subscription;Ich habe ein **Abonnement** für diese Zeitschrift.;I have a **subscription** to this magazine.;
 abonnieren;Verb;nan;nan;0;B1;74;to subscribe;Ich habe den Kanal abonniert.;I **subscribed** to the channel.;to
@@ -1814,7 +1814,7 @@ einfügen;Verb;nan;nan;0;B1;247;to insert/paste/fit in;Bitte **fügen** Sie den 
 einführen;Verb;nan;nan;0;B1;666;to introduce/import/guide;Wir **führen** **ein** neues System **ein.**;We are **introducing** a new system.;e-
 Einführung;Substantiv;fem.;die;0;B1;389;introduction/launch/import;Das ist eine kurze **Einführung**.;This is a short **introduction**.;e-
 einheitlich;Adjektiv;nan;nan;0;B1;488;uniform/consistent/standard;Wir tragen **einheitliche** Kleidung.;We wear **uniform** (consistent) clothing.;
-einigen;Verb;nan;nan;0;B1;1494;to agree/unite/settle;Wir konnten uns auf einen Preis **einigen**.;We were able to **agree** on a price.;
+einigen;Verb;nan;nan;0;B1;1494;to agree/unite/settle;Wir konnten uns auf einen Preis **einigen**.;We were able to **agree** on a price.;e-
 Einkauf;Substantiv;mask.;der;0;B1;153;purchase/shopping/buying;Ich mache meine Einkäufe am Samstag.;I do my **shopping** on Saturday.;
 Einkommen;Substantiv;neutr.;das;0;B1;407;income;Sein **Einkommen** ist gestiegen.;His **income** has increased.;
 Einnahme;Substantiv;fem.;die;0;B1;324;intake;Meine monatlichen **Einnahmen** betragen 3.000 Euro.;My monthly **income** is 3,000 euros.;
@@ -3236,7 +3236,7 @@ Zuschauer;Substantiv;mask.;der;0;B1;409;spectator/viewer/audience;Die **Zuschaue
 Zuschauerin;Substantiv;fem.;die;0;B1;15;spectator/viewer/audience;Sie ist eine begeisterte **Zuschauerin**.;She is an enthusiastic (female) **spectator**.;female
 Zuschlag;Substantiv;mask.;der;0;B1;75;surcharge/extra charge/acceptance;Man muss einen **Zuschlag** bezahlen.;One must pay a **surcharge**.;
 Zustand;Substantiv;mask.;der;0;B1;2268;condition/state/status;Das Haus ist in einem guten **Zustand**.;The house is in a good **condition**.;zu-
-zustimmen;Verb;nan;nan;0;B1;224;to agree/consent/approve;Ich **stimme** dir voll und ganz **zu.**;I **agree** with you completely.;
+zustimmen;Verb;nan;nan;0;B1;224;to agree/consent/approve;Ich **stimme** dir voll und ganz **zu.**;I **agree** with you completely.;z-
 Zustimmung;Substantiv;fem.;die;0;B1;265;agreement/approval/consent;Wir brauchen deine **Zustimmung**.;We need your **approval** (consent).;
 zuständig;Adjektiv;nan;nan;0;B1;872;responsible/competent/in charge;Wer ist für diese Abteilung **zuständig**?;Who is **responsible** for this department?;z-
 zusätzlich;Adjektiv;nan;nan;0;B1;1312;additional/extra/supplementary;Es entstehen keine **zusätzlichen** Kosten.;There are no **additional** costs.;
