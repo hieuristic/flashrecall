@@ -966,7 +966,7 @@ Fahrplan;Substantiv;mask.;der;0;A2;53;timetable/schedule;Schau bitte in den **Fa
 fallen;Verb;nan;nan;0;A2;99873;to fall;Die Blätter **fallen** im Herbst.;The leaves **fall** in autumn.;
 Fan;Substantiv;mask.;der;0;A2;355;fan/admirer;Ich bin ein großer **Fan** von dieser Band.;I am a big **fan** of this band.;
 fantastisch;Adjektiv;nan;nan;0;A2;149;fantastic;Die Aussicht ist **fantastisch**.;The view is **fantastic**.;f-
-fast;Adverb;nan;nan;0;A2;11299;almost/nearly;Ich bin **fast** fertig.;I'm **almost** finished.;
+fast;Adverb;nan;nan;0;A2;11299;almost/nearly;Ich bin **fast** fertig.;I'm **almost** finished.;f-
 faul;Adjektiv;nan;nan;0;A2;5;lazy/rotten;Er ist ein **fauler** Student.;He is a **lazy** student.;
 Feier;Substantiv;fem.;die;0;A2;392;celebration/party/ceremony;Die **Feier** war sehr schön.;The **celebration** was very nice.;
 Fenster;Substantiv;neutr.;das;0;A2;1533;window;Mach bitte das **Fenster** zu.;Please close the **window**.;
@@ -1620,8 +1620,8 @@ behandeln;Verb;nan;nan;0;B1;5423;to treat/handle/deal with;Der Arzt behandelt de
 behaupten;Verb;nan;nan;0;B1;754;to claim/assert/maintain;Er behauptet, es nicht getan zu haben.;He **claims** not to have done it.;b-
 behindern;Verb;nan;nan;0;B1;325;to hinder/obstruct/hamper;Der Schnee behindert den Verkehr.;The snow **hinders** the traffic.;
 Behörde;Substantiv;fem.;die;0;B1;944;authority/agency/department;Die **Behörde** hat den Antrag abgelehnt.;The **authority** (agency) rejected the application.;
-beinah;Adverb;nan;nan;0;B1;nan;almost/nearly;Ich hätte es **beinah** vergessen.;I **almost** forgot it.;
-beinahe;Adverb;nan;nan;0;B1;407;almost/nearly;Es ist **beinahe** fertig.;It is **almost** finished.;
+beinah;Adverb;nan;nan;0;B1;nan;almost/nearly;Ich hätte es **beinah** vergessen.;I **almost** forgot it.;b...h
+beinahe;Adverb;nan;nan;0;B1;407;almost/nearly;Es ist **beinahe** fertig.;It is **almost** finished.;b...e
 Beitrag;Substantiv;mask.;der;0;B1;482;contribution/contribution/article;Vielen Dank für Ihren **Beitrag**.;Thank you for your **contribution**.;
 beißen;Verb;nan;nan;0;B1;1734;to bite;Der Hund beißt nicht.;The dog does not **bite**.;
 bekannt geben;Verb;nan;nan;0;B1;nan;to announce/make known;Das Ergebnis wird morgen bekannt gegeben.;The result will be **announced** tomorrow.;b-, with space
