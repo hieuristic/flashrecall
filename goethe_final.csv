@@ -61,7 +61,7 @@ auch;Konjunktion;nan;nan;0;A1;139767;also/too;Ich komme **auch** zur Party.;I am
 auf;Präposition;nan;nan;0;A1;9399457;on/at;Das Buch liegt **auf** dem Tisch.;The book is lying **on** the table.;
 auf sein;Verb;nan;nan;0;A1;nan;to be open;Die Tür ist auf.;The door is **open**.;
 Aufgabe;Substantiv;fem.;die;0;A1;1802;task;Das ist eine schwierige **Aufgabe**.;That is a difficult **task**.;noun, a-
-aufhören;Verb;nan;nan;0;A1;345;to stop;Du musst mit dem Rauchen **aufhören**.;You must **stop** smoking.;a-, cease an activity
+aufhören;Verb;nan;nan;0;A1;345;to stop;Du musst mit dem Rauchen **aufhören**.;You must **stop** smoking.;a...ö..., cease an activity
 aufstehen;Verb;nan;nan;0;A1;259;to get up;Ich muss morgen früh **aufstehen**.;I have **to get up** early tomorrow.;
 Aufzug;Substantiv;mask.;der;0;A1;115;elevator/lift;Der **Aufzug** ist leider kaputt.;The **elevator** is unfortunately broken.;
 Auge;Substantiv;neutr.;das;0;A1;6926;eye;Sie hat blaue **Augen.**;She has blue **eyes**.;
@@ -1544,7 +1544,7 @@ auffordern;Verb;nan;nan;0;B1;299;to request/call on/invite;Er forderte mich auf 
 Aufforderung;Substantiv;fem.;die;0;B1;208;request/invitation/summons;Das war eine freundliche **Aufforderung**.;That was a friendly **request**.;
 aufführen;Verb;nan;nan;0;B1;391;to perform/list/act out;Das Stück wird heute aufgeführt.;The play is being **performed** today.;
 aufgeben;Verb;nan;nan;0;B1;524;to give up;Gib niemals auf!;Never **give up**!;a-
-aufhalten;Verb;nan;nan;0;B1;488;to stop/delay/stay;Niemand kann ihn **aufhalten**.;Nobody can **stop** him.;
+aufhalten;Verb;nan;nan;0;B1;488;to stop/delay/stay;Niemand kann ihn **aufhalten**.;Nobody can **stop** him.;a...u...
 aufheben;Verb;nan;nan;0;B1;433;to pick up/keep/abolish;Bitte **heb** das Papier **auf.**;Please **pick up** the paper.;
 aufladen;Verb;nan;nan;0;B1;115;to charge/load;Ich muss mein Handy **aufladen**.;I need to **charge** my phone.;
 auflösen;Verb;nan;nan;0;B1;446;to dissolve/dissolve/break up;Zucker löst sich in Wasser auf.;Sugar **dissolves** in water.;
@@ -2843,8 +2843,8 @@ stechen;Verb;nan;nan;0;B1;1849;to sting/prick/stab;Die Mücke hat mich gestochen
 Steckdose;Substantiv;fem.;die;0;B1;30;power outlet/socket;Steck den Stecker in die **Steckdose**.;Plug the plug into the **power outlet**.;
 stecken;Verb;nan;nan;0;B1;19249;to stick/put;Der Schlüssel steckt im Schloss.;The key is **sticking** in the lock.;s-
 Stecker;Substantiv;mask.;der;0;B1;57;plug/connector;Zieh bitte den **Stecker**.;Please pull the **plug**.;
-stehen bleiben;Verb;nan;nan;0;B1;nan;to stop/stand still/stay put;Bleiben Sie bitte stehen!;Please **stop** (stand still)!;
-stehenbleiben;Verb;nan;nan;0;B1;83;to stop/stand still/stay put;Die Uhr ist stehengeblieben.;The watch has **stopped**.;variant
+stehen bleiben;Verb;nan;nan;0;B1;nan;stand still/stay put;Bleiben Sie bitte stehen!;Please **stop** (stand still)!;with space
+stehenbleiben;Verb;nan;nan;0;B1;83;stand still/stay put;Die Uhr ist stehengeblieben.;The watch has **stopped**.;no space
 stehlen;Verb;nan;nan;0;B1;908;to steal;Man darf nicht **stehlen**.;One must not **steal**.;
 steigen;Verb;nan;nan;0;B1;31593;to climb/rise/increase;Die Preise **steigen**.;Prices are **rising** (increasing).;s-
 steil;Adjektiv;nan;nan;0;B1;49;steep;Der Weg nach oben ist sehr **steil**.;The path up is very **steep**.;
@@ -2865,7 +2865,7 @@ Stimmung;Substantiv;fem.;die;0;B1;513;mood/atmosphere/spirit;Die **Stimmung** au
 stinken;Verb;nan;nan;0;B1;303;to stink;Hier stinkt es nach Rauch.;It **stinks** of smoke here.;
 Stoff;Substantiv;mask.;der;0;B1;1685;material/fabric/substance;Der **Stoff** fühlt sich weich an.;The **material** (fabric) feels soft.;s-
 stolz;Adjektiv;nan;nan;0;B1;1163;proud;Er ist **stolz** auf seinen Erfolg.;He is **proud** of his success.;
-stoppen;Verb;nan;nan;0;B1;314;to stop/halt;**Stoppen** Sie bitte das Auto!;Please **stop** the car!;
+stoppen;Verb;nan;nan;0;B1;314;to stop/halt;**Stoppen** Sie bitte das Auto!;Please **stop** the car!;s-
 strafbar;Adjektiv;nan;nan;0;B1;188;punishable/criminal;Das ist eine **strafbare** Handlung.;That is a **punishable** act.;
 Strafe;Substantiv;fem.;die;0;B1;486;punishment/fine/penalty;Er musste eine **Strafe** zahlen.;He had to pay a **fine** (penalty).;
 Strafzettel;Substantiv;mask.;der;0;B1;18;traffic ticket/fine;Ich habe einen **Strafzettel** bekommen.;I got a **traffic ticket**.;
