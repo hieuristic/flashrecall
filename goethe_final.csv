@@ -2732,7 +2732,7 @@ Schriftsteller;Substantiv;mask.;der;0;B1;398;writer/author;Er ist ein bekannter 
 Schriftstellerin;Substantiv;fem.;die;0;B1;74;writer/author;Die **Schriftstellerin** liest aus ihrem neuen Buch.;The (female) **writer** is reading from her new book.;female
 Schritt;Substantiv;mask.;der;0;B1;3088;step/pace/stride;Gehen Sie **Schritt** für **Schritt** vor.;Proceed **step** by step.;-t
 Schularbeit;Substantiv;fem.;die;0;B1;27;school assignment/test;Wir schreiben heute eine **Schularbeit**.;We are writing a **school test** today.;Austrian
-Schuld;Substantiv;fem.;die;0;B1;601;guilt/debt/blame;Wer hat die **Schuld** am Unfall?;Who is to **blame** (at fault) for the accident?;
+Schuld;Substantiv;fem.;die;0;B1;601;guilt/debt/blame;Wer hat die **Schuld** am Unfall?;Who is to **blame** for the accident?;noun
 schuld;Adjektiv;nan;nan;0;B1;78;guilty/to blame;Du bist **schuld** daran.;You are to **blame** for it.;
 schuldig;Adjektiv;nan;nan;0;B1;540;guilty/owing;Er fühlt sich **schuldig**.;He feels **guilty**.;
 Schulter;Substantiv;fem.;die;0;B1;924;shoulder;Ich habe Schmerzen in der **Schulter**.;I have pain in my **shoulder**.;
