@@ -1950,7 +1950,7 @@ Fernseher;Substantiv;mask.;der;0;B1;204;television set/TV;Der **Fernseher** ist 
 fest;Adjektiv;nan;nan;0;B1;6501;firm/solid/fixed;Der Boden ist **fest**.;The ground is **firm**.;
 festhalten;Verb;nan;nan;0;B1;547;to hold on/record/detain;Bitte **halte** dich **fest.**;Please **hold on**.;
 festlegen;Verb;nan;nan;0;B1;558;to determine/set/define;Wir müssen einen Termin **festlegen**.;We need to **set** (determine) a date.;-gen
-festnehmen;Verb;nan;nan;0;B1;156;to arrest/detain/apprehend;Die Polizei hat ihn festgenommen.;The police **arrested** him.;
+festnehmen;Verb;nan;nan;0;B1;156;to arrest/detain/apprehend;Die Polizei hat ihn festgenommen.;The police **arrested** him.;f-
 Festplatte;Substantiv;fem.;die;0;B1;70;hard drive/hard disk;Die **Festplatte** ist voll.;The **hard drive** is full.;
 festsetzen;Verb;nan;nan;0;B1;237;to stipulate/fix/set;Der Preis wurde festgesetzt.;The price was **fixed** (set).;
 feststehen;Verb;nan;nan;0;B1;103;to be certain/be fixed/stand firm;Der Termin steht fest.;The date **is certain** (fixed).;f-
@@ -3034,7 +3034,7 @@ Vergnügen;Substantiv;neutr.;das;0;B1;11;pleasure/enjoyment/delight;Es war mir e
 vergnügen;Verb;nan;nan;0;B1;475;to enjoy oneself/amuse;Die Kinder **vergnügen** sich im Park.;The children are **enjoying themselves** in the park.;
 vergnügt;partizipiales Adjektiv;nan;nan;0;B1;1;cheerful/merry/jolly;Er pfeift ein **vergnügtes** Lied.;He's whistling a **cheerful** (merry) tune.;
 vergrößern;Verb;nan;nan;0;B1;252;to enlarge/increase/magnify;Wir müssen das Bild **vergrößern**.;We have to **enlarge** the picture.;
-verhaften;Verb;nan;nan;0;B1;286;to arrest/detain;Die Polizei hat den Dieb verhaftet.;The police **arrested** the thief.;
+verhaften;Verb;nan;nan;0;B1;286;to arrest/detain;Die Polizei hat den Dieb verhaftet.;The police **arrested** the thief.;v-
 Verhalten;Substantiv;neutr.;das;0;B1;1850;behavior/conduct/attitude;Sein **Verhalten** ist nicht akzeptabel.;His **behavior** is not acceptable.;
 verhalten;Verb;nan;nan;0;B1;1850;to behave/act;Du sollst dich ruhig **verhalten**.;You should **behave** (act) quietly.;
 verhindern;Verb;nan;nan;0;B1;1181;to prevent/hinder/stop;Wir müssen den Unfall **verhindern**.;We must **prevent** the accident.;
