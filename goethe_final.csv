@@ -1476,7 +1476,7 @@ abwärts;Adverb;nan;nan;0;B1;182;downward/downhill;Der Weg führt **abwärts**.;
 achten;Verb;nan;nan;0;B1;2702;to respect/pay attention/esteem;Bitte **achten** Sie auf die Stufe.;Please **pay attention** to the step.;ac-
 Aktion;Substantiv;fem.;die;0;B1;577;action;Das war eine gute **Aktion**.;That was a good **action**.;
 Aktivität;Substantiv;fem.;die;0;B1;639;activity;Wir planen eine neue **Aktivität**.;We are planning a new **activity**.;a-
-akzeptieren;Verb;nan;nan;0;B1;422;to accept/agree to;Ich kann das nicht **akzeptieren**.;I cannot **accept** that.;
+akzeptieren;Verb;nan;nan;0;B1;422;to accept/agree to;Ich kann das nicht **akzeptieren**.;I cannot **accept** that.;a-
 Alarm;Substantiv;mask.;der;0;B1;93;alarm;Der **Alarm** ging los.;The **alarm** went off.;a-
 Alkohol;Substantiv;mask.;der;0;B1;633;alcohol;Er trinkt keinen **Alkohol**.;He doesn't drink **alcohol**.;
 aller-;Affix;nan;nan;0;B1;1;of all;Das ist das Allerbeste.;That is the best **of all**.;affix
@@ -3187,7 +3187,7 @@ wunderschön;Adjektiv;nan;nan;0;B1;241;wonderful/beautiful/gorgeous;Das war ein 
 während;nan;nan;nan;0;B1;7072;during/while/whereas;**Während** der Fahrt darf man nicht rauchen.;One must not smoke **during** the journey.;
 Wärme;Substantiv;fem.;die;0;B1;478;warmth/heat;Die **Wärme** der Sonne ist angenehm.;The **warmth** of the sun is pleasant.;
 Wörterbuch;Substantiv;neutr.;das;0;B1;427;dictionary;Ich schaue das Wort im **Wörterbuch** nach.;I'll look up the word in the **dictionary**.;
-wütend;partizipiales Adjektiv;nan;nan;0;B1;283;angry/furious/mad;Er war sehr **wütend** über den Fehler.;He was very **angry** about the mistake.;
+wütend;partizipiales Adjektiv;nan;nan;0;B1;283;angry/furious/mad;Er war sehr **wütend** über den Fehler.;He was very **angry** about the mistake.;w-
 zahlreich;Adjektiv;nan;nan;0;B1;1474;numerous;**Zahlreiche** Gäste kamen zur Party.;**Numerous** guests came to the party.;
 Zahlung;Substantiv;fem.;die;0;B1;306;payment;Die **Zahlung** erfolgt per Kreditkarte.;The **payment** is made by credit card.;
 Zahnbürste;Substantiv;fem.;die;0;B1;31;toothbrush;Ich brauche eine neue **Zahnbürste**.;I need a new **toothbrush**.;
@@ -3226,7 +3226,7 @@ zumindest;Adverb;nan;nan;0;B1;797;at least;Du hättest **zumindest** anrufen kö
 zunehmen;Verb;nan;nan;0;B1;280;to increase/put on weight/grow;Er hat über Weihnachten zugenommen.;He **put on weight** over Christmas.;z-
 zunächst;nan;nan;nan;0;B1;1710;at first/initially/first of all;**Zunächst** müssen wir das Problem klären.;**First of all**, we need to clarify the problem.;
 zurechtkommen;Verb;nan;nan;0;B1;91;to cope/manage/get along;Kommst du allein zurecht?;Can you **cope** (manage) alone?;
-zusagen;Verb;nan;nan;0;B1;73;to accept/promise/agree;Er hat für die Party zugesagt.;He **accepted** (agreed) to come to the party.;
+zusagen;Verb;nan;nan;0;B1;73;to accept/promise/agree;Er hat für die Party zugesagt.;He **accepted** (agreed) to come to the party.;z-
 zusammen-;Affix;nan;nan;0;B1;1;together-/co-/con-;Wir arbeiten zusammen.;We work **together**.;affix
 Zusammenarbeit;Substantiv;fem.;die;0;B1;281;cooperation/collaboration;Vielen Dank für die gute **Zusammenarbeit**.;Thank you for the good **cooperation**.;
 zusammenfassen;Verb;nan;nan;0;B1;161;to summarize/conclude/group;Kannst du das Ergebnis **zusammenfassen**?;Can you **summarize** the result?;
