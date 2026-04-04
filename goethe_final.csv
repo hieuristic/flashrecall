@@ -2619,7 +2619,7 @@ Radfahrer;Substantiv;mask.;der;0;B1;97;cyclist/biker;Achtung, ein **Radfahrer** 
 Radfahrerin;Substantiv;fem.;die;0;B1;12;cyclist/biker;Die **Radfahrerin** trägt einen Helm.;The (female) **cyclist** is wearing a helmet.;female
 Rahm;Substantiv;mask.;der;0;B1;56;cream;Möchten Sie **Rahm** in den Kaffee?;Would you like **cream** in your coffee?;
 Rand;Substantiv;mask.;der;0;B1;928;edge/rim/margin;Setzen Sie sich an den **Rand**.;Sit down at the **edge**.;
-Rasen;Substantiv;mask.;der;0;B1;66;lawn/grass;Betreten des **Rasens** verboten!;Don't walk on the **lawn**!;
+Rasen;Substantiv;mask.;der;0;B1;66;lawn;Betreten des **Rasens** verboten!;Don't walk on the **lawn**!;
 rasieren;Verb;nan;nan;0;B1;354;to shave;Er rasiert sich jeden Morgen.;He **shaves** every morning.;
 Rat;Substantiv;mask.;der;0;B1;1067;advice/council;Haben Sie einen guten **Rat** für mich?;Do you have some good **advice** for me?;
 Ratschlag;Substantiv;mask.;der;0;B1;125;advice/tip;Folge meinem **Ratschlag**.;Follow my **advice**.;
