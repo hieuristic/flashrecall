@@ -2242,8 +2242,8 @@ Katalog;Substantiv;mask.;der;0;B1;87;catalog;Schau mal in den **Katalog**.;Look 
 Katastrophe;Substantiv;fem.;die;0;B1;253;catastrophe/disaster;Das war eine echte **Katastrophe**.;That was a real **catastrophe**.;
 Kauf;Substantiv;mask.;der;0;B1;537;purchase/buying;Der **Kauf** war eine gute Entscheidung.;The **purchase** was a good decision.;
 kaum;Adverb;nan;nan;0;B1;2692;hardly/barely/scarcely;Ich kann dich **kaum** hören.;I can **hardly** hear you.;
-Kellner;Substantiv;mask.;der;0;B1;220;waiter;Der **Kellner** bringt die Rechnung.;The **waiter** is bringing the bill.;male
-Kellnerin;Substantiv;fem.;die;0;B1;60;waitress;Die **Kellnerin** ist sehr freundlich.;The **waitress** is very friendly.;female
+Kellner;Substantiv;mask.;der;0;B1;220;waiter;Der **Kellner** bringt die Rechnung.;The **waiter** is bringing the bill.;mas., k-
+Kellnerin;Substantiv;fem.;die;0;B1;60;waitress;Die **Kellnerin** ist sehr freundlich.;The **waitress** is very friendly.;fem., k-
 Kennzeichen;Substantiv;neutr.;das;0;B1;274;license plate/mark/characteristic;Das **Kennzeichen** ist verschmutzt.;The **license plate** is dirty.;
 Kerze;Substantiv;fem.;die;0;B1;267;candle;Zünde bitte die **Kerze** an.;Please light the **candle**.;
 Kindheit;Substantiv;fem.;die;0;B1;292;childhood;Ich hatte eine schöne **Kindheit**.;I had a beautiful **childhood**.;
@@ -2517,7 +2517,7 @@ nämlich;Konjunktion;nan;nan;0;B1;1225;namely/specifically/after all;Er kam zu s
 nötig;Adjektiv;nan;nan;0;B1;2079;necessary/needed;Das ist nicht **nötig**.;That is not **necessary**.;nö-
 nützen;Verb;nan;nan;0;B1;316;to be useful/benefit/use;Das nützt mir gar nichts.;That's of no **use** to me at all.;-ü-
 ob;Konjunktion;nan;nan;0;B1;8437;if/whether;Frag ihn **ob** er kommt.;Ask him **if** (whether) he's coming.;o-
-Ober;Substantiv;mask.;der;0;B1;246;waiter;Herr **Ober**, die Rechnung bitte!;**Waiter**, the bill please!;male
+Ober;Substantiv;mask.;der;0;B1;246;waiter;Herr **Ober**, die Rechnung bitte!;**Waiter**, the bill please!;mas., o-
 ober-;Affix;nan;nan;0;B1;2;upper/top/superior;Das Obergeschoss ist renoviert.;The **upper** floor is renovated.;
 Obers;Substantiv;neutr.;das;0;B1;1;cream;Möchten Sie **Obers** zum Kaffee?;Would you like **cream** with your coffee?;Austrian
 obwohl;Konjunktion;nan;nan;0;B1;1671;although/though/even though;Er kam **obwohl** er krank war.;He came **although** he was sick.;
