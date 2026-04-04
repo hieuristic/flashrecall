@@ -1698,7 +1698,7 @@ Braten;Substantiv;mask.;der;0;B1;5;roast/joint;Der **Braten** schmeckt gut.;The 
 brechen;Verb;nan;nan;0;B1;16313;to break/fracture/crack;Ich habe mir den Arm gebrochen.;I **broke** my arm.;
 Bremse;Substantiv;fem.;die;0;B1;143;brake/horsefly;Die **Bremse** funktioniert nicht.;The **brake** doesn't work.;
 bremsen;Verb;nan;nan;0;B1;435;to brake/slow down;Sie müssen vor der Kurve **bremsen**.;You must **brake** before the curve.;
-brennen;Verb;nan;nan;0;B1;4105;to burn/sting/light;Das Feuer brennt im Kamin.;The fire is **burning** in the fireplace.;
+brennen;Verb;nan;nan;0;B1;4105;to burn/sting/light;Das Feuer brennt im Kamin.;The fire is **burning** in the fireplace.;b-
 Briefkasten;Substantiv;mask.;der;0;B1;108;mailbox/letterbox;Wirf den Brief in den **Briefkasten**.;Drop the letter into the **mailbox**.;b-
 Brieftasche;Substantiv;fem.;die;0;B1;54;wallet/pocketbook;Wo ist meine **Brieftasche**?;Where is my **wallet**?;
 Briefträger;Substantiv;mask.;der;0;B1;38;mailman/postman;Der **Briefträger** bringt die Post.;The **mailman** brings the mail.;male
@@ -3023,7 +3023,7 @@ Verbot;Substantiv;neutr.;das;0;B1;283;ban/prohibition;Es gibt ein **Verbot** fü
 verbrauchen;Verb;nan;nan;0;B1;327;to consume/use up;Mein Auto verbraucht viel Benzin.;My car **consumes** (uses) a lot of gas.;v-
 Verbrecher;Substantiv;mask.;der;0;B1;25;criminal/villain;Die Polizei sucht den **Verbrecher**.;The police are looking for the **criminal**.;male
 Verbrecherin;Substantiv;fem.;die;0;B1;12;criminal/villain;Die **Verbrecherin** wurde gefasst.;The (female) **criminal** was caught.;female
-verbrennen;Verb;nan;nan;0;B1;378;to burn/incinerate;Das Holz verbrennt im Kamin.;The wood is **burning** in the fireplace.;
+verbrennen;Verb;nan;nan;0;B1;378;to burn/incinerate;Das Holz verbrennt im Kamin.;The wood is **burning** in the fireplace.;v-
 verbringen;Verb;nan;nan;0;B1;1177;to spend;Wir **verbringen** unseren Urlaub in Italien.;We're **spending** our vacation in Italy.;time
 Verdacht;Substantiv;mask.;der;0;B1;312;suspicion;Es besteht der **Verdacht** auf Diebstahl.;There is a **suspicion** of theft.;
 verdächtig;Adjektiv;nan;nan;0;B1;192;suspicious;Sein Verhalten ist sehr **verdächtig**.;His behavior is very **suspicious**.;
