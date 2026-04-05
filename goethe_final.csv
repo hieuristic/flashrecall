@@ -1700,7 +1700,7 @@ Bremse;Substantiv;fem.;die;0;B1;143;brake/horsefly;Die **Bremse** funktioniert n
 bremsen;Verb;nan;nan;0;B1;435;to brake/slow down;Sie müssen vor der Kurve **bremsen**.;You must **brake** before the curve.;
 brennen;Verb;nan;nan;0;B1;4105;to burn/sting/light;Das Feuer brennt im Kamin.;The fire is **burning** in the fireplace.;b-
 Briefkasten;Substantiv;mask.;der;0;B1;108;mailbox/letterbox;Wirf den Brief in den **Briefkasten**.;Drop the letter into the **mailbox**.;b-
-Brieftasche;Substantiv;fem.;die;0;B1;54;wallet/pocketbook;Wo ist meine **Brieftasche**?;Where is my **wallet**?;
+Brieftasche;Substantiv;fem.;die;0;B1;54;wallet/pocketbook;Wo ist meine **Brieftasche**?;Where is my **wallet**?;b-
 Briefträger;Substantiv;mask.;der;0;B1;38;mailman/postman;Der **Briefträger** bringt die Post.;The **mailman** brings the mail.;male
 Briefträgerin;Substantiv;fem.;die;0;B1;7;mailwoman/postwoman;Sie arbeitet als **Briefträgerin**.;She works as a (female) **mail carrier**.;female
 Briefumschlag;Substantiv;mask.;der;0;B1;41;envelope;Ich brauche einen **Briefumschlag**.;I need an **envelope**.;
@@ -2587,8 +2587,8 @@ politisch;Adjektiv;nan;nan;0;B1;12902;political;Das ist eine **politische** Ents
 Polizist;Substantiv;mask.;der;0;B1;531;policeman/police officer;Der **Polizist** regelt den Verkehr.;The **policeman** is directing traffic.;
 Polizistin;Substantiv;fem.;die;0;B1;36;policewoman/police officer;Die **Polizistin** kontrolliert die Ausweise.;The (female) **police officer** is checking the IDs.;female
 populär;Adjektiv;nan;nan;0;B1;231;popular;Fußball ist in Deutschland sehr **populär**.;Soccer is very **popular** in Germany.;
-Portemonnaie;Substantiv;neutr.;das;0;B1;59;wallet/purse;Ich habe mein **Portemonnaie** vergessen.;I forgot my **wallet**.;
-Portmonee;Substantiv;neutr.;das;0;B1;10;wallet/purse;Wo ist mein **Portmonee**?;Where is my **wallet**?;orthographic variant
+Portemonnaie;Substantiv;neutr.;das;0;B1;59;wallet/purse;Ich habe mein **Portemonnaie** vergessen.;I forgot my **wallet**.;p...ie
+Portmonee;Substantiv;neutr.;das;0;B1;10;wallet/purse;Wo ist mein **Portmonee**?;Where is my **wallet**?;p...ee
 positiv;Adjektiv;nan;nan;0;B1;6771;positive;Denken Sie **positiv**!;Think **positive**!;
 Poulet;Substantiv;neutr.;das;0;B1;2;chicken;Darf ich Ihnen noch etwas **Poulet** anbieten?;May I offer you some more **chicken**?;Swiss
 Praktikant;Substantiv;mask.;der;0;B1;30;intern;Der **Praktikant** lernt viel im Büro.;The **intern** is learning a lot in the office.;male
