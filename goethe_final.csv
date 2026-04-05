@@ -95,7 +95,7 @@ bald;Adverb;nan;nan;0;A1;1802;soon;Ich komme **bald** zurück.;I will be back **
 Balkon;Substantiv;mask.;der;0;A1;247;balcony;Wir frühstücken im Sommer auf dem **Balkon**.;We have breakfast on the **balcony** in the summer.;
 Banane;Substantiv;fem.;die;0;A1;127;banana;Möchtest du eine **Banane** essen?;Would you like to eat a **banana**?;
 Bank;Substantiv;fem.;die;0;A1;1677;bank/bench;Die **Bank** schließt um 16 Uhr.;The **bank** closes at 4 PM.;
-bar;Adjektiv;nan;nan;0;A1;232;cash;Kann ich **bar** bezahlen?;Can I pay in **cash**?;
+bar;Adjektiv;nan;nan;0;A1;232;cash;Kann ich **bar** bezahlen?;Can I pay in **cash**?;-r
 Bauch;Substantiv;mask.;der;0;A1;395;belly;Mein **Bauch** tut weh.;My **belly** hurts.;
 Baum;Substantiv;mask.;der;0;A1;1958;tree;Vor dem Haus steht ein großer **Baum**.;There is a big **tree** in front of the house.;
 Beamte;Substantiv;mask., fem.;der, die;0;A1;nan;official/civil servant;Der **Beamte** hat mir das Dokument gegeben.;The **official** gave me the document.;
@@ -1590,7 +1590,7 @@ Bankleitzahl;Substantiv;fem.;die;0;B1;9;bank sort code/routing number;Wie ist Ih
 Bankomat;Substantiv;mask.;der;0;B1;19;ATM/cash machine;Der **Bankomat** ist außer Betrieb.;The **ATM** is out of order.;
 Bankomatkarte;Substantiv;fem.;die;0;B1;7;ATM card/cash card;Haben Sie Ihre **Bankomatkarte** dabei?;Do you have your **ATM card** with you?;
 Bar;Substantiv;fem.;die;0;B1;2225;bar;Treffen wir uns in der **Bar**?;Shall we meet in the **bar**?;
-Bargeld;Substantiv;neutr.;das;0;B1;116;cash;Bezahlen Sie mit **Bargeld**?;Are you paying with **cash**?;
+Bargeld;Substantiv;neutr.;das;0;B1;116;cash;Bezahlen Sie mit **Bargeld**?;Are you paying with **cash**?;-d
 Bart;Substantiv;mask.;der;0;B1;214;beard;Er trägt einen langen **Bart**.;He is wearing a long **beard**.;
 Batterie;Substantiv;fem.;die;0;B1;219;battery;Die **Batterie** ist leer.;The **battery** is dead.;
 Bau;Substantiv;mask.;der;0;B1;1132;construction/building/structure;Das Haus ist noch im **Bau**.;The house is still under **construction**.;

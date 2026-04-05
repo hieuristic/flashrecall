@@ -1,4 +1,4 @@
-îvabPr√§position"nan*nan2A1:86456Boff/fromJWir fahren **ab** Hamburg.R"We are departing **from** Hamburg.Z0ÉAbend
+ïvabPr√§position"nan*nan2A1:86456Boff/fromJWir fahren **ab** Hamburg.R"We are departing **from** Hamburg.Z0ÉAbend
 Substantiv"mask.*der2A1:1607BeveningJ*Ich w√ºnsche dir einen sch√∂nen **Abend**.RI wish you a nice **evening**.Z0êaberKonjunktion"nan*nan2A1:120754BbutJ1Ich wollte kommen, **aber** ich hatte keine Zeit.R(I wanted to come, **but** I had no time.Z0~abfahrenVerb"nan*nan2A1:254B	to departJ%Der Zug wird p√ºnktlich **abfahren**.R"The train will **depart** on time.Z0üAbfahrt
 Substantiv"fem.*die2A1:133B	departureJ4Vor der **Abfahrt** m√ºssen wir alles kontrollieren.R.We must check everything before **departure**.Z0ü	abfliegenVerb"nan*nan2A1:94Bto take offJ0Das Flugzeug wird in zehn Minuten **abfliegen**.R+The plane will **take off** in ten minutes.Z0b	for planeùAbflug
 Substantiv"mask.*der2A1:61B	departureJ0Unser **Abflug** verz√∂gert sich um eine Stunde.R)Our **departure** is delayed by one hour.Z0bflightÅabgebenVerb"nan*nan2A1:705B
@@ -62,7 +62,7 @@ Substantiv"mask.*der2A1:61BplatformJ'Der Zug f√§hrt auf **Bahnsteig** 4 ein
 Substantiv"mask.*der2A1:247BbalconyJ/Wir fr√ºhst√ºcken im Sommer auf dem **Balkon**.R3We have breakfast on the **balcony** in the summer.Z0_Banane
 Substantiv"fem.*die2A1:127BbananaJ#M√∂chtest du eine **Banane** essen?R#Would you like to eat a **banana**?Z0y`Bank
 Substantiv"fem.*die2A1:1677B
-bank/benchJ!Die **Bank** schlie√üt um 16 Uhr.RThe **bank** closes at 4 PM.Z0aabarAdjektiv"nan*nan2A1:232BcashJKann ich **bar** bezahlen?RCan I pay in **cash**?Z0bbBauch
+bank/benchJ!Die **Bank** schlie√üt um 16 Uhr.RThe **bank** closes at 4 PM.Z0eabarAdjektiv"nan*nan2A1:232BcashJKann ich **bar** bezahlen?RCan I pay in **cash**?Z0b-rbbBauch
 Substantiv"mask.*der2A1:395BbellyJMein **Bauch** tut weh.RMy **belly** hurts.Z0çcBaum
 Substantiv"mask.*der2A1:1958BtreeJ(Vor dem Haus steht ein gro√üer **Baum**.R.There is a big **tree** in front of the house.Z0ßdBeamte
 Substantiv"mask., fem.*der, die2A1:nanBofficial/civil servantJ,Der **Beamte** hat mir das Dokument gegeben.R&The **official** gave me the document.Z0lebedeutenVerb"nan*nan2A1:1391Bto meanJWas bedeutet dieses Wort?RWhat does this word **mean**?Z0~fbeginnenVerb"nan*nan2A1:3536Bto begin/startJDas Konzert beginnt um 20 Uhr.RThe concert **begins** at 8 PM.Z0bb-}gbeiPr√§position"nan*nan2A1:516500Bat/nearJEr wohnt **bei** seinen Eltern.R#He lives **at** his parents' house.Z0Çhbeidenan"nan*nan2A1:6498BbothJ#**Beide** Kinder spielen im Garten.R,**Both** children are playing in the garden.Z0bb-tiBein
@@ -1094,8 +1094,8 @@ Substantiv"fem.*die2B1:nanBATM card/debit cardJ*Ich habe meine **Bancomatka
 Substantiv"fem.*die2B1:9Bbank sort code/routing numberJWie ist Ihre **Bankleitzahl**?R What is your **bank sort code**?Z0ÜµBankomat
 Substantiv"mask.*der2B1:19BATM/cash machineJ$Der **Bankomat** ist au√üer Betrieb.RThe **ATM** is out of order.Z0ô∂Bankomatkarte
 Substantiv"fem.*die2B1:7BATM card/cash cardJ'Haben Sie Ihre **Bankomatkarte** dabei?R'Do you have your **ATM card** with you?Z0q∑Bar
-Substantiv"fem.*die2B1:2225BbarJTreffen wir uns in der **Bar**?RShall we meet in the **bar**?Z0u∏Bargeld
-Substantiv"neutr.*das2B1:116BcashJBezahlen Sie mit **Bargeld**?RAre you paying with **cash**?Z0wπBart
+Substantiv"fem.*die2B1:2225BbarJTreffen wir uns in der **Bar**?RShall we meet in the **bar**?Z0y∏Bargeld
+Substantiv"neutr.*das2B1:116BcashJBezahlen Sie mit **Bargeld**?RAre you paying with **cash**?Z0b-dwπBart
 Substantiv"mask.*der2B1:214BbeardJ Er tr√§gt einen langen **Bart**.RHe is wearing a long **beard**.Z0o∫Batterie
 Substantiv"fem.*die2B1:219BbatteryJDie **Batterie** ist leer.RThe **battery** is dead.Z0ôªBau
 Substantiv"mask.*der2B1:1132Bconstruction/building/structureJDas Haus ist noch im **Bau**.R*The house is still under **construction**.Z0ìºBauer
