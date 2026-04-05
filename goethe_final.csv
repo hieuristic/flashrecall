@@ -2690,7 +2690,7 @@ Salon;Substantiv;mask.;der;0;B1;142;salon/parlor;Sie geht heute in den **Friseur
 salzig;Adjektiv;nan;nan;0;B1;45;salty;Die Suppe ist mir zu **salzig**.;The soup is too **salty** for me.;
 Sand;Substantiv;mask.;der;0;B1;555;sand;Die Kinder spielen im **Sand**.;The children are playing in the **sand**.;
 satt;Adjektiv;nan;nan;0;B1;758;full/satiated/fed up;Ich bin **satt**, ich kann nichts mehr essen.;I'm **full**, I can't eat anymore.;
-Sauce;Substantiv;fem.;die;0;B1;330;sauce/gravy;Die **Sauce** schmeckt hervorragend.;The **sauce** (gravy) tastes excellent.;
+Sauce;Substantiv;fem.;die;0;B1;330;sauce/gravy;Die **Sauce** schmeckt hervorragend.;The **sauce** (gravy) tastes excellent.;-a-
 Schachtel;Substantiv;fem.;die;0;B1;160;box/packet/carton;In der **Schachtel** sind Pralinen.;There are chocolates in the **box**.;s-
 Schade;Substantiv;mask.;der;0;B1;33;A pity/What a shame;**Schade**, dass du nicht kommen kannst.;It's **a pity** that you can't come.;
 Schaden;Substantiv;mask.;der;0;B1;815;damage/harm/loss;Der Sturm hat großen **Schaden** angerichtet.;The storm caused great **damage**.;
@@ -2802,7 +2802,7 @@ sowohl;Konjunktion;nan;nan;0;B1;3914;both;Er spricht **sowohl** Deutsch als auch
 sozial;Adjektiv;nan;nan;0;B1;27560;social;Wir brauchen mehr **soziale** Gerechtigkeit.;We need more **social** justice.;
 Sozialarbeiter;Substantiv;mask.;der;0;B1;30;social worker;Der **Sozialarbeiter** berät die Familie.;The **social worker** advises the family.;male
 Sozialarbeiterin;Substantiv;fem.;die;0;B1;19;social worker;Sie arbeitet als **Sozialarbeiterin**.;She works as a (female) **social worker**.;female
-Soße;Substantiv;fem.;die;0;B1;146;sauce/gravy;Die **Soße** ist sehr scharf.;The **sauce** is very spicy.;
+Soße;Substantiv;fem.;die;0;B1;146;sauce/gravy;Die **Soße** ist sehr scharf.;The **sauce** is very spicy.;-o-
 sparsam;Adjektiv;nan;nan;0;B1;167;economical/frugal/thrifty;Wir müssen **sparsamer** sein.;We have to be more **economical** (thrifty).;
 spazieren gehen;Verb;nan;nan;0;B1;nan;to go for a walk;Lass uns im Park **spazieren gehen**.;Let's **go for a walk** in the park.;
 Speise;Substantiv;fem.;die;0;B1;507;dish/meal/food;Das ist eine typische **Speise** aus der Region.;This is a typical **dish** from the region.;
