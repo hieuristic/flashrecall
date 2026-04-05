@@ -1127,7 +1127,7 @@ Motor;Substantiv;mask.;der;0;A2;521;engine/motor;Der **Motor** läuft gut.;The *
 Motorroller;Substantiv;mask.;der;0;A2;25;scooter/motor scooter;Er fährt einen **Motorroller**.;He rides a **scooter**.;
 Museum;Substantiv;neutr.;das;0;A2;507;museum;Das **Museum** ist montags geschlossen.;The **museum** is closed on Mondays.;
 Musik;Substantiv;fem.;die;0;A2;1208;music;Ich höre gerne **Musik**.;I like listening to **music**.;
-Müll;Substantiv;mask.;der;0;A2;314;trash/garbage/rubbish;Bring bitte den **Müll** raus.;Please take out the **trash**.;
+Müll;Substantiv;mask.;der;0;A2;314;trash/garbage/rubbish;Bring bitte den **Müll** raus.;Please take out the **trash**.;m-
 Mütze;Substantiv;fem.;die;0;A2;179;cap/beanie;Setz deine **Mütze** auf.;Put on your **cap**.;
 Nachbar;Substantiv;mask.;der;0;A2;631;neighbor;Mein **Nachbar** ist sehr nett.;My **neighbor** is very nice.;male
 Nachbarin;Substantiv;fem.;die;0;A2;130;neighbor;Sie ist meine **Nachbarin**.;She is my (female) **neighbor**.;female
@@ -1445,7 +1445,7 @@ zurücklaufen;Verb;nan;nan;0;A2;93;to run back/walk back;Er ist schnell zurückg
 abbiegen;Verb;nan;nan;0;B1;nan;to turn (corner)/bend;**Biegen** Sie an der Ecke links **ab.**;**Turn** left at the corner.;
 Abbildung;Substantiv;fem.;die;0;B1;250;illustration/figure/image;Siehe **Abbildung** 1.;See **Figure** (Illustration) 1.;
 Abenteuer;Substantiv;neutr.;das;0;B1;238;adventure;Das war ein großes **Abenteuer**.;That was a great **adventure**.;
-Abfall;Substantiv;mask.;der;0;B1;392;trash/waste/rubbish;Werfen Sie den **Abfall** in die Tonne.;Throw the **trash** into the bin.;
+Abfall;Substantiv;mask.;der;0;B1;392;trash/waste/rubbish;Werfen Sie den **Abfall** in die Tonne.;Throw the **trash** into the bin.;a-
 Abfalleimer;Substantiv;mask.;der;0;B1;11;trash can/bin;Der **Abfalleimer** ist voll.;The **trash can** is full.;
 Abgas;Substantiv;neutr.;das;0;B1;56;exhaust gas/emission;**Abgase** schaden der Umwelt.;**Exhaust gases** harm the environment.;
 abhangen;Verb;nan;nan;0;B1;1;to depend/hang down;Das hängt von dir ab.;That **depends** on you.;
