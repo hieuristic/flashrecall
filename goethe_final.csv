@@ -134,7 +134,7 @@ Bleistift;Substantiv;mask.;der;0;A1;75;pencil;Hast du einen **Bleistift** für m
 Blick;Substantiv;mask.;der;0;A1;2053;view/glance;Von hier hat man einen tollen **Blick**.;From here you have a great **view**.;
 Blume;Substantiv;fem.;die;0;A1;928;flower;Er hat mir schöne **Blumen** geschenkt.;He gave me beautiful **flowers**.;
 Bogen;Substantiv;mask.;der;0;A1;773;sweep/sheet;Bitte schreiben Sie auf diesen **Bogen** Papier.;Please write on this **sheet** of paper.;of paper
-brauchen;Verb;nan;nan;0;A1;8366;to need;Ich brauche deine Hilfe.;I **need** your help.;
+brauchen;Verb;nan;nan;0;A1;8366;to need;Ich brauche deine Hilfe.;I **need** your help.;br-
 braun;Adjektiv;nan;nan;0;A1;600;brown;Sie hat lange **braune** Haare.;She has long **brown** hair.;
 breit;Adjektiv;nan;nan;0;A1;3769;wide/broad;Die Straße ist hier sehr **breit**.;The street is very **wide** here.;
 Brief;Substantiv;mask.;der;0;A1;1471;letter;Ich schreibe einen **Brief** an meine Eltern.;I am writing a **letter** to my parents.;
@@ -1631,7 +1631,7 @@ beleidigen;Verb;nan;nan;0;B1;257;to offend/insult;Ich wollte dich nicht **beleid
 bemerken;Verb;nan;nan;0;B1;597;to notice/remark/observe;Ich habe die Änderung nicht bemerkt.;I didn't **notice** the change.;b-
 bemühen;Verb;nan;nan;0;B1;1502;to strive/endeavor/bother;Er bemüht sich sehr.;He is **striving** (trying hard).;
 Benzin;Substantiv;neutr., mask.;das;0;B1;205;gasoline/petrol/gas;Das Auto braucht **Benzin**.;The car needs **gasoline**.;
-benötigen;Verb;nan;nan;0;B1;1050;to need/require/want;Wir **benötigen** weitere Informationen.;We **require** (need) more information.;
+benötigen;Verb;nan;nan;0;B1;1050;to need/require/want;Wir **benötigen** weitere Informationen.;We **require** (need) more information.;be-
 beobachten;Verb;nan;nan;0;B1;1046;to observe/watch/monitor;Ich beobachte die Vögel im Garten.;I am **observing** the birds in the garden.;
 Beratung;Substantiv;fem.;die;0;B1;174;advice/counseling/consultation;Die **Beratung** war sehr hilfreich.;The **advice** (consultation) was very helpful.;
 berechnen;Verb;nan;nan;0;B1;1512;to calculate/compute/charge;Wie berechnet man das?;How do you **calculate** that?;
