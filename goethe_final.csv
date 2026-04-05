@@ -44,7 +44,7 @@ Ansage;Substantiv;fem.;die;0;A1;27;announcement;Achten Sie bitte auf die **Ansag
 Anschluss;Substantiv;mask.;der;0;A1;211;connection;Haben wir in München **Anschluss** nach Wien?;Do we have a **connection** to Vienna in Munich?;
 Antwort;Substantiv;fem.;die;0;A1;1064;answer;Ich habe noch keine **Antwort** bekommen.;I haven't received an **answer** yet.;
 antworten;Verb;nan;nan;0;A1;771;to answer;Er konnte meine Frage nicht **antworten**.;He couldn't **answer** my question.;
-Anzeige;Substantiv;fem.;die;0;A1;220;advertisement;Ich habe die **Anzeige** in der Zeitung gelesen.;I read the **advertisement** in the newspaper.;
+Anzeige;Substantiv;fem.;die;0;A1;220;advertisement;Ich habe die **Anzeige** in der Zeitung gelesen.;I read the **advertisement** in the newspaper.;anz-
 anziehen;Verb;nan;nan;0;A1;442;to put on;Du solltest dir eine Jacke **anziehen**.;You should **put on** a jacket.;
 Apartment;Substantiv;neutr.;das;0;A1;46;apartment;Sie hat ein schönes **Apartment** in der Stadt.;She has a beautiful **apartment** in the city.;Apa-
 Apfel;Substantiv;mask.;der;0;A1;177;apple;Jeden Tag esse ich einen **Apfel**.;I eat an **apple** every day.;
@@ -1510,7 +1510,7 @@ ankündigen;Verb;nan;nan;0;B1;343;to announce/notify/herald;Der Besuch wurde ang
 Anlage;Substantiv;fem.;die;0;B1;1080;system/facility/attachment;Das ist eine moderne **Anlage**.;That is a modern **system** (facility).;
 Anleitung;Substantiv;fem.;die;0;B1;125;instruction/manual/guidance;Bitte lesen Sie die **Anleitung**.;Please read the **instructions**.;
 annehmen;Verb;nan;nan;0;B1;1015;to accept/assume/take on;Ich **nehme** die Einladung **an.**;I **accept** the invitation.;
-Annonce;Substantiv;fem.;die;0;B1;28;advertisement/ad;Ich habe eine **Annonce** gelesen.;I read an **advertisement** (ad).;
+Annonce;Substantiv;fem.;die;0;B1;28;advertisement/ad;Ich habe eine **Annonce** gelesen.;I read an **advertisement** (ad).;ann-
 anschaffen;Verb;nan;nan;0;B1;185;to acquire/purchase/get;Wir **schaffen** uns ein neues Auto **an.**;We are **getting** (purchasing) a new car.;
 anschließen;Verb;nan;nan;0;B1;379;to connect/join/plug in;Kann ich meinen Computer **anschließen**?;Can I **connect** my computer?;a-
 anschnallen;Verb;nan;nan;0;B1;nan;to buckle up/fasten seat belt;Bitte **schnallen** Sie sich **an.**;Please **buckle up**.;
@@ -2194,7 +2194,7 @@ inklusive;Präposition;nan;nan;0;B1;149;including/inclusive of;Der Preis ist **i
 innen;Adverb;nan;nan;0;B1;524;inside;Die Tür ist von **innen** verschlossen.;The door is locked from the **inside**.;i-nen
 inner;Adjektiv;nan;nan;0;B1;2399;inner/internal/interior;Er spürt eine **innere** Ruhe.;He feels an **inner** peace.;
 innerhalb;Präposition;nan;nan;0;B1;2037;within/inside;Bitte antworten Sie **innerhalb** einer Woche.;Please reply **within** a week.;-halb
-Inserat;Substantiv;neutr.;das;0;B1;25;advertisement/ad;Ich habe ein **Inserat** in der Zeitung gelesen.;I read an **advertisement** (ad) in the newspaper.;
+Inserat;Substantiv;neutr.;das;0;B1;25;advertisement/ad;Ich habe ein **Inserat** in der Zeitung gelesen.;I read an **advertisement** (ad) in the newspaper.;i-
 insgesamt;Adverb;nan;nan;0;B1;952;altogether/in total;Das kostet **insgesamt** 50 Euro.;That costs 50 euros **in total** (altogether).;i-
 installieren;Verb;nan;nan;0;B1;260;to install/set up;Ich installiere das neue Programm.;I'm **installing** the new program.;
 Institut;Substantiv;neutr.;das;0;B1;558;institute;Er arbeitet an einem wissenschaftlichen **Institut**.;He works at a scientific **institute**.;
@@ -2652,7 +2652,7 @@ reichen;Verb;nan;nan;0;B1;23054;to reach/be enough/pass;Das Geld muss bis Ende d
 reif;Adjektiv;nan;nan;0;B1;775;ripe;Die Äpfel sind schon **reif**.;The apples are already **ripe**.;
 Reihenfolge;Substantiv;fem.;die;0;B1;264;order/sequence;In welcher **Reihenfolge** sollen wir gehen?;In what **order** should we go?;
 reinigen;Verb;nan;nan;0;B1;541;to clean/purify;Ich muss das Zimmer **reinigen**.;I have to **clean** the room.;
-Reklame;Substantiv;fem.;die;0;B1;35;advertisement/advertising/publicity;Die **Reklame** ist überall.;The **advertisement** (advertising) is everywhere.;
+Reklame;Substantiv;fem.;die;0;B1;35;advertisement/advertising/publicity;Die **Reklame** ist überall.;The **advertisement** (advertising) is everywhere.;r-
 Rekord;Substantiv;mask.;der;0;B1;142;record;Er hat einen neuen **Rekord** aufgestellt.;He set a new **record**.;
 relativ;Adjektiv;nan;nan;0;B1;985;relative/relatively;Die Prüfung war **relativ** einfach.;The exam was **relatively** easy.;
 Religion;Substantiv;fem.;die;0;B1;711;religion;Er studiert verschiedene **Religionen.**;He is studying different **religions**.;
@@ -3145,7 +3145,7 @@ Weiterbildung;Substantiv;fem.;die;0;B1;60;further education/training;Ich mache e
 weltenweit;Adjektiv;nan;nan;0;B1;nan;world-wide/incredibly wide;Das ist ein **weltenweiter** Unterschied.;That is a **world-wide** (huge) difference.;
 weltweit;Adjektiv;nan;nan;0;B1;935;world-wide/global;Die Firma ist **weltweit** bekannt.;The company is known **world-wide**.;
 wenden;Verb;nan;nan;0;B1;6284;to turn/apply/address;Sie wendeten sich an mich.;They **turned** to me.;w-
-Werbung;Substantiv;fem.;die;0;B1;269;advertising/publicity/commercial;Die **Werbung** im Fernsehen nervt.;The **advertising** (commercials) on TV is annoying.;
+Werbung;Substantiv;fem.;die;0;B1;269;advertising/publicity/commercial;Die **Werbung** im Fernsehen nervt.;The **advertising** (commercials) on TV is annoying.;w-
 werfen;Verb;nan;nan;0;B1;42985;to throw/cast/toss;Wirf den Ball zu mir!;**Throw** the ball to me!;
 Werk;Substantiv;neutr.;das;0;B1;1387;work/work (of art)/factory;Das ist ein bedeutendes **Werk**.;This is a significant **work**.;
 Werkzeug;Substantiv;neutr.;das;0;B1;576;tool/implement/instrument;Ich brauche **Werkzeug** für die Reparatur.;I need **tools** for the repair.;
