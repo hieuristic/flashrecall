@@ -1143,7 +1143,7 @@ nennen;Verb;nan;nan;0;A2;5780;to call/name;Wie soll ich dich **nennen**?;What sh
 nervös;Adjektiv;nan;nan;0;A2;261;nervous;Ich bin vor der Prüfung **nervös**.;I am **nervous** before the exam.;
 nett;Adjektiv;nan;nan;0;A2;265;nice/kind;Das ist sehr **nett** von Ihnen.;That is very **nice** of you.;
 niemand;Indefinitpronomen;nan;nan;0;A2;1143;nobody/no one/anyone;**Niemand** ist zu Hause.;**Nobody** is at home.;
-nirgends;Adverb;nan;nan;0;A2;99;nowhere/not anywhere;Ich kann meinen Schlüssel **nirgends** finden.;I can't find my key **anywhere**.;
+nirgends;Adverb;nan;nan;0;A2;99;nowhere/not anywhere;Ich kann meinen Schlüssel **nirgends** finden.;I can't find my key **anywhere**.;-s
 Note;Substantiv;fem.;die;0;A2;359;grade/note;Er hat eine gute **Note** in Mathe.;He has a good **grade** in math.;
 notieren;Verb;nan;nan;0;A2;202;to note down/record;Bitte **notieren** Sie sich den Termin.;Please **note down** the appointment.;
 Notiz;Substantiv;fem.;die;0;A2;157;note;Ich schreibe mir eine **Notiz**.;I'm writing myself a **note**.;
@@ -2498,7 +2498,7 @@ Nichte;Substantiv;fem.;die;0;B1;nan;niece;Meine **Nichte** studiert in Wien.;My 
 Nichtraucher;Substantiv;mask., neutr.;der, das;0;B1;28;non-smoker;Das ist ein Abteil für **Nichtraucher**.;This is a compartment for **non-smokers**.;
 Nichtraucherin;Substantiv;fem.;die;0;B1;7;non-smoker;Sie ist eine überzeugte **Nichtraucherin**.;She is a convinced (female) **non-smoker**.;female
 niedrig;Adjektiv;nan;nan;0;B1;1060;low;Der Tisch ist sehr **niedrig**.;The table is very **low**.;
-nirgendwo;Adverb;nan;nan;0;B1;106;nowhere;Ich konnte meinen Schlüssel **nirgendwo** finden.;I couldn't find my key **nowhere** (anywhere).;
+nirgendwo;Adverb;nan;nan;0;B1;106;nowhere;Ich konnte meinen Schlüssel **nirgendwo** finden.;I couldn't find my key **nowhere** (anywhere).;-o
 noch mal;Adverb;nan;nan;0;B1;nan;once more/again;Kannst du das **noch mal** sagen?;Can you say that **once more**?;
 nochmal;Adverb;nan;nan;0;B1;95;again/once more;Ich versuche es **nochmal**.;I'll try **again**.;
 nochmals;Adverb;nan;nan;0;B1;159;once again/once more;Vielen Dank **nochmals**!;Thank you **once again**!;
