@@ -1,4 +1,4 @@
-üvabPr√§position"nan*nan2A1:86456Boff/fromJWir fahren **ab** Hamburg.R"We are departing **from** Hamburg.Z0ÉAbend
+†vabPr√§position"nan*nan2A1:86456Boff/fromJWir fahren **ab** Hamburg.R"We are departing **from** Hamburg.Z0ÉAbend
 Substantiv"mask.*der2A1:1607BeveningJ*Ich w√ºnsche dir einen sch√∂nen **Abend**.RI wish you a nice **evening**.Z0êaberKonjunktion"nan*nan2A1:120754BbutJ1Ich wollte kommen, **aber** ich hatte keine Zeit.R(I wanted to come, **but** I had no time.Z0~abfahrenVerb"nan*nan2A1:254B	to departJ%Der Zug wird p√ºnktlich **abfahren**.R"The train will **depart** on time.Z0üAbfahrt
 Substantiv"fem.*die2A1:133B	departureJ4Vor der **Abfahrt** m√ºssen wir alles kontrollieren.R.We must check everything before **departure**.Z0ü	abfliegenVerb"nan*nan2A1:94Bto take offJ0Das Flugzeug wird in zehn Minuten **abfliegen**.R+The plane will **take off** in ten minutes.Z0b	for planeùAbflug
 Substantiv"mask.*der2A1:61B	departureJ0Unser **Abflug** verz√∂gert sich um eine Stunde.R)Our **departure** is delayed by one hour.Z0bflightÅabgebenVerb"nan*nan2A1:705B
@@ -1379,8 +1379,9 @@ Substantiv"fem.*die2B1:141BgalleryJWir besuchen eine **Galerie**.RWe are 
 Substantiv"mask.*der2B1:772BaisleJDer **Gang** ist sehr lang.RThe **aisle** is very long.Z0rÊgarAdverb"nan*nan2B1:10814Beven/at all/quiteJIch wei√ü **gar** nichts.RI know nothing **at all**.Z0ïÁGarantie
 Substantiv"fem.*die2B1:59Bguarantee/warrantyJ'Das Ger√§t hat zwei Jahre **Garantie**.R'The device has a two-year **warranty**.Z0vËgarantierenVerb"nan*nan2B1:319Bto guarantee/warrantJIch garantiere f√ºr ihn.RI **guarantee** for him.Z0öÈ	Garderobe
 Substantiv"fem.*die2B1:80Bcloakroom/wardrobeJ-Geben Sie den Mantel an der **Garderobe** ab.R%Leave your coat at the **cloakroom**.Z0cÍGas
-Substantiv"neutr.*das2B1:1329BgasJWir heizen mit **Gas**.RWe heat with **gas**.Z0yÎGasthaus
-Substantiv"neutr.*das2B1:92Binn/guesthouse/pubJWir essen im **Gasthaus**.RWe eat at the **inn**.Z0öÏGastst√§tte
+Substantiv"neutr.*das2B1:1329BgasJWir heizen mit **Gas**.RWe heat with **gas**.Z0qÎGasthaus
+Substantiv"neutr.*das2B1:92B
+guesthouseJWir essen im **Gasthaus**.RWe eat at the **inn**.Z0öÏGastst√§tte
 Substantiv"fem.*die2B1:112Brestaurant/innJ*Die **Gastst√§tte** ist heute geschlossen.R)The **restaurant** (inn) is closed today.Z0ÄÌGebiet
 Substantiv"neutr.*das2B1:2706Barea/region/fieldJDas ist ein gro√ües **Gebiet**.RThat is a large **area**.Z0ùÓGebirge
 Substantiv"neutr.*das2B1:258Bmountain range/mountainsJWir wandern im **Gebirge**.R3We're hiking in the **mountains** (mountain range).Z0ìÔ
