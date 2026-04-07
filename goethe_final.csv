@@ -1743,7 +1743,7 @@ dekorieren;Verb;nan;nan;0;B1;240;to decorate;Wir **dekorieren** das Haus für da
 Denkmal;Substantiv;neutr.;das;0;B1;169;monument/memorial;Das ist ein berühmtes **Denkmal**.;That is a famous **monument**.;
 derselbe;Demonstrativpronomen;mask.;nan;0;B1;2137;the same;Er ist **derselbe** Mann von gestern.;He is **the same** man from yesterday.;man/thing
 Dessert;Substantiv;neutr.;das;0;B1;86;dessert;Möchten Sie ein **Dessert**?;Would you like a **dessert**?;
-desto;Konjunktion;nan;nan;0;B1;394;Je mehr du lernst; **desto** besser.;The more you learn, **the** better.;
+desto;Konjunktion;nan;nan;0;B1;394;the...the; Je mehr du lernst, **desto** besser.;The more you learn, **the** better.;
 deswegen;Konjunktion;nan;nan;0;B1;381;therefore/that's why;Es war kalt, **deswegen** blieb ich zu Hause.;It was cold, **that's why** I stayed at home.;
 Detail;Substantiv;neutr.;das;0;B1;311;detail;Bitte erklären Sie das im **Detail**.;Please explain that in **detail**.;d-
 Dialekt;Substantiv;mask.;der;0;B1;659;dialect;Er spricht einen starken **Dialekt**.;He speaks a strong **dialect**.;
