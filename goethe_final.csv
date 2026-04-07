@@ -722,7 +722,7 @@ unterschreiben;Verb;nan;nan;0;A1;199;to sign;Bitte **unterschreiben** Sie hier.;
 Unterschrift;Substantiv;fem.;die;0;A1;140;signature;Ihre **Unterschrift** fehlt noch.;Your **signature** is still missing.;
 Urlaub;Substantiv;mask.;der;0;A1;1826;vacation/holiday;Wir machen im August **Urlaub**.;We are taking a **vacation** in August.;u-
 Vater;Substantiv;mask.;der;0;A1;6332;father;Mein **Vater** arbeitet in einer Bank.;My **father** works at a bank.;
-verboten;partizipiales Adjektiv;nan;nan;0;A1;73;forbidden/prohibited;Parken ist hier **verboten**.;Parking is **forbidden** here.;
+verboten;partizipiales Adjektiv;nan;nan;0;A1;73;forbidden/prohibited;Parken ist hier **verboten**.;Parking is **forbidden** here.;v-
 verdienen;Verb;nan;nan;0;A1;3802;to earn/deserve;Er verdient viel Geld.;He **earns** a lot of money.;
 Verein;Substantiv;mask.;der;0;A1;720;club/association;Ich bin in einem **Fußballverein**.;I am in a soccer **club**.;
 verheiratet;partizipiales Adjektiv;nan;nan;0;A1;17;married;Ich bin seit fünf Jahren **verheiratet**.;I have been **married** for five years.;
@@ -2998,7 +2998,7 @@ unterlassen;Verb;nan;nan;0;B1;145;to refrain/omit/neglect;Bitte **unterlassen** 
 Unternehmer;Substantiv;mask.;der;0;B1;201;entrepreneur/businessman;Er ist ein erfolgreicher **Unternehmer**.;He is a successful **entrepreneur**.;male
 Unternehmerin;Substantiv;fem.;die;0;B1;27;entrepreneur/businesswoman;Sie ist eine junge **Unternehmerin**.;She is a young (female) **entrepreneur**.;female
 unterrichten;Verb;nan;nan;0;B1;393;to teach/instruct;Sie unterrichtet Deutsch an einer Schule.;She **teaches** German at a school.;
-untersagt;partizipiales Adjektiv;nan;nan;0;B1;32;prohibited/forbidden;Das Betreten ist streng **untersagt**.;Entry is strictly **prohibited**.;
+untersagt;partizipiales Adjektiv;nan;nan;0;B1;32;prohibited/forbidden;Das Betreten ist streng **untersagt**.;Entry is strictly **prohibited**.;u-
 unterscheiden;Verb;nan;nan;0;B1;1174;to distinguish/differ/differentiate;Ich kann die Zwillinge kaum **unterscheiden**.;I can hardly **distinguish** the twins.;u-
 unterschiedlich;Adjektiv;nan;nan;0;B1;1849;different/varying/diverse;Wir haben **unterschiedliche** Meinungen.;We have **different** opinions.;u-
 unterstreichen;Verb;nan;nan;0;B1;154;to underline/emphasize;Bitte **unterstreichen** Sie die wichtigen Wörter.;Please **underline** the important words.;
