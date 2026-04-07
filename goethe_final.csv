@@ -703,7 +703,7 @@ Toilette;Substantiv;fem.;die;0;A1;226;toilet/restroom;Wo ist die **Toilette**?;W
 Tomate;Substantiv;fem.;die;0;A1;312;tomato;Ich esse gerne **Tomaten.**;I like to eat **tomatoes**.;
 tot;Adjektiv;nan;nan;0;A1;5184;dead;Mein Fisch ist leider **tot**.;My fish is unfortunately **dead**.;
 treffen;Verb;nan;nan;0;A1;16367;to meet;Wir **treffen** uns im Café.;We are **meeting** at the café.;t-
-Treppe;Substantiv;fem.;die;0;A1;490;stairs/staircase;Gehen Sie bitte die **Treppe** hoch.;Please go up the **stairs**.;
+Treppe;Substantiv;fem.;die;0;A1;490;stairs/staircase;Gehen Sie bitte die **Treppe** hoch.;Please go up the **stairs**.;t-
 trinken;Verb;nan;nan;0;A1;6549;to drink;Ich trinke gerne Wasser.;I like to **drink** water.;
 Tschüss;Interjektion;nan;nan;0;A1;11;bye/goodbye;**Tschüss**, bis morgen!;**Bye**, see you tomorrow!;
 tschüss;Interjektion;nan;nan;0;A1;nan;bye/goodbye;Ich sage **tschüss**.;I say **bye**.;
@@ -2854,8 +2854,8 @@ Stern;Substantiv;mask.;der;0;B1;720;star;Die **Sterne** leuchten heute hell.;The
 Steuer;Substantiv;fem.;die;0;B1;2352;tax/steering wheel/toll;Wie hoch ist die **Steuer**?;How much is the **tax**?;
 Steward;Substantiv;mask.;der;0;B1;21;steward/flight attendant;Der **Steward** bringt die Getränke.;The **steward** is bringing the drinks.;male
 Stewardess;Substantiv;fem.;die;0;B1;16;stewardess/flight attendant;Die **Stewardess** ist sehr hilfsbereit.;The **stewardess** is very helpful.;female
-Stiege;Substantiv;fem.;die;0;B1;14;stairs/staircase;Gehen Sie die **Stiege** hinauf.;Go up the **stairs**.;Austrian
-Stiegenhaus;Substantiv;neutr.;das;0;B1;18;stairwell/staircase;Er wartet im **Stiegenhaus**.;He is waiting in the **stairwell**.;Austrian
+Stiege;Substantiv;fem.;die;0;B1;14;stairs/staircase;Gehen Sie die **Stiege** hinauf.;Go up the **stairs**.;Austrian, s-
+Stiegenhaus;Substantiv;neutr.;das;0;B1;18;stairwell/staircase;Er wartet im **Stiegenhaus**.;He is waiting in the **stairwell**.;Austrian, s-
 Stil;Substantiv;mask.;der;0;B1;557;style/fashion;Sie hat einen guten **Stil**.;She has a good **style**.;
 stilistisch;Adjektiv;nan;nan;0;B1;147;stylistic;Der Text hat einige **stilistische** Mängel.;The text has some **stylistic** flaws.;
 still;Adjektiv;nan;nan;0;B1;4325;still;Sei bitte **still**!;Please be **still**!;
@@ -2947,7 +2947,7 @@ Treffpunkt;Substantiv;mask.;der;0;B1;84;meeting point/meeting place;Der Bahnhof 
 treiben;Verb;nan;nan;0;B1;18180;to drive/pursue/do;Gleich nach dem Aufstehen treibt er Sport.;He **does** (pursues) sport right after getting up.;sport
 trennen;Verb;nan;nan;0;B1;2305;to separate/disconnect/divide;Wir müssen den Müll **trennen**.;We must **separate** the trash.;
 Trennung;Substantiv;fem.;die;0;B1;294;separation/division/breakup;Die **Trennung** war schmerzhaft.;The **separation** (breakup) was painful.;
-Treppenhaus;Substantiv;neutr.;das;0;B1;88;staircase/stairwell;Er wartet im **Treppenhaus**.;He is waiting in the **staircase**.;
+Treppenhaus;Substantiv;neutr.;das;0;B1;88;staircase/stairwell;Er wartet im **Treppenhaus**.;He is waiting in the **staircase**.;t-
 treten;Verb;nan;nan;0;B1;61138;to step/kick/tread;**Treten** Sie bitte ein.;Please **step** in (enter).;-n
 treu;Adjektiv;nan;nan;0;B1;278;loyal/faithful;Er ist ein **treuer** Freund.;He is a **loyal** (faithful) friend.;
 Trinkgeld;Substantiv;neutr.;das;0;B1;56;tip/gratuity;Hast du dem Kellner **Trinkgeld** gegeben?;Did you give the waiter a **tip**?;
