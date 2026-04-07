@@ -1711,7 +1711,7 @@ Bub;Substantiv;mask.;der;0;B1;45;boy/lad;Er ist ein braver **Bub**.;He is a good
 Buchhandlung;Substantiv;fem.;die;0;B1;73;bookstore/bookshop;Ich gehe in die **Buchhandlung**.;I'm going to the **bookstore**.;
 Buffet;Substantiv;neutr.;das;0;B1;69;buffet/sideboard;Das Essen steht am **Buffet**.;The food is at the **buffet**.;-u-
 Burg;Substantiv;fem.;die;0;B1;310;castle/fortress;Die **Burg** steht auf dem Berg.;The **castle** stands on the mountain.;b-
-Büchse;Substantiv;fem.;die;0;B1;150;can/tin/rifle;Ich öffne eine **Büchse** Erbsen.;I'm opening a **can** of peas.;
+Büchse;Substantiv;fem.;die;0;B1;150;can/tin/rifle;Ich öffne eine **Büchse** Erbsen.;I'm opening a **can** of peas.;b-
 Büfett;Substantiv;neutr.;das;0;B1;37;buffet/sideboard;Das **Büfett** ist eröffnet.;The **buffet** is open.;-ü-
 Bühne;Substantiv;fem.;die;0;B1;522;stage/platform;Die Schauspieler treten auf die **Bühne**.;The actors step onto the **stage**.;
 Bürger;Substantiv;mask.;der;0;B1;869;citizen;Er ist ein stolzer **Bürger**.;He is a proud **citizen**.;male
@@ -1772,7 +1772,7 @@ Donner;Substantiv;mask.;der;0;B1;32;thunder;Man kann den **Donner** hören.;You 
 donnern;Verb;nan;nan;0;B1;654;to thunder;Es donnert draußen.;It's **thundering** outside.;
 doppel-;Affix;nan;nan;0;B1;nan;double-;Das ist ein Doppelzimmer.;That is a **double** room.;affix
 doppelt;Adjektiv;nan;nan;0;B1;5855;double/twice;Ich nehme die **doppelte** Portion.;I'll take the **double** portion.;
-Dose;Substantiv;fem.;die;0;B1;242;can/tin/box;Eine **Dose** Cola, bitte.;A **can** of cola, please.;
+Dose;Substantiv;fem.;die;0;B1;242;can/tin/box;Eine **Dose** Cola, bitte.;A **can** of cola, please.;d-
 Dreck;Substantiv;mask.;der;0;B1;287;dirt/mud/trash;Der Schuh ist voller **Dreck**.;The shoe is full of **dirt**.;
 drehen;Verb;nan;nan;0;B1;12618;to turn/film/shoot;**Drehen** Sie sich bitte um.;Please **turn** around.;
 drin;Pronominaladverb;nan;nan;0;B1;139;inside/in it;Was ist in der Kiste **drin**?;What is **inside** (in) the box?;drin
