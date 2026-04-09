@@ -1,4 +1,4 @@
-±vabPr√§position"nan*nan2A1:86456Boff/fromJWir fahren **ab** Hamburg.R"We are departing **from** Hamburg.Z0ÉAbend
+≤vabPr√§position"nan*nan2A1:86456Boff/fromJWir fahren **ab** Hamburg.R"We are departing **from** Hamburg.Z0ÉAbend
 Substantiv"mask.*der2A1:1607BeveningJ*Ich w√ºnsche dir einen sch√∂nen **Abend**.RI wish you a nice **evening**.Z0êaberKonjunktion"nan*nan2A1:120754BbutJ1Ich wollte kommen, **aber** ich hatte keine Zeit.R(I wanted to come, **but** I had no time.Z0~abfahrenVerb"nan*nan2A1:254B	to departJ%Der Zug wird p√ºnktlich **abfahren**.R"The train will **depart** on time.Z0üAbfahrt
 Substantiv"fem.*die2A1:133B	departureJ4Vor der **Abfahrt** m√ºssen wir alles kontrollieren.R.We must check everything before **departure**.Z0ü	abfliegenVerb"nan*nan2A1:94Bto take offJ0Das Flugzeug wird in zehn Minuten **abfliegen**.R+The plane will **take off** in ten minutes.Z0b	for planeùAbflug
 Substantiv"mask.*der2A1:61B	departureJ0Unser **Abflug** verz√∂gert sich um eine Stunde.R)Our **departure** is delayed by one hour.Z0bflightÅabgebenVerb"nan*nan2A1:705B
@@ -1175,9 +1175,9 @@ Substantiv"mask.*der2B1:869BcitizenJEr ist ein stolzer **B√ºrger**.RHe is
 Substantiv"fem.*die2B1:100BcitizenJ&Sie ist eine engagierte **B√ºrgerin**.R(She is a committed (female) **citizen**.Z0bfemalei∂B√ºrste
 Substantiv"fem.*die2B1:57BbrushJIch brauche eine **B√ºrste**.RI need a **brush**.Z0Å∑Chance
 Substantiv"fem.*die2B1:558Bchance/opportunityJNutzen Sie die **Chance**!R!Use the **chance** (opportunity)!Z0s∏chicAdjektiv"nan*nan2B1:nanBchicJ"Das Kleid sieht sehr **chic** aus.RThe dress looks very **chic**.Z0âπ	Chipkarte
-Substantiv"fem.*die2B1:nanBchip card/smart cardJ#Bezahlen Sie mit der **Chipkarte**.RPay with the **chip card**.Z0•∫Coiffeur
-Substantiv"mask.*der2B1:10Bhairdresser/barberJ(Ich habe einen Termin beim **Coiffeur**.R/I have an appointment with the **hairdresser**.Z0bmale¢ª	Coiffeuse
-Substantiv"fem.*die2B1:nanBhairdresserJ(Die **Coiffeuse** schneidet meine Haare.R0The (female) **hairdresser** is cutting my hair.Z0bfemaletºCouch
+Substantiv"fem.*die2B1:nanBchip card/smart cardJ#Bezahlen Sie mit der **Chipkarte**.RPay with the **chip card**.Z0©∫Coiffeur
+Substantiv"mask.*der2B1:10Bhairdresser/barberJ(Ich habe einen Termin beim **Coiffeur**.R/I have an appointment with the **hairdresser**.Z0bmas., c-§ª	Coiffeuse
+Substantiv"fem.*die2B1:nanBhairdresserJ(Die **Coiffeuse** schneidet meine Haare.R0The (female) **hairdresser** is cutting my hair.Z0bfem., c-tºCouch
 Substantiv"fem.*die2B1:79BcouchJWir sitzen auf der **Couch**.R We are sitting on the **couch**.Z0ÖΩCousin
 Substantiv"mask.*der2B1:58BcousinJ#Das ist mein **Cousin** aus Berlin.R"That is my **cousin** from Berlin.Z0bmalezæCousine
 Substantiv"fem.*die2B1:75BcousinJSie ist meine **Cousine**.RShe is my (female) **cousin**.Z0bfemaleîøCouvert
@@ -1359,11 +1359,12 @@ Substantiv"fem.*die2B1:663Bjoy/delight/pleasureJDas ist eine gro√üe **Freu
 Substantiv"fem.*die2B1:208B
 friendshipJ(Unsere **Freundschaft** ist mir wichtig.R&Our **friendship** is important to me.Z0gÕFriede
 Substantiv"mask.*der2B1:172BpeaceJ**Friede** sei mit dir.R**Peace** be with you.Z0ÑŒFrieden
-Substantiv"mask.*der2B1:489Bpeace/tranquilityJ Wir wollen in **Frieden** leben.RWe want to live in **peace**.Z0ñœfrierenVerb"nan*nan2B1:536Bto freeze/be cold/feel chillyJIch friere an den H√§nden.R1My hands are **freezing** (I'm cold in my hands).Z0ä–Friseur
-Substantiv"mask.*der2B1:71Bhairdresser/barberJIch muss zum **Friseur**.R$I have to go to the **hairdresser**.Z0bmaleà—Frist
+Substantiv"mask.*der2B1:489Bpeace/tranquilityJ Wir wollen in **Frieden** leben.RWe want to live in **peace**.Z0ñœfrierenVerb"nan*nan2B1:536Bto freeze/be cold/feel chillyJIch friere an den H√§nden.R1My hands are **freezing** (I'm cold in my hands).Z0ê–Friseur
+Substantiv"mask.*der2B1:71Bhairdresser/barberJIch muss zum **Friseur**.R$I have to go to the **hairdresser**.Z0b
+mas., f-urà—Frist
 Substantiv"fem.*die2B1:130Bdeadline/period/termJDie **Frist** l√§uft morgen ab.R"The **deadline** expires tomorrow.Z0â“Frisur
-Substantiv"fem.*die2B1:141Bhaircut/hairstyleJ$Deine neue **Frisur** sieht gut aus.R Your new **haircut** looks good.Z0Å”Fris√∂r
-Substantiv"mask.*der2B1:15Bhairdresser/barberJWo ist der **Fris√∂r**?RWhere is the **hairdresser**?Z0bmalex‘Frucht
+Substantiv"fem.*die2B1:141Bhaircut/hairstyleJ$Deine neue **Frisur** sieht gut aus.R Your new **haircut** looks good.Z0à”Fris√∂r
+Substantiv"mask.*der2B1:15Bhairdresser/barberJWo ist der **Fris√∂r**?RWhere is the **hairdresser**?Z0bmas., f-√∂rx‘Frucht
 Substantiv"fem.*die2B1:970Bfruit/crop/productJDie **Frucht** ist reif.RThe **fruit** is ripe.Z0bf-â’	fr√∂hlichAdjektiv"nan*nan2B1:316Bhappy/cheerful/joyfulJ#Sie ist ein **fr√∂hlicher** Mensch.RShe is a **cheerful** person.Z0ì÷	Fundb√ºro
 Substantiv"neutr.*das2B1:12Blost and found officeJIch gehe zum **Fundb√ºro**.R+I'm going to the **lost and found office**.Z0è◊funktionierenVerb"nan*nan2B1:1230Bto function/workJDas Ger√§t funktioniert nicht.R,The device is not **working** (functioning).Z0~ÿFu√üg√§nger
 Substantiv"mask.*der2B1:155B

@@ -1720,8 +1720,8 @@ Bürste;Substantiv;fem.;die;0;B1;57;brush;Ich brauche eine **Bürste**.;I need a
 Chance;Substantiv;fem.;die;0;B1;558;chance/opportunity;Nutzen Sie die **Chance**!;Use the **chance** (opportunity)!;
 chic;Adjektiv;nan;nan;0;B1;nan;chic;Das Kleid sieht sehr **chic** aus.;The dress looks very **chic**.;
 Chipkarte;Substantiv;fem.;die;0;B1;nan;chip card/smart card;Bezahlen Sie mit der **Chipkarte**.;Pay with the **chip card**.;
-Coiffeur;Substantiv;mask.;der;0;B1;10;hairdresser/barber;Ich habe einen Termin beim **Coiffeur**.;I have an appointment with the **hairdresser**.;male
-Coiffeuse;Substantiv;fem.;die;0;B1;nan;hairdresser;Die **Coiffeuse** schneidet meine Haare.;The (female) **hairdresser** is cutting my hair.;female
+Coiffeur;Substantiv;mask.;der;0;B1;10;hairdresser/barber;Ich habe einen Termin beim **Coiffeur**.;I have an appointment with the **hairdresser**.;mas., c-
+Coiffeuse;Substantiv;fem.;die;0;B1;nan;hairdresser;Die **Coiffeuse** schneidet meine Haare.;The (female) **hairdresser** is cutting my hair.;fem., c-
 Couch;Substantiv;fem.;die;0;B1;79;couch;Wir sitzen auf der **Couch**.;We are sitting on the **couch**.;
 Cousin;Substantiv;mask.;der;0;B1;58;cousin;Das ist mein **Cousin** aus Berlin.;That is my **cousin** from Berlin.;male
 Cousine;Substantiv;fem.;die;0;B1;75;cousin;Sie ist meine **Cousine**.;She is my (female) **cousin**.;female
@@ -1998,10 +1998,10 @@ Freundschaft;Substantiv;fem.;die;0;B1;208;friendship;Unsere **Freundschaft** ist
 Friede;Substantiv;mask.;der;0;B1;172;peace;**Friede** sei mit dir.;**Peace** be with you.;
 Frieden;Substantiv;mask.;der;0;B1;489;peace/tranquility;Wir wollen in **Frieden** leben.;We want to live in **peace**.;
 frieren;Verb;nan;nan;0;B1;536;to freeze/be cold/feel chilly;Ich friere an den Händen.;My hands are **freezing** (I'm cold in my hands).;
-Friseur;Substantiv;mask.;der;0;B1;71;hairdresser/barber;Ich muss zum **Friseur**.;I have to go to the **hairdresser**.;male
+Friseur;Substantiv;mask.;der;0;B1;71;hairdresser/barber;Ich muss zum **Friseur**.;I have to go to the **hairdresser**.;mas., f-ur
 Frist;Substantiv;fem.;die;0;B1;130;deadline/period/term;Die **Frist** läuft morgen ab.;The **deadline** expires tomorrow.;
 Frisur;Substantiv;fem.;die;0;B1;141;haircut/hairstyle;Deine neue **Frisur** sieht gut aus.;Your new **haircut** looks good.;
-Frisör;Substantiv;mask.;der;0;B1;15;hairdresser/barber;Wo ist der **Frisör**?;Where is the **hairdresser**?;male
+Frisör;Substantiv;mask.;der;0;B1;15;hairdresser/barber;Wo ist der **Frisör**?;Where is the **hairdresser**?;mas., f-ör
 Frucht;Substantiv;fem.;die;0;B1;970;fruit/crop/product;Die **Frucht** ist reif.;The **fruit** is ripe.;f-
 fröhlich;Adjektiv;nan;nan;0;B1;316;happy/cheerful/joyful;Sie ist ein **fröhlicher** Mensch.;She is a **cheerful** person.;
 Fundbüro;Substantiv;neutr.;das;0;B1;12;lost and found office;Ich gehe zum **Fundbüro**.;I'm going to the **lost and found office**.;
