@@ -441,7 +441,7 @@ krank;Adjektiv;nan;nan;0;A1;1170;sick/ill;Ich bin heute leider **krank**.;I am u
 Kreditkarte;Substantiv;fem.;die;0;A1;57;credit card;Kann ich mit **Kreditkarte** zahlen?;Can I pay by **credit card**?;
 kriegen;Verb;nan;nan;0;A1;5849;to get;Ich kriege ein Geschenk.;I **get** (am receiving) a gift.;k-
 Kuchen;Substantiv;mask.;der;0;A1;335;cake;Möchtest du ein Stück **Kuchen**?;Would you like a piece of **cake**?;
-Kugelschreiber;Substantiv;mask.;der;0;A1;49;pen/ballpoint pen;Hast du einen **Kugelschreiber**?;Do you have a **pen**?;
+Kugelschreiber;Substantiv;mask.;der;0;A1;49;pen/ballpoint pen;Hast du einen **Kugelschreiber**?;Do you have a **pen**?;-r
 kulturell;Adjektiv;nan;nan;0;A1;1787;cultural;Wir besuchen eine **kulturelle** Veranstaltung.;We are visiting a **cultural** event.;
 Kunde;Substantiv;mask.;der;0;A1;1024;customer;Der **Kunde** ist König.;The **customer** is king.;male
 Kundin;Substantiv;fem.;die;0;A1;63;customer;Die **Kundin** kauft ein Kleid.;The (female) **customer** is buying a dress.;female
@@ -2310,7 +2310,7 @@ Kritik;Substantiv;fem.;die;0;B1;559;criticism/review;Er kann keine **Kritik** ve
 kritisch;Adjektiv;nan;nan;0;B1;698;critical;Die Lage ist momentan sehr **kritisch**.;The situation is very **critical** at the moment.;
 kritisieren;Verb;nan;nan;0;B1;497;to criticize/find fault with;Es ist leicht, andere zu **kritisieren**.;It is easy to **criticize** others.;
 kräftig;Adjektiv;nan;nan;0;B1;650;strong/powerful/robust;Er gab mir einen **kräftigen** Händedruck.;He gave me a **strong** handshake.;k-
-Kuli;Substantiv;mask.;der;0;B1;28;ballpoint pen/pen;Hast du einen **Kuli** für mich?;Do you have a **ballpoint pen** for me?;
+Kuli;Substantiv;mask.;der;0;B1;28;ballpoint pen/pen;Hast du einen **Kuli** für mich?;Do you have a **ballpoint pen** for me?;-i
 Kunststoff;Substantiv;mask.;der;0;B1;576;synthetic material;Die Flasche ist aus **Kunststoff**.;The bottle is made of **plastic**.;
 Kursleiter;Substantiv;mask.;der;0;B1;7;course instructor;Der **Kursleiter** erklärt die Grammatik.;The **course instructor** explains the grammar.;male
 Kursleiterin;Substantiv;fem.;die;0;B1;7;course instructor;Unsere **Kursleiterin** ist sehr kompetent.;Our (female) **course instructor** is very competent.;female
