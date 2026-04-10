@@ -2561,7 +2561,7 @@ perfekt;Adjektiv;nan;nan;0;B1;347;perfect;Ihre Arbeit war absolut **perfekt**.;Y
 Perron;Substantiv;mask., neutr.;der;0;B1;17;platform;Der Zug fährt auf **Perron** 3 ein.;The train is arriving at **platform** 3.;Swiss
 Personal;Substantiv;neutr.;das;0;B1;872;staff/personnel;Das **Personal** ist sehr freundlich.;The **staff** (personnel) is very friendly.;
 Personalie;Substantiv;fem.;die;0;B1;28;personal details/particulars;Bitte geben Sie Ihre **Personalien** an.;Please state your **personal details**.;
-Personenstand;Substantiv;mask.;der;0;B1;22;civil status/marital status;Wie ist Ihr **Personenstand**?;What is your **civil status**?;
+Personenstand;Substantiv;mask.;der;0;B1;22;civil status/marital status;Wie ist Ihr **Personenstand**?;What is your **civil status**?;p-
 persönlich;Adjektiv;nan;nan;0;B1;3835;personal/in person;Das ist meine **persönliche** Meinung.;That is my **personal** opinion.;
 Pfanne;Substantiv;fem.;die;0;B1;nan;pan/frying pan;Der Fisch liegt in der **Pfanne**.;The fish is in the **pan**.;
 Pfeffer;Substantiv;mask.;der;0;B1;164;pepper;Möchten Sie Salz und **Pfeffer**?;Would you like salt and **pepper**?;
@@ -3208,7 +3208,7 @@ Zeuge;Substantiv;mask.;der;0;B1;752;witness;Der **Zeuge** sah den Unfall.;The **
 Zeugin;Substantiv;fem.;die;0;B1;102;witness;Die **Zeugin** sagte vor Gericht aus.;The (female) **witness** testified in court.;fem., z-
 ziemlich;Adjektiv;nan;nan;0;B1;963;quite/fairly/rather;Das ist **ziemlich** teuer.;That is **quite** expensive.;z-
 Zins;Substantiv;mask.;der;0;B1;219;interest;Wie hoch sind die **Zinsen** für den Kredit?;How high is the **interest** on the loan?;financial
-Zivilstand;Substantiv;mask.;der;0;B1;13;civil status/marital status;Bitte geben Sie Ihren **Zivilstand** an.;Please state your **civil status**.;
+Zivilstand;Substantiv;mask.;der;0;B1;13;civil status/marital status;Bitte geben Sie Ihren **Zivilstand** an.;Please state your **civil status**.;z-
 Znüni;Substantiv;neutr., mask.;das, der;0;B1;nan;mid-morning snack;Es ist Zeit für den **Znüni**.;It's time for the **mid-morning snack**.;Swiss
 Zone;Substantiv;fem.;die;0;B1;330;zone;Das ist eine verkehrsberuhigte **Zone**.;This is a traffic-calmed **zone**.;
 zubereiten;Verb;nan;nan;0;B1;298;to prepare/cook/make;Ich **bereite** das Abendessen **zu.**;I am **preparing** dinner.;
