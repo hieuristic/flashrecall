@@ -1584,11 +1584,11 @@ Backofen;Substantiv;mask.;der;0;B1;2;oven;Schieb den Kuchen in den **Backofen**.
 Backrohr;Substantiv;neutr.;das;0;B1;14;oven;Das Fleisch ist im **Backrohr**.;The meat is in the **oven**.;
 Badewanne;Substantiv;fem.;die;0;B1;69;bathtub;Ich liege in der **Badewanne**.;I am lying in the **bathtub**.;
 Ballett;Substantiv;neutr.;das;0;B1;72;ballet;Sie tanzt gerne **Ballett**.;She likes dancing **ballet**.;
-Bancomat;Substantiv;mask.;der;0;B1;14;ATM/cash machine;Wo ist der nächste **Bancomat**?;Where is the nearest **ATM**?;
-Bancomatkarte;Substantiv;fem.;die;0;B1;nan;ATM card/debit card;Ich habe meine **Bancomatkarte** verloren.;I lost my **ATM card**.;
+Bancomat;Substantiv;mask.;der;0;B1;14;ATM/cash machine;Wo ist der nächste **Bancomat**?;Where is the nearest **ATM**?;b...c...
+Bancomatkarte;Substantiv;fem.;die;0;B1;nan;ATM card/debit card;Ich habe meine **Bancomatkarte** verloren.;I lost my **ATM card**.;b...c...e
 Bankleitzahl;Substantiv;fem.;die;0;B1;9;bank sort code/routing number;Wie ist Ihre **Bankleitzahl**?;What is your **bank sort code**?;
-Bankomat;Substantiv;mask.;der;0;B1;19;ATM/cash machine;Der **Bankomat** ist außer Betrieb.;The **ATM** is out of order.;
-Bankomatkarte;Substantiv;fem.;die;0;B1;7;ATM card/cash card;Haben Sie Ihre **Bankomatkarte** dabei?;Do you have your **ATM card** with you?;
+Bankomat;Substantiv;mask.;der;0;B1;19;ATM/cash machine;Der **Bankomat** ist außer Betrieb.;The **ATM** is out of order.;b...k...
+Bankomatkarte;Substantiv;fem.;die;0;B1;7;ATM card/cash card;Haben Sie Ihre **Bankomatkarte** dabei?;Do you have your **ATM card** with you?;b...k...e
 Bar;Substantiv;fem.;die;0;B1;2225;bar;Treffen wir uns in der **Bar**?;Shall we meet in the **bar**?;
 Bargeld;Substantiv;neutr.;das;0;B1;116;cash;Bezahlen Sie mit **Bargeld**?;Are you paying with **cash**?;-d
 Bart;Substantiv;mask.;der;0;B1;214;beard;Er trägt einen langen **Bart**.;He is wearing a long **beard**.;
