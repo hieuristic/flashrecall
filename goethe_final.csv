@@ -382,7 +382,7 @@ Hotel;Substantiv;neutr.;das;0;A1;2239;hotel;Das **Hotel** ist im Zentrum.;The **
 Hund;Substantiv;mask.;der;0;A1;1519;dog;Der **Hund** spielt im Garten.;The **dog** is playing in the garden.;
 hundert;Kardinalzahlwort;nan;nan;0;A1;1438;hundred;**Einhundert** Euro kostet das.;That costs one **hundred** euros.;
 Hunger;Substantiv;mask.;der;0;A1;521;hunger;Ich habe großen **Hunger**.;I have great **hunger** (very hungry).;
-Hähnchen;Substantiv;neutr.;das;0;A1;5;chicken;Zum Mittagessen gibt es **Hähnchen**.;There is **chicken** for lunch.;
+Hähnchen;Substantiv;neutr.;das;0;A1;5;chicken;Zum Mittagessen gibt es **Hähnchen**.;There is **chicken** for lunch.;hä-
 hören;Verb;nan;nan;0;A1;33648;to hear/listen;**Hören** Sie gerne Musik?;Do you like to **listen** to music?;
 ich;Personalpronomen;nan;nan;0;A1;113280;I;**Ich** komme aus Berlin.;**I** come from Berlin.;
 ihm;Personalpronomen;nan;nan;0;A1;10507;him;Ich gebe **ihm** das Buch.;I give **him** the book.;dative
@@ -2178,7 +2178,7 @@ Hörer;Substantiv;mask.;der;0;B1;191;listener/receiver/earpiece;Die **Hörer** s
 Hörerin;Substantiv;fem.;die;0;B1;11;listener;Die **Hörerin** rief an.;The (female) **listener** called.;fem., h-
 hübsch;Adjektiv;nan;nan;0;B1;4217;pretty/handsome/lovely;Das ist ein **hübsches** Kleid.;That is a **pretty** dress.;
 Hügel;Substantiv;mask.;der;0;B1;398;hill;Wir wandern über den **Hügel**.;We're hiking over the **hill**.;
-Hühnchen;Substantiv;neutr.;das;0;B1;3;chicken;Ich esse gerne **Hühnchen**.;I like eating **chicken**.;
+Hühnchen;Substantiv;neutr.;das;0;B1;3;chicken;Ich esse gerne **Hühnchen**.;I like eating **chicken**.;hü-
 Hütte;Substantiv;fem.;die;0;B1;327;hut/cabin/cottage;Wir schlafen in einer **Hütte**.;We are sleeping in a **hut**.;
 ideal;Adjektiv;nan;nan;0;B1;622;ideal/perfect;Das ist das **ideale** Wetter.;This is the **ideal** weather.;
 illegal;Adjektiv;nan;nan;0;B1;522;illegal;Das ist **illegal**.;That is **illegal**.;
@@ -2590,7 +2590,7 @@ populär;Adjektiv;nan;nan;0;B1;231;popular;Fußball ist in Deutschland sehr **po
 Portemonnaie;Substantiv;neutr.;das;0;B1;59;wallet/purse;Ich habe mein **Portemonnaie** vergessen.;I forgot my **wallet**.;p...ie
 Portmonee;Substantiv;neutr.;das;0;B1;10;wallet/purse;Wo ist mein **Portmonee**?;Where is my **wallet**?;p...ee
 positiv;Adjektiv;nan;nan;0;B1;6771;positive;Denken Sie **positiv**!;Think **positive**!;
-Poulet;Substantiv;neutr.;das;0;B1;2;chicken;Darf ich Ihnen noch etwas **Poulet** anbieten?;May I offer you some more **chicken**?;Swiss
+Poulet;Substantiv;neutr.;das;0;B1;2;chicken;Darf ich Ihnen noch etwas **Poulet** anbieten?;May I offer you some more **chicken**?;Swiss, p-
 Praktikant;Substantiv;mask.;der;0;B1;30;intern;Der **Praktikant** lernt viel im Büro.;The **intern** is learning a lot in the office.;male
 Praktikantin;Substantiv;fem.;die;0;B1;18;intern;Die neue **Praktikantin** beginnt am Montag.;The new (female) **intern** start on Monday.;female
 prima;Adjektiv;nan;nan;0;B1;80;excellent/great/fine;Das ist eine **prima** Idee!;That's an **excellent** (great) idea!;
